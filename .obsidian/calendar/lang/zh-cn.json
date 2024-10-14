@@ -1,0 +1,51 @@
+{
+    "manifest": {
+        "id": "calendar",
+        "author": "",
+        "version": "1.0.0",
+        "pluginVersion": "1.5.10"
+    },
+    "description": {
+        "original": "Calendar view of your daily notes",
+        "translation": "Calendar view of your daily notes"
+    },
+    "dict": {
+        "Notice(\"Failed to read the daily note template\")": "Notice(\"Failed to read the daily note template\")",
+        "Notice(\"Unable to create new file.\")": "Notice(\"Unable to create new file.\")",
+        ".log(\"[Calendar] Failed to find daily notes folder\", err)": ".log(\"[Calendar] Failed to find daily notes folder\", err)",
+        ".log(\"[Calendar] Failed to find weekly notes folder\", err)": ".log(\"[Calendar] Failed to find weekly notes folder\", err)",
+        "alog({ cta, onAccept, text, title, })": "alog({ cta, onAccept, text, title, })",
+        "alog({\n            cta: \"Create\",\n            onAccept: createFile,\n            text: `File ${filename} does not exist. Would you like to create it?`,\n            title: \"New Daily Note\",\n        })": "alog({\n            cta: \"Create\",\n            onAccept: createFile,\n            text: `File ${filename} does not exist. Would you like to create it?`,\n            title: \"New Daily Note\",\n        })",
+        "alog({\n            cta: \"Create\",\n            onAccept: createFile,\n            text: `File ${filename} does not exist. Would you like to create it?`,\n            title: \"New Weekly Note\",\n        })": "alog({\n            cta: \"Create\",\n            onAccept: createFile,\n            text: `File ${filename} does not exist. Would you like to create it?`,\n            title: \"New Weekly Note\",\n        })",
+        ".error(`Failed to read the daily note template '${templatePath}'`, err)": ".error(`Failed to read the daily note template '${templatePath}'`, err)",
+        ".error(`Failed to create file: '${normalizedPath}'`, err)": ".error(`Failed to create file: '${normalizedPath}'`, err)",
+        "name: \"Open view\"": "name: \"Open view\"",
+        "name: \"Open Weekly Note\"": "name: \"Open Weekly Note\"",
+        "name: \"Reveal active note\"": "name: \"Reveal active note\"",
+        "text: \"⚠️ Daily Notes plugin not enabled\"": "text: \"⚠️ Daily Notes plugin not enabled\"",
+        "text: \"The calendar is best used in conjunction with either the Daily Notes plugin or the Periodic Notes plugin (available in the Community Plugins catalog).\"": "text: \"The calendar is best used in conjunction with either the Daily Notes plugin or the Periodic Notes plugin (available in the Community Plugins catalog).\"",
+        "text: \"General Settings\"": "text: \"General Settings\"",
+        "text: \"Weekly Note Settings\"": "text: \"Weekly Note Settings\"",
+        "text: \"Note: Weekly Note settings are moving. You are encouraged to install the 'Periodic Notes' plugin to keep the functionality in the future.\"": "text: \"Note: Weekly Note settings are moving. You are encouraged to install the 'Periodic Notes' plugin to keep the functionality in the future.\"",
+        "text: \"Advanced Settings\"": "text: \"Advanced Settings\"",
+        "text: \"Never mind\"": "text: \"Never mind\"",
+        "text: `File ${filename} does not exist. Would you like to create it?`": "text: `File ${filename} does not exist. Would you like to create it?`",
+        ".setName(\"Words per dot\")": ".setName(\"Words per dot\")",
+        ".setName(\"Start week on:\")": ".setName(\"Start week on:\")",
+        ".setName(\"Confirm before creating new note\")": ".setName(\"Confirm before creating new note\")",
+        ".setName(\"Show week number\")": ".setName(\"Show week number\")",
+        ".setName(\"Weekly note format\")": ".setName(\"Weekly note format\")",
+        ".setName(\"Weekly note template\")": ".setName(\"Weekly note template\")",
+        ".setName(\"Weekly note folder\")": ".setName(\"Weekly note folder\")",
+        ".setName(\"Override locale:\")": ".setName(\"Override locale:\")",
+        ".setDesc(\"How many words should be represented by a single dot?\")": ".setDesc(\"How many words should be represented by a single dot?\")",
+        ".setDesc(\"Choose what day of the week to start. Select 'Locale default' to use the default specified by moment.js\")": ".setDesc(\"Choose what day of the week to start. Select 'Locale default' to use the default specified by moment.js\")",
+        ".setDesc(\"Show a confirmation modal before creating a new note\")": ".setDesc(\"Show a confirmation modal before creating a new note\")",
+        ".setDesc(\"Enable this to add a column with the week number\")": ".setDesc(\"Enable this to add a column with the week number\")",
+        ".setDesc(\"For more syntax help, refer to format reference\")": ".setDesc(\"For more syntax help, refer to format reference\")",
+        ".setDesc(\"Choose the file you want to use as the template for your weekly notes\")": ".setDesc(\"Choose the file you want to use as the template for your weekly notes\")",
+        ".setDesc(\"New weekly notes will be placed here\")": ".setDesc(\"New weekly notes will be placed here\")",
+        ".setDesc(\"Set this if you want to use a locale different from the default\")": ".setDesc(\"Set this if you want to use a locale different from the default\")",
+        ".setTitle(\"Delete\")": ".setTitle(\"Delete\")"
+    }
+}
