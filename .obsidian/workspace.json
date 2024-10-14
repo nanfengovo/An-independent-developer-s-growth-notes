@@ -118,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.md"
-              }
+              "state": {}
             }
           },
           {
@@ -164,11 +162,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8ad211c73afcffe2",
+  "active": "06685bef4dd4a0cd",
   "lastOpenFiles": [
+    "2.md",
     "后端/C Shrap",
     "1.md",
-    "2.md",
     "后端"
   ]
 }
