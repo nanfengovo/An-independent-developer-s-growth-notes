@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "782498595a11a928",
+        "id": "64d9be7e3c347741",
         "type": "tabs",
         "children": [
           {
-            "id": "163cbd2dc065db57",
+            "id": "525062d762ad26c9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1.md"
+              }
             }
           },
           {
@@ -128,13 +136,21 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "06685bef4dd4a0cd",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -144,10 +160,19 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "i18n:I18N": false,
+      "obsidian-language-learner:打开查词面板": false,
+      "obsidian-language-learner:打开新词面板": false,
+      "obsidian-language-learner:打开统计": false,
+      "obsidian-language-learner:单词列表": false,
+      "media-extended:Open media": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "163cbd2dc065db57",
-  "lastOpenFiles": []
+  "active": "525062d762ad26c9",
+  "lastOpenFiles": [
+    "1.md",
+    "未命名"
+  ]
 }
