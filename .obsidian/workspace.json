@@ -11,8 +11,12 @@
             "id": "70e57fa13bd961ed",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "前端/HTML/HTML 基础.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "前端/HTML/HTML 基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "前端/HTML/HTML 基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "前端/HTML/HTML 基础.md"
+              }
             }
           },
           {
@@ -164,6 +172,7 @@
   },
   "active": "8ad211c73afcffe2",
   "lastOpenFiles": [
+    "前端/HTML/HTML 基础.md",
     "前端/框架/Vue",
     "前端/框架",
     "前端/JavaScript",
