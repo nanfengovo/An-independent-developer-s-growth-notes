@@ -153,17 +153,18 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian42-brat:BRAT": false,
-      "i18n:I18N": false,
       "obsidian-language-learner:打开查词面板": false,
       "obsidian-language-learner:打开新词面板": false,
       "obsidian-language-learner:打开统计": false,
       "obsidian-language-learner:单词列表": false,
       "media-extended:Open media": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "i18n:I18N": false
     }
   },
-  "active": "06685bef4dd4a0cd",
+  "active": "8ad211c73afcffe2",
   "lastOpenFiles": [
+    "未命名",
     "2.md",
     "后端/C Shrap",
     "1.md",
