@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/HTML/HTML 基础.md",
+                "file": "前端/CSS/CSS 基础.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/HTML/HTML 基础.md",
+                "file": "前端/CSS/CSS 基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端/HTML/HTML 基础.md",
+                "file": "前端/CSS/CSS 基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/HTML/HTML 基础.md"
+                "file": "前端/CSS/CSS 基础.md"
               }
             }
           },
@@ -170,9 +170,10 @@
       "i18n:I18N": false
     }
   },
-  "active": "8ad211c73afcffe2",
+  "active": "06685bef4dd4a0cd",
   "lastOpenFiles": [
     "前端/HTML/HTML 基础.md",
+    "前端/CSS/CSS 基础.md",
     "前端/框架/Vue",
     "前端/框架",
     "前端/JavaScript",
