@@ -15,3 +15,7 @@
 # .NET Core和.NET Framework不同
 1）不支持：ASP.NET WebForms、WCF服务器端、WF、.NET Remoting、Appdomain
 2）部分Windows-Only的特性.NET core，但是无法跨平台： WinForm、WPF、注册表、Event Log、AD等。
+
+
+# .NET Standard
+![[Pasted image 20241016231734.png]]
