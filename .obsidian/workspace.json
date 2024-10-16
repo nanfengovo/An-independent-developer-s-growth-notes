@@ -166,7 +166,8 @@
       "obsidian-language-learner:打开统计": false,
       "obsidian-language-learner:单词列表": false,
       "media-extended:Open media": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "i18n:I18N": false
     }
   },
   "active": "79662255a615e424",
