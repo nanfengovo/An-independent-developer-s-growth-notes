@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/未命名.md",
+                "file": "后端/C Shrap/控制台彩色打印colorful.console        --日志.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "控制台彩色打印colorful.console        --日志"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "后端/C Shrap/未命名.md",
+                "file": "后端/C Shrap/控制台彩色打印colorful.console        --日志.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "未命名 的反向链接列表"
+              "title": "控制台彩色打印colorful.console        --日志 的反向链接列表"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "后端/C Shrap/未命名.md",
+                "file": "后端/C Shrap/控制台彩色打印colorful.console        --日志.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "未命名 的出链列表"
+              "title": "控制台彩色打印colorful.console        --日志 的出链列表"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/未命名.md"
+                "file": "后端/C Shrap/控制台彩色打印colorful.console        --日志.md"
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "控制台彩色打印colorful.console        --日志 的大纲"
             }
           },
           {
@@ -192,8 +192,9 @@
   },
   "active": "79662255a615e424",
   "lastOpenFiles": [
+    "后端/C Shrap/控制台打印输出彩色字体    --常规使用.md",
+    "后端/C Shrap/控制台彩色打印colorful.console        --日志.md",
     "后端/C Shrap/面向对象思想.md",
-    "后端/C Shrap/未命名.md",
     "后端/ASP.NET Core/异步编程.md",
     "后端/ASP.NET Core/DotNET Core的重要问题.md",
     "图片",
