@@ -17,10 +17,6 @@
   "I18N_NAME_TRANSLATION_PREFIX": "[",
   "I18N_NAME_TRANSLATION_SUFFIX": "]",
   "I18N_MODE_NDT": true,
-  "I18N_NDT_APIS_DISPLAY": false,
-  "I18N_NDT_APIS": {
-    "zh-cn": "https://gitee.com/zero--two/obsidian-i18n-translation/raw/master/zh-cn/"
-  },
   "I18N_MODE_NIT": true,
   "I18N_NIT_API": "OPENAI",
   "I18N_NIT_API_INTERVAL": 500,
@@ -55,7 +51,7 @@
   },
   "I18N_SUBMIT_MODE": true,
   "I18N_SUBMIT_URL": "",
-  "I18N_SUBMIT_TIME": 21,
+  "I18N_SUBMIT_TIME": 22,
   "I18N_SUBMIT_HISTORY": [],
   "I18N_IGNORE": true,
   "I18N_RE_TEMP_MODE": true,
@@ -98,5 +94,13 @@
       ".renderMarkdown\\(\\s*(['\"`])(.+?)\\1\\s*\\)",
       ".innerText\\s*=\\s*(['\"`]).*?\\1"
     ]
+  },
+  "I18N_GITEE_OWNER": "zero--two",
+  "I18N_GITEE_REPO": "obsidian-i18n-translation",
+  "I18N_ADMIN_MODE": false,
+  "I18N_ADMIN_TOKEN": "",
+  "I18N_NDT_APIS_DISPLAY": false,
+  "I18N_NDT_APIS": {
+    "zh-cn": "https://gitee.com/zero--two/obsidian-i18n-translation/raw/master/zh-cn/"
   }
 }
