@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("C Shrap Grammar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd84d4e9331d5e65e39c5b211999a92af56d999d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72e495b9bf5c9afeef9ec31bced3dbfe027dd3cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("C Shrap Grammar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("C Shrap Grammar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
