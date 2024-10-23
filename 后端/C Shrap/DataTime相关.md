@@ -1,11 +1,11 @@
 # 将string 类型转换为DataTime 类型一共有三种方式：
-## 第一种使用 Convert.ToDataTime(string) 
+## 第一种：使用 Convert.ToDataTime(string) 
 注意点：
-* 日期的格式需要是"yyyy/MM/dd"或"yyyy-MM-dd"*
+* 接收到的日期的格式需要是"yyyy/MM/dd"或"yyyy-MM-dd"*
 
+## 第二种：DateTime.ParseExact(Console.ReadLine(),"yyyyMMdd",System.Globalization.CultureInfo.CurrentCulture);
 
-
-
+* 可以自定义接收的规则，*其中"yyyyMMdd"代表可以接收如“20020216”这样的日期类型，突破了原来只能接收"yyyy/MM/dd"或"yyyy-MM-dd"*格式的日期类型
 # [c#中，如何获取日期型字段里的年、月、日？](https://www.cnblogs.com/cnote/p/9094618.html "发布于 2018-05-26 22:41")
 ```C#
 # [c#中，如何获取日期型字段里的年、月、日？](https://www.cnblogs.com/cnote/p/9094618.html "发布于 2018-05-26 22:41")
