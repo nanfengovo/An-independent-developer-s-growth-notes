@@ -180,6 +180,38 @@ while ((useName != "admin" || pwd != "123456") && i<3)
  Console.WriteLine(sum);
 ```
 ### 求1~100的偶数和
+#### 方法1：
 
-
+```c#
+      int sum = 0;
+      for (int i = 1; i <= 100;i++) 
+      {
+          if (i % 2 == 0)
+          {
+              sum += i;
+          }
+      }
+      Console.WriteLine(sum);
+```
+#### 方法2：
+```c#
+  int sum = 0;
+  for (int i = 2; i <= 100; i+=2)
+  {
+      
+          sum += i;
+      
+  }
+  Console.WriteLine(sum);
+```
 ### 求1~100的奇数和
+```c#
+ int sum = 0;
+for (int i = 1; i <= 100; i += 2)
+{
+
+    sum += i;
+
+}
+Console.WriteLine(sum);
+```
