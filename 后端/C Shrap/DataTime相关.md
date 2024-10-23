@@ -1,3 +1,10 @@
+# 将string 类型转换为DataTime 类型一共有三种方式：
+## 第一种使用 Convert.ToDataTime(string) 
+
+
+
+
+
 # [c#中，如何获取日期型字段里的年、月、日？](https://www.cnblogs.com/cnote/p/9094618.html "发布于 2018-05-26 22:41")
 ```C#
 # [c#中，如何获取日期型字段里的年、月、日？](https://www.cnblogs.com/cnote/p/9094618.html "发布于 2018-05-26 22:41")
