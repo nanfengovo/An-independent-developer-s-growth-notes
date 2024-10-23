@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Visual Studio 开发平台常用快捷键"
             }
+          },
+          {
+            "id": "252d994bf082e594",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "图片/Pasted image 20241016231734.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20241016231734"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,10 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap Study/Visual Studio 开发平台常用快捷键.md"
+                "file": "图片/Pasted image 20241016231734.png"
               },
               "icon": "lucide-list",
-              "title": "Visual Studio 开发平台常用快捷键 的大纲"
+              "title": "Pasted image 20241016231734 的大纲"
             }
           },
           {
@@ -190,13 +203,13 @@
       "i18n:I18N": false
     }
   },
-  "active": "79662255a615e424",
+  "active": "252d994bf082e594",
   "lastOpenFiles": [
+    "后端/C Shrap Study/Visual Studio 开发平台常用快捷键.md",
     "后端/C Shrap Study/C Shrap Grammer.md",
     "后端/C Shrap Study/C Shrap 练习题：.md",
     "后端/C Shrap 面试题/腾讯.NET基础面试题.md",
     "后端/C Shrap Lib/Colorful.Console.md",
-    "后端/C Shrap Study/Visual Studio 开发平台常用快捷键.md",
     "后端/C Shrap  algorithm/交换两个变量的值.md",
     "交换.md",
     "后端/C Shrap/DataTime相关.md",
