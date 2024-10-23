@@ -1,3 +1,4 @@
+# 题目：
 ```
 1.n1=10,n2=20  交换n1和n2的值 (要求使用两种方法)
 2.编程实现计算几天（如46天）是几周零几天
@@ -140,6 +141,8 @@ catch (Exception)
  }
 ```
 ## 6.练习： 提示用户输入用户名和密码，要求用户名为admin，密码为123456；只要用户名和密码错误就重新输入；但是，最多只能输三次
+### while
+
 ```c#  while
 string useName = "";
 string pwd = "";
@@ -152,4 +155,16 @@ while ((useName != "admin" || pwd != "123456") && i<3)
     pwd = Console.ReadLine();
     i++;
 }
+```
+### do-while
+```C#
+   int i = 0;
+   do
+   {
+       Console.WriteLine("请输入用户名;");
+       useName = Console.ReadLine();
+       Console.WriteLine("请输入密码：");
+       pwd = Console.ReadLine();
+       i++;
+   } while ((useName != "admin" || pwd != "123456")&& i<3);
 ```
