@@ -4,6 +4,8 @@
 3.在第2题的基础上进阶： 用户输入今天是一年中的第几天，计算是几周零几天
 4.根据用户输入的日期，判断是一年中的第几天(要求使用两种方法)
 5.用户输入年份，判断是不是闰年
+6.练习： 提示用户输入用户名和密码，要求用户名为admin，密码为123456；只要用户名和密码错误就重新输入；但是，最多只能输三次
+
 ```
 
 ---
@@ -136,4 +138,18 @@ catch (Exception)
 
      Console.WriteLine("输入的年份格式错误！");
  }
+```
+## 6.练习： 提示用户输入用户名和密码，要求用户名为admin，密码为123456；只要用户名和密码错误就重新输入；但是，最多只能输三次
+```c#
+string useName = "";
+string pwd = "";
+int i = 0;
+while ((useName != "admin" || pwd != "123456") && i<3)
+{
+    Console.WriteLine("请输入用户名;");
+    useName = Console.ReadLine();
+    Console.WriteLine("请输入密码：");
+    pwd = Console.ReadLine();
+    i++;
+}
 ```
