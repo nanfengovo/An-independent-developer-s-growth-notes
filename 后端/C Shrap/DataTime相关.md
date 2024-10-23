@@ -1,6 +1,7 @@
 # 将string 类型转换为DataTime 类型一共有三种方式：
 ## 第一种使用 Convert.ToDataTime(string) 
-
+注意点：
+* 日期的格式需要是"yyyy/MM/dd"或"yyyy-MM-dd"*
 
 
 
