@@ -83,6 +83,17 @@ input[type='text']:focus {
 
 /* 通用 component(组件) 模块
 ---------------------------------------------------------------- */
+/* 简单的工具提示样式 */
+.i18n-tooltip {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: var(--i18n-border-radius);
+    display: none;
+    z-index: 1000;
+}
+
 .i18n-button {
     height: var(--input-height);
     border-radius: var(--i18n-border-radius);
@@ -209,6 +220,10 @@ button:not(.clickable-icon).i18n-button:hover {
 
 .i18n__container::-webkit-scrollbar {
     display: none;
+}
+
+.i18n__header {
+    margin: 0;
 }
 
 .i18n__title {
@@ -369,7 +384,7 @@ button:not(.clickable-icon).i18n-button:hover {
 .i18n-edit__plugin-version-input {
     min-width: 80px;
     max-width: none;
-    width: 80px;
+    width: 140px;
     text-align: center;
 }
 
@@ -995,3 +1010,47 @@ button.i18n-agreement__check-button:hover {
 }
 
 /* white-space: pre-wrap; */
+
+/* admin 模块
+---------------------------------------------------------------- */
+.i18n-contributor__table {
+    width: auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+    user-select: text;
+}
+
+.i18n-contributor__table {
+    width: auto;
+
+}
+
+.i18n-contributor__row {
+    width: auto;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.i18n-contributor__row:hover {
+    background-color: #9cccfd;
+}
+
+.i18n-contributor__rank {
+    padding: 0 10px;
+    width: auto;
+    min-width: 35px;
+    text-align: center;
+}
+
+.i18n-contributor__name {
+    padding: 0 10px;
+    width: auto;
+    min-width: 50px;
+}
+
+.i18n-contributor__translation {
+    padding: 0 10px;
+    width: auto;
+    min-width: 50px;
+    text-align: right;
+}
