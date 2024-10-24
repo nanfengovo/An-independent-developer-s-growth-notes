@@ -133,3 +133,25 @@ public enum 枚举名
 ```
 ## 枚举类型和int、string类型的相互转换
 ### 枚举类型和int类型的相互转换
+枚举默认可以和int类型相互转换，说明枚举和int类型是兼容的
+ex:
+#### 枚举转换为int型  --枚举第一个是0，以此类推
+```c#
+public enum QQState
+   { 
+       OnLine,
+       OffLine,
+       Busy,
+       QMe
+   }
+   internal class Program
+{
+    static void Main(string[] args)
+    {
+	  QQState state = QQState.OffLine;
+	  int m = (int)state;
+	  Console.WriteLine(m);
+    }
+}
+```
+#### int型转枚举
