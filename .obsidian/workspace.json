@@ -25,12 +25,14 @@
             "id": "252d994bf082e594",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "图片/Pasted image 20241016231734.png"
+                "file": "后端/C Shrap/封装一个日志助手类.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241016231734"
+              "icon": "lucide-file",
+              "title": "封装一个日志助手类"
             }
           }
         ],
@@ -164,8 +166,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -205,6 +207,8 @@
   },
   "active": "252d994bf082e594",
   "lastOpenFiles": [
+    "后端/ASP.NET Core/ORM/未命名.md",
+    "图片/Pasted image 20241016231734.png",
     "后端/C Shrap Study/Visual Studio 开发平台常用快捷键.md",
     "后端/C Shrap Study/C Shrap Grammer.md",
     "后端/C Shrap Study/C Shrap 练习题：.md",
@@ -229,8 +233,6 @@
     "后端/C Shrap/面向对象思想.md",
     "后端/ASP.NET Core/异步编程.md",
     "后端/ASP.NET Core/DotNET Core的重要问题.md",
-    "图片/Pasted image 20241016231734.png",
-    "后端/ASP.NET Core/ORM/未命名.md",
     "后端/ASP.NET Core/中间件.md",
     "前端/JavaScript/JavaScript 基础.md",
     "前端/CSS/CSS 基础.md",
