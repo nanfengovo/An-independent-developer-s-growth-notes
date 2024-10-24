@@ -253,3 +253,14 @@ Console.WriteLine(sum);
 ```
 ![[Pasted image 20241024133229.png]]
 ## 10.打印三角型的99乘法表
+```c#
+       for (int i = 1; i <= 9; i++)
+       {
+           for (int j = 1; j <= i; j++)
+           {
+               Console.Write($"{i}*{j}={i * j}\t");
+           }
+           Console.WriteLine();
+       }
+```
+![[Pasted image 20241024140120.png]]
