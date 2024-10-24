@@ -155,3 +155,47 @@ public enum QQState
 }
 ```
 #### int型转枚举
+```c#
+public enum QQState
+   { 
+       OnLine,
+       OffLine,
+       Busy,
+       QMe
+   }
+   internal class Program
+{
+    static void Main(string[] args)
+    {
+	     int n = 3;
+	    QQState state = QQState.OnLine;
+	    state = (QQState)n;
+	    Console.WriteLine(state);//QMe
+    }
+}
+
+输出为： QMe
+```
+ ==如果n的值超过枚举索引==
+
+```c#
+public enum QQState
+   { 
+       OnLine,
+       OffLine,
+       Busy,
+       QMe
+   }
+   internal class Program
+{
+    static void Main(string[] args)
+    {
+	     int n = 8;
+	    QQState state = QQState.OnLine;
+	    state = (QQState)n;
+	    Console.WriteLine(state);
+    }
+}
+
+输出为8，不会报异常
+```
