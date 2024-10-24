@@ -27,3 +27,22 @@ int num = Convert.ToInt32(Console.ReadLine());
   }
 ```
 #### 进阶用法： 这里还可能出现其他的异常：如输入的数字超过int 的范围
+```c#
+ //提示用户输入一个数
+ Console.WriteLine("请输入一个数");
+ //使用int 型的变量num 来接收并存储这个数 ；使用Console.ReadLine()来接收用户的输入；  使用Convert.ToInt32将用户输入的字符串转换为int 型变量 ；如果是“数字”则可以转换成功，否则会转换失败，会触发System.FormatException:“The input string '用户输入的内容' was not in a correct format.”如果是数据太大会触发System.OverflowException:“Value was either too large or too small for an Int32.”这个异常 这里需要处理异常，通过try...Catch 来处理  --问题：如何通过try...Catch 处理特定的异常
+ try
+ {
+     int num = Convert.ToInt32(Console.ReadLine());
+ }
+ catch (FormatException ex)
+ {
+
+     Helper.LogHelper.error(ex.Message);
+ }
+ catch (OverflowException ex)
+ {
+     Helper.LogHelper.error(ex.Message);
+ }
+```
+Helper.LogHelper.error(ex.Message)参考[[封装一个日志助手类]]
