@@ -108,3 +108,28 @@ Next(1, 10) 左闭右开
      int num = random.Next(1, 10);
      Console.WriteLine(num);
 ```
+# 枚举
+## 语法：
+public enum 枚举名
+{
+	枚举1，
+	枚举2
+}
+==ex: 需要写在命名空间下或者类下，不能在方法内部声明==
+```c#
+   public enum Grender 
+   {
+       男,
+       女 
+   }
+
+   public enum QQState
+   { 
+       OnLine,
+       OffLine,
+       Busy,
+       QMe
+   }
+```
+## 枚举类型和int、string类型的相互转换
+### 枚举类型和int类型的相互转换
