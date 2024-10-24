@@ -54,3 +54,5 @@ Helper.LogHelper.error(ex.Message)参考[[封装一个日志助手类]]
 
 ## 3.使用TryParse()：  --不会抛异常，程序效率高
 ![[Pasted image 20241024165716.png]]
+
+# Continue(s)和break
