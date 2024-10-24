@@ -59,3 +59,45 @@ Helper.LogHelper.error(ex.Message)参考[[封装一个日志助手类]]
 ## break : 跳出当前循环
 ## Continue: 跳到循环条件处
 
+# 三元表达式
+## 语法：
+表达式1？表达式2：表达式3；
+表达式1是关系型表达式
+如果为true 则三元表达式的结果为表达式2
+```c#
+ #region 三元表达式
+ Console.WriteLine( "输入第一个数：");
+ int num1 = 0;
+ try
+ {
+      num1 = Convert.ToInt32(Console.ReadLine());
+ }
+ catch (FormatException ex)
+ {
+
+     Helper.LogHelper.error(ex.Message);
+ }
+ catch (OverflowException ex)
+ {
+     Helper.LogHelper.error(ex.Message);
+ }
+
+ int num2 = 0;
+ Console.WriteLine("输入第二个数：");
+ try
+ {
+      num2 = Convert.ToInt32(Console.ReadLine());
+ }
+ catch (FormatException ex)
+ {
+
+     Helper.LogHelper.error(ex.Message);
+ }
+ catch (OverflowException ex)
+ {
+     Helper.LogHelper.error(ex.Message);
+ }
+ int max = num1 > num2 ? num1 : num2;
+ Console.WriteLine("两个数中较大的是{0}",max);
+ #endregion
+```
