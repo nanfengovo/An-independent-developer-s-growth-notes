@@ -49,8 +49,7 @@
               "title": "C Shrap Grammer"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,10 +167,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap Study/C Shrap Grammer.md"
+                "file": "后端/C Shrap Study/C Shrap 练习题：.md"
               },
               "icon": "lucide-list",
-              "title": "C Shrap Grammer 的大纲"
+              "title": "C Shrap 练习题： 的大纲"
             }
           },
           {
@@ -219,11 +218,11 @@
       "i18n:I18N": false
     }
   },
-  "active": "16f50a8d19b078db",
+  "active": "252d994bf082e594",
   "lastOpenFiles": [
+    "后端/C Shrap Study/C Shrap Grammer.md",
     "后端/C Shrap/封装一个日志助手类.md",
     "后端/C Shrap Study/C Shrap 练习题：.md",
-    "后端/C Shrap Study/C Shrap Grammer.md",
     "图片/Pasted image 20241024165716.png",
     "后端/C Shrap Study/Visual Studio 开发平台常用快捷键.md",
     "图片/Pasted image 20241024140120.png",
