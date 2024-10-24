@@ -52,4 +52,5 @@ Helper.LogHelper.error(ex.Message)参考[[封装一个日志助手类]]
 ### 问题：使用Convert 和Parse 谁效率高？  -- Parse 效率高，因为Convert 本质上还是在调用Parse
 ---
 
-## 3.使用TryParse()：
+## 3.使用TryParse()：  --不会抛异常，程序效率高
+![[Pasted image 20241024165716.png]]
