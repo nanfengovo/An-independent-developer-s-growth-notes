@@ -16,5 +16,14 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 ####  如果输入的内容无法转换为int 会触发 System.FormatException:“The input string '用户输入的内容' was not in a correct format.” 程序会中断，这样就需要捕获异常：
 ```c#
-
+  Console.WriteLine("请输入一个数");
+  try
+  {
+      int num = Convert.ToInt32(Console.ReadLine());
+  }
+  catch (FormatException e)
+  {
+      Console.WriteLine(e); //--将异常打印在控制台，异常内容很详细，精确指出哪一行代码有问题；适合开发人员查看
+  }
 ```
+#### 进阶用法： 这里还可能出现其他的异常：如输入的数字超过int 的范围
