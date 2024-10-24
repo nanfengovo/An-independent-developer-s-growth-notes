@@ -35,8 +35,7 @@
               "title": "封装一个日志助手类"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/封装一个日志助手类.md"
+                "file": "后端/C Shrap Study/C Shrap Grammer.md"
               },
               "icon": "lucide-list",
-              "title": "封装一个日志助手类 的大纲"
+              "title": "C Shrap Grammer 的大纲"
             }
           },
           {
@@ -205,8 +204,9 @@
       "i18n:I18N": false
     }
   },
-  "active": "449db15dd4cad870",
+  "active": "252d994bf082e594",
   "lastOpenFiles": [
+    "后端/C Shrap/封装一个日志助手类.md",
     "后端/C Shrap Study/C Shrap Grammer.md",
     "后端/C Shrap Study/Visual Studio 开发平台常用快捷键.md",
     "后端/C Shrap Study/C Shrap 练习题：.md",
@@ -221,7 +221,6 @@
     "后端/C Shrap/DataTime相关.md",
     "后端/C Shrap/控制台打印输出彩色字体    --常规使用.md",
     "后端/C Shrap/控制台彩色打印colorful.console        --日志.md",
-    "后端/C Shrap/封装一个日志助手类.md",
     "后端/ASP.NET Core/ORM/未命名.md",
     "图片/Pasted image 20241016231734.png",
     "后端/C Shrap Lib/Colorful.Console.md",

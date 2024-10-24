@@ -7,5 +7,14 @@ String 是.NET 平台下的字符串类 ，string 是 C# 中的字符串类
 要求每个单词的首字母大写，其余字母小写
 # 类型转换
 ## 1.使用Convert 进行类型转换    --成功了就成功了，失败了就抛异常
+### 使用：
+#### 基础用法：
+ex:
+```c#
+int num = Convert.ToInt32(Console.ReadLine());
+```
 
+####  如果输入的内容无法转换为int 会触发 System.FormatException:“The input string '用户输入的内容' was not in a correct format.” 程序会中断，这样就需要捕获异常：
+```c#
 
+```
