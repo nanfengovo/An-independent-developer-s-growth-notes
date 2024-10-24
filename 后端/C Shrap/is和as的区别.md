@@ -1,5 +1,5 @@
 # is
-is 用来判断某个变量是不是某个类型；返回的结果是bool型
+## is 用来判断某个变量是不是某个类型；返回的结果是bool型
 ex：
 ```c#
   #region is 判断某个变量是不是某个类型
@@ -26,3 +26,13 @@ ex：
   #endregion
 ```
 结果为：
+```
+o是object类型的
+True
+变量num是int型
+```
+## is 和[[C Shrap GetType() 和 typeof 的区别]]
+
+# as
+
+## as操作符用于将一个对象强制转换为指定的类型

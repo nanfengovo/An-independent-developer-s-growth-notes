@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "图片/Pasted image 20241016231734.png"
+                "file": "后端/C Shrap/is和as的区别.md"
               },
               "icon": "lucide-list",
-              "title": "Pasted image 20241016231734 的大纲"
+              "title": "is和as的区别 的大纲"
             }
           },
           {
@@ -166,8 +166,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -181,7 +181,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
