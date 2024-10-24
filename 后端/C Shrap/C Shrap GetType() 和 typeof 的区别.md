@@ -6,9 +6,18 @@ string str = new string();
 获取到System.Type就能获得类型中的方法，变量，所在命名空间等信息。
 例子：
 ```c#
- string str = "111";
- Console.WriteLine(str.GetType());
- Console.WriteLine(typeof(string));
- Console.WriteLine(typeof(int));
+string str = "111";
+Console.WriteLine("使用GetType（）可以获取到具体某一个变量的数据类型；比如下面获取变量str的类型：");
+Console.WriteLine(str.GetType());
+Console.WriteLine("使用typeof(数据类型)不能获取到某一个具体的变量类型");
+Console.WriteLine(typeof(string));
+Console.WriteLine(typeof(int));
 ```
 上述代码的输出为：
+``` 
+使用GetType（）可以获取到具体某一个变量的数据类型；比如下面获取变量str的类型：
+System.String
+使用typeof(数据类型)不能获取到某一个具体的变量类型
+System.String
+System.Int32
+```
