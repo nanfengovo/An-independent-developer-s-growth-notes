@@ -102,7 +102,7 @@ Helper.LogHelper.error(ex.Message)参考[[封装一个日志助手类]]
  #endregion
 ```
 # 随机数
-
+Next(1, 10) 左闭右开
 ```c#
      Random random = new Random();
      int num = random.Next(1, 10);
