@@ -354,3 +354,21 @@ Console.WriteLine(sum);
      }
  }
 ```
+## 
+```c#
+  #region 14.用while continue 实现计算1到100（含）之间的除了能被7整除之外所有整数的和
+  int i = 1;
+  int sum = 0;
+  while(i<=100)
+  {
+      if (i % 7 == 0)
+      {
+          i++;
+          continue;
+      }
+      sum += i;
+      i++;
+  }
+  Console.WriteLine("1到100（含）之间的除了能被7整除之外所有整数的和为{0}",sum);
+  #endregion
+```
