@@ -101,3 +101,10 @@ Helper.LogHelper.error(ex.Message)参考[[封装一个日志助手类]]
  Console.WriteLine("两个数中较大的是{0}",max);
  #endregion
 ```
+# 随机数
+
+```c#
+     Random random = new Random();
+     int num = random.Next(1, 10);
+     Console.WriteLine(num);
+```
