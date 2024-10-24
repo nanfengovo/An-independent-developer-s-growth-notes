@@ -50,3 +50,6 @@ Helper.LogHelper.error(ex.Message)参考[[封装一个日志助手类]]
 ---
 ## 2.使用Parse();   在用法上同Convert; Convert 本质上还是在调用Parse
 ### 问题：使用Convert 和Parse 谁效率高？  -- Parse 效率高，因为Convert 本质上还是在调用Parse
+---
+
+## 3.使用TryParse()：
