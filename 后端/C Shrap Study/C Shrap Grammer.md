@@ -199,3 +199,48 @@ public enum QQState
 
 输出为8，不会报异常
 ```
+### 枚举类型和string类型的相互转换
+#### 枚举类型转换为string 
+```c#
+public enum QQState
+   { 
+       OnLine,
+       OffLine,
+       Busy,
+       QMe
+   }
+   internal class Program
+{
+    static void Main(string[] args)
+    {
+	     #region 枚举类型转换为string 
+			 QQState state = QQState.OnLine;
+			 string s = state.ToString();
+			 Console.WriteLine(s);
+		 #endregion
+    }
+}
+```
+#### string类型转换为枚举 
+```c#
+public enum QQState
+   { 
+       OnLine,
+       OffLine,
+       Busy,
+       QMe
+   }
+   internal class Program
+{
+    static void Main(string[] args)
+    {
+		    #region string类型转换为枚举 
+			string s1 = "1";
+			QQState qState = (QQState) Enum.Parse(typeof(QQState),s1);
+			Console.WriteLine(qState);
+			#endregion
+    }
+}
+```
+如果s1 为空;
+![[Pasted image 20241024235638.png]]
