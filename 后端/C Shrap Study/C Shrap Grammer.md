@@ -221,7 +221,10 @@ public enum QQState
     }
 }
 ```
-#### string类型转换为枚举 
+#### string类型转换为枚举 :
+语法：==（要转换的枚举类型）Enum.Parse(typeof(要转换的枚举类型)，“要转换的字符串”)==
+如果“要转换的字符串”是数字，则不会产生异常
+如果“要转换的字符串”是空字符串，则会产生异常
 ```c#
 public enum QQState
    { 
@@ -243,4 +246,4 @@ public enum QQState
 }
 ```
 如果s1 为空;
-![[Pasted image 20241024235638.png]]
+![[Pasted image 20241024235638.png]]![[Pasted image 20241024235851.png]]
