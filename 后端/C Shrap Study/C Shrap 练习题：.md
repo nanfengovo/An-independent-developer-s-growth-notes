@@ -267,3 +267,89 @@ Console.WriteLine(sum);
        }
 ```
 ![[Pasted image 20241024140120.png]]
+## 11.循环录入5个人的年龄并计算平均年龄，如果录入的数据出现负数或者大于100的数，立即停止录入并报错
+```c#
+            #region 11.循环录入5个人的年龄并计算平均年龄，如果录入的数据出现负数或者大于100的数，立即停止录入并报错
+            int age = 0;
+            int average = 0;
+            int sum = 0;
+            for (int i = 1; i <=5; i++)
+            {
+                Console.WriteLine("请输入第{0}个的年龄：",i);
+                try
+                {
+                    age = int.Parse(Console.ReadLine());
+                    sum += age;
+                }
+                catch (FormatException ex)
+                {
+
+                    Helper.LogHelper.error(ex.Message);
+                    Helper.LogHelper.Info("输入的年龄必须是数字！");
+                    break;
+                }
+                catch (OverflowException ex)
+                {
+                    Helper.LogHelper.error(ex.Message);
+                    Helper.LogHelper.Info("输入的年龄太大！");
+                    break;
+                }
+                if (age < 0 || age > 100)
+                {
+                    Console.WriteLine("录入的年龄须在0~100之间！");
+                    break;
+                }
+                else
+                {
+                   
+                    if (i == 5) 
+                    {
+                        average = sum / 5;
+                        Console.WriteLine("录入的5人平均年龄为{0}", average);
+                    }
+           
+                }
+               
+            }
+
+            #endregion
+```
+## 12.在while中用break实现要求用户一直输入用户名和密码，只要不是admin、123456就一直提示要求重新输入，如果输入正确则提示成功
+```c#
+  #region 12.在while中用break实现要求用户一直输入用户名和密码，只要不是admin、123456就一直提示要求重新输入，如果输入正确则提示成功
+  bool isAdmin = false;
+  while (!isAdmin)
+  {
+
+      Console.WriteLine("请输入用户名！");
+      string useName = "";
+      string pwd = "";
+      useName = Console.ReadLine();
+      Console.WriteLine("请输入密码！");
+      pwd = Console.ReadLine();
+      if (useName == "admin" && pwd == "123456")
+      {
+          Helper.LogHelper.Info("登录成功！");
+          isAdmin = true;
+      }
+      else
+      {
+          Helper.LogHelper.warning("用户名或密码错误！请重新输入！");
+      }
+
+  }
+  #endregion
+```
+## 13.1~100之间的整数相加，得到累加值大于20的当前数（比如：1+2+3+4+5+6 = 21）结果6
+```c#
+ int sum = 0;
+ for (int i = 1; i <= 100; i++)
+ {
+     sum += i;
+     if (sum > 20)
+     {
+         Console.WriteLine(i);
+         break;
+     }
+ }
+```
