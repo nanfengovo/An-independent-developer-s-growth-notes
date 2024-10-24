@@ -1,3 +1,9 @@
+GetType和typeof()都能获得数据类型System.Type.
+1:GetType()方法继承自0bject,因此C#中任何对象都具有GetType()方法，t.GetType(),其中t为变量名2:typeof是操作符，typeof(t)的t必须是具体的类型名称，不可以是变量名称。
+比如有这样一个变量i:
+string str = new string();
+使用GetType()，str.GetType()返回值是string的类型，但是无法使用typeof(str)，因为str是一个变量使用typeof0)，则只能:typeof(string)，返回的同样是string的类型。
+获取到System.Type就能获得类型中的方法，变量，所在命名空间等信息。
 例子：
 ```c#
  string str = "111";
