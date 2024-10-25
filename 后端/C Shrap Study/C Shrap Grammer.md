@@ -247,10 +247,42 @@ public enum QQState
 ```
 如果s1 为空; 产生System.ArgumentException:“Must specify valid information for parsing in the string. Arg_ParamName_Name”异常
 ![[Pasted image 20241024235638.png]]![[Pasted image 20241024235851.png]]
-# 结构   -- 可以帮助我们一次性声明多个不同类型的变量
+# 结构   -- 可以帮助我们一次性声明多个不同类型的变量 （实际是字段）
 语法：
 [public] strut  结构名
 {
-	成员；//变量
+	成员；//字段
 }
 
+## 字段和变量的区别：
+在程序运行的时候，变量只能存一个值；字段可以存多个值；同时在取名上：字段前要加_
+
+```c#
+using System;
+using System.Diagnostics.CodeAnalysis;
+using System.Reflection.Emit;
+using System.Security.Cryptography.X509Certificates;
+
+namespace C_Shrap_Grammar
+{
+	 public struct Person
+	 {
+     public string _name;
+     public  int _age;
+     char _gender;
+	 }
+	 internal class Program
+	 {
+	     static void Main(string[] args)
+	     {
+		    #region 结构     --一次性声明多个类型的变量
+            Person person;
+            person._name = "张三";
+            person.age = 18;
+            #endregion
+        }
+    }
+}
+
+
+```
