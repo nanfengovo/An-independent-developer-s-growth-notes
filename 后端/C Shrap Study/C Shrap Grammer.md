@@ -255,7 +255,7 @@ public enum QQState
 }
 
 ## 字段和变量的区别：
-在程序运行的时候，变量只能存一个值；字段可以存多个值；同时在取名上：字段前要加_
+==在程序运行的时候，变量只能存一个值；字段可以存多个值；同时在取名上：字段前要加_==
 
 ```c#
 using System;
@@ -267,9 +267,9 @@ namespace C_Shrap_Grammar
 {
 	 public struct Person
 	 {
-     public string _name;
-     public  int _age;
-     char _gender;
+	     public string _name;
+	     public  int _age;
+	     char _gender;
 	 }
 	 internal class Program
 	 {
@@ -278,7 +278,7 @@ namespace C_Shrap_Grammar
 		    #region 结构     --一次性声明多个类型的变量
             Person person;
             person._name = "张三";
-            person.age = 18;
+            person._age = 18;
             #endregion
         }
     }
@@ -286,3 +286,4 @@ namespace C_Shrap_Grammar
 
 
 ```
+结构体中的字段如果不加public 是访问不到的   上述例子中无法通过person._gender 来给性别赋值
