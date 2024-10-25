@@ -247,3 +247,4 @@ public enum QQState
 ```
 如果s1 为空; 产生System.ArgumentException:“Must specify valid information for parsing in the string. Arg_ParamName_Name”异常
 ![[Pasted image 20241024235638.png]]![[Pasted image 20241024235851.png]]
+# 结构
