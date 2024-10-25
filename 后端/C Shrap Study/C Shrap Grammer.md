@@ -247,4 +247,10 @@ public enum QQState
 ```
 如果s1 为空; 产生System.ArgumentException:“Must specify valid information for parsing in the string. Arg_ParamName_Name”异常
 ![[Pasted image 20241024235638.png]]![[Pasted image 20241024235851.png]]
-# 结构
+# 结构   -- 可以帮助我们一次性声明多个不同类型的变量
+语法：
+[public] strut  结构名
+{
+	成员；//变量
+}
+
