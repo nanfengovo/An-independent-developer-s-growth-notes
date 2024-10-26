@@ -397,3 +397,35 @@ Console.WriteLine(sum);
      }
  }
 ```
+
+# 16.从一个整数数组中取出最大的整数，最小整数，总和，平均值。  
+```c#
+#region 数组练习  16.从一个整数数组中取出最大的整数，最小整数，总和，平均值。  
+  
+int[] nums = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };  
+//max min  
+int max = nums[0];  //把数组中存在的一个数赋值给最大/最小值  
+int min = nums[0];  
+//sum  avg  
+int sum = 0;  
+int avg = 0;  
+for (int i = 0; i < nums.Length; i++)  
+{  
+    if (nums[i] > max)  
+    {  
+        max = nums[i];  
+    }  
+  
+    if (nums[i] < min)  
+    {  
+        min = nums[i];  
+    }  
+      
+    sum += nums[i];  
+      
+      
+}  
+avg = sum / nums.Length;  
+Console.WriteLine($"最大值是{max} ,最小值是{min},总和是{sum} ,平均值是{avg}");  
+#endregion
+```
