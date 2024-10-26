@@ -443,3 +443,16 @@ for (int i = 0; i < num.Length; i++)
 Console.WriteLine($"数组和为{sum}");  
 #endregion
 ```
+## 18.数组里面都是人的名字，分割成：例如：“老杨|老苏|老周……”（老杨，老苏，老周）  
+```c#
+#region 18.数组里面都是人的名字，分割成：例如：“老杨|老苏|老周……”（老杨，老苏，老周）  
+  
+string[] names =  { "老杨","老苏","老周"};  
+string str = null;  
+for (int i = 0; i < names.Length-1; i++)  
+{  
+    str +=  names[i]+"|";  
+}  
+Console.WriteLine(str+names[names.Length-1]);  
+#endregion
+```
