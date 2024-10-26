@@ -456,3 +456,26 @@ for (int i = 0; i < names.Length-1; i++)
 Console.WriteLine(str+names[names.Length-1]);  
 #endregion
 ```
+## 19.将一个整数数组的每一个进行如下的处理：如果元素是正数则将这个位置的元素值加1，如果这个元素是负数则将这个位置的元素值减1，如果元素是0，则不变 
+```c#
+#region 19.将一个整数数组的每一个进行如下的处理：如果元素是正数则将这个位置的元素值加1，如果这个元素是负数则将这个位置的元素值减1，如果元素是0，则不变  
+  
+int[] num = { 1, 2, 3, 4, -2, -4, -6 };  
+for (int i = 0; i < num.Length; i++)  
+{  
+    if (num[i] > 0)  
+    {  
+        num[i] += 1;  
+    }  
+  
+    if (num[i] < 0)  
+    {  
+        num[i] -= 1;  
+    }  
+}  
+  
+for (int i = 0; i < num.Length; i++)  
+{  
+    Console.WriteLine(num[i]);  
+}
+```
