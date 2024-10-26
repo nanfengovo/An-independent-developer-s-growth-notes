@@ -479,3 +479,23 @@ for (int i = 0; i < num.Length; i++)
     Console.WriteLine(num[i]);  
 }
 ```
+## 20.将一个字符串数组的元素的顺序进行反转。{“我”，“是”，“好人”}{“好人”，“是”，“我”}。第i个和第length-i-1个进行交换 
+```c#
+#region 20.将一个字符串数组的元素的顺序进行反转。{“我”，“是”，“好人”}{“好人”，“是”，“我”}。第i个和第length-i-1个进行交换  
+  
+string[] s = { "我", "是", "好人" };  
+  
+for (int i = 0; i < s.Length/2; i++)  
+{  
+    string temp = s[i];  
+    s[i] = s[s.Length - 1 - i];  
+    s[s.Length - 1 - i] = temp;  
+}  
+  
+for (int i = 0; i < s.Length; i++)  
+{  
+    Console.WriteLine(s[i]);  
+}  
+  
+#endregion
+```
