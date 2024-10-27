@@ -500,4 +500,21 @@ for (int i = 0; i < s.Length; i++)
   
 #endregion
 ```
-### 方法二：使用数组方法Reverse实现数组中元素
+### 方法二：使用数组方法Reverse实现数组中元素的倒序反转
+```c#
+#region 20.将一个字符串数组的元素的顺序进行反转。{“我”，“是”，“好人”}{“好人”，“是”，“我”}。第i个和第length-i-1个进行交换  
+  
+string[] s = { "我", "是", "好人" };  
+  
+   #region 方法二：使用Reverse方法实现倒序反转
+   Array.Reverse(s);
+
+   #endregion
+  
+for (int i = 0; i < s.Length; i++)  
+{  
+    Console.WriteLine(s[i]);  
+}  
+  
+#endregion
+```
