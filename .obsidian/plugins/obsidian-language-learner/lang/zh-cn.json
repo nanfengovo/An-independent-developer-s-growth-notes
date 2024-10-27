@@ -1,8 +1,6 @@
 {
     "manifest": {
-        "id": "obsidian-language-learner",
-        "author": "",
-        "version": "1.0.0",
+        "translationVersion": -639075600000,
         "pluginVersion": "0.2.5"
     },
     "description": {

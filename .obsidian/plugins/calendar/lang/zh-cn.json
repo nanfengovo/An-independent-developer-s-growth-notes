@@ -1,8 +1,6 @@
 {
     "manifest": {
-        "id": "calendar",
-        "author": "",
-        "version": "1.0.0",
+        "translationVersion": -639075600000,
         "pluginVersion": "1.5.10"
     },
     "description": {
