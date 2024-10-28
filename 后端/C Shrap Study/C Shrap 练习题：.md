@@ -564,3 +564,6 @@ namespace C_Shrap_Grammar
 
 ```
 ## 22.只允许用户输入y或n,请改成方法
+```c#
+	
+```
