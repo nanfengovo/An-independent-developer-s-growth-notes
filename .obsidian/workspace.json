@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e25bbf2ce2ac1706",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "后端/ASP.NET Core/异步编程.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "异步编程"
-            }
-          },
-          {
             "id": "889ac68fdfc0985f",
             "type": "leaf",
             "state": {
@@ -168,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap Study/C Shrap 练习题：.md"
+                "file": "后端/C Shrap 面试题/break ; continue ;return.md"
               },
               "icon": "lucide-list",
-              "title": "C Shrap 练习题： 的大纲"
+              "title": "break ; continue ;return 的大纲"
             }
           },
           {
@@ -219,28 +205,29 @@
       "i18n:I18N": false
     }
   },
-  "active": "889ac68fdfc0985f",
+  "active": "6fb3cac6a9bedbf5",
   "lastOpenFiles": [
-    "后端/C Shrap 面试题/break ; continue ;return.md",
+    "图片/Pasted image 20241016231734.png",
+    "图片/Pasted image 20241024133229.png",
+    "图片/Pasted image 20241024165716.png",
+    "图片/Pasted image 20241024235851.png",
+    "项目/项目管理/项目管理的小知识总结/项目中标后，销售人员或者陪销售人员去客户现场的工作总结.md",
     "后端/ASP.NET Core/异步编程.md",
-    "后端/ASP.NET Core/中间件.md",
     "后端/C Shrap Study/C Shrap 练习题：.md",
+    "后端/C Shrap 面试题/break ; continue ;return.md",
+    "后端/ASP.NET Core/中间件.md",
     "后端/C Shrap Study/Visual Studio 开发平台常用快捷键.md",
     "后端/C Shrap Study/C Shrap Grammer.md",
     "后端/C Shrap Lib/Colorful.Console.md",
     "后端/C Shrap/封装一个日志助手类.md",
-    "项目/项目管理/项目管理的小知识总结/项目中标后，销售人员或者陪销售人员去客户现场的工作总结.md",
     "项目/项目管理/项目管理的小知识总结",
     "项目/项目管理/未命名.md",
     "项目/项目管理",
     "项目/自己的项目",
     "项目/学习开源项目",
     "项目",
-    "图片/Pasted image 20241024235851.png",
     "图片/Pasted image 20241024235638.png",
-    "图片/Pasted image 20241024165716.png",
     "图片/Pasted image 20241024140120.png",
-    "图片/Pasted image 20241024133229.png",
     "后端/C Shrap/is和as的区别.md",
     "后端/C Shrap/C Shrap GetType() 和 typeof 的区别.md",
     "后端/C Shrap/C Shrap 基础概念.md",
@@ -251,7 +238,6 @@
     "后端/C Shrap/控制台打印输出彩色字体    --常规使用.md",
     "后端/C Shrap/控制台彩色打印colorful.console        --日志.md",
     "后端/ASP.NET Core/ORM/未命名.md",
-    "图片/Pasted image 20241016231734.png",
     "交换.md",
     "后端/C Shrap  algorithm",
     "C Shrap Grammar/C Shrap Grammar/obj/Debug/net8.0/ref/C Shrap Grammar.dll",
@@ -261,7 +247,6 @@
     "后端/ASP.NET Core/DotNET Core的重要问题.md",
     "前端/JavaScript/JavaScript 基础.md",
     "前端/CSS/CSS 基础.md",
-    "前端/HTML/HTML 基础.md",
-    "2.md"
+    "前端/HTML/HTML 基础.md"
   ]
 }
