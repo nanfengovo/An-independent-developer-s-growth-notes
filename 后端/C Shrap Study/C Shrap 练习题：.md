@@ -616,4 +616,35 @@ namespace C_Shrap_Grammar
 }
 
 ```
-## 23.
+## 23.求两个整数的的最大值
+```c#
+using System;
+using System.Diagnostics.CodeAnalysis;
+using System.Reflection.Emit;
+using System.Security.Cryptography.X509Certificates;
+using System.Threading.Channels;
+
+namespace C_Shrap_Grammar
+{   internal class Program
+   {
+       static void Main(string[] args)
+       {
+	           #region 23. 求两个整数的的最大值
+			    int max = GetMax(10, 3);
+			    Console.WriteLine(max);
+			    #endregion
+		}
+		 /// <summary>
+		 /// 23.找出两个整数的的最大值并将最大值返回
+		 /// </summary>
+		 /// <param name="num1">第一个参数</param>
+		 /// <param name="num2">第二个参数</param>
+		 /// <returns>将最大值返回</returns>
+		 public static int GetMax(int num1, int num2)
+		 {
+		     return num1 > num2 ? num1 : num2;
+		 }
+     }
+}
+
+```
