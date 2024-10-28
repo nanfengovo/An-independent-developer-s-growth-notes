@@ -648,3 +648,40 @@ namespace C_Shrap_Grammar
 }
 
 ```
+## 24.使用方法实现：计算输入数组的和
+```c#
+using System;
+using System.Diagnostics.CodeAnalysis;
+using System.Reflection.Emit;
+using System.Security.Cryptography.X509Certificates;
+using System.Threading.Channels;
+
+namespace C_Shrap_Grammar
+{   internal class Program
+   {
+       static void Main(string[] args)
+       {
+	            #region 24.使用方法实现：计算输入数组的和
+				 int[] num = { 1, 2, 3, 4, 5, 6, 7, 8 };
+				int s = GetSum(num);
+				 Console.WriteLine("数组的和为{0}",s);
+				 #endregion
+		}
+	      /// <summary>
+	      /// 24.使用方法实现：计算输入数组的和
+	      /// </summary>
+	      /// <param name="numbers">需要求和的数组</param>
+	      /// <returns>返回求和的结果</returns>
+	      public static int GetSum(int[] numbers)
+	      { 
+	          int sum = 0;
+	          for (int i = 0; i < numbers.Length; i++)
+	          { 
+	              sum += numbers[i];
+	              
+	          }
+	          return sum;
+	      }
+     }
+}
+```
