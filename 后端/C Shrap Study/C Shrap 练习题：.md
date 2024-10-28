@@ -531,8 +531,36 @@ using System.Security.Cryptography.X509Certificates;
 using System.Threading.Channels;
 
 namespace C_Shrap_Grammar
-{ internal class Program
- {
+{
+	internal class Program
+	{
      static void Main(string[] args)
      {
+		        #region 21. 读取输入的整数，定义成方法，多次调用（如果用户输入的是数字则返回，否则提示用户重新输入）
+				 Console.WriteLine("请输入数字");
+				 string s = Console.ReadLine();
+				 GetNumber(s);
+				 #endregion
+	}
+	 public static int GetNumber(string s)
+        {
+            while (true)
+            {
+                try
+                {
+                    int num = Convert.ToInt32(s);
+                    return num;
+                }
+                catch 
+                {
+
+                    Console.WriteLine("请重新输入");
+                    s= Console.ReadLine();
+                }
+            }
+        }
+    }
+}
+
 ```
+## 22.只允许用户输入y或n,请改成方法
