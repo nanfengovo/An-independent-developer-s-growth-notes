@@ -523,3 +523,16 @@ for (int i = 0; i < s.Length; i++)
 #endregion
 ```
 ## 21.读取输入的整数，定义成方法，多次调用（如果用户输入的是数字则返回，否则提示用户重新输入）
+```c#
+using System;
+using System.Diagnostics.CodeAnalysis;
+using System.Reflection.Emit;
+using System.Security.Cryptography.X509Certificates;
+using System.Threading.Channels;
+
+namespace C_Shrap_Grammar
+{ internal class Program
+ {
+     static void Main(string[] args)
+     {
+```
