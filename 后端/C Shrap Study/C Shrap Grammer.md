@@ -557,3 +557,5 @@ namespace C_Shrap_Grammar
 	}
 }
 ```
+# 总结out参数和ref参数
+## 
