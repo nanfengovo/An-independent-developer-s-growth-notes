@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "后端/C Shrap Study/C Shrap 练习题：.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -35,8 +35,7 @@
               "title": "C Shrap Grammer"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap Study/C Shrap Grammer.md"
+                "file": "后端/C Shrap Study/C Shrap 练习题：.md"
               },
               "icon": "lucide-list",
-              "title": "C Shrap Grammer 的大纲"
+              "title": "C Shrap 练习题： 的大纲"
             }
           },
           {
@@ -205,10 +204,10 @@
       "i18n:I18N": false
     }
   },
-  "active": "6fb3cac6a9bedbf5",
+  "active": "889ac68fdfc0985f",
   "lastOpenFiles": [
-    "后端/C Shrap Study/C Shrap 练习题：.md",
     "后端/C Shrap Study/C Shrap Grammer.md",
+    "后端/C Shrap Study/C Shrap 练习题：.md",
     "数据库/MySQL/MySQL 日志相关配置.md",
     "数据库/MySQL/MySQL配置到系统环境变量(Windows).md",
     "图片/Pasted image 20241029160914.png",

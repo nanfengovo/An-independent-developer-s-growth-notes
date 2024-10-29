@@ -25,6 +25,7 @@
 23.使用方法实现：查找两个整数中的最大值
 24.使用方法实现：计算输入数组的和
 25.写一个方法，求一个数组中的最大值、最小值、总和、平均值
+26.分别提示用户输入用户名和密码；写一个方法来pan
 ```
 
 ---
@@ -687,6 +688,7 @@ namespace C_Shrap_Grammar
 }
 ```
 ## 25.写一个方法，求一个数组中的最大值、最小值、总和、平均值
+### 方法一：使用数组返回：
 ```c#
 using System;
 using System.Diagnostics.CodeAnalysis;
@@ -737,6 +739,67 @@ namespace C_Shrap_Grammar
 		     //平均值
 		     res[3] = res[2] / nums.Length;
 		     return res;
+		 }
+	}
+}
+```
+### 方法二：使用out参数
+```c#
+using System;
+using System.Diagnostics.CodeAnalysis;
+using System.Reflection.Emit;
+using System.Security.Cryptography.X509Certificates;
+using System.Threading.Channels;
+
+namespace C_Shrap_Grammar
+{
+	    internal class Program
+    {
+        static void Main(string[] args)
+        {
+		    int[] nums = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+	         #region 25-2 .方法2：使用out 参数 --对相同类型和不同类型都有效
+			  int max = 0;
+			  int min = 0;
+			  int sum = 0;
+			  int avg = 0;
+			  Test(nums, out max, out min, out sum, out avg);
+			  Console.WriteLine("最大值是{0}，最小值是{1}，总和是{2}，平均值是{3}", max,min,sum,avg);
+			
+			  #endregion
+		}
+		  /// <summary>
+		 /// 25-2. 求一个数组中的最大值、最小值、总和、平均值
+		 /// </summary>
+		 /// <param name="nums">要求值的数组</param>
+		 /// <param name="max">多余返回的最大值</param>
+		 /// <param name="min">多余返回的最小值</param>
+		 /// <param name="sum">多余返回的总和</param>
+		 /// <param name="avg">多余返回的平均值</param>
+		 public static void Test(int[] nums, out int max, out int min, out int sum, out int avg)
+		 {
+		     //out 参数要求在方法的内部必须为其赋值
+		     max = nums[0];
+		     min = nums[0];
+		     sum = 0;
+		     for (int i = 0; i < nums.Length; i++)
+		     {
+		         //如果当前循环到的元素比最大值还大，就把它赋值给最大值
+		         if (nums[i] > max)
+		         {
+		             max = nums[i];
+		         }
+		         //如果当前循环到的元素比最小值还小，就把它赋值给最小值
+		         if (nums[i] < min)
+		         {
+		             min = nums[i];
+		         }
+		         //求和
+		         sum += nums[i];
+		
+		     }
+		     avg = sum / nums.Length;
+		
 		 }
 	}
 }
