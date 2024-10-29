@@ -804,3 +804,63 @@ namespace C_Shrap_Grammar
 	}
 }
 ```
+## 26.分别提示用户输入用户名和密码；写一个方法来判断用户输入的是否正确；返回给用户一个登录结果，并且还要单独的返回给用户一个登录信息；如果用户名或密码错误，除了返回登录结果外，还要返回一个用户名错误或密码错误
+```c#
+using System;
+using System.Diagnostics.CodeAnalysis;
+using System.Reflection.Emit;
+using System.Security.Cryptography.X509Certificates;
+using System.Threading.Channels;
+
+namespace C_Shrap_Grammar
+{
+	    internal class Program
+    {
+        static void Main(string[] args)
+        {
+		  #region 26.分别提示用户输入用户名和密码；写一个方法来判断用户输入的是否正确；返回给用户一个登录结果，并且还要单独的返回给用户一个登录信息；如果用户名或密码错误，除了返回登录结果外，还要返回一个用户名错误或密码错误
+		  Console.WriteLine("请输入用户名！");
+		  string userName = Console.ReadLine();
+		  Console.WriteLine("请输入密码！");
+		  string password = Console.ReadLine();
+		  string msg = "";
+		  bool b = IsLogin(userName, password, out msg);
+		  Console.WriteLine(msg);
+		  #endregion
+		}
+		  /// <summary>
+		 /// 26.分别提示用户输入用户名和密码；写一个方法来判断用户输入的是否正确；返回给用户一个登录结果，并且还要单独的返回给用户一个登录信息；如果用户名或密码错误，除了返回登录结果外，还要返回一个用户名错误或密码错误
+		 /// </summary>
+		 /// <param name="username">用户名</param>
+		 /// <param name="pwd">密码</param>
+		 /// <param name="msg">多余返回的登录信息</param>
+		 /// <returns>返回的登录结果</returns>
+		 public static bool IsLogin(string username, string pwd, out string msg)
+		 {
+		     if (username == "admin" && pwd == "123456")
+		     {
+		         msg = "登录成功！";
+		         return true;
+		     }
+		     if (username == "admin")
+		     {
+		         msg = "用户名错误！";
+		         return false;
+		     }
+		     if (pwd == "123456")
+		     {
+		         msg = "密码错误！";
+		         return false;
+		
+		     }
+		     else
+		     {
+		         msg = "用户名和密码错误！";
+		         return false;
+		     }
+		
+		 
+		 }
+	}
+}
+```
