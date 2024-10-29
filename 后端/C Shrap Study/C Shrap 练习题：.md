@@ -686,3 +686,58 @@ namespace C_Shrap_Grammar
      }
 }
 ```
+## 25.写一个方法，求一个数组中的最大值、最小值、总和、平均值
+```c#
+using System;
+using System.Diagnostics.CodeAnalysis;
+using System.Reflection.Emit;
+using System.Security.Cryptography.X509Certificates;
+using System.Threading.Channels;
+
+namespace C_Shrap_Grammar
+{
+	    internal class Program
+    {
+        static void Main(string[] args)
+        {
+	        #region 25.写一个方法，求一个数组中的最大值、最小值、总和、平均值
+			int[] nums = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+			int [] res = GetMaxMinSunAvg(nums);
+			Console.WriteLine("最大值是{0}，最小值是{1}，总和是{2}，平均值是{3}", res[0], res[1], res[2], res[3]);
+			#endregion
+		}
+		 /// <summary>
+		 ///25. 求一个数组中的最大值、最小值、总和、平均值
+		 /// </summary>
+		 /// <param name="nums"></param>
+		 /// <returns></returns>
+		 public static int[] GetMaxMinSunAvg(int[] nums)
+		 {
+		     int[] res = new int[4];
+		     //假设res[0]是最大值；res[1]是最小值；res[2]是总和；res[3]是平均值
+		     res[0] = nums[0];//max
+		     res[1] = nums[0];//min
+		     res[2] = 0;
+		     for (int i = 0; i < nums.Length; i++)
+		     {
+		         //如果当前循环到的元素比最大值还大，就把它赋值给最大值
+		         if (nums[i] > res[0])
+		         {
+		             res[0] = nums[i];
+		         }
+		         //如果当前循环到的元素比最小值还小，就把它赋值给最小值
+		         if (nums[i] < res[1])
+		         {
+		             res[1] = nums[i];
+		         }
+		         //求和
+		         res[2] += nums[i];
+		
+		     }
+		     //平均值
+		     res[3] = res[2] / nums.Length;
+		     return res;
+		 }
+	}
+}
+```

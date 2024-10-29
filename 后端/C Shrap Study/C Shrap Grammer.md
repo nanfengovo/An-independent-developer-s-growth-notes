@@ -357,3 +357,4 @@ for (int i = 0;i < nums.Length;i++)
 #endregion
 ```
 # out 参数的使用
+##  如果在一个方法中返回多个相同类型的值的时候
