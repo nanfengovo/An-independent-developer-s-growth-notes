@@ -522,4 +522,38 @@ namespace C_Shrap_Grammar
 	}
 }
 ```
-## 尝试使用out参数
+## 尝试使用out参数 ,也可以实现
+```c#
+using System;
+using System.Diagnostics.CodeAnalysis;
+using System.Reflection.Emit;
+using System.Security.Cryptography.X509Certificates;
+using System.Threading.Channels;
+
+namespace C_Shrap_Grammar
+{
+	    internal class Program
+    {
+        static void Main(string[] args)
+        {
+		     #region ref 参数
+			 double salary = 10000;
+			  #region 尝试使用out参数
+			 GetBonus(salary, out double newSalary);
+			 Console.WriteLine(newSalary);
+			 #endregion
+			 #endregion
+		}
+			 /// <summary>
+			 ///  尝试使用out参数
+			 /// </summary>
+			 /// <param name="salary">原工资</param>
+			 /// <param name="newSalary">新工资</param>
+			 public static void GetBonus( double salary,out double newSalary)
+			 {
+			     salary += 1000;
+			     newSalary = salary;
+			 }
+	}
+}
+```
