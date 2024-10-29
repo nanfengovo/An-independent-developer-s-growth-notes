@@ -603,7 +603,7 @@ namespace C_Shrap_Grammar
 	}
 }
 ```
-## 使用 params 可变参数  --优点:少声明一个数组
+## 使用 params 可变参数 （只能放最后一个参数）  --优点:少声明一个数组
 ```c#
 using System;
 using System.Diagnostics.CodeAnalysis;
