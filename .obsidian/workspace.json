@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/MySQL/MySQL配置到系统环境变量(Windows).md",
+                "file": "后端/C Shrap Study/C Shrap Grammer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MySQL配置到系统环境变量(Windows)"
+              "title": "C Shrap Grammer"
             }
           }
         ],
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/MySQL/MySQL配置到系统环境变量(Windows).md"
+                "file": "后端/C Shrap Study/C Shrap Grammer.md"
               },
               "icon": "lucide-list",
-              "title": "MySQL配置到系统环境变量(Windows) 的大纲"
+              "title": "C Shrap Grammer 的大纲"
             }
           },
           {
@@ -207,13 +207,14 @@
   },
   "active": "6fb3cac6a9bedbf5",
   "lastOpenFiles": [
+    "数据库/MySQL/MySQL 日志相关配置.md",
+    "数据库/MySQL/MySQL配置到系统环境变量(Windows).md",
+    "图片/Pasted image 20241029160914.png",
     "图片/Pasted image 20241029104830.png",
     "图片/Pasted image 20241029104715.png",
     "图片/Pasted image 20241029104632.png",
     "图片/Pasted image 20241029103441.png",
     "图片/Pasted image 20241029103004.png",
-    "数据库/MySQL/MySQL 日志相关配置.md",
-    "数据库/MySQL/MySQL配置到系统环境变量(Windows).md",
     "后端/C Shrap 面试题/break ; continue ;return.md",
     "数据库/MySQL",
     "未命名",
@@ -236,8 +237,6 @@
     "项目/自己的项目",
     "项目/学习开源项目",
     "项目",
-    "图片/Pasted image 20241024235638.png",
-    "图片/Pasted image 20241024140120.png",
     "后端/C Shrap/is和as的区别.md",
     "后端/C Shrap/C Shrap GetType() 和 typeof 的区别.md",
     "后端/C Shrap/C Shrap 基础概念.md",

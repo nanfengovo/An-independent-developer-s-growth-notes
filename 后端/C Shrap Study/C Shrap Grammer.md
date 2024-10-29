@@ -356,3 +356,4 @@ for (int i = 0;i < nums.Length;i++)
 
 #endregion
 ```
+# out 参数的使用

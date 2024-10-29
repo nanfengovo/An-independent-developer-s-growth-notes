@@ -13,3 +13,5 @@ mysql --version
 ![[Pasted image 20241029104632.png]]
 ![[Pasted image 20241029104715.png]]
 ![[Pasted image 20241029104830.png]]
+# 配置好后：
+![[Pasted image 20241029160914.png]]
