@@ -558,4 +558,7 @@ namespace C_Shrap_Grammar
 }
 ```
 # 总结out参数和ref参数
-## 
+>1.out参数必须要在方法内部进行赋值
+>2.ref参数必须要在方法外部赋值，方法内可以不赋值
+
+# params 可变参数
