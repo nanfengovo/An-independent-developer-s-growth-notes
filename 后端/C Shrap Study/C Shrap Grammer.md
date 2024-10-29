@@ -566,4 +566,36 @@ namespace C_Shrap_Grammar
  >问题引入：
  >有一个方法传入一个姓名，一个成绩的数组，求那个人的总成绩
  
- 
+##  第一种：正常写法
+```c#
+using System;
+using System.Diagnostics.CodeAnalysis;
+using System.Reflection.Emit;
+using System.Security.Cryptography.X509Certificates;
+using System.Threading.Channels;
+
+namespace C_Shrap_Grammar
+{
+	    internal class Program
+    {
+        static void Main(string[] args)
+        {
+        
+		       #region 常规操作
+			  int[] score = { 99, 78, 98 };
+			  GetSumScore("张三", score);
+			  #endregion
+		}
+			 /// <summary>
+			 ///  尝试使用out参数
+			 /// </summary>
+			 /// <param name="salary">原工资</param>
+			 /// <param name="newSalary">新工资</param>
+			 public static void GetBonus( double salary,out double newSalary)
+			 {
+			     salary += 1000;
+			     newSalary = salary;
+			 }
+	}
+}
+```
