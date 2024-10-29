@@ -6,4 +6,6 @@ mysql --version
 ```
 此时还没有配置环境变量：
 ![[Pasted image 20241029103004.png]]
-可以到MySQL的安装目录下去执行这个命令 （Windows 默认安装路径为：）
+可以到MySQL的安装目录下调出cmd去执行这个命令 （Windows 默认安装路径为：C:\Program Files\MySQL\MySQL Server 8.0\bin）
+![[Pasted image 20241029103441.png]]
+我们发现这个时候命令是可以被识别到的，所以将这个路径配置到path下
