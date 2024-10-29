@@ -490,3 +490,36 @@ namespace C_Shrap_Grammar
 	}
 }
 ```
+### 第二种：使用ref参数
+```c#
+using System;
+using System.Diagnostics.CodeAnalysis;
+using System.Reflection.Emit;
+using System.Security.Cryptography.X509Certificates;
+using System.Threading.Channels;
+
+namespace C_Shrap_Grammar
+{
+	    internal class Program
+    {
+        static void Main(string[] args)
+        {
+		     #region ref 参数
+			 double salary = 10000;
+			 //使用ref
+			 GetBonus(ref salary);
+			 Console.WriteLine(salary);
+			 #endregion
+		}
+		 /// <summary>
+		 /// 获取奖金；在原工资的基础上加上1000
+		 /// </summary>
+		 /// <param name="salary">原工资</param>
+		 public static void GetBonus( double ref salary)
+		 { 
+		     salary += 1000;
+		 }
+	}
+}
+```
+## 尝试使用out参数
