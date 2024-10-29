@@ -587,15 +587,54 @@ namespace C_Shrap_Grammar
 			  #endregion
 		}
 			 /// <summary>
-			 ///  尝试使用out参数
+			 /// 常规操作 有一个方法传入一个姓名，一个成绩的数组，求那个人的总成绩
 			 /// </summary>
-			 /// <param name="salary">原工资</param>
-			 /// <param name="newSalary">新工资</param>
-			 public static void GetBonus( double salary,out double newSalary)
-			 {
-			     salary += 1000;
-			     newSalary = salary;
+			 /// <param name="name"></param>
+			 /// <param name="scores"></param>
+			 public static void GetSumScore(string name, int[] scores)
+			 { 
+			     int sum = 0;
+			     for (int i = 0; i < scores.Length; i++)
+			     {
+			         sum += scores[i];
+			     }
+			     Console.WriteLine("{0}的总成绩是{1}", name, sum);
 			 }
 	}
 }
+```
+## 使用 params 可变参数  --优点:少声明一个数组
+```c#
+using System;
+using System.Diagnostics.CodeAnalysis;
+using System.Reflection.Emit;
+using System.Security.Cryptography.X509Certificates;
+using System.Threading.Channels;
+
+namespace C_Shrap_Grammar
+{
+	    internal class Program
+    {
+        static void Main(string[] args)
+        {
+        
+		        #region 使用params 可变参数
+				 GetSumScore("李四", 100,100,100);
+				 #endregion
+		}
+			 /// <summary>
+			 /// 使用params 可变参数  --有一个方法传入一个姓名，一个成绩的数组，求那个人的总成绩
+			 /// </summary>
+			 /// <param name="name"></param>
+			 /// <param name="scores"></param>
+			 public static void GetSumScore(string name, params int[] scores)
+			 {
+			     int sum = 0;
+			     for (int i = 0; i < scores.Length; i++)
+			     {
+			         sum += scores[i];
+			     }
+			     Console.WriteLine("{0}的总成绩是{1}", name, sum);
+			 }
+} 
 ```
