@@ -358,6 +358,9 @@ for (int i = 0;i < nums.Length;i++)
 ```
 # out 参数的使用  --out参数可以返回多个相同类型的值也可以返回多个不同类型的值
 ##  如果在一个方法中返回多个相同类型的值的时候，可以考虑返回一个数组。但是如果返回不同类型的值的时候数组就不可以了，这个时候可以使用out 参数
+## 注意点：
+* 在调用含out参数的方法前需要先声明out参数相关的变量
+* 在调用含out参数的方法时，方法内部需要对其赋值*
 ```c#
 using System;
 using System.Diagnostics.CodeAnalysis;
@@ -382,37 +385,38 @@ namespace C_Shrap_Grammar
 			
 			  #endregion
 		}
-		 /// <summary>
-		 ///25. 求一个数组中的最大值、最小值、总和、平均值
+		  /// <summary>
+		 /// 25-2. 求一个数组中的最大值、最小值、总和、平均值
 		 /// </summary>
-		 /// <param name="nums"></param>
-		 /// <returns></returns>
-		 public static int[] GetMaxMinSunAvg(int[] nums)
+		 /// <param name="nums">要求值的数组</param>
+		 /// <param name="max">多余返回的最大值</param>
+		 /// <param name="min">多余返回的最小值</param>
+		 /// <param name="sum">多余返回的总和</param>
+		 /// <param name="avg">多余返回的平均值</param>
+		 public static void Test(int[] nums, out int max, out int min, out int sum, out int avg)
 		 {
-		     int[] res = new int[4];
-		     //假设res[0]是最大值；res[1]是最小值；res[2]是总和；res[3]是平均值
-		     res[0] = nums[0];//max
-		     res[1] = nums[0];//min
-		     res[2] = 0;
+		     //out 参数要求在方法的内部必须为其赋值
+		     max = nums[0];
+		     min = nums[0];
+		     sum = 0;
 		     for (int i = 0; i < nums.Length; i++)
 		     {
 		         //如果当前循环到的元素比最大值还大，就把它赋值给最大值
-		         if (nums[i] > res[0])
+		         if (nums[i] > max)
 		         {
-		             res[0] = nums[i];
+		             max = nums[i];
 		         }
 		         //如果当前循环到的元素比最小值还小，就把它赋值给最小值
-		         if (nums[i] < res[1])
+		         if (nums[i] < min)
 		         {
-		             res[1] = nums[i];
+		             min = nums[i];
 		         }
 		         //求和
-		         res[2] += nums[i];
+		         sum += nums[i];
 		
 		     }
-		     //平均值
-		     res[3] = res[2] / nums.Length;
-		     return res;
+		     avg = sum / nums.Length;
+		
 		 }
 	}
 }
