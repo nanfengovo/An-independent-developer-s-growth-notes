@@ -422,3 +422,39 @@ namespace C_Shrap_Grammar
 }
 ```
 # ref 参数
+>问题引入：
+>员工A工资10000；很好的完成了一个项目，月底获得额外的奖金1000；要求打印他月底的总工资；
+
+```c#
+using System;
+using System.Diagnostics.CodeAnalysis;
+using System.Reflection.Emit;
+using System.Security.Cryptography.X509Certificates;
+using System.Threading.Channels;
+
+namespace C_Shrap_Grammar
+{
+	    internal class Program
+    {
+        static void Main(string[] args)
+        {
+		     #region ref 参数
+			 double salary = 10000;
+			 //因为方法没有返回值，所以salary没有被赋值；打印后还是原来的值
+			 GetBonus(salary);
+			 Console.WriteLine(salary);
+			 #endregion
+		}
+		 /// <summary>
+		 /// 获取奖金；在原工资的基础上加上1000
+		 /// </summary>
+		 /// <param name="salary">原工资</param>
+		 public static void GetBonus( double salary)
+		 { 
+		     salary += 1000;
+		 }
+	}
+}
+```
+## 有两种方法解决：
+###
