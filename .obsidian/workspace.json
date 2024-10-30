@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "后端/C Shrap Project/Flying Chess (飞行棋项目).md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -181,7 +181,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
