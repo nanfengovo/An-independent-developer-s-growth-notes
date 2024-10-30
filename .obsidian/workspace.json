@@ -179,9 +179,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "0925f16dc8a83c70",
+            "type": "leaf",
+            "state": {
+              "type": "langr-learn-panel",
+              "state": {},
+              "icon": "reading-glasses",
+              "title": "学习新单词"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -205,7 +215,7 @@
       "i18n:I18N": false
     }
   },
-  "active": "6fb3cac6a9bedbf5",
+  "active": "06685bef4dd4a0cd",
   "lastOpenFiles": [
     "图片/ASP.NET Core 6 框架揭秘-样章(1).pdf",
     "后端/C Shrap Project/Flying Chess (飞行棋项目).md",
