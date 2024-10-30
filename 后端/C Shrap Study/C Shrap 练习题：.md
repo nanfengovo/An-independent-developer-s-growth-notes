@@ -866,3 +866,48 @@ namespace C_Shrap_Grammar
 }
 ```
 ## 27.通过冒泡排序法对整数数组{1，3，4，7，90，2，4，6，8，10}实现升序排序
+```c#
+using System;
+using System.Diagnostics.CodeAnalysis;
+using System.Reflection.Emit;
+using System.Security.Cryptography.X509Certificates;
+using System.Threading.Channels;
+
+namespace C_Shrap_Grammar
+{
+	    internal class Program
+    {
+        static void Main(string[] args)
+        {
+		  #region 27.通过冒泡排序法对整数数组{1，3，4，7，90，2，4，6，8，10}实现升序排序
+			int[] arr = { 1, 3, 4, 7, 90, 2, 4, 6, 8, 10 };
+			AscendingOrder(arr);
+			for (int i = 0; i < arr.Length; i++)
+			{
+			    Console.WriteLine(arr[i]);
+			}
+			#endregion
+		}
+		 /// <summary>
+		 ///  27.通过冒泡排序法对整数数组{1，3，4，7，90，2，4，6，8，10}实现升序排序
+		 /// </summary>
+		 /// <param name="arr"></param>
+		 public static void AscendingOrder(int[] arr)
+		 {
+		     for (int i = 0; i < arr.Length - 1; i++)
+		     {
+		         for (int j = 0; j < arr.Length - 1 - i; j++)
+		         {
+		             if (arr[j] > arr[j + 1])
+		             {
+		                 int temp = arr[j];
+		                 arr[j] = arr[j + 1];
+		                 arr[j + 1] = temp;
+		             }
+		         }
+		     }
+		
+		 }
+	}
+}
+```
