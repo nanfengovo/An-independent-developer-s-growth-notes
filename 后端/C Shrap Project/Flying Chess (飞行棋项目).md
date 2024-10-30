@@ -20,3 +20,4 @@
 >1.  Console.WriteLine("**************************************************************************", Console.ForegroundColor = ConsoleColor.Blue);      --表示控制台打印输出的前景色（文字的颜色是Blue）
 >2. Console.ResetColor();    -- 表示回复控制台的默认颜色
 
+# 初始化地图（加载地图所需要的资源）
