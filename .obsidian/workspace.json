@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap Study/C Shrap Grammer.md",
+                "file": "后端/C Shrap Study/C Shrap 练习题：.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C Shrap Grammer"
+              "title": "C Shrap 练习题："
             }
           }
         ],
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap Study/C Shrap Grammer.md"
+                "file": "后端/C Shrap Study/C Shrap 练习题：.md"
               },
               "icon": "lucide-list",
-              "title": "C Shrap Grammer 的大纲"
+              "title": "C Shrap 练习题： 的大纲"
             }
           },
           {
@@ -207,9 +207,11 @@
   },
   "active": "6fb3cac6a9bedbf5",
   "lastOpenFiles": [
+    "后端/C Shrap Study/C Shrap Grammer.md",
+    "后端/C Shrap Project/Flying Chess (飞行棋项目).md",
+    "后端/C Shrap Project",
     "数据库/MySQL/MySQL 日志相关配置.md",
     "数据库/MySQL/MySQL配置到系统环境变量(Windows).md",
-    "后端/C Shrap Study/C Shrap Grammer.md",
     "后端/C Shrap  algorithm/交换两个变量的值.md",
     "后端/C Shrap/使用out参数自己实现TryParse()方法.md",
     "后端/C Shrap Study/C Shrap 练习题：.md",
@@ -250,8 +252,6 @@
     "后端/ASP.NET Core/ORM/未命名.md",
     "交换.md",
     "后端/C Shrap  algorithm",
-    "C Shrap Grammar/C Shrap Grammar/obj/Debug/net8.0/ref/C Shrap Grammar.dll",
-    "后端/ASP.NET Core/DotNET Core的重要问题.md",
-    "前端/JavaScript/JavaScript 基础.md"
+    "后端/ASP.NET Core/DotNET Core的重要问题.md"
   ]
 }
