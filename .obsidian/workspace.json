@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap Study/C Shrap 练习题：.md",
+                "file": "后端/C Shrap Project/Flying Chess (飞行棋项目).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C Shrap 练习题："
+              "title": "Flying Chess (飞行棋项目)"
             }
           }
         ],
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap Study/C Shrap 练习题：.md"
+                "file": "后端/C Shrap Project/Flying Chess (飞行棋项目).md"
               },
               "icon": "lucide-list",
-              "title": "C Shrap 练习题： 的大纲"
+              "title": "Flying Chess (飞行棋项目) 的大纲"
             }
           },
           {
@@ -207,6 +207,7 @@
   },
   "active": "6fb3cac6a9bedbf5",
   "lastOpenFiles": [
+    "后端/C Shrap Study/C Shrap 练习题：.md",
     "后端/C Shrap Study/C Shrap Grammer.md",
     "后端/C Shrap Project/Flying Chess (飞行棋项目).md",
     "后端/C Shrap Project",
@@ -214,7 +215,6 @@
     "数据库/MySQL/MySQL配置到系统环境变量(Windows).md",
     "后端/C Shrap  algorithm/交换两个变量的值.md",
     "后端/C Shrap/使用out参数自己实现TryParse()方法.md",
-    "后端/C Shrap Study/C Shrap 练习题：.md",
     "后端/C Shrap/DataTime相关.md",
     "后端/C Shrap/C Shrap 基础概念.md",
     "后端/C Shrap/C Shrap GetType() 和 typeof 的区别.md",
