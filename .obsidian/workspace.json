@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap Project/Flying Chess (飞行棋项目).md",
+                "file": "后端/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flying Chess (飞行棋项目)"
+              "title": "ASP.NET Core 6框架揭秘"
             }
           }
         ],
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap Project/Flying Chess (飞行棋项目).md"
+                "file": "后端/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md"
               },
               "icon": "lucide-list",
-              "title": "Flying Chess (飞行棋项目) 的大纲"
+              "title": "ASP.NET Core 6框架揭秘 的大纲"
             }
           },
           {
@@ -207,9 +207,13 @@
   },
   "active": "6fb3cac6a9bedbf5",
   "lastOpenFiles": [
+    "图片/ASP.NET Core 6 框架揭秘-样章(1).pdf",
+    "后端/C Shrap Project/Flying Chess (飞行棋项目).md",
+    "后端/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
+    "后端/ASP.NET Core/资料",
+    "后端/ASP.NET Core/未命名.md",
     "图片/df027e7b096a50fc01b4b8a11afb814.jpg",
     "后端/C Shrap Study/C Shrap 练习题：.md",
-    "后端/C Shrap Project/Flying Chess (飞行棋项目).md",
     "图片/骑士飞行棋.pdf",
     "后端/C Shrap Study/C Shrap Grammer.md",
     "后端/C Shrap Project",
@@ -236,7 +240,6 @@
     "图片/Pasted image 20241016231734.png",
     "图片/Pasted image 20241024133229.png",
     "图片/Pasted image 20241024165716.png",
-    "图片/Pasted image 20241024235851.png",
     "项目/项目管理/项目管理的小知识总结/项目中标后，销售人员或者陪销售人员去客户现场的工作总结.md",
     "后端/ASP.NET Core/异步编程.md",
     "后端/ASP.NET Core/中间件.md",
@@ -247,11 +250,8 @@
     "项目/项目管理",
     "项目/自己的项目",
     "项目/学习开源项目",
-    "项目",
     "后端/C Shrap/面向对象思想.md",
     "后端/C Shrap 面试题/腾讯.NET基础面试题.md",
-    "后端/C Shrap/控制台彩色打印colorful.console        --日志.md",
-    "后端/ASP.NET Core/ORM/未命名.md",
-    "交换.md"
+    "后端/C Shrap/控制台彩色打印colorful.console        --日志.md"
   ]
 }
