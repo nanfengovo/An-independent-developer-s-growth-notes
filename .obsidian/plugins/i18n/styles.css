@@ -10,6 +10,10 @@
     --i18n-color-grey: #909399;
     --i18n-color-red: #F56C6C;
     --i18n-color-blue: #409EFF;
+
+    --i18n-tag-font-size: 12px;
+    --i18n-tag-border-radius: 2px;
+    --i18n-tag-border-radius-rounded: 9999px;
 }
 
 body {
@@ -116,7 +120,6 @@ button:not(.clickable-icon).i18n-button {
 
 button:not(.clickable-icon).i18n-button:hover {
     color: #fff;
-    /* border: 1px solid var(--i18n-color-primary); */
 }
 
 .i18n-button--primary {
@@ -176,6 +179,31 @@ button:not(.clickable-icon).i18n-button:hover {
     width: auto;
     min-width: 300px;
 }
+
+
+.i18n-tag {
+    background-color: var(--el-tag-bg-color);
+    border-color: var(--el-tag-border-color);
+    color: var(--el-tag-text-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    height: 24px;
+    padding: 0 9px;
+    font-size: var(--i18n-tag-font-size);
+    line-height: 1;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: var(--i18n-tag-border-radius);
+    box-sizing: border-box;
+    white-space: nowrap;
+    /* --el-icon-size: 14px;
+    --el-tag-bg-color: var(--el-color-primary-light-9);
+    --el-tag-border-color: var(--el-color-primary-light-8);
+    --el-tag-hover-color: var(--el-color-primary); */
+}
+
 
 /* 通用 color(颜色) 模块
 ---------------------------------------------------------------- */
@@ -1009,6 +1037,67 @@ button.i18n-agreement__check-button:hover {
     flex: 1;
 }
 
+.workspace-leaf-content .i18n-admin__container {
+    padding: 10px;
+}
+
+
+
+/* white-space: pre-wrap; */
+
+/* review 模块
+---------------------------------------------------------------- */
+.i18n-review__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.workspace-leaf-content .i18n-review__container {
+    padding: 12px;
+}
+
+/* .i18n-review__row-added {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr 1fr auto;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid var(--i18n-edit-border-color);
+}
+
+.i18n-review__row-added:first-child {
+    border-top: 1px solid var(--i18n-edit-border-color);
+} */
+
+.i18n-review__row {
+    display: grid;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid var(--i18n-edit-border-color);
+}
+
+.i18n-review__row:first-child {
+    border-top: 1px solid var(--i18n-edit-border-color);
+}
+
+.i18n-review__row-columns {
+    grid-template-columns: auto 1fr 1fr auto;
+}
+
+.i18n-review__row-columns-added {
+    grid-template-columns: auto 1fr 1fr 1fr auto;
+}
+
+.i18n-review__cell {
+    height: auto;
+    min-width: 0px;
+    padding: 10px 8px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
 /* white-space: pre-wrap; */
 
 /* admin 模块
@@ -1053,4 +1142,11 @@ button.i18n-agreement__check-button:hover {
     width: auto;
     min-width: 50px;
     text-align: right;
+}
+
+.i18n-edit__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
