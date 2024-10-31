@@ -168,10 +168,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap Study/C Shrap 练习题：.md"
+                "file": "后端/C Shrap Project/飞行棋/Flying Chess (飞行棋项目)    --控制台版.md"
               },
               "icon": "lucide-list",
-              "title": "C Shrap 练习题： 的大纲"
+              "title": "Flying Chess (飞行棋项目)    --控制台版 的大纲"
             }
           },
           {
@@ -180,8 +180,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -200,12 +200,12 @@
             "state": {
               "type": "langr-learn-panel",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "reading-glasses",
+              "title": "学习新单词"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -229,7 +229,7 @@
       "i18n:I18N": false
     }
   },
-  "active": "f0624d63853dd6c5",
+  "active": "16f50a8d19b078db",
   "lastOpenFiles": [
     "后端/C Shrap Project/飞行棋",
     "后端/C Shrap Lib/Colorful.Console.md",
