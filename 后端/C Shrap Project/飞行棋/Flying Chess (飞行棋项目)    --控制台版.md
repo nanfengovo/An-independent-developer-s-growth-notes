@@ -46,9 +46,471 @@
 # 图例：幸运轮盘 ＠  地雷：＃   暂停：＄   时空隧道：卐"
 
 # 代码如下：
-```
-```
+```c#
+namespace Flying_Chess_Game
+{
+    internal class Program
+    {
+        //用静态字段来模拟全局变量；使用长度为100的int类型的数组来模拟地图上元素  --Maps[i]=0:普通关卡 □；Maps[i]=1:幸运轮盘  ◎；Maps[i]=2:地雷 ☆；Map[i]=3:暂停 ▲ ；Map[i]=4 :时空隧道 卐
+        public static int[] Maps = new int[100];
 
+        //声明一个静态数组用来存储玩家A和玩家B的坐标
+        public static int[] PlayerPos = new int[2];
+
+        //存储两个玩家的姓名
+        public static string[] PlayerNames = new string[2];
+
+        //布尔类型的数组作为玩家游戏的标记
+        public static bool[] IsPlaying = new bool[2];
+
+        static void Main(string[] args)
+        {
+
+            //绘制游戏头
+            GameShow();
+            #region 提示玩家输入姓名
+            //玩家A
+            Console.WriteLine("请输入玩家A的姓名：");
+            PlayerNames[0] = Console.ReadLine();
+            while (PlayerNames[0] == "")
+            {
+                Console.WriteLine("玩家A的姓名不能为空，请重新输入:");
+                PlayerNames[0] = Console.ReadLine();
+            }
+            //玩家B
+            Console.WriteLine("请输入玩家B的姓名：");
+            PlayerNames[1] = Console.ReadLine();
+            while (PlayerNames[1] == "" || PlayerNames[1] == PlayerNames[0])
+            {
+                if (PlayerNames[1] == "")
+                {
+                    Console.WriteLine("玩家B的姓名不能为空，请重新输入:");
+                    PlayerNames[1] = Console.ReadLine();
+                }
+                else
+                {
+                    Console.WriteLine("玩家A和玩家B的姓名不能相同，请重新输入:");
+                    PlayerNames[1] = Console.ReadLine();
+                }
+
+            }
+            #endregion
+            //玩家姓名输入完成后清屏
+            Console.Clear();
+            //绘制游戏头
+            GameShow();
+            Console.WriteLine(PlayerNames[0] + "的士兵用A表示");
+            Console.WriteLine(PlayerNames[1] + "的士兵用B表示");
+            //Console.WriteLine("图例：幸运轮盘 ＠  地雷：＃   暂停：＄   时空隧道：卐");
+
+            //初始化地图
+            InitailMap();
+            //绘制地图  在绘制地图前一定要先初始化地图
+            DrawMap();
+
+            #region 开始游戏
+            //当玩家A和玩家B没有一个人在终点的时候，两个玩家不停的玩游戏
+            while (PlayerPos[0] < 99 || PlayerPos[1] < 99)
+            {
+                if (IsPlaying[0] == false)
+                {
+                    PlayGame(0);
+                }
+                else 
+                {
+                    IsPlaying[0] = false;
+                }
+                if (PlayerPos[0] >=99)
+                {
+                    Console.WriteLine($"玩家{PlayerNames[0]}赢了,游戏结束！", Console.ForegroundColor = ConsoleColor.Red);
+                    break;
+                }
+                if (IsPlaying[1] == false)
+                {
+                    PlayGame(1);
+                }
+                else
+                {
+                    IsPlaying[1] = false;
+                }
+                if (PlayerPos[1] >= 99)
+                {
+                    Console.WriteLine($"玩家{PlayerNames[1]}赢了,游戏结束！", Console.ForegroundColor = ConsoleColor.Red);
+                    break;
+                }
+
+
+            }
+            Console.WriteLine("\r\n██╗   ██╗██╗ ██████╗████████╗ ██████╗ ██████╗ ██╗   ██╗\r\n██║   ██║██║██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗╚██╗ ██╔╝\r\n██║   ██║██║██║        ██║   ██║   ██║██████╔╝ ╚████╔╝ \r\n╚██╗ ██╔╝██║██║        ██║   ██║   ██║██╔══██╗  ╚██╔╝  \r\n ╚████╔╝ ██║╚██████╗   ██║   ╚██████╔╝██║  ██║   ██║   \r\n  ╚═══╝  ╚═╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝   ╚═╝   \r\n                                                       \r\n");
+            #endregion
+            //PlayerPosChange();
+            DrawMap();
+        }
+        #region 绘制飞行棋游戏头
+        /// <summary>
+        /// 绘制飞行棋游戏头
+        /// </summary>
+        public static void GameShow()
+        {
+            Console.WriteLine("****************************************************************", Console.ForegroundColor = ConsoleColor.Blue);
+            Console.WriteLine("*                              飞                              *", Console.ForegroundColor = ConsoleColor.Yellow);
+            Console.WriteLine("*                              行                              *", Console.ForegroundColor = ConsoleColor.Green);
+            Console.WriteLine("*                              棋                              *", Console.ForegroundColor = ConsoleColor.Red);
+            Console.WriteLine("*                              游                              *", Console.ForegroundColor = ConsoleColor.Gray);
+            Console.WriteLine("*                              戏                              *", Console.ForegroundColor = ConsoleColor.Green);
+            Console.ResetColor();
+            Console.WriteLine("****************************************************************");
+        }
+        #endregion
+
+        #region 初始化地图
+        /// <summary>
+        /// 初始化地图
+        /// </summary>
+        public static void InitailMap()
+        {
+
+            int[] luckyTurn = { 6, 23, 40, 55, 69, 83 }; //幸运轮盘    1
+            for (int i = 0; i < luckyTurn.Length; i++)
+            {
+                //int index = luckyTurn[i];
+                //Maps[index] = 1;
+                Maps[luckyTurn[i]] = 1;
+            }
+
+
+            int[] landMine = { 5, 13, 17, 33, 38, 50, 64, 80, 94 };   //地雷位置  2
+            for (int i = 0; i < landMine.Length; i++)
+            {
+                Maps[landMine[i]] = 2;
+            }
+
+
+            int[] pause = { 9, 27, 60, 93 };         //暂停   3
+            for (int i = 0; i < pause.Length; i++)
+            {
+                Maps[pause[i]] = 3;
+            }
+
+
+            int[] timeTunnel = { 20, 25, 45, 63, 72, 88, 90 };   //时空隧道  4
+            for (int i = 0; i < timeTunnel.Length; i++)
+            {
+                Maps[timeTunnel[i]] = 4;
+            }
+        }
+        #endregion
+
+        #region 绘制地图
+        /// <summary>
+        /// 绘制地图中的元素
+        /// </summary>
+        public static void DrawMap()
+        {
+            #region 绘制图例
+            Console.Write("图例：");
+            Console.Write("幸运轮盘 :＠\t", Console.ForegroundColor = ConsoleColor.Green);
+            Console.Write("地雷 :＃\t", Console.ForegroundColor = ConsoleColor.Red);
+            Console.Write("暂停 :＄\t", Console.ForegroundColor = ConsoleColor.Yellow);
+            Console.WriteLine("时空隧道 :卐\t", Console.ForegroundColor = ConsoleColor.DarkBlue);
+            Console.ResetColor();
+            #endregion
+            #region 第一横行
+            for (int i = 0; i < 30; i++)
+            {
+                Console.Write(DrawStringMap(i)); ;
+
+            }
+            #endregion
+            //画完第一横行后，换行
+            Console.WriteLine();
+            #region 第一竖行
+            for (int i = 30; i < 35; i++)
+            {
+                for (int j = 0; j < 29; j++)
+                {
+                    Console.Write("  ");
+                }
+                Console.Write(DrawStringMap(i)); ;
+                Console.WriteLine();
+            }
+            #endregion
+            #region 第二横行
+            for (int i = 64; i >= 35; i--)
+            {
+                Console.Write(DrawStringMap(i));
+            }
+            #endregion
+
+            //画完第二横行后，换行
+            Console.WriteLine();
+            #region 第二竖行
+            for (int i = 65; i <= 69; i++)
+            {
+                Console.WriteLine(DrawStringMap(i));
+            }
+            #endregion
+            #region 第三横行
+            for (int i = 70; i <= 99; i++)
+            {
+                Console.Write(DrawStringMap(i));
+            }
+            #endregion
+
+            //画完最后一行后，换行
+            Console.WriteLine();
+
+        }
+        #endregion
+
+        #region 绘制地图中的特殊元素
+        /// <summary>
+        /// 绘制地图中的特殊元素
+        /// </summary>
+        /// <param name="i"></param>
+        public static string DrawStringMap(int i)
+        {
+            string str = "";
+
+            //如果玩家A和玩家B的坐标相同，画一个尖括号
+            if (PlayerPos[0] == PlayerPos[1] && PlayerPos[0] == i)
+            {
+                str = "<>";
+                //Console.Write(" ＜＞");
+            }
+            else if (PlayerPos[0] == i)  //玩家A在第一行但是玩家A和玩家B的坐标不一样
+            {
+                //使用shift+空格切换全角和半角
+                str = "Ａ";
+            }
+            else if (PlayerPos[1] == i)  //玩家B在第一行但是玩家A和玩家B的坐标不一样
+            {
+                //使用shift+空格切换全角和半角
+                str = "Ｂ";
+            }
+            else
+            {
+                switch (Maps[i])
+                {
+                    //普通的地图元素
+                    case 0:
+                        str = "[]";
+                        break;
+                    //幸运轮盘
+                    case 1:
+                        //Console.ForegroundColor = ConsoleColor.Green;
+                        //str ="＠" ;
+                        //Console.ResetColor();
+                        PrintElement("＠");
+                        break;
+                    //地雷
+                    case 2:
+                        //Console.ForegroundColor = ConsoleColor.Red;
+                        //str = "＃";
+                        //Console.ResetColor();
+                        PrintElement("＃");
+                        break;
+                    //暂停
+                    case 3:
+                        //Console.ForegroundColor = ConsoleColor.Yellow;
+                        //str = "＄";
+                        //Console.ResetColor();
+                        PrintElement("＄");
+                        break;
+                    //时空隧道
+                    case 4:
+                        //Console.ForegroundColor = ConsoleColor.DarkBlue;
+                        //str = "卐";
+                        //Console.ResetColor();
+                        PrintElement("卐");
+                        break;
+                }
+            }
+            return str;
+
+        }
+        #endregion
+
+        #region 绘制带颜色的特殊元素
+        /// <summary>
+        /// 绘制带颜色的特殊元素
+        /// </summary>
+        /// <param name="str"></param>
+        static void PrintElement(string str)
+        {
+            switch (str)
+            {
+                case "＠":
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.Write("＠");
+                    Console.ResetColor();
+                    break;
+                case "＃":
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write("＃");
+                    Console.ResetColor();
+                    break;
+                case "＄":
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.Write("＄");
+                    Console.ResetColor();
+                    break;
+                case "卐":
+                    Console.ForegroundColor = ConsoleColor.DarkBlue;
+                    Console.Write("卐");
+                    Console.ResetColor();
+                    break;
+
+            }
+
+        }
+        #endregion
+
+
+        #region 保证玩家在地图上
+        /// <summary>
+        /// 玩家坐标改变前调用该方法 （为了省事可以在清空控制台的内容后重新渲染地图的时候调用一次即可）
+        /// </summary>
+        public static void PlayerPosChange()
+        {
+
+            if (PlayerPos[0] < 0)
+            {
+                PlayerPos[0] = 0;
+            }
+            if (PlayerPos[1] < 0)
+            {
+                PlayerPos[1] = 0;
+            }
+            if (PlayerPos[0] >= 99)
+            {
+                PlayerPos[0] = 99;
+                //IsPlaying[0] = true;
+                //IsPlaying[1] = true;
+                //Console.WriteLine($"玩家{PlayerNames[0]}赢了,游戏结束！",Console.ForegroundColor = ConsoleColor.Red);
+                //Console.ResetColor ();
+            }
+            if (PlayerPos[1] >= 99)
+            {
+                PlayerPos[1] = 99;
+                //IsPlaying[0] = true;
+                //IsPlaying[1] = true;
+                //Console.WriteLine($"玩家{PlayerNames[1]}赢了,游戏结束！" ,Console.ForegroundColor    = ConsoleColor.Red);
+                //Console .ResetColor ();
+            }
+        }
+        #endregion
+
+        #region 开始游戏
+        public static void PlayGame(int i)
+        {
+            Console.WriteLine(PlayerNames[i] + "按任意键开始掷骰子");
+            Console.ReadKey(true);
+            Random random = new Random();
+            int index = random.Next(1, 7);
+            Console.WriteLine(PlayerNames[i] + "掷到了" + index + ",前进" + index + "步");
+            PlayerPos[i] += index;
+            PlayerPosChange();
+            //玩家A可能踩到玩家B
+            if (PlayerPos[i] == PlayerPos[1 - i])
+            {
+                Console.WriteLine("玩家" + PlayerNames[i] + "踩到了玩家" + PlayerNames[1 - i] + ",玩家" + PlayerNames[1 - i] + "退6格");
+                PlayerPos[1 - i] -= 6;
+                PlayerPosChange();
+                Console.ReadKey(true);
+            }
+            else
+            {
+                switch (Maps[PlayerPos[i]])
+                {
+                    case 0:
+                        Console.WriteLine("玩家" + PlayerNames[i] + "踩到了方块，这一回合无事发生！");
+                        Console.WriteLine("按下任意键继续！玩家" + PlayerNames[i] + "开始移动");
+                        Console.ReadKey(true);
+                        Console.Clear();
+                        DrawMap();
+                        Console.WriteLine("玩家" + PlayerNames[i] + "行动完成");
+                        Console.WriteLine("按下任意键继续！");
+                        Console.ReadKey(true);
+                        break;
+                    case 1:
+                        Console.WriteLine("玩家" + PlayerNames[i] + "踩到了幸运轮盘，输入1代表和对方交换位置！输入2代表轰炸对方，使对方退6格");
+                        Console.WriteLine("按下任意键继续！玩家" + PlayerNames[i] + "开始移动");
+                        Console.ReadKey(true);
+                        Console.Clear();
+                        DrawMap();
+                        Console.WriteLine("玩家" + PlayerNames[i] + "行动完成");
+                        Console.WriteLine("玩家" + PlayerNames[i] + "踩到了幸运轮盘，输入1代表和对方交换位置！输入2代表轰炸对方，使对方退6格");
+                        //Console.WriteLine("按下任意键继续！");
+                        string input = Console.ReadLine();
+                        while (true)
+                        {
+                            if (input == "1")
+                            {
+                                //玩家A和玩家B交换位置
+                                int temp = PlayerPos[i];
+                                PlayerPos[i] = PlayerPos[1 - i];
+                                PlayerPos[1 - i] = temp;
+                                PlayerPosChange();
+                                break;
+                            }
+                            if (input == "2")
+                            {
+                                PlayerPos[1 - i] -= 6;
+                                PlayerPosChange();
+                                break;
+                            }
+                            else
+                            {
+                                Console.WriteLine("请输入1或者2，不要输入其他的字符！");
+                                input = Console.ReadLine();
+                            }
+                        }
+
+                        break;
+                    case 2:
+                        Console.WriteLine("玩家" + PlayerNames[i] + "踩到了地雷，后退6格");
+                        Console.WriteLine("按下任意键玩家" + PlayerNames[i] + "开始行动");
+                        Console.ReadKey(true);
+                        PlayerPos[i] -= 6;
+                        PlayerPosChange();
+                        Console.Clear();
+                        DrawMap();
+                        Console.WriteLine("玩家" + PlayerNames[i] + "行动结束");
+                        break;
+                    case 3:
+                        //暂停业务未开发
+                        IsPlaying[i] = true;
+                        Console.WriteLine("玩家" + PlayerNames[i] + "踩到了暂停，暂停一回合");
+                        break;
+                    case 4:
+                        Console.WriteLine("玩家" + PlayerNames[i] + "遇到时空隧道，前进十格");
+                        Console.WriteLine("按下任意键玩家" + PlayerNames[i] + "开始行动");
+                        Console.ReadKey(true);
+                        PlayerPos[i] += 10;
+                        PlayerPosChange();
+                        Console.Clear();
+                        DrawMap();
+                        Console.WriteLine("玩家" + PlayerNames[i] + "行动结束");
+                        break;
+                }
+
+            }
+
+        }
+        #endregion
+    }
+}
+
+
+```
+# 产品展示：
+![[Pasted image 20241101003114.png]]
+![[Pasted image 20241101003137.png]]
+![[Pasted image 20241101003242.png]]
+# 游戏规则：
+>- 
+# 实现步骤和理论：
 
 
 
