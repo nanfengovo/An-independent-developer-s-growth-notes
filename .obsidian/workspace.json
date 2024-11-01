@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap  algorithm/交换两个变量的值.md",
+                "file": "后端/C Shrap Study/C Shrap Grammer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "交换两个变量的值"
+              "title": "C Shrap Grammer"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "Flying Chess (飞行棋项目)    --控制台版"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,10 +167,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap Project/飞行棋/Flying Chess (飞行棋项目)    --控制台版.md"
+                "file": "后端/C Shrap Study/C Shrap Grammer.md"
               },
               "icon": "lucide-list",
-              "title": "Flying Chess (飞行棋项目)    --控制台版 的大纲"
+              "title": "C Shrap Grammer 的大纲"
             }
           },
           {
@@ -229,20 +228,20 @@
       "i18n:I18N": false
     }
   },
-  "active": "f0624d63853dd6c5",
+  "active": "889ac68fdfc0985f",
   "lastOpenFiles": [
+    "后端/C Shrap  algorithm/交换两个变量的值.md",
+    "后端/C Shrap Project/飞行棋/Flying Chess (飞行棋项目)    --控制台版.md",
     "图片/Pasted image 20241101003242.png",
     "图片/Pasted image 20241101003137.png",
     "图片/Pasted image 20241101003114.png",
     "后端/C Shrap Project/飞行棋",
     "后端/C Shrap Lib/Colorful.Console.md",
-    "后端/C Shrap  algorithm/交换两个变量的值.md",
     "后端/C Shrap Study/C Shrap 练习题：.md",
     "数据库/MySQL/MySQL配置到系统环境变量(Windows).md",
     "数据库/MySQL/MySQL 日志相关配置.md",
     "后端/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
     "图片/ASP.NET Core 6 框架揭秘-样章(1).pdf",
-    "后端/C Shrap Project/飞行棋/Flying Chess (飞行棋项目)    --控制台版.md",
     "后端/ASP.NET Core/资料",
     "后端/ASP.NET Core/未命名.md",
     "图片/df027e7b096a50fc01b4b8a11afb814.jpg",
@@ -266,7 +265,6 @@
     "数据库/MySQL",
     "未命名",
     "数据库",
-    "图片/Pasted image 20241016231734.png",
     "项目/项目管理/项目管理的小知识总结/项目中标后，销售人员或者陪销售人员去客户现场的工作总结.md",
     "后端/ASP.NET Core/异步编程.md",
     "后端/ASP.NET Core/中间件.md",
