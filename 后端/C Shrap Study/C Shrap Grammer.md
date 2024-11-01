@@ -650,3 +650,5 @@ namespace C_Shrap_Grammar
 ## 属性的本质是get（取值）和set（赋值）方法 给属性赋值，属性起到中间的作用实际还是给字段赋值；属性不存值
 Field 字段
 Method 方法
+property 属性
+>一般字段的访问基本为private ；属性的访问级别要高于字段 一般为Public    --通俗一点jia
