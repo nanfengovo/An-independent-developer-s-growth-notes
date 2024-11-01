@@ -651,4 +651,4 @@ namespace C_Shrap_Grammar
 Field 字段
 Method 方法
 property 属性
->一般字段的访问基本为private ；属性的访问级别要高于字段 一般为Public    --通俗一点jia
+>一般字段的访问基本为private ；属性的访问级别要高于字段 一般为Public    --通俗一点讲就是属性是暴露给外界访问的，字段是不暴露给外界的；给属性赋值实际是给字段赋值，属性是不保存值的
