@@ -537,10 +537,87 @@ namespace Flying_Chess_Game
  #endregion
 ```
 ## 初始化地图
-## 加载地图中特殊的点位 ，封装成fang
+## 加载地图中特殊的点位 ，封装成方法，方便后面刷新后调用InitailMap()
+>int[] luckyTurn = { 6, 23, 40, 55, 69, 83 }; //幸运轮盘   表示幸运轮盘对应的特殊点位的下标
+```c#
+ #region 初始化地图
+ /// <summary>
+ /// 初始化地图
+ /// </summary>
+ public static void InitailMap()
+ {
+
+     int[] luckyTurn = { 6, 23, 40, 55, 69, 83 }; //幸运轮盘    1
+     for (int i = 0; i < luckyTurn.Length; i++)
+     {
+         //int index = luckyTurn[i];
+         //Maps[index] = 1;
+         Maps[luckyTurn[i]] = 1;
+     }
 
 
+     int[] landMine = { 5, 13, 17, 33, 38, 50, 64, 80, 94 };   //地雷位置  2
+     for (int i = 0; i < landMine.Length; i++)
+     {
+         Maps[landMine[i]] = 2;
+     }
+
+
+     int[] pause = { 9, 27, 60, 93 };         //暂停   3
+     for (int i = 0; i < pause.Length; i++)
+     {
+         Maps[pause[i]] = 3;
+     }
+
+
+     int[] timeTunnel = { 20, 25, 45, 63, 72, 88, 90 };   //时空隧道  4
+     for (int i = 0; i < timeTunnel.Length; i++)
+     {
+         Maps[timeTunnel[i]] = 4;
+     }
+ }
+ #endregion
+```
+
+## 但是由于这些特殊的点在地图上是有颜色的，所以我们要在封装一个方法让特殊的点有颜色
+```c#
+  #region 绘制带颜色的特殊元素
+  /// <summary>
+  /// 绘制带颜色的特殊元素
+  /// </summary>
+  /// <param name="str"></param>
+  static void PrintElement(string str)
+  {
+      switch (str)
+      {
+          case "＠":
+              Console.ForegroundColor = ConsoleColor.Green;
+              Console.Write("＠");
+              Console.ResetColor();
+              break;
+          case "＃":
+              Console.ForegroundColor = ConsoleColor.Red;
+              Console.Write("＃");
+              Console.ResetColor();
+              break;
+          case "＄":
+              Console.ForegroundColor = ConsoleColor.Yellow;
+              Console.Write("＄");
+              Console.ResetColor();
+              break;
+          case "卐":
+              Console.ForegroundColor = ConsoleColor.DarkBlue;
+              Console.Write("卐");
+              Console.ResetColor();
+              break;
+
+      }
+
+  }
+  #endregion
+```
 ## 绘制地图
+
 ## 开始游戏
 
 
