@@ -793,7 +793,14 @@ namespace Flying_Chess_Game
  #endregion
 ```
 #### 绘制第三横行：
-
+```c#
+  #region 第三横行
+  for (int i = 70; i <= 99; i++)
+  {
+      Console.Write(DrawStringMap(i));
+  }
+  #endregion
+```
 ## 开始游戏
 
 
