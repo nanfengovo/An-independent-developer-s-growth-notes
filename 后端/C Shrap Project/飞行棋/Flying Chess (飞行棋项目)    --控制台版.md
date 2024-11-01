@@ -802,7 +802,8 @@ namespace Flying_Chess_Game
   #endregion
 ```
 ## 开始游戏
-
+>1.只要有一个人没到终点；游戏就要继续while (PlayerPos[0] < 99 && PlayerPos[1] < 99){}
+>2.
 
 # 实现步骤和理论：
 
