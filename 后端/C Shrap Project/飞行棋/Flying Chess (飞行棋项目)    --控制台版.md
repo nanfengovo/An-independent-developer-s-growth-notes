@@ -617,7 +617,11 @@ namespace Flying_Chess_Game
   #endregion
 ```
 ## 绘制地图
+## 分析一下地图：
 
+![](https://i-blog.csdnimg.cn/blog_migrate/79adfd9ce6da34419b10af02926cb3ac.png)
+>如上图所示：
+>
 ## 开始游戏
 
 
