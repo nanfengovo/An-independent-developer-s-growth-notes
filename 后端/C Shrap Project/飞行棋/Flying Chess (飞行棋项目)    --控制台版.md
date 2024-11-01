@@ -755,7 +755,21 @@ namespace Flying_Chess_Game
  }
  #endregion
 ```
-#### 绘制第一竖行   --上述代码执行完成后；键盘的光标会停留在绘制的第一横行的最后一个位置；首先需要将光标换到下一行，可以通过//画完第一横行后，换行Console.WriteLine();第二竖行
+#### 绘制第一竖行   --上述代码执行完成后；键盘的光标会停留在绘制的第一横行的最后一个位置；首先需要将光标换到下一行，可以通过//画完第一横行后，换行Console.WriteLine();第二竖行从第30个位置开始；所以前面要打印29个空格使用for循环的嵌套
+```c#
+ #region 第一竖行
+ for (int i = 30; i < 35; i++)
+ {
+     for (int j = 0; j < 29; j++)
+     {
+         Console.Write("  ");
+     }
+     Console.Write(DrawStringMap(i)); ;
+     Console.WriteLine();
+ }
+ #endregion
+```
+
 
 ## 开始游戏
 
