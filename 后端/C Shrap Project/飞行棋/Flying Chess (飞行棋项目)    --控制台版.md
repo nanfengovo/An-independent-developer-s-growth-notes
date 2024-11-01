@@ -771,6 +771,29 @@ namespace Flying_Chess_Game
 ```
 
 #### 绘制第二横行
+```c#
+ #region 第二横行
+ for (int i = 64; i >= 35; i--)
+ {
+     Console.Write(DrawStringMap(i));
+ }
+ #endregion
+
+```
+
+#### 绘制第二竖行：
+```c#
+ //画完第二横行后，换行
+ Console.WriteLine();
+ #region 第二竖行
+ for (int i = 65; i <= 69; i++)
+ {
+     Console.WriteLine(DrawStringMap(i));
+ }
+ #endregion
+```
+#### 绘制第三横行：
+
 ## 开始游戏
 
 
