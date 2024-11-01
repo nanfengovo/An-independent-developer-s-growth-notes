@@ -517,7 +517,29 @@ namespace Flying_Chess_Game
 
 # 功能模块拆分：
 ## 绘制游戏头
+##  将游戏头封装成方法方便后续刷新使用到可以调用  GameShow()
+```c#
+ #region 绘制飞行棋游戏头
+ /// <summary>
+ /// 绘制飞行棋游戏头
+ /// </summary>
+ public static void GameShow()
+ {
+     Console.WriteLine("****************************************************************", Console.ForegroundColor = ConsoleColor.Blue);
+     Console.WriteLine("*                              飞                              *", Console.ForegroundColor = ConsoleColor.Yellow);
+     Console.WriteLine("*                              行                              *", Console.ForegroundColor = ConsoleColor.Green);
+     Console.WriteLine("*                              棋                              *", Console.ForegroundColor = ConsoleColor.Red);
+     Console.WriteLine("*                              游                              *", Console.ForegroundColor = ConsoleColor.Gray);
+     Console.WriteLine("*                              戏                              *", Console.ForegroundColor = ConsoleColor.Green);
+     Console.ResetColor();
+     Console.WriteLine("****************************************************************");
+ }
+ #endregion
+```
 ## 初始化地图
+## 加载地图中特殊的点位 ，封装成fang
+
+
 ## 绘制地图
 ## 开始游戏
 
