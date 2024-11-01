@@ -616,13 +616,27 @@ namespace Flying_Chess_Game
   }
   #endregion
 ```
-## 绘制地图
+## 绘制地图  --封装成一个完整的方法在内部调用其他的方法来完善
 ### 分析一下地图：
 
 ![](https://i-blog.csdnimg.cn/blog_migrate/79adfd9ce6da34419b10af02926cb3ac.png)
 >如上图所示：
 >1.图上一共100个元素，如果用int型的数组保存，数组下标到99；
 >2.地图可以拆分成由三个横行和两个竖行组成的
+>3.每次刷新地图上面的图例都需要重新打印
+
+#### 绘制图例
+```c#
+ #region 绘制图例
+ Console.Write("图例：");
+ Console.Write("幸运轮盘 :＠\t", Console.ForegroundColor = ConsoleColor.Green);
+ Console.Write("地雷 :＃\t", Console.ForegroundColor = ConsoleColor.Red);
+ Console.Write("暂停 :＄\t", Console.ForegroundColor = ConsoleColor.Yellow);
+ Console.WriteLine("时空隧道 :卐\t", Console.ForegroundColor = ConsoleColor.DarkBlue);
+ Console.ResetColor();
+ #endregion
+```
+
 
 ## 开始游戏
 
