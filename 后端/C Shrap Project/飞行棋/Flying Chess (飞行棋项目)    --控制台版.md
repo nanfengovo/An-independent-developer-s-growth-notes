@@ -637,7 +637,88 @@ namespace Flying_Chess_Game
  #endregion
 ```
 
+#### 绘制第一横行    --需要绘制地图上的特殊元素 封装成DrawStringMap()
+```c#
+ #region 第一横行
+ for (int i = 0; i < 30; i++)
+ {
+     Console.Write(DrawStringMap(i)); ;
 
+ }
+ #endregion
+
+```
+##### 绘制地图中的特殊元素
+```c# 
+ #region 绘制地图中的特殊元素
+ /// <summary>
+ /// 绘制地图中的特殊元素
+ /// </summary>
+ /// <param name="i"></param>
+ public static string DrawStringMap(int i)
+ {
+     string str = "";
+
+     //如果玩家A和玩家B的坐标相同，画一个尖括号
+     if (PlayerPos[0] == PlayerPos[1] && PlayerPos[0] == i)
+     {
+         str = "<>";
+         //Console.Write(" ＜＞");
+     }
+     else if (PlayerPos[0] == i)  //玩家A在第一行但是玩家A和玩家B的坐标不一样
+     {
+         //使用shift+空格切换全角和半角
+         str = "Ａ";
+     }
+     else if (PlayerPos[1] == i)  //玩家B在第一行但是玩家A和玩家B的坐标不一样
+     {
+         //使用shift+空格切换全角和半角
+         str = "Ｂ";
+     }
+     else
+     {
+         switch (Maps[i])
+         {
+             //普通的地图元素
+             case 0:
+                 str = "[]";
+                 break;
+             //幸运轮盘
+             case 1:
+                 //Console.ForegroundColor = ConsoleColor.Green;
+                 //str ="＠" ;
+                 //Console.ResetColor();
+                 PrintElement("＠");
+                 break;
+             //地雷
+             case 2:
+                 //Console.ForegroundColor = ConsoleColor.Red;
+                 //str = "＃";
+                 //Console.ResetColor();
+                 PrintElement("＃");
+                 break;
+             //暂停
+             case 3:
+                 //Console.ForegroundColor = ConsoleColor.Yellow;
+                 //str = "＄";
+                 //Console.ResetColor();
+                 PrintElement("＄");
+                 break;
+             //时空隧道
+             case 4:
+                 //Console.ForegroundColor = ConsoleColor.DarkBlue;
+                 //str = "卐";
+                 //Console.ResetColor();
+                 PrintElement("卐");
+                 break;
+         }
+     }
+     return str;
+
+ }
+ #endregion
+```
+##### DrawStringMap()方法中yon
 ## 开始游戏
 
 
