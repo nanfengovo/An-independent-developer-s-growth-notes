@@ -718,7 +718,45 @@ namespace Flying_Chess_Game
  }
  #endregion
 ```
-##### DrawStringMap()方法中yon
+##### DrawStringMap()方法中又调用了 PrintElement(); 方法   ---该方法可以使绘制的特殊图例有颜色
+```c#
+ #region 绘制带颜色的特殊元素
+ /// <summary>
+ /// 绘制带颜色的特殊元素
+ /// </summary>
+ /// <param name="str"></param>
+ static void PrintElement(string str)
+ {
+     switch (str)
+     {
+         case "＠":
+             Console.ForegroundColor = ConsoleColor.Green;
+             Console.Write("＠");
+             Console.ResetColor();
+             break;
+         case "＃":
+             Console.ForegroundColor = ConsoleColor.Red;
+             Console.Write("＃");
+             Console.ResetColor();
+             break;
+         case "＄":
+             Console.ForegroundColor = ConsoleColor.Yellow;
+             Console.Write("＄");
+             Console.ResetColor();
+             break;
+         case "卐":
+             Console.ForegroundColor = ConsoleColor.DarkBlue;
+             Console.Write("卐");
+             Console.ResetColor();
+             break;
+
+     }
+
+ }
+ #endregion
+```
+#### 绘制第一竖行
+
 ## 开始游戏
 
 
