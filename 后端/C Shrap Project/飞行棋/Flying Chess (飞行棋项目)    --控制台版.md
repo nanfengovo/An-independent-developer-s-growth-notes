@@ -617,11 +617,13 @@ namespace Flying_Chess_Game
   #endregion
 ```
 ## 绘制地图
-## 分析一下地图：
+### 分析一下地图：
 
 ![](https://i-blog.csdnimg.cn/blog_migrate/79adfd9ce6da34419b10af02926cb3ac.png)
 >如上图所示：
->
+>1.图上一共100个元素，如果用int型的数组保存，数组下标到99；
+>2.地图可以拆分成由三个横行和两个竖行组成的
+
 ## 开始游戏
 
 
