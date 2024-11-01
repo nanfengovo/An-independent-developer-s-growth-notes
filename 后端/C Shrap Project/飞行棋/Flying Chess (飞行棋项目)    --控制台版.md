@@ -804,6 +804,148 @@ namespace Flying_Chess_Game
 ## 开始游戏
 >1.只要有一个人没到终点；游戏就要继续while (PlayerPos[0] < 99 && PlayerPos[1] < 99){}
 >2.
+### 为满足上述条件1；要保证游戏在一个whlie循环中进行
+```c#
+ #region 开始游戏
+ //当玩家A和玩家B没有一个人在终点的时候，两个玩家不停的玩游戏
+ while (PlayerPos[0] < 99 || PlayerPos[1] < 99)
+ {
+     if (IsPlaying[0] == false)
+     {
+         PlayGame(0);
+     }
+     else 
+     {
+         IsPlaying[0] = false;
+     }
+     if (PlayerPos[0] >=99)
+     {
+         Console.WriteLine($"玩家{PlayerNames[0]}赢了,游戏结束！", Console.ForegroundColor = ConsoleColor.Red);
+         break;
+     }
+     if (IsPlaying[1] == false)
+     {
+         PlayGame(1);
+     }
+     else
+     {
+         IsPlaying[1] = false;
+     }
+     if (PlayerPos[1] >= 99)
+     {
+         Console.WriteLine($"玩家{PlayerNames[1]}赢了,游戏结束！", Console.ForegroundColor = ConsoleColor.Red);
+         break;
+     }
+
+
+ }
+ Console.WriteLine("\r\n██╗   ██╗██╗ ██████╗████████╗ ██████╗ ██████╗ ██╗   ██╗\r\n██║   ██║██║██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗╚██╗ ██╔╝\r\n██║   ██║██║██║        ██║   ██║   ██║██████╔╝ ╚████╔╝ \r\n╚██╗ ██╔╝██║██║        ██║   ██║   ██║██╔══██╗  ╚██╔╝  \r\n ╚████╔╝ ██║╚██████╗   ██║   ╚██████╔╝██║  ██║   ██║   \r\n  ╚═══╝  ╚═╝ ╚═════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝   ╚═╝   \r\n                                                       \r\n");
+ #endregion
+ //PlayerPosChange();
+ DrawMap();
+```
+### PlayGame()
+```C#
+     #region 开始游戏
+ public static void PlayGame(int i)
+ {
+     Console.WriteLine(PlayerNames[i] + "按任意键开始掷骰子");
+     Console.ReadKey(true);
+     Random random = new Random();
+     int index = random.Next(1, 7);
+     Console.WriteLine(PlayerNames[i] + "掷到了" + index + ",前进" + index + "步");
+     PlayerPos[i] += index;
+     PlayerPosChange();
+     //玩家A可能踩到玩家B
+     if (PlayerPos[i] == PlayerPos[1 - i])
+     {
+         Console.WriteLine("玩家" + PlayerNames[i] + "踩到了玩家" + PlayerNames[1 - i] + ",玩家" + PlayerNames[1 - i] + "退6格");
+         PlayerPos[1 - i] -= 6;
+         PlayerPosChange();
+         Console.ReadKey(true);
+     }
+     else
+     {
+         switch (Maps[PlayerPos[i]])
+         {
+             case 0:
+                 Console.WriteLine("玩家" + PlayerNames[i] + "踩到了方块，这一回合无事发生！");
+                 Console.WriteLine("按下任意键继续！玩家" + PlayerNames[i] + "开始移动");
+                 Console.ReadKey(true);
+                 Console.Clear();
+                 DrawMap();
+                 Console.WriteLine("玩家" + PlayerNames[i] + "行动完成");
+                 Console.WriteLine("按下任意键继续！");
+                 Console.ReadKey(true);
+                 break;
+             case 1:
+                 Console.WriteLine("玩家" + PlayerNames[i] + "踩到了幸运轮盘，输入1代表和对方交换位置！输入2代表轰炸对方，使对方退6格");
+                 Console.WriteLine("按下任意键继续！玩家" + PlayerNames[i] + "开始移动");
+                 Console.ReadKey(true);
+                 Console.Clear();
+                 DrawMap();
+                 Console.WriteLine("玩家" + PlayerNames[i] + "行动完成");
+                 Console.WriteLine("玩家" + PlayerNames[i] + "踩到了幸运轮盘，输入1代表和对方交换位置！输入2代表轰炸对方，使对方退6格");
+                 //Console.WriteLine("按下任意键继续！");
+                 string input = Console.ReadLine();
+                 while (true)
+                 {
+                     if (input == "1")
+                     {
+                         //玩家A和玩家B交换位置
+                         int temp = PlayerPos[i];
+                         PlayerPos[i] = PlayerPos[1 - i];
+                         PlayerPos[1 - i] = temp;
+                         PlayerPosChange();
+                         break;
+                     }
+                     if (input == "2")
+                     {
+                         PlayerPos[1 - i] -= 6;
+                         PlayerPosChange();
+                         break;
+                     }
+                     else
+                     {
+                         Console.WriteLine("请输入1或者2，不要输入其他的字符！");
+                         input = Console.ReadLine();
+                     }
+                 }
+
+                 break;
+             case 2:
+                 Console.WriteLine("玩家" + PlayerNames[i] + "踩到了地雷，后退6格");
+                 Console.WriteLine("按下任意键玩家" + PlayerNames[i] + "开始行动");
+                 Console.ReadKey(true);
+                 PlayerPos[i] -= 6;
+                 PlayerPosChange();
+                 Console.Clear();
+                 DrawMap();
+                 Console.WriteLine("玩家" + PlayerNames[i] + "行动结束");
+                 break;
+             case 3:
+                 //暂停业务未开发
+                 IsPlaying[i] = true;
+                 Console.WriteLine("玩家" + PlayerNames[i] + "踩到了暂停，暂停一回合");
+                 break;
+             case 4:
+                 Console.WriteLine("玩家" + PlayerNames[i] + "遇到时空隧道，前进十格");
+                 Console.WriteLine("按下任意键玩家" + PlayerNames[i] + "开始行动");
+                 Console.ReadKey(true);
+                 PlayerPos[i] += 10;
+                 PlayerPosChange();
+                 Console.Clear();
+                 DrawMap();
+                 Console.WriteLine("玩家" + PlayerNames[i] + "行动结束");
+                 break;
+         }
+
+     }
+
+ }
+ #endregion
+```
+
 
 # 实现步骤和理论：
 
