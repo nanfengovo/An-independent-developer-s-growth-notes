@@ -1138,4 +1138,5 @@ namespace StringBuilder使用
     }
 }
 ```
->StringComparison.OrdinalIgnoreCase 
+>Equals(str2,StringComparison.OrdinalIgnoreCase) :比较两个字符串忽略大小写
+
