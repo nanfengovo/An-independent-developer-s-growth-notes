@@ -1144,3 +1144,31 @@ namespace StringBuilder使用
 
 ## 32.从日期字符串（"2008-08-08"）中分析出年、月、日；2008年08月08日
 	* 让用户输入一个日期格式如："2008-01-01",你输出日期为2008年1月2日*
+
+```c#
+using System.Diagnostics;
+using System.Text;
+
+namespace StringBuilder使用
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+              #region 分割字符串练习 32.从日期字符串（"2008-08-08"）中分析出年、月、日；2008年08月08日 *让用户输入一个日期格式如："2008-01-01",你输出日期为2008年1月2日 *
+
+			 string datatime = "2008-08-08";
+			 char [] chs = { '-' };
+			 string[] str = datatime.Split(chs);
+			 Console.WriteLine(str[0] + "年" + str[1] + "月" + str[2]+"日");
+			
+			 Console.WriteLine("请输入日期:");
+			 string data = Console.ReadLine();
+			 string[] str1 = data.Split(chs);
+			 Console.WriteLine(str1[0] + "年" + str1[1] + "月" + str1[2] + "日");
+			 #endregion
+
+        }
+    }
+}
+```
