@@ -206,10 +206,9 @@ namespace OOP
 >14.Trim(); 去掉字符串前后的空格
 >15.TrimEnd();去掉字符串中结尾的空格
 >16.TrimStart(); 去掉字符串中前面的空格
->17.string.IsNullOrEmpty
- >
->
->
+>17.string.IsNullOrEmpty();判断字符串是否为空或Null
+>18. string.Join（）：将数组按指定的字符串连接，返回一个字符串
+ 
 ### 通过下标访问字符串中的某一个值
 ex；
 ```c#
@@ -329,3 +328,15 @@ namespace StringBuilder使用
 >- StringSplitOptions.RemoveEmptyEntries 去除为空的部分
 >-  char[] chs = {' ','_','+','=',',','0' };  分割的规则
 
+# 继承：
+>子类继承了父类，那么子类从父类那里继承过来了什么？
+
+~~~
+子类继承了父类的属性和方法；没有继承父类的私有字段
+~~~
+>子类有没有继承父类的构造函数
+
+
+
+## 继承的特性
+>1.da
