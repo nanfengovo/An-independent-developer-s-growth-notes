@@ -1024,4 +1024,49 @@ namespace OOP
     }
 }
 ```
-#29.随机输入你心中想到的一个名字，然后输出它的字符串长度  Length:可以得到字符串长度
+## 29.随机输入你心中想到的一个名字，然后输出它的字符串长度  Length:可以得到字符串长度
+```c#
+using System.Diagnostics;
+using System.Text;
+
+namespace StringBuilder使用
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            #region 字符串练习
+            #region 29.随机输入你心中想到的一个名字，然后输出它的字符串长度  Length:可以得到字符串长度
+            Console.WriteLine("输入你心中想到的一个名字");
+            string s = Console.ReadLine();
+            Console.WriteLine(s.Length);
+            #endregion
+            #endregion
+
+        }
+    }
+}
+```
+## 30.两个学员输入各自最喜欢的课程名称，判断是否一致，如果相等则输出你们俩喜欢相同的课程，如果不相同则输出你们俩喜欢不同的课程
+```C#
+using System.Diagnostics;
+using System.Text;
+
+namespace StringBuilder使用
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            #region 字符串练习
+            #region 29.随机输入你心中想到的一个名字，然后输出它的字符串长度  Length:可以得到字符串长度
+            Console.WriteLine("输入你心中想到的一个名字");
+            string s = Console.ReadLine();
+            Console.WriteLine(s.Length);
+            #endregion
+            #endregion
+
+        }
+    }
+}
+```
