@@ -195,4 +195,6 @@ ex；
    Console.WriteLine(s[2]);
 ```
 结果是：e
->这里我们将string 类型的变量s 看作是char 类型的数组 => string s = "qwert"   <=> char []
+>- 这里我们将string 类型的变量s 看作是char 类型的数组 => string s = "qwert"   <=> char [] s = char[] chars2 = { 'q','w','e','r','t'};
+>- 但是不能通过s[1] = "s" 来改变s 的值   如果要改变可以通过将s 转换成char[] 改变后在转hui
+>
