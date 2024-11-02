@@ -10,3 +10,5 @@
 * Ctrl+K+U :取消选中代码的注释
 * F1 ：转到帮助文档
 * #Region 和 #EndRegion : 折叠代码
+* ctrl+R+E +Enter  :快速的由字段生成属性
+* 
