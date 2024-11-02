@@ -199,7 +199,9 @@ namespace OOP
 >9.Substring ：截取字符串 
 >		Substring(i) ;从指定索引下标开始截取一直截取到最后，包含指定索引
 >		 Substring(i,j) :从下标为i的开始截取，截取j个
->10.StartSWith() :
+>10.StartSWith(value) :判断字符串是否以value开始
+>11.EndsWith(value)   ;判断字符串是否以value结束
+>12.indexO发（）；
 >
 >
 >
