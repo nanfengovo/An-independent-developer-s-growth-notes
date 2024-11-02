@@ -63,7 +63,8 @@
               "title": "Visual Studio IntelliSense (VS智能提示汉化)"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -181,10 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/C Shrap Study/Visual Studio 开发平台常用快捷键.md"
+                "file": "后端/C Shrap/C Shrap Study/C Shrap OOP.md"
               },
               "icon": "lucide-list",
-              "title": "Visual Studio 开发平台常用快捷键 的大纲"
+              "title": "C Shrap OOP 的大纲"
             }
           },
           {
@@ -242,8 +243,9 @@
       "i18n:I18N": false
     }
   },
-  "active": "889ac68fdfc0985f",
+  "active": "6fb3cac6a9bedbf5",
   "lastOpenFiles": [
+    "后端/C Shrap/C Shrap Study/Visual Studio 开发平台常用快捷键.md",
     "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
     "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
     "后端/C Shrap/C Shrap Study/Visual Studio IntelliSense (VS智能提示汉化).md",
@@ -284,7 +286,6 @@
     "项目/项目管理/项目管理的小知识总结/项目中标后，销售人员或者陪销售人员去客户现场的工作总结.md",
     "后端/C Shrap/ASP.NET Core/异步编程.md",
     "后端/C Shrap/ASP.NET Core/中间件.md",
-    "后端/C Shrap/C Shrap Study/Visual Studio 开发平台常用快捷键.md",
     "项目/项目管理/项目管理的小知识总结",
     "项目/项目管理/未命名.md",
     "项目/项目管理",
