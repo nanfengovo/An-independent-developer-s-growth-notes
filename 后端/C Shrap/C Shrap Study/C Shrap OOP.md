@@ -285,3 +285,30 @@ namespace StringBuilder使用
 
 
 ## 分割字符串  Split
+```c#
+using System.Diagnostics;
+using System.Text;
+
+namespace StringBuilder使用
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+           
+           #region 分割字符串  Split
+			 string s = "a b   dfd _    + =   ,,, fda 0";
+			 char[] chs = {' ','_','+','=',',','0' };
+			 string[] str = s.Split(chs,StringSplitOptions.RemoveEmptyEntries);
+			 for (int i = 0; i <str.Length; i++)
+			 {
+			     Console.WriteLine(str[i]);
+			 }
+			 Console.ReadKey();
+			 #endregion
+        }
+    }
+}
+```
+>- StringSplitOptions.RemoveEmptyEntries 去除为空的部分
+>- 
