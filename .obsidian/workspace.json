@@ -179,8 +179,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -189,8 +189,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -199,8 +199,8 @@
             "state": {
               "type": "langr-learn-panel",
               "state": {},
-              "icon": "reading-glasses",
-              "title": "学习新单词"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
         ],
