@@ -197,4 +197,22 @@ ex；
 结果是：e
 >- 这里我们将string 类型的变量s 看作是char 类型的数组 => string s = "qwert"   <=> char [] s = char[] chars2 = { 'q','w','e','r','t'};
 >- 但是不能通过s[1] = "s" 来改变s 的值   如果要改变可以通过将s 转换成char[] 改变后在转回string 类型
->
+
+
+ex:
+```c#
+ //将字符串"qwert"变成"qsert"
+ string s = "qwert";
+ //未发生改变前
+ Console.WriteLine(s);
+ //将string类型转换为char[] 数组
+ char [] chars = s.ToCharArray();
+ //改变第二位的值
+ chars[1] = 's';
+ //将改变后的char[]数组 转换为字符串
+ s = new string(chars);
+ Console.WriteLine(s);
+```
+>- ToCharArray() :将字符串转化为char类型的数组
+>- new string(chars)  ：将char[] 数组转换为字符串
+
