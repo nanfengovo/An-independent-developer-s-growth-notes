@@ -189,7 +189,11 @@ namespace OOP
 程序结束后，GC扫描整个内存，如果发现有的空间没有被指向则立即销毁
 ## 字符串的方法
 >1.Length :获取字符串的长度
->2.
+>2.str1.Equals(str2) ：比较两个字符串是否相等
+>3.ToUpper();转换为大写 该方法返回一个string类型的
+>4.ToLower();转为小写该方法返回一个string类型的
+>5.Equals(str2,StringComparison.OrdinalIgnoreCase) :比较两个字符串忽略大小写
+>
 ### 通过下标访问字符串中的某一个值
 ex；
 ```c#
@@ -280,3 +284,4 @@ namespace StringBuilder使用
 >控制台打印结果为:00:00:00.0020956
 
 
+## 分割字符串  Split
