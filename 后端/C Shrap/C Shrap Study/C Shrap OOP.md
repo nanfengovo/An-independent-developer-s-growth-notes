@@ -188,3 +188,11 @@ namespace OOP
 ### 旧的值如何处理
 程序结束后，GC扫描整个内存，如果发现有的空间没有被指向则立即销毁
 ## 字符串的方法
+### 通过下标访问字符串中的某一个值
+ex；
+```c#
+   string s = "qwert";
+   Console.WriteLine(s[2]);
+```
+结果是：e
+>这里我们将string 类型的变量s 看作是char 类型的数组 => string s = "qwert"   <=> char []
