@@ -1076,6 +1076,7 @@ namespace StringBuilder使用
 }
 ```
 ## 31.上题中两位同学输入C#和c#代表同一门课程，怎么办   --统一转为大写或者小写在判断
+### 方法一：统一转为大写或者小写在判断
 ```c#
 using System.Diagnostics;
 using System.Text;
@@ -1107,3 +1108,33 @@ namespace StringBuilder使用
 ```
 > - 使用ToUpper();转换为大写 该方法返回一个string类型的
 > - 使用ToLower();转为小写该方法返回一个string类型的
+
+### 方法二：忽略大小写
+```c#
+using System.Diagnostics;
+using System.Text;
+
+namespace StringBuilder使用
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+             #region 方法二：
+			 Console.WriteLine("请输入你喜欢的课程");
+			 string str1 = Console.ReadLine();
+			 Console.WriteLine("请输入你喜欢的课程");
+			 string str2 = Console.ReadLine();
+			 if (str1.Equals(str2,StringComparison.OrdinalIgnoreCase))
+			 {
+			     Console.WriteLine("你们俩喜欢相同的课程");
+			 }
+			 else
+			     Console.WriteLine("你们俩喜欢不相同的课程");
+			
+			 #endregion
+
+        }
+    }
+}
+```
