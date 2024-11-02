@@ -106,3 +106,52 @@ namespace OOP
 >1.代表当前类的对象
 >2.在类中显示的调用当前类的构造函数
 
+## 在类中显示的调用当前类的构造函数
+ex:
+```c#
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace OOP
+{
+    internal class Student
+    {
+
+        public Student( int studentNo, string name, int age, int chinese, int math, int english)
+        {
+            this.studentNo = studentNo;
+            this.name = name;
+            this.age = age;
+            this.chinese = chinese;
+            this.math = math;
+            this.english = english;
+        
+        }
+
+
+        public Student(string name,int chinese, int math, int english):this(0,name,0,chinese,math,english)
+        {
+        
+        
+        }
+
+        private int studentNo;
+        private string name;
+        private int age;
+        private  int chinese;
+        private int math;
+        private int english;
+
+        public int StudentNo { get => studentNo; set => studentNo = value; }
+        public string Name { get => name; set => name = value; }
+        public int Age { get => age; set => age = value; }
+        public int Chinese { get => chinese; set => chinese = value; }
+        public int Math { get => math; set => math = value; }
+        public int English { get => english; set => english = value; }
+    }
+}
+```
+# 析构函数
