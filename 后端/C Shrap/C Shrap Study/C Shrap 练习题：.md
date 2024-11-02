@@ -1138,3 +1138,4 @@ namespace StringBuilder使用
     }
 }
 ```
+>StringComparison.OrdinalIgnoreCase 
