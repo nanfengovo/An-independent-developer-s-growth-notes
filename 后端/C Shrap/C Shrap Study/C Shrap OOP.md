@@ -216,3 +216,4 @@ ex:
 >- ToCharArray() :将字符串转化为char类型的数组
 >- new string(chars)  ：将char[] 数组转换为字符串
 
+## StringBuilder
