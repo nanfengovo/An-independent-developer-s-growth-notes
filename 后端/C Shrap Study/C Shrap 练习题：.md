@@ -914,3 +914,108 @@ namespace C_Shrap_Grammar
 	}
 }
 ```
+## 28.写一个Ticket类，有一个距离属性（本属性只读，在构造方法中赋值），有一个价格属性，价格属性只读，并且根据距离distance计算价格Price（1元/公里）
+```c#
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace OOP
+{
+    internal class Ticket
+    {
+
+        //构造函数 在构造函数中给距离字段赋值  --因为距离是属性是只读的
+        public Ticket(double distance)
+        {
+            _distance = distance;
+        }
+
+        //距离字段
+        private double _distance;
+
+        //距离属性 --只读 ；不能为负数
+        public double Distance
+        {
+            get
+            {
+                if(_distance < 0)
+                {
+                    _distance = 0;
+                }
+                return _distance;
+            }
+        }
+
+        //价格字段
+        private double _price;
+
+        //价格属性--只读
+        //0~100公里不打折
+        //100~200公里打9折
+        //200公里以上打八折
+        public double Price
+        {
+            get 
+            {
+                if(_distance < 100)
+                {
+                    return _distance * 1;
+                }
+                else if(_distance>100 && _distance < 200)
+                {
+                    return _distance * 0.9;
+                }
+                else
+                {
+                    return _distance * 0.8;
+                }
+                
+            }
+        }
+        /// <summary>
+        /// 计算总价格
+        /// </summary>
+        /// <returns></returns>
+        public void Spend()
+        {
+            Console.WriteLine("{0}公里花了{1}元",Distance,Price);
+           // return Distance*1.0;
+        }
+
+    }
+}
+```
+```c#
+namespace OOP
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //Person person = new Person(1, "nanfengqaq", 198);
+            ////person.Name = "nanfengqaq";
+            ////person.Age = 198;
+
+
+            //Console.WriteLine(person.Name + "的年龄是 " + person.Age);
+            ////调用静态方法
+            //Person.M2();
+            ////调用实例方法
+            //person.M1();
+
+            //Student student = new Student("张三",100,100,100);
+            //Console.WriteLine(student.Name+"的语文为："+student.Chinese+"数学成绩为："+student.Math+"英语成绩为："+student.English);
+            //Console.ReadKey();
+
+            #region  28.写一个Ticket类，有一个距离属性（本属性只读，在构造方法中赋值），有一个价格属性，价格属性只读，并且根据距离distance计算价格Price（1元/公里）
+            Ticket ticket = new Ticket(300);
+            ticket.Spend();
+            #endregion
+
+        }
+    }
+}
+```
