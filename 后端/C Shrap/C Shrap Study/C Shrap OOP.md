@@ -339,4 +339,7 @@ namespace StringBuilder使用
 
 
 ## 继承的特性
->1.da
+>1.单根性
+>2.传递性
+
+
