@@ -193,6 +193,8 @@ namespace OOP
 >3.ToUpper();转换为大写 该方法返回一个string类型的
 >4.ToLower();转为小写该方法返回一个string类型的
 >5.Equals(str2,StringComparison.OrdinalIgnoreCase) :比较两个字符串忽略大小写
+>6.Split(chs,StringSplitOptions.RemoveEmptyEntries):  分割字符串，chs :分割的规则  StringSplitOptions.RemoveEmptyEntries：去除空的
+>7.Contains
 >
 ### 通过下标访问字符串中的某一个值
 ex；
