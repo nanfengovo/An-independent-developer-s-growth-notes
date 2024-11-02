@@ -173,7 +173,11 @@ namespace OOP
 >- 在传递值类型和传递引用类型的时候，传递方式不一样。值类型我们称之为值传递，引用类型我们称之为引用传递
 >- 
 
-## 值类型：int  double bool char decimal s
+## 值类型：int  double bool char decimal struct  enum
+## 引用类型： string  自定义的类  数组
 
 ## 值类型和引用类型在内存上存储的地方不一样
+>值类型的值存储在内存的栈中
+>引用类型的值存储在内存的堆中
+
 

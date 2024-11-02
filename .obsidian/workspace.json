@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap Study/C Shrap OOP.md",
+                "file": "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap Study/C Shrap OOP.md",
+                "file": "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
                 "mode": "source",
                 "source": false
               },
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap Project/飞行棋/Flying Chess (飞行棋项目)    --控制台版.md",
+                "file": "后端/C Shrap/C Shrap Project/飞行棋/Flying Chess (飞行棋项目)    --控制台版.md",
                 "mode": "source",
                 "source": false
               },
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap Study/C Shrap OOP.md"
+                "file": "后端/C Shrap/C Shrap Study/C Shrap OOP.md"
               },
               "icon": "lucide-list",
               "title": "C Shrap OOP 的大纲"
@@ -228,27 +228,27 @@
       "i18n:I18N": false
     }
   },
-  "active": "889ac68fdfc0985f",
+  "active": "8ad211c73afcffe2",
   "lastOpenFiles": [
-    "后端/C Shrap Project/飞行棋/Flying Chess (飞行棋项目)    --控制台版.md",
-    "后端/C Shrap Study/C Shrap OOP.md",
-    "后端/C Shrap Study/C Shrap 练习题：.md",
-    "后端/C Shrap Study/C Shrap Grammer.md",
-    "后端/C Shrap  algorithm/交换两个变量的值.md",
+    "后端/C Shrap/C Shrap Project/飞行棋/Flying Chess (飞行棋项目)    --控制台版.md",
+    "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
+    "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
+    "后端/C Shrap/C Shrap Study/C Shrap Grammer.md",
+    "后端/C Shrap/C Shrap  algorithm/交换两个变量的值.md",
     "图片/Pasted image 20241101003242.png",
     "图片/Pasted image 20241101003137.png",
     "图片/Pasted image 20241101003114.png",
-    "后端/C Shrap Project/飞行棋",
-    "后端/C Shrap Lib/Colorful.Console.md",
+    "后端/C Shrap/C Shrap Project/飞行棋",
+    "后端/C Shrap/C Shrap Lib/Colorful.Console.md",
     "数据库/MySQL/MySQL配置到系统环境变量(Windows).md",
     "数据库/MySQL/MySQL 日志相关配置.md",
-    "后端/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
+    "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
     "图片/ASP.NET Core 6 框架揭秘-样章(1).pdf",
-    "后端/ASP.NET Core/资料",
+    "后端/C Shrap/ASP.NET Core/资料",
     "后端/ASP.NET Core/未命名.md",
     "图片/df027e7b096a50fc01b4b8a11afb814.jpg",
     "图片/骑士飞行棋.pdf",
-    "后端/C Shrap Project",
+    "后端/C Shrap/C Shrap Project",
     "后端/C Shrap/使用out参数自己实现TryParse()方法.md",
     "后端/C Shrap/DataTime相关.md",
     "后端/C Shrap/C Shrap 基础概念.md",
@@ -262,19 +262,19 @@
     "图片/Pasted image 20241029104632.png",
     "图片/Pasted image 20241029103441.png",
     "图片/Pasted image 20241029103004.png",
-    "后端/C Shrap 面试题/break ; continue ;return.md",
+    "后端/C Shrap/C Shrap 面试题/break ; continue ;return.md",
     "数据库/MySQL",
     "未命名",
     "数据库",
     "项目/项目管理/项目管理的小知识总结/项目中标后，销售人员或者陪销售人员去客户现场的工作总结.md",
-    "后端/ASP.NET Core/异步编程.md",
-    "后端/ASP.NET Core/中间件.md",
-    "后端/C Shrap Study/Visual Studio 开发平台常用快捷键.md",
+    "后端/C Shrap/ASP.NET Core/异步编程.md",
+    "后端/C Shrap/ASP.NET Core/中间件.md",
+    "后端/C Shrap/C Shrap Study/Visual Studio 开发平台常用快捷键.md",
     "项目/项目管理/项目管理的小知识总结",
     "项目/项目管理/未命名.md",
     "项目/项目管理",
     "后端/C Shrap/面向对象思想.md",
-    "后端/C Shrap 面试题/腾讯.NET基础面试题.md",
+    "后端/C Shrap/C Shrap 面试题/腾讯.NET基础面试题.md",
     "后端/C Shrap/控制台彩色打印colorful.console        --日志.md"
   ]
 }
