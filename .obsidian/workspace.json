@@ -189,8 +189,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -204,7 +204,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -228,7 +228,7 @@
       "i18n:I18N": false
     }
   },
-  "active": "8ad211c73afcffe2",
+  "active": "06685bef4dd4a0cd",
   "lastOpenFiles": [
     "后端/C Shrap/C Shrap Project/飞行棋/Flying Chess (飞行棋项目)    --控制台版.md",
     "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
