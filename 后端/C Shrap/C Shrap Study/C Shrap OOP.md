@@ -202,7 +202,11 @@ namespace OOP
 >10.StartSWith(value) :判断字符串是否以value开始
 >11.EndsWith(value)   ;判断字符串是否以value结束
 >12.indexOf（value）； 拿到value 在字符串中第一次出现的下标
->13.LastIndexOf()   最后一个;
+>13.LastIndexOf()   最后一个出现的下标;
+>14.Trim(); 去掉字符串前后的空格
+>15.TrimEnd();去掉字符串中结尾的空格
+>16.TrimStart(); 去掉字符串中前面的空格
+>17.string.IsNullOrEmpty
  >
 >
 >
