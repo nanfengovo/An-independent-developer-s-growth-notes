@@ -49,8 +49,7 @@
               "title": "Flying Chess (飞行棋项目)    --控制台版"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -229,12 +228,12 @@
       "i18n:I18N": false
     }
   },
-  "active": "6fb3cac6a9bedbf5",
+  "active": "889ac68fdfc0985f",
   "lastOpenFiles": [
-    "后端/C Shrap Study/C Shrap 练习题：.md",
-    "后端/C Shrap Study/C Shrap OOP.md",
-    "后端/C Shrap Study/C Shrap Grammer.md",
     "后端/C Shrap Project/飞行棋/Flying Chess (飞行棋项目)    --控制台版.md",
+    "后端/C Shrap Study/C Shrap OOP.md",
+    "后端/C Shrap Study/C Shrap 练习题：.md",
+    "后端/C Shrap Study/C Shrap Grammer.md",
     "后端/C Shrap  algorithm/交换两个变量的值.md",
     "图片/Pasted image 20241101003242.png",
     "图片/Pasted image 20241101003137.png",
