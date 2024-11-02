@@ -49,7 +49,8 @@
               "title": "Flying Chess (飞行棋项目)    --控制台版"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,10 +168,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap Study/C Shrap OOP.md"
+                "file": "后端/C Shrap Study/C Shrap 练习题：.md"
               },
               "icon": "lucide-list",
-              "title": "C Shrap OOP 的大纲"
+              "title": "C Shrap 练习题： 的大纲"
             }
           },
           {
@@ -228,12 +229,12 @@
       "i18n:I18N": false
     }
   },
-  "active": "889ac68fdfc0985f",
+  "active": "6fb3cac6a9bedbf5",
   "lastOpenFiles": [
+    "后端/C Shrap Study/C Shrap OOP.md",
     "后端/C Shrap Study/C Shrap Grammer.md",
     "后端/C Shrap Project/飞行棋/Flying Chess (飞行棋项目)    --控制台版.md",
     "后端/C Shrap Study/C Shrap 练习题：.md",
-    "后端/C Shrap Study/C Shrap OOP.md",
     "后端/C Shrap  algorithm/交换两个变量的值.md",
     "图片/Pasted image 20241101003242.png",
     "图片/Pasted image 20241101003137.png",

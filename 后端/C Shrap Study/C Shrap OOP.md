@@ -154,4 +154,15 @@ namespace OOP
     }
 }
 ```
-# 析构函数
+# 析构函数  :希望立刻释放资源
+```c#
+  /// <summary>
+  /// 析构函数：当程序结束的时候析构函数会被调用
+  /// 帮助我们释放资源
+  /// GC Garbage Collector
+  /// </summary>
+  ~Student() 
+  {
+      Console.WriteLine("我是析构函数");
+  }
+```
