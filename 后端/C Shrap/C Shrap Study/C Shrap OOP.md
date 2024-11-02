@@ -311,4 +311,5 @@ namespace StringBuilder使用
 }
 ```
 >- StringSplitOptions.RemoveEmptyEntries 去除为空的部分
->- 
+>-  char[] chs = {' ','_','+','=',',','0' };  分割的规则
+
