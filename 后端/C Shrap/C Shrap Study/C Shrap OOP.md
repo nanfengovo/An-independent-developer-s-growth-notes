@@ -202,8 +202,7 @@ namespace OOP
 >10.StartSWith(value) :判断字符串是否以value开始
 >11.EndsWith(value)   ;判断字符串是否以value结束
 >12.indexOf（value）； 拿到value 在字符串中第一次出现的下标
->13.LastIndexOf()   最后一个字符串的位置
->;
+>13.LastIndexOf()   最后一个;
  >
 >
 >
