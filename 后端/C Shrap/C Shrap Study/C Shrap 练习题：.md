@@ -1075,7 +1075,7 @@ namespace StringBuilder使用
     }
 }
 ```
-## 31.上题中两位同学输入C#和c#代表同一门课程，怎么办   --统一转为大写h
+## 31.上题中两位同学输入C#和c#代表同一门课程，怎么办   --统一转为大写或者小写在判断
 ```c#
 using System.Diagnostics;
 using System.Text;
@@ -1105,3 +1105,5 @@ namespace StringBuilder使用
     }
 }
 ```
+> - 使用ToUpper();转换为大写 该方法返回一个string类型的
+> - 使用ToLower();转为小写该方法返回一个string类型的
