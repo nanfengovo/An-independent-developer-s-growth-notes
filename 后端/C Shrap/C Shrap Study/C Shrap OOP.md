@@ -363,6 +363,7 @@ namespace StringBuilder使用
 >is:如果转换成功则返回true 否则返回false
 >as:如果能够转换则返回对应的对象，否则返回null
 
+# protected 受保护的:  可以被当前类和当前类的子类访问
 
 
 
