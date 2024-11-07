@@ -496,4 +496,9 @@ namespace Hashtable_集合
 >	- GetFileNameWithoutExtension(str)  --陕煤项目原型方案(2)
 >- 获得扩展名
 >	- GetExtension(str)  --.rp
->- 获得文件所在文件jia
+>- 获得文件所在文件夹的名称
+>	- GetDirectoryName(str)  --C:\Users\nanfengqaq\Desktop
+>- 获得文件的全路径/绝对路径
+>	- GetFullPath(str)   --C:\Users\nanfengqaq\Desktop\陕煤项目原型方案(2).rp
+>- 连接两个字符串作为路径
+>	- Combine(@"c:\a\","b.txt")   --c:\a\b.txt
