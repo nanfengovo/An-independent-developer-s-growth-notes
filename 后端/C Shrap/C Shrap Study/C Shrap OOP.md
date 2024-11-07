@@ -359,6 +359,65 @@ namespace StringBuilder使用
 >- 子类可以赋值给父类：如果一个地方需要一个父类作为参数，我们可以给一个子类代替
 >- 如果一个父类中装的是子类对象，那么我们可以将这个父类强转为子类对象
 
+```c#
+namespace 里氏转换
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            /*里氏转换 ：
+             *1. 子类可以赋值给父类（如果有一个方法需要一个父类作为参数，我们可以传第一个子类对象）
+             *2.如果父类中装的是子类对象，则可以将这个父类强转为子类对象 
+             */
+
+            //1. 子类可以赋值给父类
+            
+            Person person = new Student();
+            if(person is Student)
+            {
+                ((Student)person).Print();
+            }
+            else
+            {
+                Console.WriteLine("转换失败！");
+            }
+            
+        }
+
+        public class Person
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
+
+            public void Print()
+            {
+                Console.WriteLine("我是人类！");
+            }
+        }
+
+        public class Student : Person
+        {
+            public int Grade { get; set; }
+
+            public void Print()
+            {
+                Console.WriteLine("我是学生！");
+            }
+        }
+
+        public class Teacher : Person
+        {
+            public string Subject { get; set; }
+
+            public void Print()
+            {
+                Console.WriteLine("我是老师");
+            }
+        }
+    }
+}
+```
 ## is和as  :表示类型转换
 >is:如果转换成功则返回true 否则返回false
 >as:如果能够转换则返回对应的对象，否则返回null
