@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "杂项/Localhost和127.0.0.1的区别.md",
+                "file": "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Localhost和127.0.0.1的区别"
+              "title": "C Shrap OOP"
             }
           },
           {
@@ -182,10 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "杂项/Localhost和127.0.0.1的区别.md"
+                "file": "后端/C Shrap/C Shrap Study/C Shrap OOP.md"
               },
               "icon": "lucide-list",
-              "title": "Localhost和127.0.0.1的区别 的大纲"
+              "title": "C Shrap OOP 的大纲"
             }
           },
           {
@@ -194,8 +194,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -204,8 +204,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -214,17 +214,16 @@
             "state": {
               "type": "langr-learn-panel",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "reading-glasses",
+              "title": "学习新单词"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,10 +243,10 @@
       "i18n:I18N": false
     }
   },
-  "active": "6fb3cac6a9bedbf5",
+  "active": "16f50a8d19b078db",
   "lastOpenFiles": [
-    "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
     "杂项/Localhost和127.0.0.1的区别.md",
+    "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
     "杂项",
     "后端/C Shrap/C Shrap Study/C Shrap Grammer.md",
     "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",

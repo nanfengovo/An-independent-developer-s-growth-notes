@@ -365,5 +365,8 @@ namespace StringBuilder使用
 
 # protected 受保护的:  可以被当前类和当前类的子类访问
 
+# 集合
+## ArrayList集合的方法
+
 
 
