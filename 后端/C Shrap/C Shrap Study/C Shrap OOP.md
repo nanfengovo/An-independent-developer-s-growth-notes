@@ -489,3 +489,11 @@ namespace Hashtable_集合
 ```
 
 # Path类
+> string str = @"C:\\Users\\nanfengqaq\\Desktop\\陕煤项目原型方案(2).rp";
+> - 获得文件名和扩展名
+>	- GetFileName（str）   --陕煤项目原型方案(2).rp
+>- 获得文件名
+>	- GetFileNameWithoutExtension(str)  --陕煤项目原型方案(2)
+>- 获得扩展名
+>	- GetExtension(str)  --.rp
+>- 获得文件所在文件jia
