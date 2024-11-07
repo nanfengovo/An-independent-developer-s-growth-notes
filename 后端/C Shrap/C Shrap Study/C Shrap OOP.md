@@ -377,7 +377,12 @@ namespace StringBuilder使用
 ### Remove(需要删除的元素) ； 删除单个元素
 ### RemoveAt(0); 根据下标删除
 ### RemoveRange(StartIndex,EndIndex);  从StartIndex下标开始删到EndIndex
-### 
+###  Sort();升序排列（类型要差不多）
+### Reverse(); 反转（倒叙）
+### Insert(Index,要插入的内容)；在下标Index 插入要插入的内容
+### Insert(Index,集合)；在指定的下标插入一个集合
+### Contains();判断是否包含某个指定的yuan 返回布尔类型
+
 ```c#
 using System.Collections;
 
