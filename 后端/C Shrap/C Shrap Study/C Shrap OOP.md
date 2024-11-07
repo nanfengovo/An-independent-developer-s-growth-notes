@@ -531,4 +531,6 @@ namespace Path类
 
 # File 类
 >- 创建文件
->	- 
+>	-  //在桌面创建一个名为test的txt文件       File.Create(@"C:\Users\nanfengqaq\Desktop\test.txt");
+>	
+ 
