@@ -219,11 +219,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,7 +243,7 @@
       "i18n:I18N": false
     }
   },
-  "active": "06685bef4dd4a0cd",
+  "active": "16f50a8d19b078db",
   "lastOpenFiles": [
     "图片/Pasted image 20241107231718.png",
     "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
