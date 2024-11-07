@@ -454,5 +454,34 @@ namespace ArrayList集合的各种方法
 >- capcity  表示这个集合中可以包含的元素个数 （4n） ；每次集合中实际包含的元素个数（count）超过了可以包含的元素的个数（capcity）的时候，集合就会向内存中多申请一倍的空间来保证集合的长度一直够用
 
 ## Hashtable 集合   --键值对集合
+```c#
+using System.Collections;
 
+namespace Hashtable_集合
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //创建一个Hashtable键值对集合对象
+            Hashtable hashtable = new Hashtable();
+            hashtable.Add(1,"zhangsan");
+            hashtable.Add(2,true);
+            hashtable.Add(3,'男');
+            hashtable.Add(false,"错误的");
+            //在键值对集合中通过键找值
+            //for循环便利不到键为false的值
+            for (int i = 0; i < hashtable.Count; i++)
+            {
+                Console.WriteLine(hashtable[i]);
+            }
+            //使用foreach 可以遍历值或键
+            foreach (var item in hashtable.Values)
+            {
+                Console.WriteLine(item);
+            }
+        }
+    }
+}
+```
 
