@@ -502,3 +502,32 @@ namespace Hashtable_集合
 >	- GetFullPath(str)   --C:\Users\nanfengqaq\Desktop\陕煤项目原型方案(2).rp
 >- 连接两个字符串作为路径
 >	- Combine(@"c:\a\","b.txt")   --c:\a\b.txt
+
+```c#
+namespace Path类
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string str = @"C:\\Users\\nanfengqaq\\Desktop\\陕煤项目原型方案(2).rp";
+            //打印文件名和扩展名
+            Console.WriteLine(Path.GetFileName(str));
+            //打印文件名
+            Console.WriteLine(Path.GetFileNameWithoutExtension(str));
+            //打印文件的扩展名
+            Console.WriteLine(Path.GetExtension(str));
+            //打印文件所在的文件夹的名称
+            Console.WriteLine(Path.GetDirectoryName(str));
+            //打印文件的全路径/绝对路径
+            Console.WriteLine(Path.GetFullPath(str));
+            //连接两个字符串作为路径
+            Console.WriteLine(Path.Combine(@"c:\a\","b.txt"));
+        }
+    }
+}
+```
+![[Pasted image 20241107231718.png]]
+
+# File 类
+>
