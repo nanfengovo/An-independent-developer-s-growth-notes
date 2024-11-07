@@ -1175,3 +1175,71 @@ namespace StringBuilder使用
     }
 }
 ```
+## 33.创建一个集合；添加一些数字，求平均值,求和，最大值，最小值
+## 34.写一个长度为10的集合，要求在里面随机的存放10个数字（0~9）但是要求所有的数字不重复
+```c#
+using System.Collections;
+
+namespace ArrayList练习
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            #region 集合练习
+            #region 33.创建一个集合；添加一些数字，求平均值,求和，最大值，最小值
+            ArrayList list = new ArrayList();
+
+            list.Add(1);
+            list.Add(2);
+            list.Add(3);
+            list.Add(4);
+            list.Add(5);
+            int sum = 0;
+            double avg = 0;
+            int max =(int)list[0];
+            int min = (int)list[0];
+            foreach (var item in list)
+            {
+                if ((int)item > max)
+                {
+                    max = (int)item;
+                }
+                if ((int)item < min)
+                {
+                    min = (int)item;
+                }
+                sum += (int)item;
+                avg = sum / list.Count;
+            }
+            Console.WriteLine(list.Count);
+            Console.WriteLine($"sum={sum},avg={avg},max={max},min={min}");
+            #endregion
+            #region 34.写一个长度为10的集合，要求在里面随机的存放10个数字（0~9）但是要求所有的数字不重复
+            ArrayList arrayList = new ArrayList();
+            Random r = new Random();
+            
+            
+            for (int i = 0; i < 10; i++)
+            {
+                int index = r.Next(0, 10);
+                if (!arrayList.Contains(index))
+                {
+                    
+                    arrayList.Add(index);
+                }
+                else
+                {
+                    i--;
+                }
+            }
+            foreach (var item in arrayList)
+            {
+                Console.WriteLine(item);
+            }
+            #endregion
+            #endregion
+        }
+    }
+}
+```
