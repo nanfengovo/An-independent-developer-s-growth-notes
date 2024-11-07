@@ -371,4 +371,73 @@ namespace StringBuilder使用
 >集合：很多数据的的一个集合；长度可以任意改变，类型单一
 >数组：长度不可变，长度单一
 
-### 
+###  添加单个元素  Add();
+### 添加集合元素  AddRange方法
+### Clear(); 清空所有元素
+### Remove(需要删除的元素) ； 删除单个
+```c#
+using System.Collections;
+
+namespace ArrayList集合的各种方法
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //创建一个集合
+            ArrayList list = new ArrayList();
+            #region Add方法  ---添加单个元素
+            list.Add(1);
+            list.Add(2);
+            list.Add(true);
+            list.Add("nanfengqaq");
+            list.Add('男');
+            list.Add(new int [] { 1, 2, 3, 4 });
+            Person person = new Person();
+            list.Add(person);
+            for(int i = 0;i < list.Count;i++)
+            {
+                if (list[i] is Person)
+                {
+                    ((Person)list[i]).SayHello();
+                }
+                if(list[i] is int[])
+                {
+                    int[] arr = (int[])list[i];
+                    foreach(var item in arr)
+                    {
+                        Console.WriteLine(item);
+                    }
+                }
+
+                Console.WriteLine(list[i]);
+            }
+            #endregion
+            #region AddRange方法  ---添加数组或集合
+            list.AddRange(new int[] { 1, 2, 3 });
+            for (int i = 0; i < list.Count; i++)
+            {
+                if (list[i] is Person)
+                {
+                    ((Person)list[i]).SayHello();
+                }
+
+                Console.WriteLine(list[i]);
+            }
+
+            #endregion
+
+        }
+
+        public class Person
+        {
+            public void SayHello()
+            {
+                Console.WriteLine("Hello World!");
+            }
+        }
+    }
+}
+
+```
+
