@@ -381,7 +381,7 @@ namespace StringBuilder使用
 ### Reverse(); 反转（倒叙）
 ### Insert(Index,要插入的内容)；在下标Index 插入要插入的内容
 ### Insert(Index,集合)；在指定的下标插入一个集合
-### Contains();判断是否包含某个指定的yuan 返回布尔类型
+### Contains();判断是否包含某个指定的元素 返回布尔类型
 
 ```c#
 using System.Collections;
