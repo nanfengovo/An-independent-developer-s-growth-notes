@@ -593,6 +593,8 @@ namespace Path类
 >	-  //在桌面创建一个名为test的txt文件       File.Create(@"C:\Users\nanfengqaq\Desktop\test.txt");
 >- 删除文件
 >	- File.Delete(@"C:\Users\nanfengqaq\Desktop\test.txt");
+>- 逐行读取
+>- 
 
 
 ```c#
