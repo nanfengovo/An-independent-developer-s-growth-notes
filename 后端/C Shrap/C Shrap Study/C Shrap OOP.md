@@ -374,7 +374,10 @@ namespace StringBuilder使用
 ###  添加单个元素  Add();
 ### 添加集合元素  AddRange方法
 ### Clear(); 清空所有元素
-### Remove(需要删除的元素) ； 删除单个
+### Remove(需要删除的元素) ； 删除单个元素
+### RemoveAt(0); 根据下标删除
+### RemoveRange(StartIndex,EndIndex);  从StartIndex下标开始删到EndIndex
+### 
 ```c#
 using System.Collections;
 
