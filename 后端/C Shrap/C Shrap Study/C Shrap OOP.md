@@ -530,4 +530,5 @@ namespace Path类
 ![[Pasted image 20241107231718.png]]
 
 # File 类
->
+>- 创建文件
+>	- 
