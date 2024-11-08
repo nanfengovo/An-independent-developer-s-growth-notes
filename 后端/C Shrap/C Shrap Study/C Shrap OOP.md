@@ -594,17 +594,19 @@ namespace Path类
 >- 删除文件
 >	- File.Delete(@"C:\Users\nanfengqaq\Desktop\test.txt");
 >- 逐行读取
->- 
+>	- ReadAllLines(@"C:\Users\nanfengqaq\Desktop\dcoker.txt",Encoding.Default)
 
 
 ```c#
+using System.Text;
+
 namespace File类
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-
+            #region 创建和删除文件
             //在桌面创建一个名为test的txt文件
             //File.Create(@"C:\Users\nanfengqaq\Desktop\test.txt");
             //Console.WriteLine("创建完成！");
@@ -614,27 +616,39 @@ namespace File类
             //这种方式不管文件是否存在都会打印删除成功；而不会抛异常，所以下面的更合理
             //File.Delete(@"C:\Users\nanfengqaq\Desktop\test.txt");
             //Console.WriteLine("删除成功！");
-            var filePath = @"C:\Users\nanfengqaq\Desktop\test.txt";
+            //var filePath = @"C:\Users\nanfengqaq\Desktop\test.txt";
             //在桌面创建一个名为test的txt文件
-            if (!File.Exists(filePath))
+            //if (!File.Exists(filePath))
+            //{
+            //    using (File.Create(filePath)) ;
+            //    Console.WriteLine("创建完成！");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("文件已存在！");
+            //}
+            ////删除指定的文件  --若文件存在则成功
+            //if (File.Exists(filePath))
+            //{
+            //    File.Delete(filePath);
+            //    Console.WriteLine("删除成功！");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("文件不存在！");
+            //}
+            #endregion
+            #region 逐行读取
+            string [] str = File.ReadAllLines(@"C:\Users\nanfengqaq\Desktop\dcoker.txt",Encoding.Default);
+            foreach (var item in str)
             {
-                using(File.Create(filePath));
-                Console.WriteLine("创建完成！");
+                Console.WriteLine(item);
             }
-            else
-            {
-                Console.WriteLine("文件已存在！");
-            }
-            //删除指定的文件  --若文件存在则成功
-            if (File.Exists(filePath))
-            {
-                File.Delete(filePath);
-                Console.WriteLine("删除成功！");
-            }
-            else
-            {
-                Console.WriteLine("文件不存在！");
-            }
+            
+            string [] s = File.ReadAllLines(@"C:\Users\nanfengqaq\Desktop\dcoker.txt", Encoding.Default);
+            Console.WriteLine(s);
+            #endregion
+
 
         }
     }
