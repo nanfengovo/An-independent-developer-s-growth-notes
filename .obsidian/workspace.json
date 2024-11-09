@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/数据库管理工具/Navicat/Navicat 连接SQL Server/未命名.md",
+                "file": "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "ASP.NET Core 6框架揭秘"
             }
           }
         ],
@@ -243,11 +243,13 @@
       "i18n:I18N": false
     }
   },
-  "active": "8ad211c73afcffe2",
+  "active": "f0624d63853dd6c5",
   "lastOpenFiles": [
+    "数据库/数据库管理工具/Navicat/Navicat 连接SQL Server/1.1 连接SQL Server.md",
+    "数据库/SQL Server",
+    "图片/Pasted image 20241109113353.png",
     "数据库/数据库管理工具/Navicat/Navicat 连接SQL Server",
     "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
-    "数据库/数据库管理工具/Navicat/Navicat 连接SQL Server/未命名.md",
     "图片/Pasted image 20241109112838.png",
     "图片/Pasted image 20241109112731.png",
     "图片/Pasted image 20241109112640.png",
@@ -271,7 +273,6 @@
     "后端/C Shrap/C Shrap  algorithm/交换两个变量的值.md",
     "图片/Pasted image 20241101003242.png",
     "图片/Pasted image 20241101003137.png",
-    "图片/Pasted image 20241101003114.png",
     "后端/C Shrap/C Shrap Project/飞行棋",
     "后端/C Shrap/C Shrap Lib/Colorful.Console.md",
     "数据库/MySQL/MySQL配置到系统环境变量(Windows).md",
@@ -280,8 +281,6 @@
     "图片/ASP.NET Core 6 框架揭秘-样章(1).pdf",
     "后端/C Shrap/ASP.NET Core/资料",
     "后端/ASP.NET Core/未命名.md",
-    "图片/骑士飞行棋.pdf",
-    "后端/C Shrap/C Shrap Project",
     "后端/C Shrap/使用out参数自己实现TryParse()方法.md",
     "后端/C Shrap/DataTime相关.md",
     "后端/C Shrap/C Shrap 基础概念.md",
