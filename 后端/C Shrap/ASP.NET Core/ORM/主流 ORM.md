@@ -30,7 +30,37 @@ author:
 1.1、ORM入门示例
 
 ```
-<span><span>//创建数据库对象&nbsp;(用法和EF&nbsp;Dappper一样通过new保证线程安全)</span><br>SqlSugarClient&nbsp;Db=&nbsp;<span>new</span>&nbsp;SqlSugarClient(<span>new</span>&nbsp;ConnectionConfig(){<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ConnectionString&nbsp;=&nbsp;<span>"连接符字串"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DbType&nbsp;=&nbsp;DbType.SqlServer,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IsAutoCloseConnection&nbsp;=&nbsp;<span>true</span>});<br><span>//建表</span><br><span>//db.CodeFirst.InitTables&lt;Student&gt;();&nbsp;更多看文档迁移&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><span>//查询表的所有</span><br><span>var</span>&nbsp;list&nbsp;=&nbsp;db.Queryable&lt;Student&gt;().ToList();<br>&nbsp;&nbsp;<br><span>//插入</span><br>db.Insertable(<span>new</span>&nbsp;Student()&nbsp;{&nbsp;SchoolId&nbsp;=&nbsp;<span>1</span>,&nbsp;Name&nbsp;=&nbsp;<span>"jack"</span>&nbsp;}).ExecuteCommand();<br>&nbsp;&nbsp;<br><span>//更新</span><br>db.Updateable(<span>new</span>&nbsp;Student()&nbsp;{&nbsp;Id&nbsp;=&nbsp;<span>1</span>,&nbsp;SchoolId&nbsp;=&nbsp;<span>2</span>,&nbsp;Name&nbsp;=&nbsp;<span>"jack2"</span>&nbsp;}).ExecuteCommand();<br>&nbsp;&nbsp;<br><span>//删除</span><br>db.Deleteable&lt;Student&gt;().Where(it&nbsp;=&gt;&nbsp;it.Id&nbsp;==&nbsp;<span>1</span>).ExecuteCommand();<br>&nbsp;&nbsp;<br><span>//实体与数据库结构一样</span><br><span>public</span>&nbsp;<span>class</span>&nbsp;<span>Student</span><br>{<br>&nbsp;<span>//数据是自增需要加上IsIdentity</span><br>&nbsp;<span>//数据库是主键需要加上IsPrimaryKey</span><br>&nbsp;<span>//注意：要完全和数据库一致2个属性</span><br>&nbsp;[<span>SugarColumn(IsPrimaryKey&nbsp;=&nbsp;true,&nbsp;IsIdentity&nbsp;=&nbsp;true)</span>]<br>&nbsp;<span>public</span>&nbsp;<span>int</span>&nbsp;Id&nbsp;{&nbsp;<span>get</span>;&nbsp;<span>set</span>;&nbsp;}<br>&nbsp;<span>public</span>&nbsp;<span>int</span>?&nbsp;SchoolId&nbsp;{&nbsp;<span>get</span>;&nbsp;<span>set</span>;&nbsp;}<br>&nbsp;<span>public</span>&nbsp;<span>string</span>&nbsp;Name&nbsp;{&nbsp;<span>get</span>;&nbsp;<span>set</span>;&nbsp;}<br>}</span>
+//创建数据库对象 (用法和EF Dappper一样通过new保证线程安全)  
+SqlSugarClient Db= new SqlSugarClient(new ConnectionConfig(){  
+       ConnectionString = "连接符字串",  
+       DbType = DbType.SqlServer,  
+       IsAutoCloseConnection = true});  
+//建表  
+//db.CodeFirst.InitTables<Student>(); 更多看文档迁移         
+          
+//查询表的所有  
+var list = db.Queryable<Student>().ToList();  
+    
+//插入  
+db.Insertable(new Student() { SchoolId = 1, Name = "jack" }).ExecuteCommand();  
+    
+//更新  
+db.Updateable(new Student() { Id = 1, SchoolId = 2, Name = "jack2" }).ExecuteCommand();  
+    
+//删除  
+db.Deleteable<Student>().Where(it => it.Id == 1).ExecuteCommand();  
+    
+//实体与数据库结构一样  
+public class Student  
+{  
+ //数据是自增需要加上IsIdentity  
+ //数据库是主键需要加上IsPrimaryKey  
+ //注意：要完全和数据库一致2个属性  
+ [SugarColumn(IsPrimaryKey = true, IsIdentity = true)]  
+ public int Id { get; set; }  
+ public int? SchoolId { get; set; }  
+ public string Name { get; set; }  
+}
 ```
 
 #### 1.2、SqlSugar ORM 开箱即用（支持AOT）
