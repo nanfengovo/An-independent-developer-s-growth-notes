@@ -51,6 +51,7 @@ Vue 3 的主要特性和改进：
 
 
 * Element-Plus   --vue3 的组件库
+* vite  
 * router  --路由管理
 * pinia  --状态管理
 ```Pinia 是一个用于 Vue.js 的状态管理库，它在 Vue 项目中起到以下几个重要作用：
