@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/框架/Vue/项目使用/VUE 3.md",
+                "file": "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VUE 3"
+              "title": "1.1"
             }
           }
         ],
@@ -182,10 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/框架/Vue/项目使用/VUE 3.md"
+                "file": "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md"
               },
               "icon": "lucide-list",
-              "title": "VUE 3 的大纲"
+              "title": "1.1 的大纲"
             }
           },
           {
@@ -243,11 +243,13 @@
       "i18n:I18N": false
     }
   },
-  "active": "8ad211c73afcffe2",
+  "active": "f0624d63853dd6c5",
   "lastOpenFiles": [
-    "前端/框架/Vue/未命名",
-    "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
     "前端/框架/Vue/项目使用/VUE 3.md",
+    "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md",
+    "前端/框架/Vue/Vue3 Study/Vue3 Demo",
+    "前端/框架/Vue/Vue3 Study",
+    "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
     "前端/框架/Vue/项目使用",
     "数据库/数据库管理工具/Navicat/Navicat 连接SQL Server/1.1 连接SQL Server.md",
     "数据库/SQL Server",
@@ -277,11 +279,9 @@
     "后端/C Shrap/C Shrap  algorithm/交换两个变量的值.md",
     "图片/Pasted image 20241101003242.png",
     "图片/Pasted image 20241101003137.png",
-    "后端/C Shrap/C Shrap Project/飞行棋",
     "后端/C Shrap/C Shrap Lib/Colorful.Console.md",
     "数据库/MySQL/MySQL配置到系统环境变量(Windows).md",
     "数据库/MySQL/MySQL 日志相关配置.md",
-    "图片/ASP.NET Core 6 框架揭秘-样章(1).pdf",
     "后端/ASP.NET Core/未命名.md",
     "后端/C Shrap/使用out参数自己实现TryParse()方法.md",
     "后端/C Shrap/DataTime相关.md",
