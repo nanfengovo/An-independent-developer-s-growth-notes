@@ -182,10 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/C Shrap Study/C Shrap OOP.md"
+                "file": "前端/框架/Vue/项目使用/VUE 3.md"
               },
               "icon": "lucide-list",
-              "title": "C Shrap OOP 的大纲"
+              "title": "VUE 3 的大纲"
             }
           },
           {
@@ -204,8 +204,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -219,7 +219,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -243,7 +243,7 @@
       "i18n:I18N": false
     }
   },
-  "active": "f0624d63853dd6c5",
+  "active": "16f50a8d19b078db",
   "lastOpenFiles": [
     "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
     "前端/框架/Vue/项目使用/VUE 3.md",
