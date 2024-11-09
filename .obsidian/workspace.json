@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/ORM/主流 ORM.md",
+                "file": "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "主流 ORM"
+              "title": "1.1 连接SQL Server"
             }
           }
         ],
@@ -243,13 +243,16 @@
       "i18n:I18N": false
     }
   },
-  "active": "8ad211c73afcffe2",
+  "active": "f0624d63853dd6c5",
   "lastOpenFiles": [
-    "数据库/数据库管理工具/未命名",
+    "图片/Pasted image 20241109111930.png",
+    "后端/C Shrap/ASP.NET Core/ORM/主流 ORM.md",
+    "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server.md",
+    "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server",
+    "数据库/数据库管理工具/DBeaver",
     "数据库/数据库管理工具/Navicat",
     "数据库/数据库管理工具",
     "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
-    "后端/C Shrap/ASP.NET Core/ORM/主流 ORM.md",
     "后端/C Shrap/C Shrap Study/Visual Studio IntelliSense (VS智能提示汉化).md",
     "图片/Pasted image 20241107231718.png",
     "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
@@ -286,10 +289,7 @@
     "图片/Pasted image 20241029104632.png",
     "图片/Pasted image 20241029103441.png",
     "后端/C Shrap/C Shrap 面试题/break ; continue ;return.md",
-    "数据库/MySQL",
-    "数据库",
     "项目/项目管理/项目管理的小知识总结/项目中标后，销售人员或者陪销售人员去客户现场的工作总结.md",
-    "后端/C Shrap/ASP.NET Core/异步编程.md",
-    "后端/C Shrap/ASP.NET Core/中间件.md"
+    "后端/C Shrap/ASP.NET Core/异步编程.md"
   ]
 }
