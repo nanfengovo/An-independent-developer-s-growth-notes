@@ -243,8 +243,9 @@
       "i18n:I18N": false
     }
   },
-  "active": "16f50a8d19b078db",
+  "active": "8ad211c73afcffe2",
   "lastOpenFiles": [
+    "前端/框架/Vue/未命名",
     "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
     "前端/框架/Vue/项目使用/VUE 3.md",
     "前端/框架/Vue/项目使用",
@@ -289,7 +290,6 @@
     "后端/C Shrap/is和as的区别.md",
     "后端/C Shrap/封装一个日志助手类.md",
     "后端/C Shrap/控制台打印输出彩色字体    --常规使用.md",
-    "后端/C Shrap/C Shrap 面试题/break ; continue ;return.md",
-    "项目/项目管理/项目管理的小知识总结/项目中标后，销售人员或者陪销售人员去客户现场的工作总结.md"
+    "后端/C Shrap/C Shrap 面试题/break ; continue ;return.md"
   ]
 }
