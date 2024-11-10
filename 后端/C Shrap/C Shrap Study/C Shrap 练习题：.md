@@ -1245,3 +1245,56 @@ namespace ArrayList练习
 }
 ```
 ## 35.将一个数组中的奇数放到一个集合中，再将偶数放到另一个集合中，最终将两个集合合并为一个集合，并且将奇数显示在左边，偶数显示在右边
+```c#
+	 using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace 集合练习
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            #region 35.将一个数组中的奇数放到一个集合中，再将偶数放到另一个集合中，最终将两个集合合并为一个集合，并且将奇数显示在左边，偶数显示在右边
+            int[] nums = new int []{ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            //将数组中的奇数放到集合中   --用ArrayList / 泛型应该都行
+            //存放奇数的集合
+            List<int> oddNumber = new List<int> ();
+            //存放偶数的集合
+            List<int> evenNumber = new List<int> ();
+             for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i]%2 != 0)
+                {
+                    oddNumber.Add (nums[i]);
+                }
+                else
+                {
+                    evenNumber.Add (nums[i]);
+                }
+            }
+            oddNumber.AddRange(evenNumber);
+            foreach (int i in oddNumber)
+            {
+                Console.Write(i + " ");
+            }
+            //Dictionary<List<int>,List<int>> d = new Dictionary<List<int>, List<int>> ();
+            //var result = from oddn in oddNumber
+            //             from evenn in evenNumber
+            //             select new { oddNumber=oddn, evenNumber=evenn};
+            //foreach(var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //foreach(var item in result)
+            // {
+            //     Console.WriteLine(item.oddNumber +" "+ item.evenNumber);
+            // }
+
+            #endregion
+        }
+    }
+}
+
+```
