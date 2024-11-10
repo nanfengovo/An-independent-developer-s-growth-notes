@@ -550,7 +550,11 @@ namespace Hashtable_集合
 ## List 泛型集合
 >List<集合类型>  集合名   = new  List<集合类型>（）；
 
-##  List泛型集合可以转换为数组
+###  List泛型集合可以转换为数组
+## 字典集合
+>Dictionary<int，string> dic = new Dictionary<int, string>();
+
+
 
 # Path类
 > string str = @"C:\\Users\\nanfengqaq\\Desktop\\陕煤项目原型方案(2).rp";
@@ -677,10 +681,12 @@ object obj = i;
 ## 拆箱   --强转
 把引用类型转为值类型
 ```c#
-strin
+string str = "111";
+int s = (int)str;
 ```
 
 ### 看两种类型是否发生了拆箱和装箱
 >如果存在继承关系，可能发生
 >如果不存在，则不可能发生
 
+# 
