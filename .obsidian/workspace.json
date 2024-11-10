@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
+                "file": "后端/C Shrap/C Shrap Study/C Shrap Grammer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C Shrap 练习题："
+              "title": "C Shrap Grammer"
             }
           },
           {
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,10 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/C Shrap Study/C Shrap OOP.md"
+                "file": "后端/C Shrap/C Shrap Study/C Shrap Grammer.md"
               },
               "icon": "lucide-list",
-              "title": "C Shrap OOP 的大纲"
+              "title": "C Shrap Grammer 的大纲"
             }
           },
           {
@@ -243,9 +243,11 @@
       "i18n:I18N": false
     }
   },
-  "active": "6fb3cac6a9bedbf5",
+  "active": "3d2c588568d9294e",
   "lastOpenFiles": [
+    "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
     "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md",
+    "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
     "图片/Pasted image 20241109154804.png",
     "图片/Pasted image 20241109154746.png",
     "图片/Pasted image 20241109154019.png",
@@ -270,9 +272,7 @@
     "数据库/数据库管理工具/DBeaver",
     "数据库/数据库管理工具/Navicat",
     "数据库/数据库管理工具",
-    "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
     "后端/C Shrap/C Shrap Study/Visual Studio IntelliSense (VS智能提示汉化).md",
-    "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
     "杂项/Localhost和127.0.0.1的区别.md",
     "杂项",
     "后端/C Shrap/C Shrap Study/C Shrap Grammer.md",
