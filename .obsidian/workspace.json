@@ -115,6 +115,16 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "77f3ff4927e9a86c",
+            "type": "leaf",
+            "state": {
+              "type": "langr-search-panel",
+              "state": {},
+              "icon": "book",
+              "title": "查词面板"
+            }
           }
         ]
       }
@@ -199,7 +209,7 @@
             }
           },
           {
-            "id": "06685bef4dd4a0cd",
+            "id": "f2f0e19db4050a98",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -209,7 +219,17 @@
             }
           },
           {
-            "id": "0925f16dc8a83c70",
+            "id": "27c88e49cab5cc1d",
+            "type": "leaf",
+            "state": {
+              "type": "langr-stat",
+              "state": {},
+              "icon": "bar-chart-4",
+              "title": "统计"
+            }
+          },
+          {
+            "id": "d5cf73a3f5f854bb",
             "type": "leaf",
             "state": {
               "type": "langr-learn-panel",
@@ -219,7 +239,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -243,7 +263,7 @@
       "i18n:I18N": false
     }
   },
-  "active": "fa0fc11e7f60c97d",
+  "active": "16f50a8d19b078db",
   "lastOpenFiles": [
     "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
     "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
