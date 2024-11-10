@@ -548,7 +548,9 @@ namespace Hashtable_集合
 }
 ```
 ## List 泛型集合
->lis
+>List<集合类型>  集合名   = new  List<集合类型>（）；
+
+##  List泛型集合可以转换为数组
 
 # Path类
 > string str = @"C:\\Users\\nanfengqaq\\Desktop\\陕煤项目原型方案(2).rp";
