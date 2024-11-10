@@ -547,6 +547,8 @@ namespace Hashtable_集合
     }
 }
 ```
+## List 泛型集合
+>lis
 
 # Path类
 > string str = @"C:\\Users\\nanfengqaq\\Desktop\\陕煤项目原型方案(2).rp";
