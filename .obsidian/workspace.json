@@ -63,7 +63,8 @@
               "title": "1.1"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -181,10 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md"
+                "file": "后端/C Shrap/C Shrap Study/C Shrap OOP.md"
               },
               "icon": "lucide-list",
-              "title": "C Shrap 练习题： 的大纲"
+              "title": "C Shrap OOP 的大纲"
             }
           },
           {
@@ -242,12 +243,12 @@
       "i18n:I18N": false
     }
   },
-  "active": "889ac68fdfc0985f",
+  "active": "6fb3cac6a9bedbf5",
   "lastOpenFiles": [
+    "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
     "后端/C Shrap/C Shrap Study/Visual Studio 开发平台常用快捷键.md",
     "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
     "后端/C Shrap/C Shrap Study/C Shrap Grammer.md",
-    "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
     "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md",
     "图片/Pasted image 20241109154804.png",
     "图片/Pasted image 20241109154746.png",
