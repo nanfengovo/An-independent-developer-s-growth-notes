@@ -213,8 +213,8 @@
             "state": {
               "type": "langr-learn-panel",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "reading-glasses",
+              "title": "学习新单词"
             }
           }
         ],
@@ -242,7 +242,7 @@
       "i18n:I18N": false
     }
   },
-  "active": "889ac68fdfc0985f",
+  "active": "06685bef4dd4a0cd",
   "lastOpenFiles": [
     "后端/C Shrap/C Shrap Study/C Shrap Grammer.md",
     "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
