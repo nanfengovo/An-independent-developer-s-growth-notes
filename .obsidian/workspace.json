@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/C Shrap Study/Visual Studio 开发平台常用快捷键.md",
+                "file": "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Visual Studio 开发平台常用快捷键"
+              "title": "C Shrap 练习题："
             }
           },
           {
@@ -63,8 +63,7 @@
               "title": "1.1"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,10 +181,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/C Shrap Study/C Shrap OOP.md"
+                "file": "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md"
               },
               "icon": "lucide-list",
-              "title": "C Shrap OOP 的大纲"
+              "title": "C Shrap 练习题： 的大纲"
             }
           },
           {
@@ -243,12 +242,13 @@
       "i18n:I18N": false
     }
   },
-  "active": "6fb3cac6a9bedbf5",
+  "active": "889ac68fdfc0985f",
   "lastOpenFiles": [
+    "后端/C Shrap/C Shrap Study/Visual Studio 开发平台常用快捷键.md",
+    "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
     "后端/C Shrap/C Shrap Study/C Shrap Grammer.md",
     "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
     "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md",
-    "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
     "图片/Pasted image 20241109154804.png",
     "图片/Pasted image 20241109154746.png",
     "图片/Pasted image 20241109154019.png",
@@ -276,7 +276,6 @@
     "后端/C Shrap/C Shrap Study/Visual Studio IntelliSense (VS智能提示汉化).md",
     "杂项/Localhost和127.0.0.1的区别.md",
     "杂项",
-    "后端/C Shrap/C Shrap Study/Visual Studio 开发平台常用快捷键.md",
     "后端/C Shrap/C Shrap Project/飞行棋/Flying Chess (飞行棋项目)    --控制台版.md",
     "后端/C Shrap/C Shrap  algorithm/交换两个变量的值.md",
     "后端/C Shrap/C Shrap Lib/Colorful.Console.md",
