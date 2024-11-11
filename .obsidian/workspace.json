@@ -122,8 +122,8 @@
             "state": {
               "type": "langr-search-panel",
               "state": {},
-              "icon": "book",
-              "title": "查词面板"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
         ]
@@ -204,8 +204,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -224,8 +224,8 @@
             "state": {
               "type": "langr-stat",
               "state": {},
-              "icon": "bar-chart-4",
-              "title": "统计"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -234,12 +234,12 @@
             "state": {
               "type": "langr-learn-panel",
               "state": {},
-              "icon": "reading-glasses",
-              "title": "学习新单词"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -253,17 +253,17 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false,
       "obsidian42-brat:BRAT": false,
       "obsidian-language-learner:打开查词面板": false,
       "obsidian-language-learner:打开新词面板": false,
       "obsidian-language-learner:打开统计": false,
       "obsidian-language-learner:单词列表": false,
       "media-extended:Open media": false,
-      "i18n:I18N": false
+      "i18n:I18N": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "16f50a8d19b078db",
+  "active": "f2f0e19db4050a98",
   "lastOpenFiles": [
     "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
     "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
