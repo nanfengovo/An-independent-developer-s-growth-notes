@@ -224,22 +224,12 @@
             "state": {
               "type": "langr-learn-panel",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "70bc3ee616630a0f",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "reading-glasses",
+              "title": "学习新单词"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -259,12 +249,12 @@
       "obsidian-language-learner:打开统计": false,
       "obsidian-language-learner:单词列表": false,
       "media-extended:Open media": false,
-      "i18n:I18N": false,
-      "obsidian-git:Open Git source control": false
+      "i18n:I18N": false
     }
   },
-  "active": "6fb3cac6a9bedbf5",
+  "active": "d5cf73a3f5f854bb",
   "lastOpenFiles": [
+    "后端/C Shrap/ASP.NET Core/ORM/主流 ORM.md",
     "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md",
     "前端/框架/Vue/项目使用/VUE 3.md",
     "后端/C Shrap/C Shrap Study/C Shrap Grammer.md",
@@ -289,7 +279,6 @@
     "图片/Pasted image 20241109112731.png",
     "图片/Pasted image 20241109112640.png",
     "图片/Pasted image 20241109112453.png",
-    "后端/C Shrap/ASP.NET Core/ORM/主流 ORM.md",
     "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server",
     "数据库/数据库管理工具/DBeaver",
     "数据库/数据库管理工具/Navicat",
