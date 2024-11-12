@@ -161,8 +161,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -171,8 +171,8 @@
             "state": {
               "type": "langr-stat",
               "state": {},
-              "icon": "bar-chart-4",
-              "title": "统计"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -181,8 +181,8 @@
             "state": {
               "type": "langr-learn-panel",
               "state": {},
-              "icon": "reading-glasses",
-              "title": "学习新单词"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -191,8 +191,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -201,8 +201,8 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "history",
-              "title": "History"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
         ],
@@ -214,7 +214,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -228,15 +227,16 @@
       "obsidian-language-learner:单词列表": false,
       "media-extended:Open media": false,
       "i18n:I18N": false,
+      "obsidian-git:Open Git source control": false,
       "copilot:Copilot Chat": false
     }
   },
   "active": "c9dd23faa22f9eb1",
   "lastOpenFiles": [
     "2024-11-11.md",
+    "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md",
     "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
     "后端/C Shrap/ASP.NET Core/ORM/主流 ORM.md",
-    "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md",
     "前端/框架/Vue/项目使用/VUE 3.md",
     "后端/C Shrap/C Shrap Study/C Shrap Grammer.md",
     "图片/Pasted image 20241111102349.png",
