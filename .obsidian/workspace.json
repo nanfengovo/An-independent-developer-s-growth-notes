@@ -175,8 +175,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -185,8 +185,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -195,8 +195,8 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "history",
-              "title": "History"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
         ],
@@ -225,7 +225,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "16f50a8d19b078db",
+  "active": "c9dd23faa22f9eb1",
   "lastOpenFiles": [
     "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
     "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md",
