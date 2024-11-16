@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md",
+                "file": "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.1"
+              "title": "1.1 连接SQL Server（默认端口号1433）"
             }
           },
           {
@@ -163,10 +163,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md"
+                "file": "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md"
               },
               "icon": "lucide-list",
-              "title": "1.1 的大纲"
+              "title": "1.1 连接SQL Server（默认端口号1433） 的大纲"
             }
           },
           {
@@ -221,14 +221,16 @@
       "obsidian-language-learner:单词列表": false,
       "media-extended:Open media": false,
       "i18n:I18N": false,
-      "obsidian-git:Open Git source control": false,
-      "copilot:Copilot Chat": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c9dd23faa22f9eb1",
+  "active": "8ad211c73afcffe2",
   "lastOpenFiles": [
-    "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
+    "前端/JavaScript/JavaScript 基础.md",
+    "前端/HTML/HTML 基础.md",
+    "前端/CSS/CSS 基础.md",
     "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md",
+    "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
     "2024-11-11.md",
     "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
     "后端/C Shrap/ASP.NET Core/ORM/主流 ORM.md",
@@ -269,9 +271,6 @@
     "后端/C Shrap/使用out参数自己实现TryParse()方法.md",
     "后端/C Shrap/DataTime相关.md",
     "后端/C Shrap/C Shrap 基础概念.md",
-    "后端/C Shrap/C Shrap GetType() 和 typeof 的区别.md",
-    "后端/C Shrap/is和as的区别.md",
-    "后端/C Shrap/封装一个日志助手类.md",
-    "后端/C Shrap/控制台打印输出彩色字体    --常规使用.md"
+    "后端/C Shrap/C Shrap GetType() 和 typeof 的区别.md"
   ]
 }
