@@ -35,7 +35,8 @@
               "title": "C Shrap OOP"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md"
+                "file": "后端/C Shrap/C Shrap Study/C Shrap OOP.md"
               },
               "icon": "lucide-list",
-              "title": "1.1 连接SQL Server（默认端口号1433） 的大纲"
+              "title": "C Shrap OOP 的大纲"
             }
           },
           {
@@ -185,8 +186,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -200,7 +201,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -224,8 +225,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8ad211c73afcffe2",
+  "active": "7074ec56eea8cf1c",
   "lastOpenFiles": [
+    "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
     "前端/JavaScript/JavaScript 基础.md",
     "前端/HTML/HTML 基础.md",
     "前端/CSS/CSS 基础.md",
@@ -250,7 +252,6 @@
     "数据库/SQL Server",
     "图片/Pasted image 20241109113353.png",
     "数据库/数据库管理工具/Navicat/Navicat 连接SQL Server",
-    "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
     "图片/Pasted image 20241109112838.png",
     "图片/Pasted image 20241109112731.png",
     "图片/Pasted image 20241109112640.png",
