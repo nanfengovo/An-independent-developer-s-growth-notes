@@ -691,8 +691,38 @@ int s = (int)str;
 >如果不存在，则不可能发生
 
 # 使用FileStream来读写文件    -- 操作字节的（一点一点读）
->FileStream    操作字节的（操作所有的文件）
+>FileStream    操作字节的（操作所有的文件） 
 >StreamReader和StreamWrite 操作字符的
+## FileStream 读取文件
+```c#
+            #region FileStream读取数据    .Net Core
+            //1.创建新的FileStream的类读取文件，第一个参数是文件的地址，第二个参数是对那个文件做什么操作，第三个参数表示对文件里的数据做什么操作
+            FileStream fileStream = new FileStream(@"C:\Users\nanfengqaq\\Desktop\test.txt", FileMode.OpenOrCreate,FileAccess.Read);
+            //2.读取文件
+            byte[] bytes = new byte[1024*1024*5];
+            //返回本次实际读取到的有效字节数
+            int r = fileStream.Read(bytes,0,bytes.Length);
+            //将字节数组中每一个元素按指定的编码格式解码成字符串
+            string st = Encoding.UTF8.GetString(bytes); //0--从第0个索引开始解码，到第r个
+            //关闭流
+            fileStream.Close();
+            //释放流占用的资源
+            fileStream.Dispose();
+            Console.WriteLine(st);
+            #endregion
+```
+## FileStream写入文件
+```c#
+   #region  FileStream写入数据
+   using( FileStream fileStream = new FileStream(@"C:\Users\nanfengqaq\\Desktop\test.txt", FileMode.OpenOrCreate, FileAccess.Write))
+   {
+       string st2 = "覆盖后的内容";
+       byte [] buffer = Encoding.UTF8.GetBytes(st2);
+       fileStream.Write(buffer, 0, buffer.Length);
+       Console.WriteLine("写入OK！");
+   }
 
-
-
+   #endregion
+```
+## 将创建文件流对象的过程写在using中会自动帮我们释放所占用的资源
+## 使用FileStream实现多媒体文件的复制
