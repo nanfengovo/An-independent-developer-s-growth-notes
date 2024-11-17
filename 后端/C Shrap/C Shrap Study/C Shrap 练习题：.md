@@ -40,7 +40,8 @@ oop部分：
 33.创建一个集合；添加一些数字，求平均值,求和，最大值，最小值
 34.写一个长度为10的集合，要求在里面随机的存放10个数字（0~9）但是要求所有的数字不重复
 35.将一个数组中的奇数放到一个集合中，再将偶数放到另一个集合中，最终将两个集合合并为一个集合，并且将奇数显示在左边，偶数显示在右边
-
+操作文件：
+36.使用FileSteam实现多媒体文件复制
 ```
 
 ---
@@ -1297,4 +1298,62 @@ namespace 集合练习
     }
 }
 
+```
+## 36.使用FileStream实现多媒体文件复制
+```c#
+using System;
+
+namespace 使用FileStream_实现多媒体文件的复制
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //思路：将需要复制的文件读取出来，写入到指定的位置
+            //源文件的地址、
+            string source = @"C:\Users\nanfengqaq\Desktop\test.txt";
+            //目标地址
+            string target = @"C:\Users\nanfengqaq\Desktop\test1.txt";
+            CopyFile(source,target);
+            Console.WriteLine("复制完成！");
+        }
+        /// <summary>
+        /// 复制文件
+        /// </summary>
+        /// <param name="source">y源文件地址</param>
+        /// <param name="target">目标地址</param>
+        public static void CopyFile(string source, string target)
+        {
+            //1.创建一个负责读取的流
+            using (FileStream fileRead = new FileStream(source, FileMode.Open, FileAccess.Read))
+            {
+                //2.创建一个负责写入的流
+                using (FileStream fileWrite = new FileStream(target, FileMode.OpenOrCreate, FileAccess.Write))
+                {
+                    byte[] bytes = new byte[1024];
+                    //因为文件可能很大，所以需要循环读取
+                    while (true)
+                    {
+
+
+                        //返回本次读取实际读取到的字节数
+                        int r = fileRead.Read(bytes, 0, bytes.Length);
+
+                        //如果r=0 就意味着什么没有读到，读取完了
+                        if(r == 0)
+                        {
+                            break;
+                        }
+                        fileWrite.Write(bytes, 0, r);
+                        
+
+                    }
+                   
+                   
+
+                }
+            }
+        }
+    }
+}
 ```
