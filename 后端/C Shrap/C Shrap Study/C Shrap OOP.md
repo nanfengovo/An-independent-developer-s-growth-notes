@@ -597,7 +597,8 @@ namespace Path类
 ```
 ![[Pasted image 20241107231718.png]]
 
-# File 类
+# File 类   --一次性全部读取
+
 >- 创建文件
 >	-  //在桌面创建一个名为test的txt文件       File.Create(@"C:\Users\nanfengqaq\Desktop\test.txt");
 >- 删除文件
@@ -689,5 +690,9 @@ int s = (int)str;
 >如果存在继承关系，可能发生
 >如果不存在，则不可能发生
 
-# 使用FileStream来读写文件    -- 操作字节的
+# 使用FileStream来读写文件    -- 操作字节的（一点一点读）
+>FileStream    操作字节的（操作所有的文件）
+>StreamReader和StreamWrite 操作字符的
+
+
 
