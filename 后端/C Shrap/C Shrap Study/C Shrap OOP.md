@@ -725,4 +725,28 @@ int s = (int)str;
    #endregion
 ```
 ## 将创建文件流对象的过程写在using中会自动帮我们释放所占用的资源
-## 使用FileStream实现多媒体文件的复制
+## 使用FileStream实现多媒体文件的复制[[C Shrap 练习题：#36.使用FileStream实现多媒体文件复制]]
+## StreamReader和StreamWriter 的使用
+```C#
+namespace StreamReader和StreamWriter
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //使用StreamReader读取文件
+            using (StreamReader sr = new StreamReader(@"C:\Users\nanfengqaq\Desktop\test.txt"))
+            {
+                Console.WriteLine(sr.ReadLine());
+            }
+
+            //使用StreamWriter写入文件
+            using (StreamWriter sw = new StreamWriter(@"C:\Users\nanfengqaq\Desktop\test.txt"))
+            {
+                sw.WriteLine("Hello World!");
+            }
+        }
+    }
+}
+```
+

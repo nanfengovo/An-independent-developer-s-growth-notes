@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,10 +178,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md"
+                "file": "后端/C Shrap/C Shrap Study/C Shrap OOP.md"
               },
               "icon": "lucide-list",
-              "title": "C Shrap 练习题： 的大纲"
+              "title": "C Shrap OOP 的大纲"
             }
           },
           {
@@ -215,7 +215,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -240,8 +240,9 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "c323db67eb739d2a",
+  "active": "16f50a8d19b078db",
   "lastOpenFiles": [
+    "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
     "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
     "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
     "前端/JavaScript/JavaScript 基础.md",
@@ -249,7 +250,6 @@
     "前端/CSS/CSS 基础.md",
     "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md",
     "2024-11-11.md",
-    "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
     "后端/C Shrap/ASP.NET Core/ORM/主流 ORM.md",
     "前端/框架/Vue/项目使用/VUE 3.md",
     "后端/C Shrap/C Shrap Study/C Shrap Grammer.md",
