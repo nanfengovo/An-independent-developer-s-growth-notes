@@ -828,3 +828,5 @@ namespace 值类型和引用类型
 ## 序列化：
 1、将这个类标记为可以被序列化的  在类的上面加上[Serializable]
 2、开始序列化对象 BinaryFormatter    BinaryFormatter bf = new BinaryFormatter
+# partial 部分类
+# seaked 密封类 ：不能被其他类继承，但是可以继承其他类
