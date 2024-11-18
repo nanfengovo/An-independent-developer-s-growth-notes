@@ -830,3 +830,6 @@ namespace 值类型和引用类型
 2、开始序列化对象 BinaryFormatter    BinaryFormatter bf = new BinaryFormatter
 # partial 部分类
 # seaked 密封类 ：不能被其他类继承，但是可以继承其他类
+# 接口：
+>接口：就是一个规范、能力
+>
