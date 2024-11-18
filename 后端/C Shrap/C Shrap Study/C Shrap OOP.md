@@ -820,3 +820,11 @@ namespace 值类型和引用类型
     }
 }
 ```
+# 序列化和反序列化
+>序列化：将对象转换为二进制
+>反序列化：将二进制转换为对象
+
+作用：传输数据
+## 序列化：
+1、将这个类标记为可以被序列化的  在类的上面加上[Serializable]
+2、开始序列化对象 BinaryFormatter    BinaryFormatter bf = new BinaryFormatter
