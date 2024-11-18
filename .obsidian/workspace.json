@@ -236,7 +236,8 @@
       "obsidian-language-learner:单词列表": false,
       "media-extended:Open media": false,
       "i18n:I18N": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "copilot:Copilot Chat": false
     }
   },
   "active": "7074ec56eea8cf1c",
