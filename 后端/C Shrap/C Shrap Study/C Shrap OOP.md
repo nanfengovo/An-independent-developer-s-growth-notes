@@ -838,5 +838,36 @@ namespace 值类型和引用类型
 >接口中可以写自动属性
 
 >自动属性和普通属性的区别是？
->
+
+```c#
+namespace 自动属性和普通属性
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+        }
+
+        public class Person
+        {
+            private string _name;
+            public string Name
+            {
+                get { return Name; }
+                set { Name = value; }
+            }
+
+            /// <summary>
+            /// 自动属性
+            /// </summary>
+            public int Age
+            { 
+                get; set; 
+            }
+        }
+
+    }
+}
+```
 
