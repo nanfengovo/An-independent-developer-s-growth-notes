@@ -786,3 +786,37 @@ namespace StreamReader和StreamWriter
 >设计这个项目的一个方式。
 
 ## 01 简单工厂设计模式
+# 值类型和引用类型
+
+## 字符串的不可变性
+```c#
+namespace 值类型和引用类型
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            person p =new person();
+            p.Name="nanfeng";
+            person p2 = p;
+            p2.Name = "nanfeng2";
+            Console.WriteLine(p.Name+p2.Name);
+
+
+            string s1 = "nanfeng";
+            string s2 = s1;
+            s2 = "nanfeng2";
+            Console.WriteLine(s1+s2);
+            
+        }
+
+        public class person
+        {
+            private string name;
+
+
+            public string Name { get => name; set => name = value; }
+        }
+    }
+}
+```
