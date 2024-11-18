@@ -190,8 +190,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -200,8 +200,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -210,8 +210,8 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "history",
-              "title": "History"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           }
         ],
@@ -236,8 +236,7 @@
       "obsidian-language-learner:单词列表": false,
       "media-extended:Open media": false,
       "i18n:I18N": false,
-      "obsidian-git:Open Git source control": false,
-      "copilot:Copilot Chat": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "7074ec56eea8cf1c",
