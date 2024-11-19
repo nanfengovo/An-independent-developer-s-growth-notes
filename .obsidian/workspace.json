@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "d95c48fdb156cff6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
+          },
+          {
             "id": "cbe5143e45dca47c",
             "type": "leaf",
             "state": {
@@ -50,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -177,11 +189,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "C Shrap 练习题： 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -240,7 +250,7 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "7074ec56eea8cf1c",
+  "active": "d95c48fdb156cff6",
   "lastOpenFiles": [
     "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
     "后端/C Shrap/C Shrap Study/Visual Studio 开发平台常用快捷键.md",
