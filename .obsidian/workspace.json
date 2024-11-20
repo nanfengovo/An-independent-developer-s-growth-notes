@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
+                "file": "后端/C Shrap/C Shrap Study/WinForm   --桌面应用程序（客户端）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C Shrap 练习题："
+              "title": "WinForm   --桌面应用程序（客户端）"
             }
           },
           {
@@ -178,10 +178,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md"
+                "file": "后端/C Shrap/C Shrap Study/WinForm   --桌面应用程序（客户端）.md"
               },
               "icon": "lucide-list",
-              "title": "C Shrap 练习题： 的大纲"
+              "title": "WinForm   --桌面应用程序（客户端） 的大纲"
             }
           },
           {
@@ -242,16 +242,20 @@
   },
   "active": "7074ec56eea8cf1c",
   "lastOpenFiles": [
+    "后端/C Shrap/C Shrap Study/Visual Studio IntelliSense (VS智能提示汉化).md",
+    "后端/C Shrap/C Shrap Study/WinForm   --桌面应用程序（客户端）.md",
     "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
+    "后端/C Shrap/ASP.NET Core/ORM/主流 ORM.md",
+    "后端/C Shrap/C Shrap Project/超市收银系统",
+    "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
+    "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
     "后端/C Shrap/C Shrap Study/Visual Studio 开发平台常用快捷键.md",
     "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
-    "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
     "前端/JavaScript/JavaScript 基础.md",
     "前端/HTML/HTML 基础.md",
     "前端/CSS/CSS 基础.md",
     "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md",
     "2024-11-11.md",
-    "后端/C Shrap/ASP.NET Core/ORM/主流 ORM.md",
     "前端/框架/Vue/项目使用/VUE 3.md",
     "后端/C Shrap/C Shrap Study/C Shrap Grammer.md",
     "图片/Pasted image 20241111102349.png",
@@ -261,7 +265,6 @@
     "图片/Pasted image 20241109154019.png",
     "前端/框架/Vue/Vue3 Study/Vue3 Demo",
     "前端/框架/Vue/Vue3 Study",
-    "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
     "前端/框架/Vue/项目使用",
     "数据库/数据库管理工具/Navicat/Navicat 连接SQL Server/1.1 连接SQL Server.md",
     "数据库/SQL Server",
@@ -275,9 +278,7 @@
     "数据库/数据库管理工具/DBeaver",
     "数据库/数据库管理工具/Navicat",
     "数据库/数据库管理工具",
-    "后端/C Shrap/C Shrap Study/Visual Studio IntelliSense (VS智能提示汉化).md",
     "杂项/Localhost和127.0.0.1的区别.md",
-    "杂项",
     "后端/C Shrap/C Shrap Project/飞行棋/Flying Chess (飞行棋项目)    --控制台版.md",
     "后端/C Shrap/C Shrap  algorithm/交换两个变量的值.md",
     "后端/C Shrap/C Shrap Lib/Colorful.Console.md",
@@ -286,7 +287,6 @@
     "后端/ASP.NET Core/未命名.md",
     "后端/C Shrap/使用out参数自己实现TryParse()方法.md",
     "后端/C Shrap/DataTime相关.md",
-    "后端/C Shrap/C Shrap 基础概念.md",
-    "后端/C Shrap/C Shrap GetType() 和 typeof 的区别.md"
+    "后端/C Shrap/C Shrap 基础概念.md"
   ]
 }
