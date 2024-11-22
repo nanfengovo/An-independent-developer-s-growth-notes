@@ -116,7 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 209.5
   },
   "right": {
     "id": "5cde09bdb333716c",
@@ -242,8 +242,9 @@
   },
   "active": "7074ec56eea8cf1c",
   "lastOpenFiles": [
-    "后端/C Shrap/C Shrap Study/WinForm   --桌面应用程序（客户端）.md",
+    "后端/C Shrap/ASP.NET Core/DDD领域驱动设计/DDD 中常见的模式分类.md",
     "后端/C Shrap/ASP.NET Core/DDD领域驱动设计/DDD（Domain-Driven Design）基础.md",
+    "后端/C Shrap/C Shrap Study/WinForm   --桌面应用程序（客户端）.md",
     "后端/C Shrap/ASP.NET Core/DDD领域驱动设计",
     "后端/C Shrap/C Shrap Study/Visual Studio IntelliSense (VS智能提示汉化).md",
     "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
@@ -286,7 +287,6 @@
     "数据库/MySQL/MySQL配置到系统环境变量(Windows).md",
     "数据库/MySQL/MySQL 日志相关配置.md",
     "后端/ASP.NET Core/未命名.md",
-    "后端/C Shrap/使用out参数自己实现TryParse()方法.md",
-    "后端/C Shrap/DataTime相关.md"
+    "后端/C Shrap/使用out参数自己实现TryParse()方法.md"
   ]
 }
