@@ -242,6 +242,9 @@
   },
   "active": "7074ec56eea8cf1c",
   "lastOpenFiles": [
+    "图片/Pasted image 20241122110226.png",
+    "图片/Pasted image 20241122110211.png",
+    "图片/Pasted image 20241122105939.png",
     "后端/C Shrap/ASP.NET Core/DDD领域驱动设计/DDD 中常见的模式分类.md",
     "后端/C Shrap/ASP.NET Core/DDD领域驱动设计/DDD（Domain-Driven Design）基础.md",
     "后端/C Shrap/C Shrap Study/WinForm   --桌面应用程序（客户端）.md",
@@ -275,8 +278,6 @@
     "数据库/数据库管理工具/Navicat/Navicat 连接SQL Server",
     "图片/Pasted image 20241109112838.png",
     "图片/Pasted image 20241109112731.png",
-    "图片/Pasted image 20241109112640.png",
-    "图片/Pasted image 20241109112453.png",
     "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server",
     "数据库/数据库管理工具/DBeaver",
     "数据库/数据库管理工具/Navicat",
@@ -286,7 +287,6 @@
     "后端/C Shrap/C Shrap Lib/Colorful.Console.md",
     "数据库/MySQL/MySQL配置到系统环境变量(Windows).md",
     "数据库/MySQL/MySQL 日志相关配置.md",
-    "后端/ASP.NET Core/未命名.md",
-    "后端/C Shrap/使用out参数自己实现TryParse()方法.md"
+    "后端/ASP.NET Core/未命名.md"
   ]
 }
