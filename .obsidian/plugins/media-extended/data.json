@@ -2,8 +2,8 @@
   "defaultVolume": 48,
   "devices": [],
   "defaultMxLinkClick": {
-    "click": "split",
-    "alt": "tab"
+    "click": "split-horizontal",
+    "alt": "window"
   },
   "linkHandler": {
     "mx-embed": [],
@@ -12,7 +12,7 @@
     "mx-webpage": []
   },
   "speedStep": 0.1,
-  "loadStrategy": "eager",
+  "loadStrategy": "play",
   "timestampTemplate": "\n- {{TIMESTAMP}} ",
   "screenshotTemplate": "\n- !{{SCREENSHOT}} {{TIMESTAMP}} ",
   "screenshotEmbedTemplate": "{{TITLE}}{{DURATION}}|50",
