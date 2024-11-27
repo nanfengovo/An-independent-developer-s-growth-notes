@@ -1,0 +1,5 @@
+https://www.bilibili.com/video/BV1owSMY7Ek4?spm_id_from=333.788.videopod.episodes&vd_source=b7200d0eaee914e9c128dcabce5df118&p=6 
+
+# 模板语法
+## 文本插值
+	<span>Message:{{msg}}</span>
