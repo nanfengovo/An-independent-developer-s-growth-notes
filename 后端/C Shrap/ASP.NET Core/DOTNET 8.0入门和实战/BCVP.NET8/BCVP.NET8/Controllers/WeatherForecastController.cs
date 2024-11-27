@@ -1,3 +1,5 @@
+using BCVP.NET8.Model;
+using BCVP.NET8.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BCVP.NET8.Controllers
@@ -19,15 +21,11 @@ namespace BCVP.NET8.Controllers
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+        public async Task<List<UserVo>> Get()
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
+           var userService = new UserService();
+            var userList = await userService.Query();
+            return userList;
         }
     }
 }

@@ -1,0 +1,13 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BCVP.NET8.IService
+build_property.ProjectDir = E:\nanfengqaq\Study-NotePad\独立开发者的成长笔记\An-independent-developer-s-growth-notes\后端\C Shrap\ASP.NET Core\DOTNET 8.0入门和实战\BCVP.NET8\BCVP.NET8.IService\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

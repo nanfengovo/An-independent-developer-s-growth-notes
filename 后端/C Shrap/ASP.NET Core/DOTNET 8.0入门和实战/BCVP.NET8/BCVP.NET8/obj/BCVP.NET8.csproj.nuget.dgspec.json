@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Code\\Study\\Webapi\\BCVP.NET8\\BCVP.NET8\\BCVP.NET8.csproj": {}
+    "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8\\BCVP.NET8.csproj": {}
   },
   "projects": {
-    "E:\\Code\\Study\\Webapi\\BCVP.NET8\\BCVP.NET8\\BCVP.NET8.csproj": {
+    "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Commom\\BCVP.NET8.Commom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\Study\\Webapi\\BCVP.NET8\\BCVP.NET8\\BCVP.NET8.csproj",
-        "projectName": "BCVP.NET8",
-        "projectPath": "E:\\Code\\Study\\Webapi\\BCVP.NET8\\BCVP.NET8\\BCVP.NET8.csproj",
+        "projectUniqueName": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Commom\\BCVP.NET8.Commom.csproj",
+        "projectName": "BCVP.NET8.Commom",
+        "projectPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Commom\\BCVP.NET8.Commom.csproj",
         "packagesPath": "C:\\Users\\nanfengqaq\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\Study\\Webapi\\BCVP.NET8\\BCVP.NET8\\obj\\",
+        "outputPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Commom\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,7 +43,361 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.IService\\BCVP.NET8.IService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.IService\\BCVP.NET8.IService.csproj",
+        "projectName": "BCVP.NET8.IService",
+        "projectPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.IService\\BCVP.NET8.IService.csproj",
+        "packagesPath": "C:\\Users\\nanfengqaq\\.nuget\\packages\\",
+        "outputPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.IService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nanfengqaq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Model\\BCVP.NET8.Model.csproj": {
+                "projectPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Model\\BCVP.NET8.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Model\\BCVP.NET8.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Model\\BCVP.NET8.Model.csproj",
+        "projectName": "BCVP.NET8.Model",
+        "projectPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Model\\BCVP.NET8.Model.csproj",
+        "packagesPath": "C:\\Users\\nanfengqaq\\.nuget\\packages\\",
+        "outputPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nanfengqaq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Commom\\BCVP.NET8.Commom.csproj": {
+                "projectPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Commom\\BCVP.NET8.Commom.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj",
+        "projectName": "BCVP.NET8.Repository",
+        "projectPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj",
+        "packagesPath": "C:\\Users\\nanfengqaq\\.nuget\\packages\\",
+        "outputPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nanfengqaq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Model\\BCVP.NET8.Model.csproj": {
+                "projectPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Model\\BCVP.NET8.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Service\\BCVP.NET8.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Service\\BCVP.NET8.Service.csproj",
+        "projectName": "BCVP.NET8.Service",
+        "projectPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Service\\BCVP.NET8.Service.csproj",
+        "packagesPath": "C:\\Users\\nanfengqaq\\.nuget\\packages\\",
+        "outputPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nanfengqaq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.IService\\BCVP.NET8.IService.csproj": {
+                "projectPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.IService\\BCVP.NET8.IService.csproj"
+              },
+              "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj": {
+                "projectPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8\\BCVP.NET8.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8\\BCVP.NET8.csproj",
+        "projectName": "BCVP.NET8",
+        "projectPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8\\BCVP.NET8.csproj",
+        "packagesPath": "C:\\Users\\nanfengqaq\\.nuget\\packages\\",
+        "outputPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nanfengqaq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Service\\BCVP.NET8.Service.csproj": {
+                "projectPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Service\\BCVP.NET8.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -66,28 +420,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-              "version": "[9.0.100, 9.0.100]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -96,7 +428,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
