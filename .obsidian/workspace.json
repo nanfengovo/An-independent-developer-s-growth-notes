@@ -4,80 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "773590266e2b691e",
-        "type": "split",
+        "id": "030b181194ced59f",
+        "type": "tabs",
         "children": [
           {
-            "id": "030b181194ced59f",
-            "type": "tabs",
-            "dimension": 25.05285412262156,
-            "children": [
-              {
-                "id": "c9dd23faa22f9eb1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "1.1 连接SQL Server（默认端口号1433）"
-                }
+            "id": "c9dd23faa22f9eb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
+                "mode": "source",
+                "source": false
               },
-              {
-                "id": "cbe5143e45dca47c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "C Shrap 练习题："
-                }
-              },
-              {
-                "id": "50aa5469b42dda33",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "后端/C Shrap/ASP.NET Core/DOTNET 8.0/Dotnet 8.0 入门和实战.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Dotnet 8.0 入门和实战"
-                }
-              }
-            ],
-            "currentTab": 2
+              "icon": "lucide-file",
+              "title": "1.1 连接SQL Server（默认端口号1433）"
+            }
           },
           {
-            "id": "302fbe68b8c8ed09",
-            "type": "tabs",
-            "dimension": 74.94714587737843,
-            "children": [
-              {
-                "id": "40e8ecf3612017e7",
-                "type": "leaf",
-                "state": {
-                  "type": "mx-webpage",
-                  "state": {
-                    "source": "https://www.bilibili.com/video/BV13g4y1Z7in"
-                  },
-                  "icon": "bilibili",
-                  "title": "ASP.NET8.0入门与实战 - bilibili"
-                }
-              }
-            ]
+            "id": "cbe5143e45dca47c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "C Shrap 练习题："
+            }
+          },
+          {
+            "id": "50aa5469b42dda33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "后端/C Shrap/ASP.NET Core/DOTNET 8.0/Dotnet 8.0 入门和实战.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dotnet 8.0 入门和实战"
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -204,9 +177,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "后端/C Shrap/ASP.NET Core/DOTNET 8.0/Dotnet 8.0 入门和实战.md"
+              },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Dotnet 8.0 入门和实战 的大纲"
             }
           },
           {
@@ -265,8 +240,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "40e8ecf3612017e7",
+  "active": "50aa5469b42dda33",
   "lastOpenFiles": [
+    "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用",
+    "前端/框架/Vue/项目使用/VUE 3.md",
     "Media Note - ASP.NET8.0入门与实战.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0/Dotnet 8.0 入门和实战.md",
     "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
@@ -290,9 +268,7 @@
     "前端/JavaScript/JavaScript 基础.md",
     "前端/HTML/HTML 基础.md",
     "前端/CSS/CSS 基础.md",
-    "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md",
     "2024-11-11.md",
-    "前端/框架/Vue/项目使用/VUE 3.md",
     "后端/C Shrap/C Shrap Study/C Shrap Grammer.md",
     "图片/Pasted image 20241111102349.png",
     "图片/Pasted image 20241111101944.png",
@@ -308,10 +284,8 @@
     "数据库/数据库管理工具/Navicat/Navicat 连接SQL Server",
     "图片/Pasted image 20241109112838.png",
     "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server",
-    "数据库/数据库管理工具/DBeaver",
     "杂项/Localhost和127.0.0.1的区别.md",
     "后端/C Shrap/C Shrap Project/飞行棋/Flying Chess (飞行棋项目)    --控制台版.md",
-    "后端/C Shrap/C Shrap  algorithm/交换两个变量的值.md",
-    "后端/C Shrap/C Shrap Lib/Colorful.Console.md"
+    "后端/C Shrap/C Shrap  algorithm/交换两个变量的值.md"
   ]
 }
