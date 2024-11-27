@@ -16,7 +16,7 @@
   "timestampTemplate": "\n- {{TIMESTAMP}} ",
   "screenshotTemplate": "\n- !{{SCREENSHOT}} {{TIMESTAMP}} ",
   "screenshotEmbedTemplate": "{{TITLE}}{{DURATION}}|50",
-  "insertBefore": false,
+  "insertBefore": true,
   "timestampOffset": 0,
   "biliDefaultQuality": 80,
   "screenshotFormat": "image/png",
