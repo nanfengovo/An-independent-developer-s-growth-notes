@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BCVP.NET8.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4c09751f118bcf9231d26eafe556197e1b0aa2e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca94f273e940b374275b321254b0253e8acbf715")]
 [assembly: System.Reflection.AssemblyProductAttribute("BCVP.NET8.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BCVP.NET8.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

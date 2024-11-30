@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/2、仓储+服务架构模式.md",
+                "file": "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/3、泛型基类的妙用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2、仓储+服务架构模式"
+              "title": "3、泛型基类的妙用"
             }
           }
         ],
@@ -178,10 +178,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/2、仓储+服务架构模式.md"
+                "file": "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/3、泛型基类的妙用.md"
               },
               "icon": "lucide-list",
-              "title": "2、仓储+服务架构模式 的大纲"
+              "title": "3、泛型基类的妙用 的大纲"
             }
           },
           {
@@ -240,25 +240,26 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "50aa5469b42dda33",
+  "active": "8ad211c73afcffe2",
   "lastOpenFiles": [
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8/bin/Debug/net8.0/BCVP.NET8.Model.dll",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8/obj/Debug/net8.0/BCVP.NET8.csproj.BuildWithSkipAnalyzers",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Service/bin/Debug/net8.0/BCVP.NET8.Service.pdb",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Service/obj/Debug/net8.0/ref/BCVP.NET8.Service.dll",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Service/bin/Debug/net8.0/BCVP.NET8.Service.dll",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Service/bin/Debug/net8.0/BCVP.NET8.Service.deps.json",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Service/bin/Debug/net8.0/BCVP.NET8.IService.dll",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Service/obj/Debug/net8.0/refint/BCVP.NET8.Service.dll",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Service/obj/Debug/net8.0/BCVP.NET8.Service.pdb",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Service/obj/Debug/net8.0/BCVP.NET8.Service.dll",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Service/obj/Debug/net8.0/BCVP.NET8.Service.sourcelink.json",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Repository/obj/Debug/net8.0/BCVP.NET8.Repository.csproj.BuildWithSkipAnalyzers",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.IService/obj/Debug/net8.0/BCVP.NET8.IService.csproj.BuildWithSkipAnalyzers",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Model/obj/Debug/net8.0/BCVP.NET8.Model.csproj.BuildWithSkipAnalyzers",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8/bin/Debug/net8.0/BCVP.NET8.IService.dll",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Service/bin/Debug/net8.0/BCVP.NET8.Repository.dll",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Service/bin/Debug/net8.0/BCVP.NET8.Repository.pdb",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Service/bin/Debug/net8.0/BCVP.NET8.Model.dll",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.IService/bin/Debug/net8.0/BCVP.NET8.Model.dll",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.IService/bin/Debug/net8.0/BCVP.NET8.Model.pdb",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.IService/IBaseService.cs",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Service/BaseService.cs",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/2、仓储+服务架构模式.md",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/3、泛型基类的妙用.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Repository/Reposirory.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Model/Model.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Commom/Commom.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Commom/公共.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/1、项目初始化.md",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/2、仓储+服务架构模式.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/06、Vue3模板语法+Attribute绑定.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/05、创建第一个Vue3应用.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/04、搭建Vue3开发环境和注意事项.md",
@@ -280,7 +281,6 @@
     "图片/Pasted image 20241122110226.png",
     "图片/Pasted image 20241122110211.png",
     "图片/Pasted image 20241122105939.png",
-    "后端/C Shrap/C Shrap Study/WinForm   --桌面应用程序（客户端）.md",
     "图片/Pasted image 20241111102349.png",
     "图片/Pasted image 20241111101944.png",
     "图片/Pasted image 20241109154804.png",
