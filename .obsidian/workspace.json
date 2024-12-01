@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/10、Vue3中条件渲染+列表渲染.md",
+                "file": "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/45、小滴课堂首页开发——课程分类列表.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10、Vue3中条件渲染+列表渲染"
+              "title": "45、小滴课堂首页开发——课程分类列表"
             }
           }
         ],
@@ -116,7 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5
+    "width": 506.5
   },
   "right": {
     "id": "5cde09bdb333716c",
@@ -178,10 +178,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/10、Vue3中条件渲染+列表渲染.md"
+                "file": "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/45、小滴课堂首页开发——课程分类列表.md"
               },
               "icon": "lucide-list",
-              "title": "10、Vue3中条件渲染+列表渲染 的大纲"
+              "title": "45、小滴课堂首页开发——课程分类列表 的大纲"
             }
           },
           {
@@ -233,21 +233,32 @@
   },
   "active": "50aa5469b42dda33",
   "lastOpenFiles": [
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/09、详解Vue3的类与样式的绑定.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/10、Vue3中条件渲染+列表渲染.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/08、详解Vue3中的计算属性.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/07、Vue3框架中如何实现响应式.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/06、Vue3模板语法+Attribute绑定.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/05、创建第一个Vue3应用.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/04、搭建Vue3开发环境和注意事项.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/03、Vue3和React的恩怨情仇.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/02、大纲.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/01.介绍.md",
-    "后端/C Shrap/C Shrap 面试题/NET 高频面试题总结（高级开发、架构师）.md",
-    "后端/C Shrap/C Shrap 面试题/腾讯.NET基础面试题.md",
-    "后端/C Shrap/C Shrap 面试题/break ; continue ;return.md",
-    "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/3、泛型基类的妙用.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/44、小滴课堂首页开发——分类导航+轮播图开发.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/45、小滴课堂首页开发——课程分类列表.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/43、小滴课堂首页开发——登录模块开发.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/42、小滴课堂首页开发——注册模块开发.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/41、小滴课堂首页开发——头部导航开发.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/40、Vue3+ElementPlus实战项目开发——ElementPlus+Tail.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/39、Vue3+ElementPlus实战项目开发——项目创建.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/38、小滴课堂项目页面需求分析.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/37、Vue3跨组件共享状态Pinia——组合式.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/36、Vue3跨组件共享状态Pinia——选项式.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/35、Vue3跨组件共享状态Pinia——安装+使用式例.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/34、为什么使用Pinia.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/33、Vue3单页面开发实现规模化Vue Route 进阶——路由懒加载.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/32、Vue3单页面实现规模化Vue Route进阶——历史记录.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/31、Vue3单页面实现规模化Vue Route 基础——路由传参.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/30、Vue3单页面实现规模化Vue Route 基础——命名+重定向.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/29、Vue3单页面实现规模化Vue Rpute 基础——嵌套路由.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/28、Vue3单页面实现规模化Vue Route 基础——入门使用.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/27、Vue3单页面组件开发进阶——KeepAlive.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/20、Vue3单页面组件开发基础——组件定义+使用.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/21、Vue3单页面组件开发基础——监听事件.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/22、Vue3 单页面组件开发基础——插槽.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/23、Vue3单页面组件开发进阶——组件注册+命名.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/24、Vue3单页面组件开发进阶——props.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/25、Vue3单页面组件开发进阶——defineModel.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/26、Vue3单页面组件开发进阶——依赖注入.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Repository/obj/Debug/net8.0/BCVP.NET8.Repository.csproj.BuildWithSkipAnalyzers",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.IService/obj/Debug/net8.0/BCVP.NET8.IService.csproj.BuildWithSkipAnalyzers",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Model/obj/Debug/net8.0/BCVP.NET8.Model.csproj.BuildWithSkipAnalyzers",
@@ -258,17 +269,6 @@
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.IService/bin/Debug/net8.0/BCVP.NET8.Model.dll",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.IService/bin/Debug/net8.0/BCVP.NET8.Model.pdb",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.IService/IBaseService.cs",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/2、仓储+服务架构模式.md",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Repository/Reposirory.md",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Model/Model.md",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Commom/Commom.md",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Commom/公共.md",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/1、项目初始化.md",
-    "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md",
-    "Media Note - ASP.NET8.0入门与实战.md",
-    "前端/框架/Vue/项目使用/VUE 3.md",
-    "后端/C Shrap/ASP.NET Core/DotNET Core的重要问题.md",
-    "后端/C Shrap/ASP.NET Core/未命名.md",
     "图片/Pasted image 20241122110226.png",
     "图片/Pasted image 20241122110211.png",
     "图片/Pasted image 20241122105939.png",
