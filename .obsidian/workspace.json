@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/3、泛型基类的妙用.md",
+                "file": "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/10、Vue3中条件渲染+列表渲染.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3、泛型基类的妙用"
+              "title": "10、Vue3中条件渲染+列表渲染"
             }
           }
         ],
@@ -178,10 +178,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/3、泛型基类的妙用.md"
+                "file": "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/10、Vue3中条件渲染+列表渲染.md"
               },
               "icon": "lucide-list",
-              "title": "3、泛型基类的妙用 的大纲"
+              "title": "10、Vue3中条件渲染+列表渲染 的大纲"
             }
           },
           {
@@ -228,20 +228,26 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-language-learner:打开查词面板": false,
-      "obsidian-language-learner:打开新词面板": false,
-      "obsidian-language-learner:打开统计": false,
-      "obsidian-language-learner:单词列表": false,
-      "media-extended:Open media": false,
-      "i18n:I18N": false,
-      "obsidian-git:Open Git source control": false,
-      "copilot:Copilot Chat": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "8ad211c73afcffe2",
+  "active": "50aa5469b42dda33",
   "lastOpenFiles": [
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/09、详解Vue3的类与样式的绑定.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/10、Vue3中条件渲染+列表渲染.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/08、详解Vue3中的计算属性.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/07、Vue3框架中如何实现响应式.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/06、Vue3模板语法+Attribute绑定.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/05、创建第一个Vue3应用.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/04、搭建Vue3开发环境和注意事项.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/03、Vue3和React的恩怨情仇.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/02、大纲.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/01.介绍.md",
+    "后端/C Shrap/C Shrap 面试题/NET 高频面试题总结（高级开发、架构师）.md",
+    "后端/C Shrap/C Shrap 面试题/腾讯.NET基础面试题.md",
+    "后端/C Shrap/C Shrap 面试题/break ; continue ;return.md",
+    "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/3、泛型基类的妙用.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Repository/obj/Debug/net8.0/BCVP.NET8.Repository.csproj.BuildWithSkipAnalyzers",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.IService/obj/Debug/net8.0/BCVP.NET8.IService.csproj.BuildWithSkipAnalyzers",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Model/obj/Debug/net8.0/BCVP.NET8.Model.csproj.BuildWithSkipAnalyzers",
@@ -252,32 +258,17 @@
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.IService/bin/Debug/net8.0/BCVP.NET8.Model.dll",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.IService/bin/Debug/net8.0/BCVP.NET8.Model.pdb",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.IService/IBaseService.cs",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Service/BaseService.cs",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/2、仓储+服务架构模式.md",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/3、泛型基类的妙用.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Repository/Reposirory.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Model/Model.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Commom/Commom.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Commom/公共.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/1、项目初始化.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/06、Vue3模板语法+Attribute绑定.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/05、创建第一个Vue3应用.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/04、搭建Vue3开发环境和注意事项.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/03、Vue3和React的恩怨情仇.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/02、大纲.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/01.介绍.md",
     "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md",
     "Media Note - ASP.NET8.0入门与实战.md",
     "前端/框架/Vue/项目使用/VUE 3.md",
-    "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
     "后端/C Shrap/ASP.NET Core/DotNET Core的重要问题.md",
     "后端/C Shrap/ASP.NET Core/未命名.md",
-    "后端/C Shrap/ASP.NET Core/ORM/主流 ORM.md",
-    "后端/C Shrap/ASP.NET Core/DDD领域驱动设计/DDD 中常见的模式分类.md",
-    "后端/C Shrap/ASP.NET Core/DDD领域驱动设计/DDD（Domain-Driven Design）基础.md",
-    "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
-    "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
-    "后端/C Shrap/C Shrap Study/Visual Studio IntelliSense (VS智能提示汉化).md",
     "图片/Pasted image 20241122110226.png",
     "图片/Pasted image 20241122110211.png",
     "图片/Pasted image 20241122105939.png",
