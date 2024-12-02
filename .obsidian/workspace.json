@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/4、泛型对象的关系映射.md",
+                "file": "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/6、自定义项目框架模板.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4、泛型对象的关系映射"
+              "title": "6、自定义项目框架模板"
             }
           }
         ],
@@ -178,10 +178,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/4、泛型对象的关系映射.md"
+                "file": "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/6、自定义项目框架模板.md"
               },
               "icon": "lucide-list",
-              "title": "4、泛型对象的关系映射 的大纲"
+              "title": "6、自定义项目框架模板 的大纲"
             }
           },
           {
@@ -233,6 +233,13 @@
   },
   "active": "50aa5469b42dda33",
   "lastOpenFiles": [
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/2、仓储+服务架构模式.md",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/6、自定义项目框架模板.md",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/5、原生依赖注入串联整体框架.md",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Service/bin/Debug/net8.0/BCVP.NET8.Service.pdb",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Service/bin/Debug/net8.0/BCVP.NET8.Service.dll",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Service/bin/Debug/net8.0/BCVP.NET8.Service.deps.json",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/4、泛型对象的关系映射.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8/bin/Debug/net8.0/BCVP.NET8.exe",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8/bin/Debug/net8.0/BCVP.NET8.runtimeconfig.json",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8/bin/Debug/net8.0/BCVP.NET8.deps.json",
@@ -240,12 +247,7 @@
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8/obj/Debug/net8.0/BCVP.NET8.MvcApplicationPartsAssemblyInfo.cache",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8/obj/Debug/net8.0/BCVP.NET8.MvcApplicationPartsAssemblyInfo.cs",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8/obj/Debug/net8.0/BCVP.NET8.csproj.CoreCompileInputs.cache",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8/obj/Debug/net8.0/BCVP.NET8.AssemblyInfo.cs",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8/obj/Debug/net8.0/BCVP.NET8.AssemblyInfoInputs.cache",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8/obj/Debug/net8.0/BCVP.NET8.GeneratedMSBuildEditorConfig.editorconfig",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8/obj/Debug/net8.0/BCVP.NET8.csproj.AssemblyReference.cache",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/3、泛型基类的妙用.md",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/4、泛型对象的关系映射.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/4、.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/BCVP.NET8/BCVP.NET8.Model/Model.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/45、小滴课堂首页开发——课程分类列表.md",
@@ -267,8 +269,6 @@
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/29、Vue3单页面实现规模化Vue Rpute 基础——嵌套路由.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/28、Vue3单页面实现规模化Vue Route 基础——入门使用.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/27、Vue3单页面组件开发进阶——KeepAlive.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/20、Vue3单页面组件开发基础——组件定义+使用.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/21、Vue3单页面组件开发基础——监听事件.md",
     "图片/Pasted image 20241122110226.png",
     "图片/Pasted image 20241122110211.png",
     "图片/Pasted image 20241122105939.png",

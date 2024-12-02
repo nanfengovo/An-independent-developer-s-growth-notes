@@ -16,19 +16,21 @@ namespace BCVP.NET8.Service
 
 
         private readonly IMapper _mapper;
+        private readonly IBaseRepository<TEntity> _baseRepository;
 
         //依赖注入
-        public BaseServices(IMapper mapper)
+        public BaseServices(IMapper mapper,IBaseRepository<TEntity> baseRepository)
         {
             _mapper = mapper;
+            _baseRepository = baseRepository;
         }
 
 
         //对象关系映射
         public async Task<List<TVo>> Query()
         {
-            var baseRepo = new BaseRepository<TEntity>();
-            var entities = await baseRepo.Query();
+            //var baseRepo = new BaseRepository<TEntity>();
+            var entities = await _baseRepository.Query();
             var llout = _mapper.Map<List<TVo>>(entities);
             return llout;
         }
