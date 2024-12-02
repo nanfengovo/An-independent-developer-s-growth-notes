@@ -8,6 +8,6 @@ namespace BCVP.NET8.IService
 {
     public interface IBaseServices<TEntity,TVo> where TEntity : class
     {
-        Task<List<TEntity>> Query();
+        Task<List<TVo>> Query();
     }
 }

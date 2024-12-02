@@ -50,6 +50,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -383,6 +391,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Commom\\BCVP.NET8.Commom.csproj": {
+                "projectPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Commom\\BCVP.NET8.Commom.csproj"
+              },
               "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Service\\BCVP.NET8.Service.csproj": {
                 "projectPath": "E:\\nanfengqaq\\Study-NotePad\\独立开发者的成长笔记\\An-independent-developer-s-growth-notes\\后端\\C Shrap\\ASP.NET Core\\DOTNET 8.0入门和实战\\BCVP.NET8\\BCVP.NET8.Service\\BCVP.NET8.Service.csproj"
               }
