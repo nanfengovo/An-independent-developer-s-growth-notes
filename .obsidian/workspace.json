@@ -190,8 +190,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -200,8 +200,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -210,12 +210,12 @@
             "state": {
               "type": "git-history-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "history",
+              "title": "History"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -242,6 +242,7 @@
   },
   "active": "50aa5469b42dda33",
   "lastOpenFiles": [
+    "图片/Pasted image 20241207211229.png",
     "学习计划和总结/2024-12.md",
     "数据库/数据库通用/数据库设计.md",
     "数据库/数据库通用",
@@ -277,7 +278,6 @@
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/33、Vue3单页面开发实现规模化Vue Route 进阶——路由懒加载.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/32、Vue3单页面实现规模化Vue Route进阶——历史记录.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/31、Vue3单页面实现规模化Vue Route 基础——路由传参.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/30、Vue3单页面实现规模化Vue Route 基础——命名+重定向.md",
     "图片/Pasted image 20241122110226.png",
     "图片/Pasted image 20241122110211.png",
     "图片/Pasted image 20241122105939.png",
