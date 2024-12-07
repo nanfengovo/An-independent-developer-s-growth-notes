@@ -1,0 +1,4 @@
+export declare const TAG_COLORS: readonly ["primary", "normal", "warm", "danger"];
+export type TagType = (typeof TAG_COLORS)[number];
+export type TagShape = "square" | "round";
+export type TagVariant = "dark" | "light" | "plain";

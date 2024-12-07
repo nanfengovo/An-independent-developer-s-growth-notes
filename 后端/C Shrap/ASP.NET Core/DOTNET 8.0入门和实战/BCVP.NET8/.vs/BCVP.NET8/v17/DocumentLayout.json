@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F24F649F-66AA-41E4-ABA5-D07EEEBB5446}|BCVP.NET8\\BCVP.NET8.csproj|e:\\nanfengqaq\\study-notepad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\an-independent-developer-s-growth-notes\\\u540E\u7AEF\\c shrap\\asp.net core\\dotnet 8.0\u5165\u95E8\u548C\u5B9E\u6218\\bcvp.net8\\bcvp.net8\\bcvp.net8.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F24F649F-66AA-41E4-ABA5-D07EEEBB5446}|BCVP.NET8\\BCVP.NET8.csproj|solutionrelative:bcvp.net8\\bcvp.net8.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{43CCA50D-0B6F-497B-8859-4BBC5F80149B}|BCVP.NET8.Service\\BCVP.NET8.Service.csproj|e:\\nanfengqaq\\study-notepad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\an-independent-developer-s-growth-notes\\\u540E\u7AEF\\c shrap\\asp.net core\\dotnet 8.0\u5165\u95E8\u548C\u5B9E\u6218\\bcvp.net8\\bcvp.net8.service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43CCA50D-0B6F-497B-8859-4BBC5F80149B}|BCVP.NET8.Service\\BCVP.NET8.Service.csproj|solutionrelative:bcvp.net8.service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ADBC8A72-738C-4481-80AA-5D137754A586}|BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj|e:\\nanfengqaq\\study-notepad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\an-independent-developer-s-growth-notes\\\u540E\u7AEF\\c shrap\\asp.net core\\dotnet 8.0\u5165\u95E8\u548C\u5B9E\u6218\\bcvp.net8\\bcvp.net8.repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADBC8A72-738C-4481-80AA-5D137754A586}|BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj|solutionrelative:bcvp.net8.repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ADBC8A72-738C-4481-80AA-5D137754A586}|BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj|e:\\nanfengqaq\\study-notepad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\an-independent-developer-s-growth-notes\\\u540E\u7AEF\\c shrap\\asp.net core\\dotnet 8.0\u5165\u95E8\u548C\u5B9E\u6218\\bcvp.net8\\bcvp.net8.repository\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADBC8A72-738C-4481-80AA-5D137754A586}|BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj|solutionrelative:bcvp.net8.repository\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADBC8A72-738C-4481-80AA-5D137754A586}|BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj|e:\\nanfengqaq\\study-notepad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\an-independent-developer-s-growth-notes\\\u540E\u7AEF\\c shrap\\asp.net core\\dotnet 8.0\u5165\u95E8\u548C\u5B9E\u6218\\bcvp.net8\\bcvp.net8.repository\\base\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADBC8A72-738C-4481-80AA-5D137754A586}|BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj|solutionrelative:bcvp.net8.repository\\base\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F24F649F-66AA-41E4-ABA5-D07EEEBB5446}|BCVP.NET8\\BCVP.NET8.csproj|e:\\nanfengqaq\\study-notepad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\an-independent-developer-s-growth-notes\\\u540E\u7AEF\\c shrap\\asp.net core\\dotnet 8.0\u5165\u95E8\u548C\u5B9E\u6218\\bcvp.net8\\bcvp.net8\\bcvp.net8.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F24F649F-66AA-41E4-ABA5-D07EEEBB5446}|BCVP.NET8\\BCVP.NET8.csproj|solutionrelative:bcvp.net8\\bcvp.net8.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F24F649F-66AA-41E4-ABA5-D07EEEBB5446}|BCVP.NET8\\BCVP.NET8.csproj|e:\\nanfengqaq\\study-notepad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\an-independent-developer-s-growth-notes\\\u540E\u7AEF\\c shrap\\asp.net core\\dotnet 8.0\u5165\u95E8\u548C\u5B9E\u6218\\bcvp.net8\\bcvp.net8\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{43CCA50D-0B6F-497B-8859-4BBC5F80149B}|BCVP.NET8.Service\\BCVP.NET8.Service.csproj|e:\\nanfengqaq\\study-notepad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\an-independent-developer-s-growth-notes\\\u540E\u7AEF\\c shrap\\asp.net core\\dotnet 8.0\u5165\u95E8\u548C\u5B9E\u6218\\bcvp.net8\\bcvp.net8.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43CCA50D-0B6F-497B-8859-4BBC5F80149B}|BCVP.NET8.Service\\BCVP.NET8.Service.csproj|solutionrelative:bcvp.net8.service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADBC8A72-738C-4481-80AA-5D137754A586}|BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj|e:\\nanfengqaq\\study-notepad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\an-independent-developer-s-growth-notes\\\u540E\u7AEF\\c shrap\\asp.net core\\dotnet 8.0\u5165\u95E8\u548C\u5B9E\u6218\\bcvp.net8\\bcvp.net8.repository\\base\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADBC8A72-738C-4481-80AA-5D137754A586}|BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj|solutionrelative:bcvp.net8.repository\\base\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADBC8A72-738C-4481-80AA-5D137754A586}|BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj|e:\\nanfengqaq\\study-notepad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\an-independent-developer-s-growth-notes\\\u540E\u7AEF\\c shrap\\asp.net core\\dotnet 8.0\u5165\u95E8\u548C\u5B9E\u6218\\bcvp.net8\\bcvp.net8.repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADBC8A72-738C-4481-80AA-5D137754A586}|BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj|solutionrelative:bcvp.net8.repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F24F649F-66AA-41E4-ABA5-D07EEEBB5446}|BCVP.NET8\\BCVP.NET8.csproj|e:\\nanfengqaq\\study-notepad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\an-independent-developer-s-growth-notes\\\u540E\u7AEF\\c shrap\\asp.net core\\dotnet 8.0\u5165\u95E8\u548C\u5B9E\u6218\\bcvp.net8\\bcvp.net8\\extensions\\customprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -137,28 +137,104 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BaseService.cs",
-              "DocumentMoniker": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8.Service\\BaseService.cs",
-              "RelativeDocumentMoniker": "BCVP.NET8.Service\\BaseService.cs",
-              "ToolTip": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8.Service\\BaseService.cs",
-              "RelativeToolTip": "BCVP.NET8.Service\\BaseService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBkAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T03:05:20.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8.Repository\\Base\\BaseRepository.cs",
               "RelativeDocumentMoniker": "BCVP.NET8.Repository\\Base\\BaseRepository.cs",
               "ToolTip": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8.Repository\\Base\\BaseRepository.cs",
               "RelativeToolTip": "BCVP.NET8.Repository\\Base\\BaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T02:59:40.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8\\Program.cs",
+              "RelativeDocumentMoniker": "BCVP.NET8\\Program.cs",
+              "ToolTip": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8\\Program.cs",
+              "RelativeToolTip": "BCVP.NET8\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAzwBkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T11:26:37.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "BCVP.NET8\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "BCVP.NET8\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwBwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T14:13:34.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BCVP.NET8.csproj",
+              "DocumentMoniker": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8\\BCVP.NET8.csproj",
+              "RelativeDocumentMoniker": "BCVP.NET8\\BCVP.NET8.csproj",
+              "ToolTip": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8\\BCVP.NET8.csproj",
+              "RelativeToolTip": "BCVP.NET8\\BCVP.NET8.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-27T15:17:09.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8.Repository\\Base\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "BCVP.NET8.Repository\\Base\\IBaseRepository.cs",
+              "ToolTip": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8.Repository\\Base\\IBaseRepository.cs",
+              "RelativeToolTip": "BCVP.NET8.Repository\\Base\\IBaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T02:58:01.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8.Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "BCVP.NET8.Repository\\IUserRepository.cs",
+              "ToolTip": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8.Repository\\IUserRepository.cs",
+              "RelativeToolTip": "BCVP.NET8.Repository\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T15:32:24.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8.Service\\BaseService.cs",
+              "RelativeDocumentMoniker": "BCVP.NET8.Service\\BaseService.cs",
+              "ToolTip": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8.Service\\BaseService.cs",
+              "RelativeToolTip": "BCVP.NET8.Service\\BaseService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T03:05:20.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BCVP.NET8.Repository.csproj",
+              "DocumentMoniker": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj",
+              "RelativeDocumentMoniker": "BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj",
+              "ToolTip": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj",
+              "RelativeToolTip": "BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-27T15:32:04.777Z",
               "EditorCaption": ""
             },
             {
@@ -175,59 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BCVP.NET8.Repository.csproj",
-              "DocumentMoniker": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj",
-              "RelativeDocumentMoniker": "BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj",
-              "ToolTip": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj",
-              "RelativeToolTip": "BCVP.NET8.Repository\\BCVP.NET8.Repository.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-27T15:32:04.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8\\Program.cs",
-              "RelativeDocumentMoniker": "BCVP.NET8\\Program.cs",
-              "ToolTip": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8\\Program.cs",
-              "RelativeToolTip": "BCVP.NET8\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAzwBkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T11:26:37.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "BCVP.NET8\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "BCVP.NET8\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwBwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T14:13:34.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BCVP.NET8.csproj",
-              "DocumentMoniker": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8\\BCVP.NET8.csproj",
-              "RelativeDocumentMoniker": "BCVP.NET8\\BCVP.NET8.csproj",
-              "ToolTip": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8\\BCVP.NET8.csproj",
-              "RelativeToolTip": "BCVP.NET8\\BCVP.NET8.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-27T15:17:09.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "UserService.cs",
               "DocumentMoniker": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8.Service\\UserService.cs",
               "RelativeDocumentMoniker": "BCVP.NET8.Service\\UserService.cs",
@@ -235,32 +259,7 @@
               "RelativeToolTip": "BCVP.NET8.Service\\UserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T15:56:36.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8.Repository\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "BCVP.NET8.Repository\\IUserRepository.cs",
-              "ToolTip": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8.Repository\\IUserRepository.cs",
-              "RelativeToolTip": "BCVP.NET8.Repository\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T15:32:24.815Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IBaseRepository.cs",
-              "DocumentMoniker": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8.Repository\\Base\\IBaseRepository.cs",
-              "RelativeDocumentMoniker": "BCVP.NET8.Repository\\Base\\IBaseRepository.cs",
-              "ToolTip": "E:\\nanfengqaq\\Study-NotePad\\\u72EC\u7ACB\u5F00\u53D1\u8005\u7684\u6210\u957F\u7B14\u8BB0\\An-independent-developer-s-growth-notes\\\u540E\u7AEF\\C Shrap\\ASP.NET Core\\DOTNET 8.0\u5165\u95E8\u548C\u5B9E\u6218\\BCVP.NET8\\BCVP.NET8.Repository\\Base\\IBaseRepository.cs",
-              "RelativeToolTip": "BCVP.NET8.Repository\\Base\\IBaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T02:58:01.381Z"
+              "WhenOpened": "2024-11-27T15:56:36.176Z"
             },
             {
               "$type": "Document",
@@ -272,8 +271,7 @@
               "RelativeToolTip": "BCVP.NET8\\Extensions\\CustomProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T11:29:36.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T11:29:36.864Z"
             },
             {
               "$type": "Document",

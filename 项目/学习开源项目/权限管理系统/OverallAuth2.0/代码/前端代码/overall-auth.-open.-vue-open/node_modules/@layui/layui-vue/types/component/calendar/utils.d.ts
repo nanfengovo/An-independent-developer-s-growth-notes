@@ -1,0 +1,4 @@
+export declare const weekDays: string[];
+export declare const getMonthDay: (date: string | number | Date) => string[];
+export declare const getPrevMonthDay: (date: string | number | Date) => string[];
+export declare const nextMonthDay: (date: string | number | Date, num: number) => string[];

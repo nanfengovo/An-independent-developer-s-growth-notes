@@ -1,0 +1,8 @@
+import { Ref, ComputedRef } from "vue";
+export declare const LevelInjectionKey: unique symbol;
+export declare function provideLevel(level: Ref<number> | number): void;
+export default function useLevel(props?: {
+    provideNextLevel?: boolean;
+}): {
+    level: ComputedRef<number>;
+};

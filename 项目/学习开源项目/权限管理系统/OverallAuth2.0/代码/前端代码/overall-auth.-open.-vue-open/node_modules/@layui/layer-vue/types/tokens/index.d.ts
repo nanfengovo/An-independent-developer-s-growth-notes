@@ -1,0 +1,2 @@
+export declare const zIndexKey: unique symbol;
+export declare const nextIndex: () => any;

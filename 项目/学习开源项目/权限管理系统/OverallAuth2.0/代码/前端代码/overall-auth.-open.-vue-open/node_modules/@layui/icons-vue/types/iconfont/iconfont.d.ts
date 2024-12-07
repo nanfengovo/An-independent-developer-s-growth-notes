@@ -1,0 +1,5 @@
+declare const _default: {
+    name: string;
+    class: string;
+}[];
+export default _default;

@@ -1,0 +1,3 @@
+declare function add(arg1: number, arg2: number): number;
+declare function sub(arg1: number, arg2: number): number;
+export { add, sub };

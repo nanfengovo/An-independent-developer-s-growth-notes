@@ -1,0 +1,6 @@
+export declare function indentHandle(obj: {
+    indent: boolean | string;
+    level: number;
+    basePadding?: number;
+    isTree?: boolean;
+}): string;
