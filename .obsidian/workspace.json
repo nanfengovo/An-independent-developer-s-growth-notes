@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档/官网.md",
+                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档/相关链接.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "官网"
+              "title": "相关链接"
             }
           }
         ],
@@ -178,10 +178,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档/官网.md"
+                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档/相关链接.md"
               },
               "icon": "lucide-list",
-              "title": "官网 的大纲"
+              "title": "相关链接 的大纲"
             }
           },
           {
@@ -240,23 +240,35 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "50aa5469b42dda33",
+  "active": "8ad211c73afcffe2",
   "lastOpenFiles": [
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/后端代码/overall-auth.-open.-web-api-open/ProjectManageWebApi/obj/Debug/net5.0/ProjectManageWebApi.csproj.AssemblyReference.cache",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/后端代码/overall-auth.-open.-web-api-open/Subdomain/obj/Debug/net5.0/Subdomain.csproj.AssemblyReference.cache",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/后端代码/overall-auth.-open.-web-api-open/Domain/obj/Debug/net5.0/Domain.csproj.AssemblyReference.cache",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/后端代码/overall-auth.-open.-web-api-open/Utility/obj/Debug/net5.0/Utility.csproj.AssemblyReference.cache",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/后端代码/overall-auth.-open.-web-api-open/Model/obj/Debug/net5.0/Model.csproj.AssemblyReference.cache",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/后端代码/overall-auth.-open.-web-api-open/Model/obj/Debug/net5.0/Model.assets.cache",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/后端代码/overall-auth.-open.-web-api-open/Domain/obj/Debug/net5.0/Domain.assets.cache",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/后端代码/overall-auth.-open.-web-api-open/ProjectManageWebApi/obj/Debug/net5.0/ProjectManageWebApi.assets.cache",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/后端代码/overall-auth.-open.-web-api-open/Utility/obj/Debug/net5.0/Utility.assets.cache",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/后端代码/overall-auth.-open.-web-api-open/Subdomain/obj/Debug/net5.0/Subdomain.assets.cache",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/后端代码/overall-auth.-open.-web-api-open/Infrastructure/obj/Debug/net5.0/Infrastructure.csproj.AssemblyReference.cache",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/src/assets/messageSlot/info5.png",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/src/assets/messageSlot/info4.png",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/src/assets/messageSlot/info3.png",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/src/assets/messageSlot/info2.png",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/src/assets/messageSlot/info1.png",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/src/assets/messageSlot/avatar6.png",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/src/assets/messageSlot/avatar5.png",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/src/assets/messageSlot/avatar4.png",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/src/assets/login/w.svg",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/src/assets/login/q.svg",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/yarn/README.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/README.md",
     "后端/C Shrap/CShrap应该学什么.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档/官网.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0",
-    "项目/学习开源项目/权限管理系统",
-    "项目/自己的项目/管理系统模板--前端",
-    "项目/自己的项目/管理系统模板--后端",
-    "产品/未命名",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档/相关链接.md",
     "数据库/数据库通用/数据库设计.md",
-    "图片/Pasted image 20241207211229.png",
     "学习计划和总结/2024-12.md",
-    "数据库/数据库通用",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/7、使用Autofac实现依赖注入.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/6、自定义项目框架模板.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/2、仓储+服务架构模式.md",
@@ -275,18 +287,6 @@
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/38、小滴课堂项目页面需求分析.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/37、Vue3跨组件共享状态Pinia——组合式.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/36、Vue3跨组件共享状态Pinia——选项式.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/35、Vue3跨组件共享状态Pinia——安装+使用式例.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/34、为什么使用Pinia.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/33、Vue3单页面开发实现规模化Vue Route 进阶——路由懒加载.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/32、Vue3单页面实现规模化Vue Route进阶——历史记录.md",
-    "图片/Pasted image 20241122110226.png",
-    "图片/Pasted image 20241122110211.png",
-    "图片/Pasted image 20241122105939.png",
-    "图片/Pasted image 20241111102349.png",
-    "图片/Pasted image 20241111101944.png",
-    "图片/Pasted image 20241109154804.png",
-    "图片/Pasted image 20241109154746.png",
-    "图片/Pasted image 20241109154019.png",
-    "图片/Pasted image 20241109113353.png"
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/35、Vue3跨组件共享状态Pinia——安装+使用式例.md"
   ]
 }
