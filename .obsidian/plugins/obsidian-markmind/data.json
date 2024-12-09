@@ -16,5 +16,6 @@
   "highlightFormat": "\nPage:{{page}}\n<span style=\"color:rgb({{color}})\">■</span>:{{highlightText}}\nComment:{{comment}}\n[📌]({{link}})\n^{{id}}\n",
   "setup": 1730270791620,
   "supportPDF": true,
-  "chatGTPModel": "gpt-3.5-turbo-1106"
+  "chatGTPModel": "gpt-3.5-turbo-1106",
+  "uid": "00p01100r00r01100s00t01001100p00t00o010"
 }
