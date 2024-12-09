@@ -4,44 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "1e351717572b7385",
+        "id": "746555da38197924",
         "type": "split",
         "children": [
           {
             "id": "21cb1852e3c6215e",
             "type": "tabs",
-            "dimension": 21.141649048625794,
+            "dimension": 36.57505285412262,
             "children": [
-              {
-                "id": "dace9b47f602c318",
-                "type": "leaf",
-                "state": {
-                  "type": "diagrams-net",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Diagram"
-                }
-              },
               {
                 "id": "9c6b3081e8c600c7",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/权限.md",
+                    "mode": "preview",
+                    "source": false
+                  },
                   "icon": "lucide-file",
-                  "title": "新标签页"
+                  "title": "权限"
+                }
+              },
+              {
+                "id": "be4e6fcfcd96cc69",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/数据库设计/实现菜单管理的数据库设计.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "实现菜单管理的数据库设计"
                 }
               }
             ],
             "currentTab": 1
           },
           {
-            "id": "7297ccf52e88739f",
+            "id": "b6e53a6c0ea8c27d",
             "type": "tabs",
-            "dimension": 78.8583509513742,
+            "dimension": 63.424947145877375,
             "children": [
               {
-                "id": "03572023d56364a0",
+                "id": "d396f69bed8b7311",
                 "type": "leaf",
                 "state": {
                   "type": "mx-webpage",
@@ -52,8 +60,7 @@
                   "title": "第五期：菜单权限设计思路 - bilibili"
                 }
               }
-            ],
-            "stacked": true
+            ]
           }
         ],
         "direction": "horizontal"
@@ -234,12 +241,14 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "03572023d56364a0",
+  "active": "d396f69bed8b7311",
   "lastOpenFiles": [
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/用户菜单权限流程.md",
-    "图片/Pasted image 20241209204354.png",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/菜单权限设计思路.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/数据库设计/实现菜单管理的数据库设计.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/权限.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/数据库设计",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/用户菜单权限流程.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/菜单权限设计思路.md",
+    "图片/Pasted image 20241209204354.png",
     "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
     "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
     "项目/学习开源项目/权限管理系统/OverallAuth1.0/视频/未命名.md",
@@ -254,7 +263,6 @@
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/randombytes/test.js",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/randombytes/README.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/randombytes/LICENSE",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/randombytes/package.json",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档/相关链接.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/nanoid/README.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/ms/readme.md",
@@ -271,7 +279,6 @@
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/which-module/README.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/locate-path/readme.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/minimatch/README.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/mime/README.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/sort-arrow-sprite.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/favicon.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/cropperjs/src/images/bg.png",
