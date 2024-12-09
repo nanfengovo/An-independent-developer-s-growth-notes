@@ -8,39 +8,26 @@
         "type": "split",
         "children": [
           {
-            "id": "030b181194ced59f",
+            "id": "21cb1852e3c6215e",
             "type": "tabs",
+            "dimension": 21.141649048625794,
             "children": [
               {
-                "id": "50aa5469b42dda33",
+                "id": "dace9b47f602c318",
                 "type": "leaf",
                 "state": {
-                  "type": "mindmapview",
-                  "state": {
-                    "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/菜单权限设计思路.md"
-                  },
-                  "icon": "blocks",
-                  "title": "菜单权限设计思路"
-                }
-              },
-              {
-                "id": "d791f70b4a119287",
-                "type": "leaf",
-                "state": {
-                  "type": "mindmapview",
-                  "state": {
-                    "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/菜单权限设计思路.md"
-                  },
-                  "icon": "blocks",
-                  "title": "菜单权限设计思路"
+                  "type": "diagrams-net",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Diagram"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "7297ccf52e88739f",
             "type": "tabs",
+            "dimension": 78.8583509513742,
             "children": [
               {
                 "id": "03572023d56364a0",
@@ -54,7 +41,8 @@
                   "title": "第五期：菜单权限设计思路 - bilibili"
                 }
               }
-            ]
+            ],
+            "stacked": true
           }
         ],
         "direction": "horizontal"
@@ -237,6 +225,7 @@
   },
   "active": "03572023d56364a0",
   "lastOpenFiles": [
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/用户菜单权限流程.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/菜单权限设计思路.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/权限.md",
     "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
@@ -272,7 +261,6 @@
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/minimatch/README.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/mime/README.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/mime/CHANGELOG.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/mime-types/README.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/sort-arrow-sprite.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/favicon.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/cropperjs/src/images/bg.png",
