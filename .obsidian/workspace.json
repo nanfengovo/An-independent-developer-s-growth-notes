@@ -21,8 +21,19 @@
                   "icon": "lucide-file",
                   "title": "Diagram"
                 }
+              },
+              {
+                "id": "9c6b3081e8c600c7",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "新标签页"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           },
           {
             "id": "7297ccf52e88739f",
@@ -226,6 +237,7 @@
   "active": "03572023d56364a0",
   "lastOpenFiles": [
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/用户菜单权限流程.md",
+    "图片/Pasted image 20241209204354.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/菜单权限设计思路.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/权限.md",
     "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
@@ -260,7 +272,6 @@
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/locate-path/readme.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/minimatch/README.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/mime/README.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/mime/CHANGELOG.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/sort-arrow-sprite.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/favicon.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/cropperjs/src/images/bg.png",
@@ -269,7 +280,6 @@
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/echarts/asset/logo.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/src/assets/messageSlot/info5.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/src/assets/messageSlot/info4.png",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/src/assets/messageSlot/info3.png",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/src/assets/messageSlot/info2.png"
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/src/assets/messageSlot/info3.png"
   ]
 }
