@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "厚积薄发/英语篇/单词篇.md",
+                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/数据库/数据库设计/实现菜单管理的数据库设计.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "单词篇"
+              "title": "实现菜单管理的数据库设计"
             }
           }
         ],
@@ -164,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "厚积薄发/英语篇/单词篇.md"
+                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/数据库/数据库设计/实现菜单管理的数据库设计.md"
               },
               "icon": "lucide-list",
-              "title": "单词篇 的大纲"
+              "title": "实现菜单管理的数据库设计 的大纲"
             }
           },
           {
@@ -218,14 +218,14 @@
   },
   "active": "be4e6fcfcd96cc69",
   "lastOpenFiles": [
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/用户菜单权限流程.md",
     "厚积薄发/英语篇/单词篇.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/用户菜单权限流程.md",
     "厚积薄发/英语篇",
     "厚积薄发",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/菜单权限设计思路.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/权限.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/数据库设计/实现菜单管理的数据库设计.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/数据库设计",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/数据库/数据库设计/实现菜单管理的数据库设计.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/数据库/数据库设计",
     "图片/Pasted image 20241209204354.png",
     "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
     "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
