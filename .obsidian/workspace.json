@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档/相关链接.md",
+                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/数据库/数据库设计/实现菜单管理的数据库设计.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "相关链接"
+              "title": "实现菜单管理的数据库设计"
             }
           }
         ],
@@ -164,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档/相关链接.md"
+                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/数据库/数据库设计/实现菜单管理的数据库设计.md"
               },
               "icon": "lucide-list",
-              "title": "相关链接 的大纲"
+              "title": "实现菜单管理的数据库设计 的大纲"
             }
           },
           {
@@ -209,6 +209,7 @@
   },
   "active": "be4e6fcfcd96cc69",
   "lastOpenFiles": [
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档/相关链接.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/菜单权限设计思路.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/权限.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/用户菜单权限流程.md",
@@ -231,7 +232,6 @@
     "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/readdirp/README.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/randombytes/README.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档/相关链接.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/nanoid/README.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/ms/readme.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/ms/license.md",
