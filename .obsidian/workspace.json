@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/数据库/数据库设计/实现菜单管理的数据库设计.md",
+                "file": "想法/类似于Follow的一个集合不同平台订阅关注的软件.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "实现菜单管理的数据库设计"
+              "title": "类似于Follow的一个集合不同平台订阅关注的软件"
             }
           }
         ],
@@ -55,7 +55,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -164,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/数据库/数据库设计/实现菜单管理的数据库设计.md"
+                "file": "想法/类似于Follow的一个集合不同平台订阅关注的软件.md"
               },
               "icon": "lucide-list",
-              "title": "实现菜单管理的数据库设计 的大纲"
+              "title": "类似于Follow的一个集合不同平台订阅关注的软件 的大纲"
             }
           },
           {
@@ -209,6 +209,10 @@
   },
   "active": "be4e6fcfcd96cc69",
   "lastOpenFiles": [
+    "想法/应用管理软件替代桌面.md",
+    "想法/类似于Follow的一个集合不同平台订阅关注的软件.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/数据库/数据库设计/实现菜单管理的数据库设计.md",
+    "想法",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档/相关链接.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/菜单权限设计思路.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/权限.md",
@@ -223,10 +227,8 @@
     "前端/面试题/2、第二部分：进阶篇(30题).pdf",
     "前端/面试题/1、第一部分：基础篇(293题).pdf",
     "前端/面试题/15.设计模式面试真题-31页.pdf",
-    "前端/面试题/14.算法面试真题-82页.pdf",
     "前端/框架/Vue/笔记/Vue3快速上手.md",
     "厚积薄发/英语篇/单词篇.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/数据库/数据库设计/实现菜单管理的数据库设计.md",
     "图片/Pasted image 20241209204354.png",
     "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
     "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
@@ -244,7 +246,6 @@
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/reusify/README.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/strip-literal/README.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/normalize-path/README.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/which-module/README.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/sort-arrow-sprite.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/favicon.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/cropperjs/src/images/bg.png",
