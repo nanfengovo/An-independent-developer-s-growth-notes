@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "想法/类似于Follow的一个集合不同平台订阅关注的软件.md",
+                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/02、dotnet8 使用JWT鉴权.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "类似于Follow的一个集合不同平台订阅关注的软件"
+              "title": "02、dotnet8 使用JWT鉴权"
             }
           }
         ],
@@ -164,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "想法/类似于Follow的一个集合不同平台订阅关注的软件.md"
+                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/02、dotnet8 使用JWT鉴权.md"
               },
               "icon": "lucide-list",
-              "title": "类似于Follow的一个集合不同平台订阅关注的软件 的大纲"
+              "title": "02、dotnet8 使用JWT鉴权 的大纲"
             }
           },
           {
@@ -209,8 +209,23 @@
   },
   "active": "be4e6fcfcd96cc69",
   "lastOpenFiles": [
-    "想法/应用管理软件替代桌面.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/01、dotnet8使用swagger.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/02、dotnet8 使用JWT鉴权.md",
+    "后端/C Shrap/ASP.NET Core/DDD领域驱动设计/DDD（Domain-Driven Design）基础.md",
+    "后端/C Shrap/ASP.NET Core/未命名",
+    "后端/C Shrap/ASP.NET Core/DDD领域驱动设计/DDD 中常见的模式分类.md",
+    "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
+    "后端/C Shrap/ASP.NET Core/ORM/主流 ORM.md",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/7、使用Autofac实现依赖注入.md",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/6、自定义项目框架模板.md",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/4、泛型对象的关系映射.md",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/3、泛型基类的妙用.md",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/2、仓储+服务架构模式.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/笔记/全新Vue3全家桶+Element Plus入门到进阶课程.pdf",
+    "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md",
+    "前端/框架/Vue/笔记/Vue3快速上手.pdf",
     "想法/类似于Follow的一个集合不同平台订阅关注的软件.md",
+    "想法/应用管理软件替代桌面.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/数据库/数据库设计/实现菜单管理的数据库设计.md",
     "想法",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档/相关链接.md",
@@ -218,15 +233,12 @@
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/权限.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/用户菜单权限流程.md",
     "项目/学习开源项目/权限管理系统/OverallAuth1.0/视频/未命名.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/笔记/全新Vue3全家桶+Element Plus入门到进阶课程.pdf",
     "前端/面试题/7、第七部分：复习篇(54题).pdf",
     "前端/面试题/6、第六部分：精简版(26题).pdf",
     "前端/面试题/5、第五部分：高频考点(37题).pdf",
     "前端/面试题/4、第四部分：计算机基础(14题).pdf",
     "前端/面试题/3、第三部分：高级篇(91题).pdf",
     "前端/面试题/2、第二部分：进阶篇(30题).pdf",
-    "前端/面试题/1、第一部分：基础篇(293题).pdf",
-    "前端/面试题/15.设计模式面试真题-31页.pdf",
     "前端/框架/Vue/笔记/Vue3快速上手.md",
     "厚积薄发/英语篇/单词篇.md",
     "图片/Pasted image 20241209204354.png",
@@ -234,18 +246,6 @@
     "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/readdirp/README.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/randombytes/README.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/nanoid/README.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/ms/readme.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/ms/license.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/semver/README.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/semver/CHANGELOG.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/scule/README.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/estree-walker/README.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/estree-walker/CHANGELOG.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/lru-cache/README.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/reusify/README.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/strip-literal/README.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/normalize-path/README.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/sort-arrow-sprite.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/favicon.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/cropperjs/src/images/bg.png",
