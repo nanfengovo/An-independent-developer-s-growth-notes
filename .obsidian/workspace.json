@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/02、dotnet8 使用JWT鉴权.md",
+                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/04、dotnet8 使用Autofac.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02、dotnet8 使用JWT鉴权"
+              "title": "04、dotnet8 使用Autofac"
             }
           }
         ],
@@ -164,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/02、dotnet8 使用JWT鉴权.md"
+                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/04、dotnet8 使用Autofac.md"
               },
               "icon": "lucide-list",
-              "title": "02、dotnet8 使用JWT鉴权 的大纲"
+              "title": "04、dotnet8 使用Autofac 的大纲"
             }
           },
           {
@@ -209,8 +209,10 @@
   },
   "active": "be4e6fcfcd96cc69",
   "lastOpenFiles": [
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/01、dotnet8使用swagger.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/03、dotnet8JWT创建token.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/04、dotnet8 使用Autofac.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/02、dotnet8 使用JWT鉴权.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/01、dotnet8使用swagger.md",
     "后端/C Shrap/ASP.NET Core/DDD领域驱动设计/DDD（Domain-Driven Design）基础.md",
     "后端/C Shrap/ASP.NET Core/未命名",
     "后端/C Shrap/ASP.NET Core/DDD领域驱动设计/DDD 中常见的模式分类.md",
@@ -244,8 +246,6 @@
     "图片/Pasted image 20241209204354.png",
     "后端/C Shrap/C Shrap Study/C Shrap 练习题：.md",
     "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/readdirp/README.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/randombytes/README.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/sort-arrow-sprite.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/favicon.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/cropperjs/src/images/bg.png",
