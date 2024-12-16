@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/06、全局异常捕获机制.md",
+                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/07、Aop切面编程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06、全局异常捕获机制"
+              "title": "07、Aop切面编程"
             }
           }
         ],
@@ -164,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/06、全局异常捕获机制.md"
+                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/07、Aop切面编程.md"
               },
               "icon": "lucide-list",
-              "title": "06、全局异常捕获机制 的大纲"
+              "title": "07、Aop切面编程 的大纲"
             }
           },
           {
@@ -209,11 +209,12 @@
   },
   "active": "be4e6fcfcd96cc69",
   "lastOpenFiles": [
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/06、全局异常捕获机制.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/07、Aop切面编程.md",
     "图片/Pasted image 20241216164941.png",
     "图片/Pasted image 20241216164932.png",
     "图片/Pasted image 20241216164920.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/05、使用Dapper搭建底层仓储连接数据库.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/06、全局异常捕获机制.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/04、dotnet8 使用Autofac.md",
     "前端/面试题/1JavaScript面试真题-210页.pdf",
     "前端/面试题/1、第一部分：基础篇(293题).pdf",
@@ -253,7 +254,6 @@
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/cropperjs/src/images/bg.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/mockjs/src/mock/RE_KEY.svg",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/mockjs/src/dependencies.png",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/echarts/asset/logo.png",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/src/assets/messageSlot/info5.png"
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/echarts/asset/logo.png"
   ]
 }
