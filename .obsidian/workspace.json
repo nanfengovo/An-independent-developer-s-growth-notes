@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/09、使用Vue3+Element Plus创建前端框架（vue cli）.md",
+                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/10、Vue3中菜单和路由的结合使用，实现菜单的动态切换.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09、使用Vue3+Element Plus创建前端框架（vue cli）"
+              "title": "10、Vue3中菜单和路由的结合使用，实现菜单的动态切换"
             }
           }
         ],
@@ -164,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/09、使用Vue3+Element Plus创建前端框架（vue cli）.md"
+                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/10、Vue3中菜单和路由的结合使用，实现菜单的动态切换.md"
               },
               "icon": "lucide-list",
-              "title": "09、使用Vue3+Element Plus创建前端框架（vue cli） 的大纲"
+              "title": "10、Vue3中菜单和路由的结合使用，实现菜单的动态切换 的大纲"
             }
           },
           {
@@ -209,8 +209,9 @@
   },
   "active": "be4e6fcfcd96cc69",
   "lastOpenFiles": [
-    "前端/框架/Vue/笔记/Vue3快速上手.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/09、使用Vue3+Element Plus创建前端框架（vue cli）.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/10、Vue3中菜单和路由的结合使用，实现菜单的动态切换.md",
+    "前端/框架/Vue/笔记/Vue3快速上手.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/08、系统架构.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/07、Aop切面编程.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/06、全局异常捕获机制.md",
@@ -243,7 +244,6 @@
     "想法",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档/相关链接.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/菜单权限设计思路.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/权限.md",
     "前端/面试题/7、第七部分：复习篇(54题).pdf",
     "前端/面试题/6、第六部分：精简版(26题).pdf",
     "前端/面试题/5、第五部分：高频考点(37题).pdf",
