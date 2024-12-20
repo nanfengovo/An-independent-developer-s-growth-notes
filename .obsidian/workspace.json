@@ -4,37 +4,66 @@
     "type": "split",
     "children": [
       {
-        "id": "21cb1852e3c6215e",
-        "type": "tabs",
+        "id": "7e127937639628f4",
+        "type": "split",
         "children": [
           {
-            "id": "9c6b3081e8c600c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/权限.md",
-                "mode": "preview",
-                "source": false
+            "id": "21cb1852e3c6215e",
+            "type": "tabs",
+            "dimension": 24.146981627296586,
+            "children": [
+              {
+                "id": "9c6b3081e8c600c7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/权限.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "权限"
+                }
               },
-              "icon": "lucide-file",
-              "title": "权限"
-            }
+              {
+                "id": "be4e6fcfcd96cc69",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2/Part 2 -32 配置系统.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Part 2 -32 配置系统"
+                }
+              }
+            ],
+            "currentTab": 1
           },
           {
-            "id": "be4e6fcfcd96cc69",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "前端/框架/Vue/笔记/Vue3快速上手.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Vue3快速上手"
-            }
+            "id": "9ad125f9a3077982",
+            "type": "tabs",
+            "dimension": 75.85301837270342,
+            "children": [
+              {
+                "id": "a114f42ff3f8ee6b",
+                "type": "leaf",
+                "state": {
+                  "type": "mx-webpage",
+                  "state": {
+                    "source": "https://www.bilibili.com/video/BV1pK41137He?p=40"
+                  },
+                  "icon": "bilibili",
+                  "title": "Part2-32：配置系统1_入门 - bilibili"
+                }
+              }
+            ]
           }
         ],
-        "currentTab": 1
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -161,11 +190,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "前端/框架/Vue/笔记/Vue3快速上手.pdf"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Vue3快速上手 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -202,25 +229,43 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-language-learner:打开查词面板": false,
+      "obsidian-language-learner:打开新词面板": false,
+      "obsidian-language-learner:打开统计": false,
+      "obsidian-language-learner:单词列表": false,
+      "media-extended:Open media": false,
+      "i18n:I18N": false,
+      "obsidian-git:Open Git source control": false,
+      "copilot:Copilot Chat": false
     }
   },
-  "active": "be4e6fcfcd96cc69",
+  "active": "a114f42ff3f8ee6b",
   "lastOpenFiles": [
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2/Part 2 -32 配置系统.md",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/未命名.md",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part5",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part4",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part3",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part1",
+    "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library).pdf",
+    "产品/资料/产品经理必会的60个开发名词.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/权限.md",
+    "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战.epub",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/ASP.NET Core技术内幕与项目实战.epub",
+    "前端/框架/Vue/笔记/Vue3快速上手.pdf",
     "前端/框架/Vue/笔记/Vue3快速上手.md",
-    "前端/面试题/1、第一部分：基础篇(293题).pdf",
-    "前端/面试题/9.HTTP面试真题-62页.pdf",
     "项目/项目部署/软件部署的方式和优缺点.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/14、Vue3+WebApi 搭建动态菜单.md",
-    "项目/项目部署/未命名",
-    "项目/项目部署",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/13、Vue3+Echarts搭建超好看的系统面板.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/12、前后端协力实现用户登录.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/11、Vue3框架中路由守卫及请求拦截（实现前后端交互）后端跨域配置.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/问题记录/01、router嵌套不能实现想要的跳转效果.md",
     "图片/routerviewNG演示.gif",
     "前端/框架/Vue/Vue3中ElementPlus的使用/未命名.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/问题记录",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/10、Vue3中菜单和路由的结合使用，实现菜单的动态切换.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/07、Aop切面编程.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/05、使用Dapper搭建底层仓储连接数据库.md",
@@ -231,21 +276,13 @@
     "图片/Pasted image 20241216164941.png",
     "图片/Pasted image 20241216164932.png",
     "图片/Pasted image 20241216164920.png",
-    "前端/面试题/1JavaScript面试真题-210页.pdf",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/03、dotnet8JWT创建token.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/02、dotnet8 使用JWT鉴权.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/01、dotnet8使用swagger.md",
     "后端/C Shrap/ASP.NET Core/DDD领域驱动设计/DDD（Domain-Driven Design）基础.md",
-    "后端/C Shrap/ASP.NET Core/未命名",
     "后端/C Shrap/ASP.NET Core/DDD领域驱动设计/DDD 中常见的模式分类.md",
     "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
     "后端/C Shrap/ASP.NET Core/ORM/主流 ORM.md",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/7、使用Autofac实现依赖注入.md",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/6、自定义项目框架模板.md",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/4、泛型对象的关系映射.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/笔记/全新Vue3全家桶+Element Plus入门到进阶课程.pdf",
-    "前端/框架/Vue/笔记/Vue3快速上手.pdf",
-    "想法",
     "图片/Pasted image 20241209204354.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/sort-arrow-sprite.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/favicon.png",
