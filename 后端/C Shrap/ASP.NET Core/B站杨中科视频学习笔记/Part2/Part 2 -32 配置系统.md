@@ -7,3 +7,34 @@ https://www.bilibili.com/video/BV1pK41137He?spm_id_from=333.788.videopod.episode
 		Microsoft.Extensions.Configuration:配置框架的包
 		 Microsoft.Extensions.Configuration.Json：读json文件的包
 3、编写代码使用最简单的方式读取配置文件
+## 1、直接读取：
+config.json:
+```json
+{  
+  "name": "yzk",  
+  "age": 18,  
+  "proxy": {"address": "aa"}  
+}
+```
+
+
+```c#
+ConfigurationBuilder configBuilder = new ConfigurationBuilder();  
+configBuilder.AddJsonFile("config.json",optional: true, reloadOnChange: true);  
+IConfigurationRoot configRoot  = configBuilder.Build();  
+string name = configRoot["name"];  
+Console.WriteLine("name:"+name);  
+string age = configRoot["age"];  
+Console.WriteLine("age:"+age);  
+string address = configRoot.GetSection("proxy:address").Value;  
+Console.WriteLine("address:"+address);
+```
+输出：
+>name:yzk
+age:18
+address:aa
+## 2、绑定读取配置
+	1、可以绑定一个类，自动完成配置的读取。
+	 2、NuGet安装:Microsoft.Extensions.Configuration.Binder
+	 3、Server server = configRoot.GetSection("proxy").Get<Server>();
+	
