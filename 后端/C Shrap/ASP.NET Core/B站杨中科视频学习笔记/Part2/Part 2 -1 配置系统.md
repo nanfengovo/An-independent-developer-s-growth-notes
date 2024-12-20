@@ -112,4 +112,14 @@ https://www.bilibili.com/video/BV1pK41137He?spm_id_from=333.788.videopod.episode
 
 1、推荐使用选项方式读取，和DI结合更好，且更好利用“reloadonchange”机制。
 2、NuGet 安装：Microsoft.Extensions.Options、Microsoft.Extensions.Configuration.Binder,Microsoft.Extensions.Configuration、Microsoft.Extensions.Configuration.Json.
-3、读取配置时，DI要声明IOptions<T>、IOptionsMonitor<T>、IOptionsSnapshot<T>等类型。IOptions<T>不会读取到新的值；和IOptionsMonitor相比，IOptionsMonitor会在同一范围内（比如ASP.NET Core一个请求中）保持一致。建议使用IOptionsSnapshot.
+3、读取配置时，DI要声明IOptions<T>、IOptionsMonitor<T>、IOptionsSnapshot<T>等类型。IOptions<T>不会读取到新的值；和IOptionsMonitor相比，**IOptionsSnapshot会在同一范围内（比如ASP.NET Core一个请求中）保持一致。建议使用IOptionsSnapshot.**
+
+1、在读取配置的地方，用IOptionsSnapshot<T>注入。不要在构造函数中直接读取IOptionsSnapshot.Value,而是在用到的地方再读取，否则就无法更新变化
+2、如下配置
+services.AddOptions()
+	 .Configure<DbSettings>(e=>
+	 config.GetSection("DB").Bind(e))
+		 .Configure<SmtpSettings>(e=>
+		 config.GetSection("Smtp").Bind(e));
+		 services.AddTransient<Demo>();//不能用Singleton
+
