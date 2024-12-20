@@ -107,3 +107,9 @@ Console.WriteLine(config.Proxy.Port);
 18
 aa
 80
+# 配置系统-2  选项方式读取配置
+https://www.bilibili.com/video/BV1pK41137He?spm_id_from=333.788.videopod.episodes&vd_source=b7200d0eaee914e9c128dcabce5df118&p=41
+
+1、推荐使用选项方式读取，和DI结合更好，且更好利用“reloadonchange”机制。
+2、NuGet 安装：Microsoft.Extensions.Options、Microsoft.Extensions.Configuration.Binder,Microsoft.Extensions.Configuration、Microsoft.Extensions.Configuration.Json.
+3、读取配置时，DI要声明IOptions<T>、IOptionsMonitor<T>、IOptionsSnapshot<T>等类型。IOptions<T>不会读取到新的值；和IOptionsMonitor相比，IOptionsMonitor会在同一范围内（比如ASP.NET Core一个请求中）保持一致。建议使用IOptionsSnapshot.
