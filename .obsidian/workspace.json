@@ -25,14 +25,12 @@
             "id": "be4e6fcfcd96cc69",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/14、Vue3+WebApi 搭建动态菜单.md",
-                "mode": "source",
-                "source": false
+                "file": "前端/框架/Vue/笔记/Vue3快速上手.pdf"
               },
-              "icon": "lucide-file",
-              "title": "14、Vue3+WebApi 搭建动态菜单"
+              "icon": "lucide-file-text",
+              "title": "Vue3快速上手"
             }
           }
         ],
@@ -164,10 +162,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/14、Vue3+WebApi 搭建动态菜单.md"
+                "file": "前端/框架/Vue/笔记/Vue3快速上手.pdf"
               },
               "icon": "lucide-list",
-              "title": "14、Vue3+WebApi 搭建动态菜单 的大纲"
+              "title": "Vue3快速上手 的大纲"
             }
           },
           {
@@ -204,22 +202,19 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-language-learner:打开查词面板": false,
-      "obsidian-language-learner:打开新词面板": false,
-      "obsidian-language-learner:打开统计": false,
-      "obsidian-language-learner:单词列表": false,
-      "media-extended:Open media": false,
-      "i18n:I18N": false,
-      "obsidian-git:Open Git source control": false,
-      "copilot:Copilot Chat": false
+      "command-palette:打开命令面板": false
     }
   },
   "active": "be4e6fcfcd96cc69",
   "lastOpenFiles": [
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/13、Vue3+Echarts搭建超好看的系统面板.md",
+    "前端/框架/Vue/笔记/Vue3快速上手.md",
+    "前端/面试题/1、第一部分：基础篇(293题).pdf",
+    "前端/面试题/9.HTTP面试真题-62页.pdf",
+    "项目/项目部署/软件部署的方式和优缺点.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/14、Vue3+WebApi 搭建动态菜单.md",
+    "项目/项目部署/未命名",
+    "项目/项目部署",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/13、Vue3+Echarts搭建超好看的系统面板.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/12、前后端协力实现用户登录.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/11、Vue3框架中路由守卫及请求拦截（实现前后端交互）后端跨域配置.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/问题记录/01、router嵌套不能实现想要的跳转效果.md",
@@ -232,13 +227,11 @@
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/04、dotnet8 使用Autofac.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/06、全局异常捕获机制.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/09、使用Vue3+Element Plus创建前端框架（vue cli）.md",
-    "前端/框架/Vue/笔记/Vue3快速上手.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/08、系统架构.md",
     "图片/Pasted image 20241216164941.png",
     "图片/Pasted image 20241216164932.png",
     "图片/Pasted image 20241216164920.png",
     "前端/面试题/1JavaScript面试真题-210页.pdf",
-    "前端/面试题/1、第一部分：基础篇(293题).pdf",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/03、dotnet8JWT创建token.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/02、dotnet8 使用JWT鉴权.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/01、dotnet8使用swagger.md",
@@ -250,14 +243,9 @@
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/7、使用Autofac实现依赖注入.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/6、自定义项目框架模板.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/4、泛型对象的关系映射.md",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/3、泛型基类的妙用.md",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/2、仓储+服务架构模式.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/笔记/全新Vue3全家桶+Element Plus入门到进阶课程.pdf",
     "前端/框架/Vue/笔记/Vue3快速上手.pdf",
     "想法",
-    "前端/面试题/7、第七部分：复习篇(54题).pdf",
-    "前端/面试题/6、第六部分：精简版(26题).pdf",
-    "前端/面试题/5、第五部分：高频考点(37题).pdf",
     "图片/Pasted image 20241209204354.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/sort-arrow-sprite.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/favicon.png",
