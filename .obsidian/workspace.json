@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/14、Vue3+WebApi 搭建动态菜单.md",
+                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/15、大话《权限设计》全篇，领略不同设计模式的魅力.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14、Vue3+WebApi 搭建动态菜单"
+              "title": "15、大话《权限设计》全篇，领略不同设计模式的魅力"
             }
           }
         ],
@@ -164,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/14、Vue3+WebApi 搭建动态菜单.md"
+                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/15、大话《权限设计》全篇，领略不同设计模式的魅力.md"
               },
               "icon": "lucide-list",
-              "title": "14、Vue3+WebApi 搭建动态菜单 的大纲"
+              "title": "15、大话《权限设计》全篇，领略不同设计模式的魅力 的大纲"
             }
           },
           {
@@ -209,6 +209,8 @@
   },
   "active": "be4e6fcfcd96cc69",
   "lastOpenFiles": [
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/14、Vue3+WebApi 搭建动态菜单.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/15、大话《权限设计》全篇，领略不同设计模式的魅力.md",
     "图片/Pasted image 20241223105043.png",
     "前端/框架/Vue/Vue3中ElementPlus的使用/问题记录/01、router嵌套不能实现想要的跳转效果.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2/Part 2 -1 配置系统.md",
@@ -227,7 +229,6 @@
     "前端/框架/Vue/笔记/Vue3快速上手.pdf",
     "前端/框架/Vue/笔记/Vue3快速上手.md",
     "项目/项目部署/软件部署的方式和优缺点.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/14、Vue3+WebApi 搭建动态菜单.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/13、Vue3+Echarts搭建超好看的系统面板.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/12、前后端协力实现用户登录.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/11、Vue3框架中路由守卫及请求拦截（实现前后端交互）后端跨域配置.md",
@@ -253,7 +254,6 @@
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/sort-arrow-sprite.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/favicon.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/cropperjs/src/images/bg.png",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/mockjs/src/mock/RE_KEY.svg",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/mockjs/src/dependencies.png"
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/mockjs/src/mock/RE_KEY.svg"
   ]
 }
