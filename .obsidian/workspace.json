@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端/框架/Vue/Vue3中ElementPlus的使用/问题记录/01、router嵌套不能实现想要的跳转效果.md",
+                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/08、系统架构.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01、router嵌套不能实现想要的跳转效果"
+              "title": "08、系统架构"
             }
           }
         ],
@@ -164,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端/框架/Vue/Vue3中ElementPlus的使用/问题记录/01、router嵌套不能实现想要的跳转效果.md"
+                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/08、系统架构.md"
               },
               "icon": "lucide-list",
-              "title": "01、router嵌套不能实现想要的跳转效果 的大纲"
+              "title": "08、系统架构 的大纲"
             }
           },
           {
@@ -212,20 +212,32 @@
       "obsidian-language-learner:单词列表": false,
       "media-extended:Open media": false,
       "i18n:I18N": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "copilot:Copilot Chat": false
     }
   },
   "active": "be4e6fcfcd96cc69",
   "lastOpenFiles": [
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/07、Aop切面编程.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/06、全局异常捕获机制.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/05、使用Dapper搭建底层仓储连接数据库.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/04、dotnet8 使用Autofac.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/03、dotnet8JWT创建token.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/02、dotnet8 使用JWT鉴权.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/01、dotnet8使用swagger.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/14、Vue3+WebApi 搭建动态菜单.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/12、前后端协力实现用户登录.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/10、Vue3中菜单和路由的结合使用，实现菜单的动态切换.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/09、使用Vue3+Element Plus创建前端框架（vue cli）.md",
+    "后端/C Shrap/ASP.NET Core/跨域配置（CORS）.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/问题记录/01、router嵌套不能实现想要的跳转效果.md",
     "前端/框架/Vue/笔记/Vue3快速上手.pdf",
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/04、搭建Vue3开发环境和注意事项.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2/Part 2 -1 配置系统.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/03、Vue3和React的恩怨情仇.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/01.介绍.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/15、大话《权限设计》全篇，领略不同设计模式的魅力.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/14、Vue3+WebApi 搭建动态菜单.md",
     "图片/Pasted image 20241223105043.png",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/问题记录/01、router嵌套不能实现想要的跳转效果.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/未命名.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part5",
@@ -241,22 +253,12 @@
     "前端/框架/Vue/笔记/Vue3快速上手.md",
     "项目/项目部署/软件部署的方式和优缺点.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/13、Vue3+Echarts搭建超好看的系统面板.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/12、前后端协力实现用户登录.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/11、Vue3框架中路由守卫及请求拦截（实现前后端交互）后端跨域配置.md",
     "图片/routerviewNG演示.gif",
     "前端/框架/Vue/Vue3中ElementPlus的使用/未命名.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/10、Vue3中菜单和路由的结合使用，实现菜单的动态切换.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/07、Aop切面编程.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/05、使用Dapper搭建底层仓储连接数据库.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/04、dotnet8 使用Autofac.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/06、全局异常捕获机制.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/09、使用Vue3+Element Plus创建前端框架（vue cli）.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/08、系统架构.md",
     "图片/Pasted image 20241216164941.png",
     "图片/Pasted image 20241216164932.png",
     "图片/Pasted image 20241216164920.png",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/03、dotnet8JWT创建token.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/02、dotnet8 使用JWT鉴权.md",
     "图片/Pasted image 20241209204354.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/sort-arrow-sprite.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/favicon.png",
