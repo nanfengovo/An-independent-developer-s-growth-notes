@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/15、大话《权限设计》全篇，领略不同设计模式的魅力.md",
+                "file": "前端/框架/Vue/Vue3中ElementPlus的使用/问题记录/01、router嵌套不能实现想要的跳转效果.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "15、大话《权限设计》全篇，领略不同设计模式的魅力"
+              "title": "01、router嵌套不能实现想要的跳转效果"
             }
           }
         ],
@@ -164,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/15、大话《权限设计》全篇，领略不同设计模式的魅力.md"
+                "file": "前端/框架/Vue/Vue3中ElementPlus的使用/问题记录/01、router嵌套不能实现想要的跳转效果.md"
               },
               "icon": "lucide-list",
-              "title": "15、大话《权限设计》全篇，领略不同设计模式的魅力 的大纲"
+              "title": "01、router嵌套不能实现想要的跳转效果 的大纲"
             }
           },
           {
@@ -204,16 +204,28 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-language-learner:打开查词面板": false,
+      "obsidian-language-learner:打开新词面板": false,
+      "obsidian-language-learner:打开统计": false,
+      "obsidian-language-learner:单词列表": false,
+      "media-extended:Open media": false,
+      "i18n:I18N": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "be4e6fcfcd96cc69",
   "lastOpenFiles": [
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/14、Vue3+WebApi 搭建动态菜单.md",
+    "前端/框架/Vue/笔记/Vue3快速上手.pdf",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/04、搭建Vue3开发环境和注意事项.md",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2/Part 2 -1 配置系统.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/03、Vue3和React的恩怨情仇.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/01.介绍.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/15、大话《权限设计》全篇，领略不同设计模式的魅力.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/14、Vue3+WebApi 搭建动态菜单.md",
     "图片/Pasted image 20241223105043.png",
     "前端/框架/Vue/Vue3中ElementPlus的使用/问题记录/01、router嵌套不能实现想要的跳转效果.md",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2/Part 2 -1 配置系统.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/未命名.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part5",
@@ -226,7 +238,6 @@
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/权限.md",
     "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战.epub",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/ASP.NET Core技术内幕与项目实战.epub",
-    "前端/框架/Vue/笔记/Vue3快速上手.pdf",
     "前端/框架/Vue/笔记/Vue3快速上手.md",
     "项目/项目部署/软件部署的方式和优缺点.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/13、Vue3+Echarts搭建超好看的系统面板.md",
@@ -246,10 +257,6 @@
     "图片/Pasted image 20241216164920.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/03、dotnet8JWT创建token.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/02、dotnet8 使用JWT鉴权.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/01、dotnet8使用swagger.md",
-    "后端/C Shrap/ASP.NET Core/DDD领域驱动设计/DDD（Domain-Driven Design）基础.md",
-    "后端/C Shrap/ASP.NET Core/DDD领域驱动设计/DDD 中常见的模式分类.md",
-    "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
     "图片/Pasted image 20241209204354.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/sort-arrow-sprite.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/favicon.png",
