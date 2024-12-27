@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "产品/视频学习/Axure快速入门/4.母板使用.md",
+                "file": "产品/视频学习/动态菜单面板（后台管理系统的主页）/axure9动态面板（多级折叠菜单案例）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.母板使用"
+              "title": "axure9动态面板（多级折叠菜单案例）"
             }
           }
         ],
@@ -164,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "产品/视频学习/Axure快速入门/4.母板使用.md"
+                "file": "产品/视频学习/动态菜单面板（后台管理系统的主页）/axure9动态面板（多级折叠菜单案例）.md"
               },
               "icon": "lucide-list",
-              "title": "4.母板使用 的大纲"
+              "title": "axure9动态面板（多级折叠菜单案例） 的大纲"
             }
           },
           {
@@ -219,6 +219,9 @@
   "active": "be4e6fcfcd96cc69",
   "lastOpenFiles": [
     "产品/视频学习/Axure快速入门/4.母板使用.md",
+    "产品/视频学习/动态菜单面板（后台管理系统的主页）/axure9动态面板（多级折叠菜单案例）.md",
+    "产品/视频学习/动态菜单面板（后台管理系统的主页）",
+    "产品/视频学习/Axure快速入门/未命名",
     "产品/视频学习/Axure快速入门/9.显示隐藏.md",
     "产品/视频学习/Axure快速入门/8.原型分享.md",
     "产品/视频学习/Axure快速入门/7.动态面板.md",
@@ -227,7 +230,6 @@
     "产品/视频学习/Axure快速入门/3.登录页案例.md",
     "产品/视频学习/Axure快速入门/2.元件介绍.md",
     "产品/视频学习/Axure快速入门/1.软件界面介绍.md",
-    "产品/视频学习/Axure快速入门/未命名",
     "前端/框架/Vue/笔记/Vue3快速上手.pdf",
     "产品/视频学习/Axure快速入门",
     "产品/视频学习",
@@ -247,14 +249,12 @@
     "后端/C Shrap/ASP.NET Core/跨域配置（CORS）.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/问题记录/01、router嵌套不能实现想要的跳转效果.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/04、搭建Vue3开发环境和注意事项.md",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2/Part 2 -1 配置系统.md",
     "图片/Pasted image 20241223105043.png",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part5",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part4",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part3",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part1",
     "图片/routerviewNG演示.gif",
     "图片/Pasted image 20241216164941.png",
     "图片/Pasted image 20241216164932.png",
