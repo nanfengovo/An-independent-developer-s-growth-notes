@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "产品/视频学习/动态菜单面板（后台管理系统的主页）/axure9动态面板（多级折叠菜单案例）.md",
+                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2/Part 2-2 日志系统  NLog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "axure9动态面板（多级折叠菜单案例）"
+              "title": "Part 2-2 日志系统  NLog"
             }
           }
         ],
@@ -164,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "产品/视频学习/动态菜单面板（后台管理系统的主页）/axure9动态面板（多级折叠菜单案例）.md"
+                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2/Part 2-2 日志系统  NLog.md"
               },
               "icon": "lucide-list",
-              "title": "axure9动态面板（多级折叠菜单案例） 的大纲"
+              "title": "Part 2-2 日志系统  NLog 的大纲"
             }
           },
           {
@@ -218,8 +218,11 @@
   },
   "active": "be4e6fcfcd96cc69",
   "lastOpenFiles": [
-    "产品/视频学习/Axure快速入门/4.母板使用.md",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2/Part 2 -1 配置系统.md",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2/Part 2-2 日志系统  NLog.md",
+    "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library).pdf",
     "产品/视频学习/动态菜单面板（后台管理系统的主页）/axure9动态面板（多级折叠菜单案例）.md",
+    "产品/视频学习/Axure快速入门/4.母板使用.md",
     "产品/视频学习/动态菜单面板（后台管理系统的主页）",
     "产品/视频学习/Axure快速入门/未命名",
     "产品/视频学习/Axure快速入门/9.显示隐藏.md",
@@ -247,14 +250,11 @@
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/10、Vue3中菜单和路由的结合使用，实现菜单的动态切换.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/09、使用Vue3+Element Plus创建前端框架（vue cli）.md",
     "后端/C Shrap/ASP.NET Core/跨域配置（CORS）.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/问题记录/01、router嵌套不能实现想要的跳转效果.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/04、搭建Vue3开发环境和注意事项.md",
     "图片/Pasted image 20241223105043.png",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part5",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part4",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part3",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2",
     "图片/routerviewNG演示.gif",
     "图片/Pasted image 20241216164941.png",
     "图片/Pasted image 20241216164932.png",
