@@ -8,14 +8,72 @@ https://www.bilibili.com/video/BV1pK41137He/?p=46&vd_source=b7200d0eaee914e9c128
 ## 输出到控制台
 1、NuGet:Microsoft.Extensions.Logging、Microsoft.Extensions.Logging.Console
 2、DI注入：
+```
 	services.AddLogging(logBuilder=>{
 		logBuilder.AddConsole();//可选多个Provider
 	});
+```
 3、需要记录日志的代码，注入ILogger<T>即可，T一般就用当前类，这个类的名字会输出到日志，方便定位错误。然后调用LogInformation()、LogError等方法输出不同级别的日志，还支持输出异常对象
 
-												 
-										
-													  
+代码如下：
+``` project.cs
+using System;  
+using Microsoft.Extensions.DependencyInjection;  
+using Microsoft.Extensions.Logging;  
+  
+namespace LoggingDemo1  
+{  
+    class Program  
+    {  
+        static void Main(string[] args)  
+        {  
+            ServiceCollection services = new ServiceCollection();  
+            services.AddLogging(LogBuilder =>  
+            {  
+                LogBuilder.AddConsole();  
+                LogBuilder.SetMinimumLevel(LogLevel.Trace);  
+            });  
+            services.AddScoped<Test1>();  
+              
+            using (var sp = services.BuildServiceProvider())  
+            {  
+                var test1 = sp.GetRequiredService<Test1>();  
+                test1.Test();  
+            }  
+        }  
+    }  
+}
+```
+Test1:
+```
+using Microsoft.Extensions.Logging;  
+  
+namespace LoggingDemo1  
+{  
+    public class Test1  
+    {  
+        private readonly ILogger<Test1> logger;  
+  
+        public Test1(ILogger<Test1> logger)  
+        {  
+            this.logger= logger;  
+        }  
+  
+        public void Test()  
+        {  
+            logger.LogInformation("Testing");  
+            logger.LogDebug("testDebug");  
+            logger.LogError("error");  
+            logger.LogWarning("warning");  
+              
+        }  
+    }  
+}
+```
 
 
-													  
+
+
+
+
+
