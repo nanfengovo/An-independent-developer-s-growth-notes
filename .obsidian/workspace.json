@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2/Part 2-2 日志系统  NLog.md",
+                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part 2-2 日志系统  NLog"
+              "title": "Part 2-3 EF Core搭建"
             }
           }
         ],
@@ -102,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 439.5
   },
   "right": {
     "id": "5cde09bdb333716c",
@@ -164,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2/Part 2-2 日志系统  NLog.md"
+                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md"
               },
               "icon": "lucide-list",
-              "title": "Part 2-2 日志系统  NLog 的大纲"
+              "title": "Part 2-3 EF Core搭建 的大纲"
             }
           },
           {
@@ -204,22 +204,18 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-language-learner:打开查词面板": false,
-      "obsidian-language-learner:打开新词面板": false,
-      "obsidian-language-learner:打开统计": false,
-      "obsidian-language-learner:单词列表": false,
-      "media-extended:Open media": false,
-      "i18n:I18N": false,
-      "obsidian-git:Open Git source control": false,
-      "copilot:Copilot Chat": false
+      "command-palette:打开命令面板": false
     }
   },
   "active": "be4e6fcfcd96cc69",
   "lastOpenFiles": [
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2/Part 2 -1 配置系统.md",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2/Part 2-2 日志系统  NLog.md",
+    "图片/Pasted image 20241230201237.png",
+    "图片/Pasted image 20241230200122.png",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-2 日志系统  NLog.md",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2 -1 配置系统.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/用户菜单权限流程.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/01、dotnet8使用swagger.md",
     "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library).pdf",
     "产品/视频学习/动态菜单面板（后台管理系统的主页）/axure9动态面板（多级折叠菜单案例）.md",
     "产品/视频学习/Axure快速入门/4.母板使用.md",
@@ -244,12 +240,8 @@
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/04、dotnet8 使用Autofac.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/03、dotnet8JWT创建token.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/02、dotnet8 使用JWT鉴权.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/01、dotnet8使用swagger.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/14、Vue3+WebApi 搭建动态菜单.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/12、前后端协力实现用户登录.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/10、Vue3中菜单和路由的结合使用，实现菜单的动态切换.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/09、使用Vue3+Element Plus创建前端框架（vue cli）.md",
-    "后端/C Shrap/ASP.NET Core/跨域配置（CORS）.md",
     "图片/Pasted image 20241223105043.png",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part5",
@@ -262,7 +254,6 @@
     "图片/Pasted image 20241209204354.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/sort-arrow-sprite.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/favicon.png",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/cropperjs/src/images/bg.png",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/mockjs/src/mock/RE_KEY.svg"
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/cropperjs/src/images/bg.png"
   ]
 }
