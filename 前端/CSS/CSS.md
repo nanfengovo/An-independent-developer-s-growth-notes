@@ -157,3 +157,38 @@ font-family:字体  如果第一个找不到用后面的那个
 font-size：字体的大小
 font-weight：字体的粗细 bold     加粗
 font-style: 字体的风格  italic  斜体
+## 边框 border
+ex:
+```css
+  p{
+
+            border-style: dotted;/*边框样式 solid :实线* ,dotted 虚线*/
+
+            border-width: 5px;/*边框宽度*/
+
+            border-color: red;/*边框颜色*/
+
+            border-radius: 10px;/*边框圆角*/
+
+        }
+```
+简写：
+    #p2{
+
+            border: solid 5px blue;/*简写*/
+
+        }
+ ### 每个边用不同的
+ ```css
+     #p3{
+
+            border-top: solid 5px green;/*上边框*/
+
+            border-bottom: dotted 5px red;/*下边框*/
+
+            border-left: solid 5px yellow;/*左边框*/
+
+            border-right: solid 5px purple;/*右边框*/
+
+        }
+```
