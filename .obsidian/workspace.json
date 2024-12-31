@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md",
+                "file": "前端/CSS/CSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part 2-3 EF Core搭建"
+              "title": "CSS"
             }
           }
         ],
@@ -164,10 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md"
+                "file": "前端/CSS/CSS.md"
               },
               "icon": "lucide-list",
-              "title": "Part 2-3 EF Core搭建 的大纲"
+              "title": "CSS 的大纲"
             }
           },
           {
@@ -209,24 +209,32 @@
   },
   "active": "be4e6fcfcd96cc69",
   "lastOpenFiles": [
+    "前端/CSS/CSS 基础.md",
+    "前端/CSS/CSS.md",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md",
+    "产品/视频学习/Axure快速入门/6.热区使用.md",
+    "产品/视频学习/Axure快速入门/4.母板使用.md",
+    "产品/视频学习/Axure快速入门/3.登录页案例.md",
+    "数据库/数据库管理工具/Navicat/Navicat 连接SQL Server/1.1 连接SQL Server.md",
+    "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
+    "前端/JavaScript/TS/TypeScript 极速梳理.pdf",
+    "前端/HTML/HTML 基础.md",
+    "厚积薄发/英语篇/英文简历篇.md",
+    "厚积薄发/英语篇/短句练习篇.md",
     "图片/Pasted image 20241230201237.png",
     "图片/Pasted image 20241230200122.png",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-2 日志系统  NLog.md",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2 -1 配置系统.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/用户菜单权限流程.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/01、dotnet8使用swagger.md",
     "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library).pdf",
     "产品/视频学习/动态菜单面板（后台管理系统的主页）/axure9动态面板（多级折叠菜单案例）.md",
-    "产品/视频学习/Axure快速入门/4.母板使用.md",
     "产品/视频学习/动态菜单面板（后台管理系统的主页）",
     "产品/视频学习/Axure快速入门/未命名",
     "产品/视频学习/Axure快速入门/9.显示隐藏.md",
     "产品/视频学习/Axure快速入门/8.原型分享.md",
     "产品/视频学习/Axure快速入门/7.动态面板.md",
-    "产品/视频学习/Axure快速入门/6.热区使用.md",
     "产品/视频学习/Axure快速入门/5.交互事件-页面跳转.md",
-    "产品/视频学习/Axure快速入门/3.登录页案例.md",
     "产品/视频学习/Axure快速入门/2.元件介绍.md",
     "产品/视频学习/Axure快速入门/1.软件界面介绍.md",
     "前端/框架/Vue/笔记/Vue3快速上手.pdf",
@@ -236,24 +244,16 @@
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/08、系统架构.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/07、Aop切面编程.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/06、全局异常捕获机制.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/05、使用Dapper搭建底层仓储连接数据库.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/04、dotnet8 使用Autofac.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/03、dotnet8JWT创建token.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/02、dotnet8 使用JWT鉴权.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/14、Vue3+WebApi 搭建动态菜单.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/12、前后端协力实现用户登录.md",
     "图片/Pasted image 20241223105043.png",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part5",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part4",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part3",
     "图片/routerviewNG演示.gif",
     "图片/Pasted image 20241216164941.png",
     "图片/Pasted image 20241216164932.png",
     "图片/Pasted image 20241216164920.png",
     "图片/Pasted image 20241209204354.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/sort-arrow-sprite.png",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/favicon.png",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/cropperjs/src/images/bg.png"
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/pngjs/coverage/lcov-report/favicon.png"
   ]
 }

@@ -88,7 +88,10 @@ ex:
 
 ##### Update-database
 >Update-database命令用于对当前连接的数据库执行所有未应用的数据库迁移代码，命令执行成功后，数据库中的表结构等就和项目中实体类的配置保持一致了。
-### 5.插入数据
+
+## EFCore的基本操作--增删查改
+>更改数据库需要：ctx.SaveChanges();
+### 1.插入数据
 https://www.bilibili.com/video/BV1pK41137He?vd_source=b7200d0eaee914e9c128dcabce5df118&spm_id_from=333.788.player.switch&p=52
 ```
 using System;
@@ -206,7 +209,9 @@ _____
 >1、EFCore怎么加表/表怎么加字段
 >2、怎么在ASP.NET Core中使用EFCore设置种子数据
 
-### 6.查
+### 2.查
+
+#### 只查找
 using System;
 
 namespace EFCore
@@ -230,8 +235,15 @@ namespace EFCore
         }
     }
 }
-
-### 7.删   --查到后删除
+#### 查找并排序
+  #region 查找并按价格倒叙
+  var items = ctx.Books.Where(x => x.Price > 30).OrderByDescending(x => x.Price);
+  foreach(var it in items)
+  {
+      Console.WriteLine($"{it.AuthorName},{it.Price}");
+  }
+  #endregion
+### 3.删   --查到后删除
 ```
  #region 删除价格为40的第一本书 --查到第一个后删除
  try
@@ -250,7 +262,7 @@ namespace EFCore
  #endregion
 ```
 
-### 8.改
+### 4.改
 ```
 
                 #region 改   查到后修改
@@ -270,3 +282,37 @@ namespace EFCore
 
                 #endregion
 ```
+## EFCore进阶--批量增删查改
+```
+    #region 批量增删查改  ， 对价格大于30的书的价格加100
+    var books = ctx.Books.Where(x => x.Price > 30);
+    foreach (var b in books)
+    {
+        b.Price += 100;
+    }
+    ctx.SaveChanges();
+    #endregion
+```
+## Fluent
+https://www.bilibili.com/video/BV1pK41137He?vd_source=b7200d0eaee914e9c128dcabce5df118&spm_id_from=333.788.player.switch&p=53
+### 约定配置 ——约定大于配置
+>为了减少配置工作量，EF Core采用了“约定大于配置”的设计原则，也就是说EF Core会默认按照约定根据实体类以及DbContext的定义来实现和数据库表的映射配置，除非用户显式地指定了配置规则。
+ 
+>几个主要的约定规则。
+>规则1：数据库表名采用上下文类中对应的DbSet的属性名。
+>规则2：数据库表列的名字采用实体类属性的名字，列的数据类型采用和实体类属性类型兼容的类型。比如在SQL Server中，string类型对应nvarchar，long类型对应bigint。
+>规则3：数据库表列的可空性取决于对应实体类属性的可空性。EF Core 6中支持C#中的可空引用类型。
+>规则4：名字为Id的属性为主键，如果主键为short、int或者long类型，则主键默认采用自动增长类型的列。
+
+
+### Data Annotation（数据注释）
+>Data Annotation（数据注释）指的是可以使用.NET提供的Attribute[[1]](file:///index_split_030.html#filepos418196)对实体类、属性等进行标注的方式来实现实体类配置。比如通过[Table("T_Books")]，我们可以把实体类对应的表名配置为T_Books；通过[Required]，我们可以把属性对应的数据库表列配置为“不可为空”；通过[MaxLength(20)]，我们可以把属性对应的数据库表列配置为“最大长度为20”
+
+### Fluent API
+
+
+
+
+
+
+
