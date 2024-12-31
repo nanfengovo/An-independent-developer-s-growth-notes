@@ -1,4 +1,5 @@
 # EFCore介绍
+https://www.bilibili.com/video/BV1pK41137He?vd_source=b7200d0eaee914e9c128dcabce5df118&p=50&spm_id_from=333.788.videopod.episodes
 ## EF Core
 >Entity Framework Core（简称EF Core）是.NET Core中的ORM（object relational mapping，对象关系映射）框架，它可以让开发人员以面向对象的方式进行数据库操作，从而大大提高开发效率。本章将讲解EF Core的使用及在项目开发中使用EF Core需要注意的问题。
 >EF Core是微软官方提供的ORM框架。EF Core不仅可以操作Microsoft SQL Server、MySQL、Oracle、PostgreSQL等数据库，而且可以操作Azure Cosmos DB等NoSQL数据库。
@@ -7,11 +8,13 @@
 
 
 ## ORM
->ORM（object relational mapping，对象关系映射）中的“对象”指的就是C#中的对象，而“关系”指的是关系数据库，“映射”指的是在关系数据库和C#对象之间搭建一座“桥梁”。我们知道，在.NET中可以通过ADO.NET连接数据库然后执行SQL语句来操作数据库中的数据。而ORM可以让我们通过操作C#对象的方式操作数据库，比如使用ORM，可以通过创建C#对象的方式把数据插入数据库
+>ORM（object relational mapping，对象关系映射）中的“对象”指的就是C#中的对象，而“关系”指的是关系数据库，“映射”指的是在关系数据库和C#对象之间搭建一座“桥梁”。我们知道，在.NET中可以通过ADO.NET连接数据库然后执行SQL语句来操作数据库中的数据。而ORM可以让我们通过==操作C#对象的方式操作数据库==，比如使用ORM，可以通过创建C#对象的方式把数据插入数据库
 >ORM只是对ADO.NET的封装，ORM底层仍然是通过ADO.NET访问数据库的。
 
 # EFCore 入门
+
 ## EFCore 环境搭建
+https://www.bilibili.com/video/BV1pK41137He?vd_source=b7200d0eaee914e9c128dcabce5df118&spm_id_from=333.788.player.switch&p=51
 ### 1.创建实体类
 ex:
 ```
@@ -86,6 +89,7 @@ ex:
 ##### Update-database
 >Update-database命令用于对当前连接的数据库执行所有未应用的数据库迁移代码，命令执行成功后，数据库中的表结构等就和项目中实体类的配置保持一致了。
 ### 5.插入数据
+https://www.bilibili.com/video/BV1pK41137He?vd_source=b7200d0eaee914e9c128dcabce5df118&spm_id_from=333.788.player.switch&p=52
 ```
 using System;
 
@@ -97,10 +101,21 @@ namespace EFCore
         {
             using(var ctx = new TestDbContext())
             {
-                var user1 = new EntityModel.User { UserName = "admin", Password = "12345" };
-                ctx.Users.Add(user1);
-                 ctx.SaveChanges();
-                Console.WriteLine("初始化数据成功！");
+                 #region 初始化数据 只能初始化一次  增
+				 var user1 = new EntityModel.User { UserName = "admin", Password = "12345" };
+				 ctx.Users.Add(user1);
+				 ctx.SaveChanges();
+				
+				 var book1 = new EntityModel.Book { AuthorName = "张三", Title = "BOOK1", Price = 10 };
+				 var book2 = new EntityModel.Book { AuthorName = "李四", Title = "BOOK2", Price = 20 };
+				 var book3 = new EntityModel.Book { AuthorName = "张三", Title = "BOOK3", Price = 30 };
+				 var book4 = new EntityModel.Book { AuthorName = "王五", Title = "BOOK4", Price = 40 };
+				 var book5 = new EntityModel.Book { AuthorName = "张三", Title = "BOOK5", Price = 50 };
+				 var book6 = new EntityModel.Book { AuthorName = "王五", Title = "BOOK6", Price = 60 };
+				 ctx.Books.AddRange(book1, book2, book3, book4, book5, book6);
+				 ctx.SaveChanges();
+				 Console.WriteLine("初始化数据成功！");
+				 #endregion
             }
             
             
@@ -185,4 +200,73 @@ namespace EFCore
     }
 }
 
+```
+_____
+>12.30的问题：
+>1、EFCore怎么加表/表怎么加字段
+>2、怎么在ASP.NET Core中使用EFCore设置种子数据
+
+### 6.查
+using System;
+
+namespace EFCore
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            using(var ctx = new TestDbContext())
+            {
+                  #region 查
+					  var books = ctx.Books.Where(x => x.Price > 30);
+					  foreach (var b in books)
+					  {
+					      Console.WriteLine(b.Title);
+					  }
+				  #endregion
+            }
+            
+            
+        }
+    }
+}
+
+### 7.删   --查到后删除
+```
+ #region 删除价格为40的第一本书 --查到第一个后删除
+ try
+ {
+     var book = ctx.Books.Where(x => x.Price == 40).FirstOrDefault();
+     ctx.Remove(book);
+     ctx.SaveChanges();
+     Console.WriteLine("删除成功！");
+ }
+ catch (Exception)
+ {
+
+     Console.WriteLine("不存在价格为40的书！");
+ }
+ 
+ #endregion
+```
+
+### 8.改
+```
+
+                #region 改   查到后修改
+                //将价格为50的书的价格改为100
+                var book = ctx.Books.Where(x => x.Price == 50).FirstOrDefault();
+                if (book != null)
+                {
+                    book.Price = 100;
+                    ctx.SaveChanges();
+                    Console.WriteLine("修改成功！");
+                }
+                else
+                {
+                    Console.WriteLine("不存在价格为50的书！");
+                }
+
+
+                #endregion
 ```
