@@ -306,3 +306,20 @@ float: none | left | right | inherit;
 - `left`：元素向左浮动。
 - `right`：元素向右浮动。
 - `inherit`：从父元素继承 `float` 属性的值。
+
+## Overflow
+![[Pasted image 20250101103922.png]]
+### hidden
+溢出的内容被隐藏不显示
+### visible 
+可以看到溢出
+
+### clip
+类似hidden
+### scroll
+添加滚动条
+### auto
+区域够大就不出现滚动条
+不够大就出现
+
+
