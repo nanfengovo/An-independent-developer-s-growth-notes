@@ -323,3 +323,15 @@ float: none | left | right | inherit;
 不够大就出现
 
 
+## display 
+### 初始display
+div 默认是区块的
+span 默认是行内的
+
+可以将div设置成行内通过 display :inline
+
+### inline-block
+可以设置高度
+
+### none
+不可见
