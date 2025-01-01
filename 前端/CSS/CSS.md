@@ -356,3 +356,10 @@ span 默认是行内的
 
 ### sticky
 固定和页面顶部的距离
+## 盒模型 （Box MOdel）
+  <!-- content:内容 -->
+    <!-- margin:外边距 -->
+
+    <!-- padding:内边距 -->
+
+    <!-- border:边框 -->
