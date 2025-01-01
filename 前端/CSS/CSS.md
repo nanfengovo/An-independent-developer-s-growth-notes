@@ -28,6 +28,14 @@ ex：
 
         }
 ```
+### 子选择器
+>#box1>div>p{
+>}
+
+### 邻居选择器
+>#all-acticles h2 + p{
+>}
+
 ## CSS的三种使用方式
 ### 行内样式(Inline Styling)
 ex:
@@ -363,3 +371,6 @@ span 默认是行内的
     <!-- padding:内边距 -->
 
     <!-- border:边框 -->
+## Padding 
+内容与元素间的距离
+
