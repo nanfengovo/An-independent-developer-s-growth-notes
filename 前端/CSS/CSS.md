@@ -192,3 +192,70 @@ ex:
 
         }
 ```
+## CSS 阴影
+### 文字阴影
+```css
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSS阴影</title>
+
+    <style>
+
+        h1{
+
+            text-shadow: 20px 20px 10px  red;/*水平阴影 垂直阴影 模糊距离 阴影颜色*/
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!--文字阴影   盒子(box)阴影-->
+
+    <h1>nanfengovo</h1>
+
+    <div id="div_1">
+
+        我是第一个盒子
+
+    </div>
+
+    <div id="div_2">
+
+        我是第二个盒子
+
+    </div>
+
+</body>
+
+</html>
+```
+
+>text-shadow: 20px 20px 10px  red;/*水平阴影 垂直阴影 模糊距离 阴影颜色*/  
+
+ - 第一个20表示水平阴影20px
+ - 第二个20表示垂直阴影20px
+ - 第三个10表示阴影的模糊度
+ - red表示阴影的颜色
+
+### 盒子阴影   --实现较为好看的登录框
+
+>盒子阴影（box-shadow）是CSS中的一个属性，用于在元素的框周围添加阴影效果。它的语法如下：
+>box-shadow: [水平偏移] [垂直偏移] [模糊半径] [扩展半径] [阴影颜色];
+
+- **水平偏移**（horizontal offset）：阴影相对于元素框的水平偏移量。正值表示阴影向右偏移，负值表示阴影向左偏移。
+- **垂直偏移**（vertical offset）：阴影相对于元素框的垂直偏移量。正值表示阴影向下偏移，负值表示阴影向上偏移。
+- **模糊半径**（blur radius）：阴影的模糊程度。值越大，阴影越模糊。可以省略，默认为0，即阴影边缘是锐利的。
+- **扩展半径**（spread radius）：阴影的扩展程度。正值表示阴影扩大，负值表示阴影收缩。可以省略，默认为0。
+- **阴影颜色**（shadow color）：阴影的颜色。可以使用任何有效的CSS颜色值。
