@@ -335,3 +335,15 @@ span 默认是行内的
 
 ### none
 不可见
+## height and width
+添加
+   *{
+
+            box-sizing: border-box;
+
+        }
+可以忽略边框
+
+>  min-width: 25%;max-width: 50%;
+最大宽度和最小宽度
+
