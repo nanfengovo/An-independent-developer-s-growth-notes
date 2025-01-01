@@ -347,3 +347,12 @@ span 默认是行内的
 >  min-width: 25%;max-width: 50%;
 最大宽度和最小宽度
 
+## Position
+### absolute    绝对定位  是相对于父容器而言的
+绝对定位 如果超出父元素所在容器但是不希望超出父元素所在的容器可以在父元素的css中加入
+>position: relative;
+
+### fixed 固定位置  是相对于页面而言的
+
+### sticky
+固定和页面顶部的距离
