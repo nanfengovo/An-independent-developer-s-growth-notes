@@ -479,3 +479,108 @@
     </Grid>
 </Window>
 ```
+# 08、 登录基本实现
+>https://www.bilibili.com/video/BV1TC411r7ho?vd_source=b7200d0eaee914e9c128dcabce5df118&spm_id_from=333.788.videopod.episodes&p=8
+
+## 点击事件的方式实现登录 --耦合度太高了
+
+```MainWindow.xaml
+<Window x:Class="OAManage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OAManage"
+        mc:Ignorable="d"
+        Title="在线办公管理系统" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition ></RowDefinition>
+        </Grid.RowDefinitions>
+        <!-- 第一行 -->
+        <TextBlock Text="在线办公管理系统" Background="#0078d4" TextAlignment="Center" HorizontalAlignment="Center" Width="800" VerticalAlignment="Center" Height="30" FontSize="20" FontWeight="Light"></TextBlock>
+        
+        <!--第二行-->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="180"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <!-- 第二行的第一列 -->
+            <Border >
+                <Image Source="Image/Login.jpg"></Image>
+            </Border>
+
+            <Border Grid.Column="1"
+                    Background="LightCyan">
+                <Grid HorizontalAlignment="Center"
+                      VerticalAlignment="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50"></ColumnDefinition>
+                        <ColumnDefinition Width="100"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <!--第一行的第一列-->
+                    <TextBlock Text="账号"
+                               Margin="0,4"></TextBlock>
+
+                    <!--第一行的第二列-->
+                    <TextBox Grid.Column="1"
+                             Margin="0,4" x:Name="txtAccount"></TextBox>
+
+                    <!--第二行的第一列-->
+                    <TextBlock Text="密码"
+                               Grid.Row="1"
+                               Margin="0,4"></TextBlock>
+
+                    <!--第二行的第二列-->
+                    <TextBox Grid.Row="1"
+                             Grid.Column="2"
+                             Margin="0,4" x:Name="txtPwd"></TextBox>
+
+                    <Button Grid.Row="2"
+                            Grid.ColumnSpan="2"
+                            FontSize="20"
+                            Background="LightBlue" Click="Btn_Login">登录</Button>
+
+                </Grid>
+            </Border>
+            <!-- 第二行的第二列 -->
+           
+        </Grid>
+    </Grid>
+</Window>
+
+
+```
+
+```
+        /// <summary>
+        /// 登录
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Btn_Login(object sender, RoutedEventArgs e)
+        {
+            string account = this.txtAccount.Text;
+            string pwd = this.txtPwd.Text;
+
+            if(account == "longma" && pwd=="123" )
+            {
+                MessageBox.Show("登录成功");
+            }
+            else
+            {
+                MessageBox.Show("登录失败");
+                //清空文本框
+                this.txtAccount.Text = "";
+                this.txtPwd.Text = "";
+            }
+
+        }
+```
