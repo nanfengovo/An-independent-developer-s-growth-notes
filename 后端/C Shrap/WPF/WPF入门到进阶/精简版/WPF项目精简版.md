@@ -584,3 +584,143 @@
 
         }
 ```
+## 点击事件+绑定实现登录
+>问题：登录失败的情况不能清空页面文本框中的值
+
+```MainWindow.xaml
+<Window x:Class="OAManage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OAManage"
+        mc:Ignorable="d"
+        Title="在线办公管理系统" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition ></RowDefinition>
+        </Grid.RowDefinitions>
+        <!-- 第一行 -->
+        <TextBlock Text="在线办公管理系统" Background="#0078d4" TextAlignment="Center" HorizontalAlignment="Center" Width="800" VerticalAlignment="Center" Height="30" FontSize="20" FontWeight="Light"></TextBlock>
+        
+        <!--第二行-->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="180"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <!-- 第二行的第一列 -->
+            <Border >
+                <Image Source="Image/Login.jpg"></Image>
+            </Border>
+
+            <Border Grid.Column="1"
+                    Background="LightCyan">
+                <Grid HorizontalAlignment="Center"
+                      VerticalAlignment="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50"></ColumnDefinition>
+                        <ColumnDefinition Width="100"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <!--第一行的第一列-->
+                    <TextBlock Text="账号"
+                               Margin="0,4"></TextBlock>
+
+                    <!--第一行的第二列-->
+                    <TextBox Grid.Column="1"
+                             Margin="0,4" Text="{Binding Account}"></TextBox>
+
+                    <!--第二行的第一列-->
+                    <TextBlock Text="密码"
+                               Grid.Row="1"
+                               Margin="0,4"></TextBlock>
+
+                    <!--第二行的第二列-->
+                    <TextBox Grid.Row="1"
+                             Grid.Column="2"
+                             Margin="0,4" Text="{Binding Pwd}"></TextBox>
+
+                    <Button Grid.Row="2"
+                            Grid.ColumnSpan="2"
+                            FontSize="20"
+                            Background="LightBlue" Click="Btn_Login">登录</Button>
+
+                </Grid>
+            </Border>
+            <!-- 第二行的第二列 -->
+           
+        </Grid>
+    </Grid>
+</Window>
+
+
+
+```
+
+```c#
+using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace OAManage
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+            //设置数据上下文
+            this.DataContext = this;
+        }
+
+        //账号
+        public string Account { get; set; }
+
+        //密码
+        public string Pwd { get; set; }
+
+        /// <summary>
+        /// 登录
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Btn_Login(object sender, RoutedEventArgs e)
+        {
+          
+
+            if(Account == "longma" && Pwd=="123" )
+            {
+                MessageBox.Show("登录成功");
+            }
+            else
+            {
+                MessageBox.Show("登录失败");
+                //清空文本框
+                this.Account = "";
+                this.Pwd= "";
+            }
+
+        }
+    }
+}
+```
+
+# 09、在线办公系统-登录（双向绑定）
+>https://www.bilibili.com/video/BV1TC411r7ho?vd_source=b7200d0eaee914e9c128dcabce5df118&spm_id_from=333.788.videopod.episodes&p=9
+
