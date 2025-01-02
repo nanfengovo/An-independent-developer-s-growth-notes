@@ -92,7 +92,50 @@
 ## Style 样式
 >Style 样式基本用法，全局样式，资源字典，自定义布局样式模板，触发器
 
+###  <!--将样式封装成资源-->
+```
+<Window x:Class="WpfBaseLesson.StyleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfBaseLesson"
+        mc:Ignorable="d"
+        Title="StyleWindow" Height="450" Width="800">
+    <!--将样式封装成资源-->
+    <Window.Resources>
+        <Style TargetType="Button" x:Key="buttonstyle">
+            <Setter Property="Height"
+                    Value="40"></Setter>
+            <Setter Property="Width"
+                    Value="50"></Setter>
+            <Setter Property="FontSize"
+                    Value="20"></Setter>
+            <Setter Property="HorizontalAlignment"
+                    Value="Center"></Setter>
+            <Setter Property="VerticalAlignment"
+                    Value="Center"></Setter>
 
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition  Height="50"/>
+        </Grid.RowDefinitions>
+        <Button Content="注册" Style="{StaticResource buttonstyle}" Background="Green"></Button>
+        <Button
+                Grid.Row="1"
+                FontSize="20" Style="{StaticResource buttonstyle}"></Button>
+        <Button Content="其他"
+                Height="40"
+                Width="50"
+                Grid.Row="2"
+                FontSize="20"></Button>
+    </Grid>
+</Window>
+```
 
 
 
