@@ -311,6 +311,43 @@
     </Grid>
 </Window>
 ```
+## 通过绑定的方式自定义样式模板
+```
+<Window x:Class="WpfBaseLesson.CustomStyleTemplate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfBaseLesson"
+        mc:Ignorable="d"
+        Title="CustomStyleTemplate" Height="450" Width="800">
+    <Grid>
+        <Button Content="自定义"
+                Height="40"
+                Width="100"
+                Background="Blue"
+                BorderBrush="Black"
+                Foreground="White"
+                FontSize="20"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                BorderThickness="5"
+                >
+            <Button.Template>
+                <!--绑定-->
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" CornerRadius="10" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                        <!--ContentPresenter 呈现内容的控件 占位-->
+                        <!--<ContentPresenter HorizontalAlignment="Center"
+                                          VerticalAlignment="Center"></ContentPresenter>-->
+                        <TextBlock Text="{TemplateBinding Content}" VerticalAlignment="{TemplateBinding VerticalAlignment}" HorizontalAlignment="{TemplateBinding HorizontalAlignment}" ></TextBlock>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+    </Grid>
+</Window>
+```
 
 
 
