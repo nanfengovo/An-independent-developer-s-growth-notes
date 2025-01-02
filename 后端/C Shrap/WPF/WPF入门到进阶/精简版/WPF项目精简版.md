@@ -403,6 +403,79 @@
 </Window>
 ```
 
+# 07、在线办公系统-登录界面设计
+>https://www.bilibili.com/video/BV1TC411r7ho?vd_source=b7200d0eaee914e9c128dcabce5df118&spm_id_from=333.788.videopod.episodes&p=7
 
 
+```
+<Window x:Class="OAManage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OAManage"
+        mc:Ignorable="d"
+        Title="在线办公管理系统" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition ></RowDefinition>
+        </Grid.RowDefinitions>
+        <!-- 第一行 -->
+        <TextBlock Text="在线办公管理系统" Background="#0078d4" TextAlignment="Center" HorizontalAlignment="Center" Width="800" VerticalAlignment="Center" Height="30" FontSize="20" FontWeight="Light"></TextBlock>
+        
+        <!--第二行-->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="180"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <!-- 第二行的第一列 -->
+            <Border >
+                <Image Source="Image/Login.jpg"></Image>
+            </Border>
 
+            <Border Grid.Column="1"
+                    Background="LightCyan">
+                <Grid HorizontalAlignment="Center"
+                      VerticalAlignment="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50"></ColumnDefinition>
+                        <ColumnDefinition Width="100"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <!--第一行的第一列-->
+                    <TextBlock Text="账号"
+                               Margin="0,4"></TextBlock>
+
+                    <!--第一行的第二列-->
+                    <TextBox Grid.Column="1"
+                             Margin="0,4"></TextBox>
+
+                    <!--第二行的第一列-->
+                    <TextBlock Text="密码"
+                               Grid.Row="1"
+                               Margin="0,4"></TextBlock>
+
+                    <!--第二行的第二列-->
+                    <TextBox Grid.Row="1"
+                             Grid.Column="2"
+                             Margin="0,4"></TextBox>
+
+                    <Button Grid.Row="2"
+                            Grid.ColumnSpan="2"
+                            FontSize="20"
+                            Background="LightBlue">登录</Button>
+
+                </Grid>
+            </Border>
+            <!-- 第二行的第二列 -->
+           
+        </Grid>
+    </Grid>
+</Window>
+```
