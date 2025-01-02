@@ -91,7 +91,8 @@
 
 ## Style 样式
 >Style 样式基本用法，全局样式，资源字典，自定义布局样式模板，触发器
-
+# 布局 -样式基本用法
+>https://www.bilibili.com/video/BV1TC411r7ho?vd_source=b7200d0eaee914e9c128dcabce5df118&spm_id_from=333.788.videopod.episodes&p=4
 ###  <!--将样式封装成资源-->
 ```
 <Window x:Class="WpfBaseLesson.StyleWindow"
@@ -137,7 +138,68 @@
 </Window>
 ```
 
+# 布局-全局样式和资源字典
+>https://www.bilibili.com/video/BV1TC411r7ho?vd_source=b7200d0eaee914e9c128dcabce5df118&spm_id_from=333.788.videopod.episodes&p=5
 
+## 局部样式优化
+```
+<Window x:Class="WpfBaseLesson.StyleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfBaseLesson"
+        mc:Ignorable="d"
+        Title="StyleWindow" Height="450" Width="800">
+    <!--将样式封装成资源-->
+    <!--基样式-->
+    <Window.Resources>
+        <Style TargetType="Button" x:Key="buttonstyle">
+            <Setter Property="Height"
+                    Value="40"></Setter>
+            <Setter Property="Width"
+                    Value="50"></Setter>
+            <Setter Property="FontSize"
+                    Value="20"></Setter>
+            <Setter Property="HorizontalAlignment"
+                    Value="Center"></Setter>
+            <Setter Property="VerticalAlignment"
+                    Value="Center"></Setter>
+
+        </Style>
+        <!--注册样式-->
+        <Style TargetType="Button"
+               x:Key="RegButtonStyle"
+               BasedOn="{StaticResource buttonstyle}">
+            <Setter Property="Background"
+                    Value="Green"></Setter>
+        </Style>
+        <!--登录样式-->
+        <Style TargetType="Button"
+               x:Key="LoginButtonStyle"
+               BasedOn="{StaticResource buttonstyle}">
+            <Setter Property="Background"
+                    Value="Red"></Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition  Height="50"/>
+        </Grid.RowDefinitions>
+        <Button Content="注册" Style="{StaticResource RegButtonStyle}"></Button>
+        <Button Content="登录"
+                Grid.Row="1"
+                FontSize="20" Style="{StaticResource LoginButtonStyle}"></Button>
+        <Button Content="其他"
+                Height="40"
+                Width="50"
+                Grid.Row="2"
+                FontSize="20"></Button>
+    </Grid>
+</Window>
+```
 
 
 
