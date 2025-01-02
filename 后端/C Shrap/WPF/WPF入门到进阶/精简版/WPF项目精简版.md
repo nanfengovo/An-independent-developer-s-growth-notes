@@ -277,7 +277,40 @@
 # 06、布局-自定义样式模板+触发器
 >https://www.bilibili.com/video/BV1TC411r7ho?vd_source=b7200d0eaee914e9c128dcabce5df118&spm_id_from=333.788.videopod.episodes&p=6
 
-
+## 自定义样式模板
+```
+<Window x:Class="WpfBaseLesson.CustomStyleTemplate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfBaseLesson"
+        mc:Ignorable="d"
+        Title="CustomStyleTemplate" Height="450" Width="800">
+    <Grid>
+        <Button Content="自定义"
+                Height="40"
+                Width="100"
+                Background="Blue"
+                Foreground="White"
+                FontSize="20"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                >
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="Red" CornerRadius="10" BorderBrush="Black" BorderThickness="5">
+                        <!--ContentPresenter 呈现内容的控件 占位-->
+                        <!--<ContentPresenter HorizontalAlignment="Center"
+                                          VerticalAlignment="Center"></ContentPresenter>-->
+                        <TextBlock Text="自定义" VerticalAlignment="Center" HorizontalAlignment="Center" ></TextBlock>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+    </Grid>
+</Window>
+```
 
 
 
