@@ -62,18 +62,46 @@
 >3、mc:Ignorable="d"只在设计器中显示 ，运行时忽略d:相关的属性
 
 ## Grid布局注解
->1、<Grid ShowGridLines="True"> 中 ShowGridLines="True"表示显示网格线
-> 2、  <!--定义行  3行-->
-        <Grid.RowDefinitions>
-            <RowDefinition Height="40" d:Height="200"/>
-            <RowDefinition Height="50" />
-            <RowDefinition />
-        </Grid.RowDefinitions>
- <!--定义列  2列-->
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition />
-            <ColumnDefinition />
-        </Grid.ColumnDefinitions>
-   第几行几列：     
-        <TextBlock Grid.Row="0" Grid.Column="0">第一行第一列</TextBlock>
+```
+1、<Grid ShowGridLines="True"> 中 ShowGridLines="True"表示显示网格线
+`> 2、  <!--定义行  3行-->`
+        `<Grid.RowDefinitions>`
+            `<RowDefinition Height="40" d:Height="200"/>`
+            `<RowDefinition Height="50" />`
+            `<RowDefinition />`
+        `</Grid.RowDefinitions>`
+ `<!--定义列  2列-->`
+        `<Grid.ColumnDefinitions>`
+            `<ColumnDefinition />`
+            `<ColumnDefinition />`
+        `</Grid.ColumnDefinitions>`
+   `第几行几列：`     
+        `<TextBlock Grid.Row="0" Grid.Column="0">第一行第一列</TextBlock>`
+```
+# 布局--其他容器控件
+>https://www.bilibili.com/video/BV1TC411r7ho?vd_source=b7200d0eaee914e9c128dcabce5df118&spm_id_from=333.788.videopod.episodes&p=3
+## 网格 Grid  UniformGrid
+>uniformGrid 自动创建行列，每个单元格大小相同，一般用于动态绑定数据
+## 堆面板：StackPanel 
+>紧凑堆一起（可设置横着堆或竖着堆），一个紧挨一个放不下就截取
+>Orientation="Horizontal" 设置水平排
+
+## 边框：Border
+>Border是一个装饰的控件，此控件绘制一个边框，一个背景。Border中只能有一个子控件（Child）,若要显示多个子元素，需要在父Border中放一个Panel元素，然后讲子元素放在panel元素中
+
+## Style 样式
+>Style 样式基本用法，全局样式，资源字典，自定义布局样式模板，触发器
+
+
+
+
+
+
+
+
+
+
+
+
+
 
