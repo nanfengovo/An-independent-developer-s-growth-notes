@@ -1,4 +1,6 @@
 # CSS基本语法
+
+https://www.youtube.com/watch?v=S6os7SrnzCI&t=4424s
 ## 选择器
 ![[Pasted image 20241231221856.png]]
 选择器{

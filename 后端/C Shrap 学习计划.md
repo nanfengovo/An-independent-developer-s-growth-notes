@@ -10,6 +10,8 @@
 	*Modbus 协议（NMODBUS）
 	*西门子的S7
 	*欧姆龙的FinsTcp
+	*PROFINET
+	
 # 4.学习界面库/WPF
 ## WinForm:
 	* hzhcontrol(收费学习免费)
