@@ -1206,3 +1206,21 @@ namespace OAManage.Command
     }
 }
 ```
+# 11、相关知识-委托
+>https://www.bilibili.com/video/BV1TC411r7ho?vd_source=b7200d0eaee914e9c128dcabce5df118&spm_id_from=333.788.videopod.episodes&p=11
+
+## 自定义委托
+>public delegate 返回值类型 del (int i,string str);
+
+
+## 系统委托/预置委托
+ * `pubLic Action Dele   没有返回值`
+	 * `public Action Dele 没有参数的Action委托`
+	 * `public Action<int,string> Dele 有参数的Action 委托`
+	 * `public Func<int> Dele  必须有返回值`
+		`public Func<string ,int ,int > 其中string是返回值类型，int是参数类型`
+ 
+
+
+## 事务 ：特殊的委托
+
