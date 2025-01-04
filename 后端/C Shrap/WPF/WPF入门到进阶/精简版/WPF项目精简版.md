@@ -1224,3 +1224,6 @@ namespace OAManage.Command
 
 ## 事务 ：特殊的委托
 
+# 12、在线办公系统-登录（MVVM）
+>https://www.bilibili.com/video/BV1TC411r7ho?vd_source=b7200d0eaee914e9c128dcabce5df118&spm_id_from=333.788.videopod.episodes&p=12
+
