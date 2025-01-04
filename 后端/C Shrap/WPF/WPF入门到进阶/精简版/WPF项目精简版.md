@@ -1229,3 +1229,7 @@ namespace OAManage.Command
 
 
 ![[图片/Diagram.svg]]
+## MVVM
+数据模型M  视图 V   视图模型VM（MVVM）
+![[图片/Diagram 1.svg]]
+
