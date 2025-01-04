@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "be4e6fcfcd96cc69",
+            "id": "2f82fba6df210e63",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "WPF项目精简版"
-            }
-          },
-          {
-            "id": "2f82fba6df210e63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "后端/C Shrap/C Shrap Industrial Control/S7/C Shrap 类库/S7netplus.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "S7netplus"
             }
           }
         ]
@@ -101,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5
+    "width": 306.5,
+    "collapsed": true
   },
   "right": {
     "id": "5cde09bdb333716c",
@@ -198,13 +185,24 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "336ed7424d24b520",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 350.5
+    "width": 437.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,16 +223,20 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "be4e6fcfcd96cc69",
+  "active": "2f82fba6df210e63",
   "lastOpenFiles": [
+    "图片/Diagram.svg.xml",
+    "图片/Diagram.svg",
+    "后端/C Shrap/WPF/WPF入门到进阶/精简版/WPF项目精简版.md",
+    "后端/C Shrap/C Shrap Industrial Control/S7/C Shrap 类库/S7netplus.md",
+    "未命名.canvas",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/yargs/README.md",
     "图片/Pasted image 20250103125102.png",
     "Web（BS）开发积累/Token 无感刷新.md",
     "前端/HTML/HTML 基础.md",
     "前端/CSS/CSS.md",
     "前端/CSS/CSS 基础.md",
     "后端/C Shrap/封装一个日志助手类.md",
-    "后端/C Shrap/WPF/WPF入门到进阶/精简版/WPF项目精简版.md",
-    "后端/C Shrap/C Shrap Industrial Control/S7/C Shrap 类库/S7netplus.md",
     "后端/C Shrap/WPF/WPF入门到进阶/精简版",
     "后端/C Shrap/WPF/WPF入门到进阶",
     "后端/C Shrap/WPF",
@@ -267,11 +269,8 @@
     "图片/Pasted image 20241230201237.png",
     "图片/Pasted image 20241230200122.png",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-2 日志系统  NLog.md",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2 -1 配置系统.md",
     "图片/Pasted image 20241223105043.png",
     "图片/routerviewNG演示.gif",
-    "图片/Pasted image 20241216164941.png",
-    "图片/Pasted image 20241216164932.png",
-    "图片/Pasted image 20241216164920.png"
+    "图片/Pasted image 20241216164941.png"
   ]
 }
