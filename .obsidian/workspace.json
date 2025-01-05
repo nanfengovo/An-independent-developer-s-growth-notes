@@ -196,12 +196,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 437.5,
-    "collapsed": true
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,13 +212,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2f82fba6df210e63",
+  "active": "16f50a8d19b078db",
   "lastOpenFiles": [
+    "后端/C Shrap/WPF/WPF入门到进阶/精简版/WPF项目精简版.md",
     "图片/Diagram 1.svg.xml",
     "图片/Diagram 1.svg",
     "图片/Diagram.svg.xml",
     "图片/Diagram.svg",
-    "后端/C Shrap/WPF/WPF入门到进阶/精简版/WPF项目精简版.md",
     "后端/C Shrap/C Shrap Industrial Control/S7/C Shrap 类库/S7netplus.md",
     "未命名.canvas",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/yargs/README.md",
@@ -244,7 +243,6 @@
     "后端/C Shrap 学习计划.md",
     "后端/C Shrap/C Shrap Industrial Control/FinsTcp",
     "后端/C Shrap/C Shrap Industrial Control/S7",
-    "后端/C Shrap/C Shrap Industrial Control/Modbus",
     "产品/视频学习/Axure 10 学习/03.界面布局和模块.md",
     "产品/视频学习/Axure 10 学习/02.Axure的介绍.md",
     "产品/视频学习/Axure 10 学习/01.课程介绍.md",

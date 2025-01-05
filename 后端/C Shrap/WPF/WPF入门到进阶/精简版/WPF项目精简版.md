@@ -1233,3 +1233,11 @@ namespace OAManage.Command
 数据模型M  视图 V   视图模型VM（MVVM）
 ![[图片/Diagram 1.svg]]
 
+以两种方式实现了MVVM具体见GitHub提交记录
+但是密码框是明文，下面优化这个:
+# 13、在线办公系统-自定义密码框属性（附加属性）
+>https://www.bilibili.com/video/BV1TC411r7ho?vd_source=b7200d0eaee914e9c128dcabce5df118&spm_id_from=333.788.videopod.episodes&p=13
+
+上节提到我们要优化密码是密文这个问题，我们知道WPF中是有password这个控件的但是这个控件不能使用绑定，因为password不是依赖属性
+## 附加属性和依赖属性关系
+>附加属性肯定是依赖属性
