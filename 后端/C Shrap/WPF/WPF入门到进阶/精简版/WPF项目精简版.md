@@ -1241,3 +1241,6 @@ namespace OAManage.Command
 上节提到我们要优化密码是密文这个问题，我们知道WPF中是有password这个控件的但是这个控件不能使用绑定，因为password不是依赖属性
 ## 附加属性和依赖属性关系
 >附加属性肯定是依赖属性
+
+# 14、在线办公系统-自定义控件
+>https://www.bilibili.com/video/BV1TC411r7ho?vd_source=b7200d0eaee914e9c128dcabce5df118&p=14&spm_id_from=333.788.videopod.episodes
