@@ -11,7 +11,7 @@ https://www.bilibili.com/video/BV1pK41137He?vd_source=b7200d0eaee914e9c128dcabce
 >ORM（object relational mapping，对象关系映射）中的“对象”指的就是C#中的对象，而“关系”指的是关系数据库，“映射”指的是在关系数据库和C#对象之间搭建一座“桥梁”。我们知道，在.NET中可以通过ADO.NET连接数据库然后执行SQL语句来操作数据库中的数据。而ORM可以让我们通过==操作C#对象的方式操作数据库==，比如使用ORM，可以通过创建C#对象的方式把数据插入数据库
 >ORM只是对ADO.NET的封装，ORM底层仍然是通过ADO.NET访问数据库的。
 
-# EFCore 入门
+# EFCore 入门(SQL Server)
 
 ## EFCore 环境搭建
 https://www.bilibili.com/video/BV1pK41137He?vd_source=b7200d0eaee914e9c128dcabce5df118&spm_id_from=333.788.player.switch&p=51
@@ -314,5 +314,6 @@ https://www.bilibili.com/video/BV1pK41137He?vd_source=b7200d0eaee914e9c128dcabce
 
 
 
+# WPF中EFCore 结合Sqlite
 
 

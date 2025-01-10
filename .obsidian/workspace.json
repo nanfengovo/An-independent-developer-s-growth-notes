@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/WPF/WPF入门到进阶/精简版/WPF项目精简版.md",
+                "file": "后端/C Shrap/ASP.NET Core/跨域配置（CORS）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WPF项目精简版"
+              "title": "跨域配置（CORS）"
             }
           }
         ]
@@ -149,10 +149,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/WPF/WPF入门到进阶/精简版/WPF项目精简版.md"
+                "file": "后端/C Shrap/ASP.NET Core/跨域配置（CORS）.md"
               },
               "icon": "lucide-list",
-              "title": "WPF项目精简版 的大纲"
+              "title": "跨域配置（CORS） 的大纲"
             }
           },
           {
@@ -214,9 +214,23 @@
   },
   "active": "2f82fba6df210e63",
   "lastOpenFiles": [
+    "后端/C Shrap/ASP.NET Core/异步编程.md",
+    "后端/C Shrap/ASP.NET Core/中间件.md",
+    "后端/C Shrap/ASP.NET Core/DotNET Core的重要问题.md",
+    "后端/C Shrap/C Shrap Industrial Control/PROFINET/01.Profinet介绍.md",
+    "后端/C Shrap/C Shrap Industrial Control/Modbus/Modbus TCP/Modbus TCP.md",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md",
+    "后端/C Shrap/C Shrap Industrial Control/Modbus/Modbus TCP",
+    "后端/C Shrap/C Shrap Industrial Control/Modbus/Modbus TCP.md",
+    "后端/C Shrap/ASP.NET Core/ORM/主流 ORM.md",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-2 日志系统  NLog.md",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2 -1 配置系统.md",
+    "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library).pdf",
+    "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
+    "后端/C Shrap/WPF/WPF入门到进阶/精简版/WPF项目精简版.md",
+    "后端/C Shrap/封装一个日志助手类.md",
     "后端/C Shrap/C Shrap Project/飞行棋/Flying Chess (飞行棋项目)    --控制台版.md",
     "后端/C Shrap/C Shrap Industrial Control/S7/C Shrap 类库/S7netplus.md",
-    "后端/C Shrap/WPF/WPF入门到进阶/精简版/WPF项目精简版.md",
     "图片/Diagram 1.svg.xml",
     "图片/Diagram 1.svg",
     "图片/Diagram.svg.xml",
@@ -228,37 +242,23 @@
     "前端/HTML/HTML 基础.md",
     "前端/CSS/CSS.md",
     "前端/CSS/CSS 基础.md",
-    "后端/C Shrap/封装一个日志助手类.md",
     "后端/C Shrap/WPF/WPF入门到进阶/精简版",
     "后端/C Shrap/WPF/WPF入门到进阶",
     "后端/C Shrap/WPF",
     "前端/H5+CSS练习",
     "Web（BS）开发积累",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md",
     "后端/C Shrap/C Shrap Industrial Control/S7/02.C Shrap  to PLC.md",
     "后端/C Shrap/C Shrap Industrial Control/S7/01.S7协议介绍.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/权限.md",
     "后端/C Shrap/C Shrap Industrial Control/S7/C Shrap 类库",
     "图片/Pasted image 20250101144751.png",
-    "后端/C Shrap/C Shrap Industrial Control/PROFINET/01.Profinet介绍.md",
     "后端/C Shrap 学习计划.md",
-    "后端/C Shrap/C Shrap Industrial Control/FinsTcp",
-    "后端/C Shrap/C Shrap Industrial Control/S7",
     "产品/视频学习/Axure 10 学习/03.界面布局和模块.md",
     "产品/视频学习/Axure 10 学习/02.Axure的介绍.md",
-    "产品/视频学习/Axure 10 学习/01.课程介绍.md",
-    "厚积薄发/英语篇/短句练习篇.md",
     "图片/Pasted image 20250101103922.png",
     "图片/Pasted image 20241231221856.png",
-    "产品/视频学习/Axure快速入门/6.热区使用.md",
-    "产品/视频学习/Axure快速入门/4.母板使用.md",
-    "产品/视频学习/Axure快速入门/3.登录页案例.md",
-    "数据库/数据库管理工具/Navicat/Navicat 连接SQL Server/1.1 连接SQL Server.md",
-    "数据库/数据库管理工具/DBeaver/DBeaver 连接SQL Server/1.1 连接SQL Server（默认端口号1433）.md",
-    "厚积薄发/英语篇/英文简历篇.md",
     "图片/Pasted image 20241230201237.png",
     "图片/Pasted image 20241230200122.png",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-2 日志系统  NLog.md",
     "图片/Pasted image 20241223105043.png",
     "图片/routerviewNG演示.gif"
   ]
