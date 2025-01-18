@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/WPF/WPFUI/使用HandyControl组件库/使用记录.md",
+                "file": "后端/C Shrap/WPF/WPFUI/WPF Login Page/Demo 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "使用记录"
+              "title": "Demo 1"
             }
           }
         ]
@@ -149,10 +149,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/WPF/WPFUI/使用HandyControl组件库/使用记录.md"
+                "file": "后端/C Shrap/WPF/WPFUI/WPF Login Page/Demo 1.md"
               },
               "icon": "lucide-list",
-              "title": "使用记录 的大纲"
+              "title": "Demo 1 的大纲"
             }
           },
           {
@@ -214,11 +214,14 @@
   },
   "active": "2f82fba6df210e63",
   "lastOpenFiles": [
+    "图片/Pasted image 20250118233057.png",
+    "后端/C Shrap/WPF/WPFUI/使用HandyControl组件库/使用记录.md",
+    "后端/C Shrap/WPF/WPFUI/WPF Login Page/Demo 1.md",
+    "后端/C Shrap/WPF/WPFUI/WPF Login Page",
     "图片/Pasted image 20250118151009.png",
     "图片/Pasted image 20250118150758.png",
     "图片/Pasted image 20250118145739.png",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md",
-    "后端/C Shrap/WPF/WPFUI/使用HandyControl组件库/使用记录.md",
     "后端/C Shrap/WPF/WPFUI/使用HandyControl组件库",
     "后端/C Shrap/WPF/WPFUI",
     "后端/C Shrap/WPF/WPF入门到进阶/WPF基础.pdf",
@@ -252,14 +255,11 @@
     "前端/CSS/CSS 基础.md",
     "后端/C Shrap/WPF/WPF入门到进阶/精简版",
     "后端/C Shrap/WPF/WPF入门到进阶",
-    "后端/C Shrap/WPF",
     "后端/C Shrap/C Shrap Industrial Control/S7/02.C Shrap  to PLC.md",
     "后端/C Shrap/C Shrap Industrial Control/S7/01.S7协议介绍.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/权限.md",
     "图片/Pasted image 20250101144751.png",
     "图片/Pasted image 20250101103922.png",
     "图片/Pasted image 20241231221856.png",
-    "图片/Pasted image 20241230201237.png",
-    "图片/Pasted image 20241230200122.png"
+    "图片/Pasted image 20241230201237.png"
   ]
 }
