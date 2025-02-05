@@ -74,6 +74,10 @@ namespace LoggingDemo1
 
 
 
+ ##  ASP.NET Core中使用NLog（以webapi为例）
+ ### 安装必要的库
+ ![[0f1de311d4c419ccd10fc8f832aeb3b.png]]
+
 
 
 
