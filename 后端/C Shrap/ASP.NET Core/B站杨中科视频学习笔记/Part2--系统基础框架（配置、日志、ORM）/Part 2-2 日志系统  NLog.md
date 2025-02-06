@@ -75,6 +75,7 @@ namespace LoggingDemo1
 
 
  ##  ASP.NET Core中使用NLog（以webapi为例）
+ ## 将日志写入到文件和控制台
  ### 安装必要的库
  ![[0f1de311d4c419ccd10fc8f832aeb3b.png]]
 ### NLog.config 配置文件
@@ -128,7 +129,53 @@ public 控制器名称(ILogger<控制器名称> logger)
 }
 ```
 
+## 将日志保存到数据库，同时在控制台和文件中也写入
+```
+<?xml version="1.0" encoding="utf-8" ?>
+<nlog xmlns="http://www.nlog-project.org/schemas/NLog.xsd"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      autoReload="true"
+      internalLogLevel="Info"
+      internalLogFile="internal-nlog.txt">
 
+	<!-- 定义日志输出目标 -->
+	<targets>
+		<!-- 输出到文件 -->
+		<target name="logfile"
+				xsi:type="File"
+				fileName="logs/${shortdate}.log"
+				layout="${longdate}|${level:uppercase=true}|${logger}|${message} ${exception:format=ToString}" />
+
+		<!-- 输出到控制台（可选） -->
+		<target name="console" xsi:type="Console" />
+
+		<!-- 输出到数据库 -->
+		<target xsi:type="Database" name="database">
+			<connectionString>Server=.;Database=PLCHelperDB;User=sa;Password=aaaa2624434145;Encrypt=True;Trusted_Connection=True;TrustServerCertificate=True;</connectionString>
+			<!-- 其他配置保持不变 -->
+			<commandText>
+				INSERT INTO logs ( date, level, logger, message) VALUES (@time, @level, @logger, @message);
+			</commandText>
+			<parameter name="@time" layout="${longdate}" />
+			<parameter name="@level" layout="${level}" />
+			<parameter name="@logger" layout="${logger}" />
+			<parameter name="@message" layout="${message}" />
+		</target>
+	</targets>
+
+	<!-- 定义日志规则 -->
+	<rules>
+		<!-- Suppress output from Microsoft framework when non-critical -->
+		<logger name="System.*" finalMinLevel="Warn" />
+		<logger name="Microsoft.*" finalMinLevel="Warn" />
+		<!-- Keep output from Microsoft.Hosting.Lifetime to console for fast startup detection -->
+		<logger name="Microsoft.Hosting.Lifetime*" finalMinLevel="Info" writeTo="console" />
+		<!-- Write all logs with level Info and above to file and console -->
+		<logger name="*" minlevel="Info" writeTo="logfile,console" />
+		<logger name="Microsoft.*" finalMinLevel="Warn" writeTo="database"/>
+	</rules>
+</nlog>
+```
 
 
 

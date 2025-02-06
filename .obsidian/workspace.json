@@ -227,8 +227,9 @@
   },
   "active": "2f82fba6df210e63",
   "lastOpenFiles": [
-    "图片/0f1de311d4c419ccd10fc8f832aeb3b.png",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-2 日志系统  NLog.md",
+    "图片/0f1de311d4c419ccd10fc8f832aeb3b.png",
     "Web（BS）开发积累/Token 无感刷新.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/笔记/全新Vue3全家桶+Element Plus入门到进阶课程.pdf",
     "前端/框架/Vue/Vue3中ElementPlus的使用/问题记录/01、router嵌套不能实现想要的跳转效果.md",
@@ -237,7 +238,6 @@
     "产品/视频学习/Axure快速入门/4.母板使用.md",
     "产品/视频学习/Axure快速入门/2.元件介绍.md",
     "产品/视频学习/Axure快速入门/1.软件界面介绍.md",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-2 日志系统  NLog.md",
     "后端/C Shrap/C Shrap 从入门到精通/20、网络编程技术/20.1 计算机网络基础.md",
     "后端/C Shrap/C Shrap Knowledge/001 初识C Shrap 及其环境.md",
     "后端/C Shrap/C Shrap 从入门到精通/20、网络编程技术",
@@ -272,7 +272,6 @@
     "未命名.canvas",
     "图片/Pasted image 20250103125102.png",
     "图片/Pasted image 20250101144751.png",
-    "图片/Pasted image 20250101103922.png",
-    "图片/Pasted image 20241231221856.png"
+    "图片/Pasted image 20250101103922.png"
   ]
 }
