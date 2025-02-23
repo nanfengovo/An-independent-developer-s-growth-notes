@@ -43,6 +43,7 @@
 
 ## 使用 
 ###  1 .添加Demo控制器
+#### 是否有admin角色，没有则创建，是否有yzk用户，没有则创建，是否有yzk用户属于admin角色，没有则添加
 ```
 [Route("api/[controller]/[action]")]
 [ApiController]
@@ -102,3 +103,109 @@ public class DemoController : ControllerBase
 }
 ```
 
+#### 登录
+```
+/// <summary>
+/// 登录
+/// </summary>
+/// <param name="req"></param>
+/// <returns></returns>
+[HttpPost]
+public async Task<ActionResult> CheckPwd(CheckPwdRequest req)
+{
+    string userName = req.UserName;
+    string pwd = req.Password;
+    var user = await userManager.FindByNameAsync(userName);
+    if (user == null)
+    {
+        if(webHostEnvironment.IsDevelopment())
+        {
+            return BadRequest("用户名不存在！！");
+        }
+        else
+        {
+            return BadRequest();
+        }
+       
+    }
+    if(await userManager.IsLockedOutAsync(user))
+    {
+        return BadRequest("用户已被锁定！");
+    }
+    if (await userManager.CheckPasswordAsync(user,pwd))
+    {
+        //登录成功后，重置登录失败次数
+        await userManager.ResetAccessFailedCountAsync(user);
+        return Ok("登录成功！");
+    }
+    else
+    {
+        //登录失败后，增加登录失败次数
+        await userManager.AccessFailedAsync(user);
+        return BadRequest("用户名或密码错误！！");
+    }
+    
+}
+```
+
+# Identity 标识框架3  -- 实现密码的重置
+>https://www.bilibili.com/video/BV1pK41137He?vd_source=b7200d0eaee914e9c128dcabce5df118&spm_id_from=333.788.videopod.episodes&p=146
+
+
+> 密码不是明文保存的 （散列密码）
+
+
+## 实现密码的重置
+### 输入用户名
+### 系统生成随机验证码并将随机验证码发到你的邮箱
+### 将收到的邮件验证码填写到页面上，服务器端做验证
+```
+  /// <summary>
+  /// 重置密码的验证码
+  /// </summary>
+  /// <param name="userName"></param>
+  /// <returns></returns>
+  [HttpPost]
+  public async Task<ActionResult> SendResetPasswordToken(string userName)
+
+  {
+      var user = await userManager.FindByNameAsync(userName);
+      if (user == null)
+      {
+          return BadRequest("用户名不存在！");
+      }
+      var token = await userManager.GeneratePasswordResetTokenAsync(user);
+      Console.WriteLine($"验证码是{token}");
+      //发送token到用户邮箱
+      return Ok(token);
+  }
+```
+
+#### 重置密码
+```
+  /// <summary>
+  /// 重置密码
+  /// </summary>
+  /// <param name="userName"></param>
+  /// <param name="token"></param>
+  /// <param name="newPassword"></param>
+  /// <returns></returns>
+  [HttpPut]
+  public async Task<ActionResult> ResetPassword(string userName, string token, string newPassword)
+  {
+      var user = await userManager.FindByNameAsync(userName);
+      if (user == null)
+      {
+          return BadRequest("用户名不存在！");
+      }
+      var result = await userManager.ResetPasswordAsync(user, token, newPassword);
+      if (result.Succeeded)
+      {
+          return Ok("重置密码成功！");
+      }
+      else
+      {
+          return BadRequest("重置密码失败！");
+      }
+  }
+```

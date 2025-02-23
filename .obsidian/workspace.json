@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part5 - ASP.NET Core Identity/5-1 Identity 标识框架.md",
+                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6- DDD领域驱动设计/DDD领域驱动设计.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5-1 Identity 标识框架"
+              "title": "DDD领域驱动设计"
             }
           }
         ]
@@ -150,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part5 - ASP.NET Core Identity/5-1 Identity 标识框架.md",
+                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6- DDD领域驱动设计/DDD领域驱动设计.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "5-1 Identity 标识框架 的大纲"
+              "title": "DDD领域驱动设计 的大纲"
             }
           },
           {
@@ -218,6 +218,10 @@
   },
   "active": "d5209cc3fb289b13",
   "lastOpenFiles": [
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/未命名.md",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6- DDD领域驱动设计/DDD领域驱动设计.md",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part5 - ASP.NET Core Identity/5-2 JWT.md",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part5 - ASP.NET Core Identity/5-1 Identity 标识框架.md",
     "图片/Pasted image 20250222001844.png",
     "图片/Pasted image 20250222001753.png",
     "图片/Pasted image 20250222000651.png",
@@ -225,7 +229,6 @@
     "图片/Pasted image 20250221232439.png",
     "图片/Pasted image 20250221231935.png",
     "后端/C Shrap/ASP.NET Core/ASP.NET Core模块学习/角色用户模块--identity/ASP.NET Core Identity（一）.md",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part5 - ASP.NET Core Identity/5-1 Identity 标识框架.md",
     "产品/资料/产品经理必会的60个开发名词.md",
     "面试经历/2025-02-20   系统开发与运维工程师（MES）.md",
     "后端/C Shrap 学习计划.md",
@@ -257,13 +260,10 @@
     "Web（BS）开发积累/Token 无感刷新.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/笔记/全新Vue3全家桶+Element Plus入门到进阶课程.pdf",
     "前端/框架/Vue/Vue3中ElementPlus的使用/问题记录/01、router嵌套不能实现想要的跳转效果.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/未命名.md",
-    "前端/框架/Vue/笔记/Vue3快速上手.md",
     "后端/C Shrap/C Shrap 从入门到精通/20、网络编程技术",
     "后端/C Shrap/C Shrap 从入门到精通",
     "后端/C Shrap/C Shrap Knowledge",
     "后端/C Shrap/ASP.NET Core/ASP.NET Core模块学习/角色用户模块--identity",
-    "图片/Pasted image 20250118233057.png",
     "未命名.canvas"
   ]
 }
