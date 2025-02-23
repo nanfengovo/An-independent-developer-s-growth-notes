@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6- DDD领域驱动设计/DDD领域驱动设计.md",
+                "file": "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DDD领域驱动设计"
+              "title": "Demo1 Vue3+ElementPlus +TS+pinia"
             }
           }
         ]
@@ -150,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6- DDD领域驱动设计/DDD领域驱动设计.md",
+                "file": "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "DDD领域驱动设计 的大纲"
+              "title": "Demo1 Vue3+ElementPlus +TS+pinia 的大纲"
             }
           },
           {
@@ -218,8 +218,30 @@
   },
   "active": "d5209cc3fb289b13",
   "lastOpenFiles": [
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/未命名.md",
+    "图片/Pasted image 20250224002933.png",
+    "图片/Pasted image 20250224001856.png",
+    "图片/Pasted image 20250224001510.png",
+    "图片/Pasted image 20250224000316.png",
+    "后端/C Shrap/C Shrap Lib/Colorful.Console.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/前端/后台管理系统",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/后端",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/前端",
+    "后端/C Shrap/C Shrap Lib/任务调度/RuoVea.QuartzNetUI.md",
+    "后端/C Shrap/C Shrap Lib/任务调度",
+    "后端/C Shrap/C Shrap 面试题/NET Core Web API 面试笔记 1.md",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/7、使用Autofac实现依赖注入.md",
+    "前后端分离/ASP.NET Core+Vue3/模块化学习",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目",
+    "前后端分离/ASP.NET Core+Vue3/开源项目学习",
+    "前后端分离/ASP.NET Core+Vue3",
+    "前后端分离",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/6、自定义项目框架模板.md",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/5、原生依赖注入串联整体框架.md",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/3、泛型基类的妙用.md",
+    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/2、仓储+服务架构模式.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6- DDD领域驱动设计/DDD领域驱动设计.md",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/未命名.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part5 - ASP.NET Core Identity/5-2 JWT.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part5 - ASP.NET Core Identity/5-1 Identity 标识框架.md",
     "图片/Pasted image 20250222001844.png",
@@ -235,35 +257,13 @@
     "图片/6d12c3704d08c86fe9864a36ef672e18a94b7ae7.pdf",
     "图片/c4e0dfc677d9ae28b4f83411451915a.jpg",
     "后端/C Shrap/C Shrap Industrial Control/Modbus/Modbus TCP/使用NModbus.md",
-    "面试经历",
-    "图片/Pasted image 20250217222836.png",
-    "图片/Pasted image 20250217222656.png",
     "后端/C Shrap/C Shrap Industrial Control/Modbus/Modbus TCP/Modbus TCP.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part1--Asp.Net Core 基础知识/1-2 依赖注入/1-2-1 依赖注入.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part1--Asp.Net Core 基础知识/1-1  异步编程/1-1-1.md",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part1--Asp.Net Core 基础知识/1-2 依赖注入",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part1--Asp.Net Core 基础知识/1-1  异步编程",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-2 日志系统  NLog.md",
     "前端/前端布局/Grid.md",
     "后端/C Shrap/C Shrap Industrial Control/S7/03.使用HSLS7虚拟服务并使用S7NET PLUS 进行读写.md",
-    "前端/前端布局",
-    "后端/C Shrap/C Shrap Industrial Control/S7/01.S7协议介绍.md",
-    "后端/C Shrap/C Shrap Industrial Control/S7/C Shrap 类库/S7netplus.md",
-    "后端/C Shrap/C Shrap 面试题/腾讯.NET基础面试题.md",
-    "后端/C Shrap/C Shrap 面试题/break ; continue ;return.md",
-    "后端/C Shrap/C Shrap 面试题/NET 高频面试题总结（高级开发、架构师）.md",
-    "后端/C Shrap/C Shrap Industrial Control/S7/02.C Shrap  to PLC.md",
-    "Web（BS）开发积累/前端分页.md",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2 -1 配置系统.md",
-    "图片/0f1de311d4c419ccd10fc8f832aeb3b.png",
-    "Web（BS）开发积累/Token 无感刷新.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/笔记/全新Vue3全家桶+Element Plus入门到进阶课程.pdf",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/问题记录/01、router嵌套不能实现想要的跳转效果.md",
-    "后端/C Shrap/C Shrap 从入门到精通/20、网络编程技术",
-    "后端/C Shrap/C Shrap 从入门到精通",
-    "后端/C Shrap/C Shrap Knowledge",
-    "后端/C Shrap/ASP.NET Core/ASP.NET Core模块学习/角色用户模块--identity",
     "未命名.canvas"
   ]
 }
