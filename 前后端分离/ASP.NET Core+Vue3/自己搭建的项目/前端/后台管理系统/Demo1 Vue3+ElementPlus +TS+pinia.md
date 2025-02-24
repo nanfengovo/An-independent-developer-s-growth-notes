@@ -77,3 +77,311 @@
 安装插件
 >npm install eslint-plugin-prettier eslint-config-prettier -D
 
+## CSS样式的重置
+### 对默认CSS样式进行重置
+* normalize.css
+* reset.css
+#### 使用normalize.css
+>npm install normalize.css
+
+#### 创建CSS文件夹
+![[Pasted image 20250224223934.png]]
+#### 从网上找reset.less并粘贴进去
+```
+// reset.less
+
+  
+
+// Reset box-sizing
+
+*,
+
+*::before,
+
+*::after {
+
+    box-sizing: border-box;
+
+}
+
+  
+
+// Reset margin and padding
+
+body,
+
+h1,
+
+h2,
+
+h3,
+
+h4,
+
+h5,
+
+h6,
+
+p,
+
+figure,
+
+blockquote,
+
+dl,
+
+dd {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+  
+
+// Set up a root default font size
+
+html {
+
+    font-size: 16px;
+
+}
+
+  
+
+// Set default body styles
+
+body {
+
+    font-family:
+
+        -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+
+        Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    line-height: 1.5;
+
+    color: #333;
+
+    background-color: #fff;
+
+}
+
+  
+
+// Reset headings
+
+h1,
+
+h2,
+
+h3,
+
+h4,
+
+h5,
+
+h6 {
+
+    font-size: inherit;
+
+    font-weight: normal;
+
+}
+
+  
+
+// Reset list styles
+
+ul,
+
+ol {
+
+    list-style: none;
+
+}
+
+  
+
+// Reset table styles
+
+table {
+
+    border-collapse: collapse;
+
+    border-spacing: 0;
+
+}
+
+  
+
+// Reset form elements
+
+input,
+
+button,
+
+textarea,
+
+select {
+
+    font: inherit;
+
+    margin: 0;
+
+}
+
+  
+
+// Reset links
+
+a {
+
+    text-decoration: none;
+
+    color: inherit;
+
+}
+
+  
+
+// Reset images
+
+img {
+
+    max-width: 100%;
+
+    height: auto;
+
+}
+
+  
+
+// Reset form element styles
+
+button,
+
+input,
+
+optgroup,
+
+select,
+
+textarea {
+
+    margin: 0;
+
+    font-family: inherit;
+
+    font-size: inherit;
+
+    line-height: inherit;
+
+}
+
+  
+
+// Remove default focus styles
+
+:focus {
+
+    outline: 0;
+
+}
+
+  
+
+// Remove default button styles
+
+button {
+
+    background: none;
+
+    border: none;
+
+    cursor: pointer;
+
+}
+
+  
+
+// Remove default fieldset styles
+
+fieldset {
+
+    border: 0;
+
+}
+
+  
+
+// Remove default legend styles
+
+legend {
+
+    padding: 0;
+
+}
+
+  
+
+// Utility classes
+
+.hidden {
+
+    display: none;
+
+}
+
+  
+
+.visually-hidden {
+
+    position: absolute;
+
+    width: 1px;
+
+    height: 1px;
+
+    margin: -1px;
+
+    padding: 0;
+
+    overflow: hidden;
+
+    clip: rect(0, 0, 0, 0);
+
+    border: 0;
+
+}
+
+  
+
+// Add more resets or utility classes as needed
+```
+#### 在main.ts中引入
+![[Pasted image 20250224224128.png]]
+#### npm run dev 运行项目 发现报错
+![[Pasted image 20250224224205.png]]
+#### 根据提示安装npm install -D less
+
+### 补充
+>import和@import的区别
+
+#### 至此完成了CSS的重置
+
+
+>@import
+>**用途**：`@import` 是 CSS 中的一个功能，用于在一个 CSS 文件中引入其他 CSS 文件的内容
+>**语法**：通常的用法是在一个 CSS 文件的顶部使用 `@import 'path/to/stylesheet.css';`。
+>**上下文**：`@import` 仅用于 CSS 文件中，它不会在 JavaScript 文件中使用。
+
+>import
+> **用途**：`import` 是 ES6 (ECMAScript 2015) 模块系统中的一部分，用于在 JavaScript 文件中引入其他 JavaScript 模块、组件、变量、函数等。
+> **语法**：在 JavaScript 文件中使用 `import` 关键字，如 `import myComponent from './myComponent.vue';`。
+> **上下文**：`import` 可以用于 JavaScript 文件中，包括 `.js`、`.vue` 文件等，用于引入模块、组件或其他资源
+
+>总结：
+>- `@import` 用于 CSS 文件，用于引入其他 CSS 文件。
+>- - `import` 用于 JavaScript 文件，用于引入 JavaScript 模块或组件。
