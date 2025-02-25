@@ -385,3 +385,173 @@ legend {
 >总结：
 >- `@import` 用于 CSS 文件，用于引入其他 CSS 文件。
 >- - `import` 用于 JavaScript 文件，用于引入 JavaScript 模块或组件。
+
+## 全家桶 --路由配置
+### npm install vue-router
+### 在src文件夹下创建router文件夹在router文件夹下创建index.ts
+```
+import { createRouter, createWebHashHistory } from 'vue-router'
+
+  
+
+const router = createRouter({
+
+    history: createWebHashHistory(),
+
+    routes: []
+
+})
+
+  
+
+export default router
+```
+
+### 在main.ts中使用
+```
+import { createApp } from 'vue'
+
+import 'normalize.css'
+
+import './assets/css/index.less'
+
+import App from './App.vue'
+
+import router from './router'
+
+  
+
+createApp(App).use(router).mount('#app')
+```
+### 在src文件夹下创建views文件夹
+### 在views文件夹下创建login文件夹和main文件夹
+### 在login文件夹和main文件夹下分别添加login.vue和main.vue
+![[Pasted image 20250225002101.png]]
+### 解决警告
+![[Pasted image 20250225003449.png]]
+```
+import pluginVue from 'eslint-plugin-vue'
+
+import {
+
+    defineConfigWithVueTs,
+
+    vueTsConfigs
+
+} from '@vue/eslint-config-typescript'
+
+import skipFormatting from '@vue/eslint-config-prettier/skip-formatting'
+
+  
+
+export default defineConfigWithVueTs(
+
+    {
+
+        name: 'app/files-to-lint',
+
+        files: ['**/*.{ts,mts,tsx,vue}'],
+
+        rules: {
+
+            // 在这里直接覆盖规则
+
+            'vue/multi-word-component-names': 'off'
+
+        }
+
+    },
+
+    {
+
+        name: 'app/files-to-ignore',
+
+        ignores: ['**/dist/**', '**/dist-ssr/**', '**/coverage/**']
+
+    },
+
+    // 确保自定义规则覆盖默认规则
+
+    {
+
+        extends: [
+
+            pluginVue.configs['flat/essential'],
+
+            vueTsConfigs.recommended,
+
+            skipFormatting
+
+        ],
+
+        rules: {
+
+            // 再次确保自定义规则被应用
+
+            'vue/multi-word-component-names': 'off'
+
+        }
+
+    }
+
+)
+```
+## 配置代码片段
+### 使用https://snippet-generator.app/
+![[Pasted image 20250225191320.png]]
+### VSCode 文件 ->首选项->配置代码片段复制右侧的内容粘贴上去
+
+```
+{
+
+"vue3 typescript": {
+
+  "prefix": "tsvue",
+
+  "body": [
+
+    "<template>",
+
+    "    <div class=\"${1:home}\">",
+
+    "        <h2>${1:home}</h2>",
+
+    "    </div>",
+
+    "</template>",
+
+    "<script setup lang=\"ts\">",
+
+    "</script>",
+
+    "",
+
+    "<style lang=\"less\" scoped>",
+
+    ".${1:home}{}",
+
+    "</style>"
+
+  ],
+
+  "description": "vue3 typescript"
+
+}
+
+}
+```
+## 配置路由
+![[Pasted image 20250225194723.png]]
+![[Pasted image 20250225194738.png]]
+## pinia状态管理配置
+### 安装pinia
+>npm install pinia
+
+### 在src文件夹下新建store文件夹，在store文件夹下新建index.ts
+
+### index.ts中导入并使用pinia
+![[Pasted image 20250225195303.png]]
+### main.ts中使用pinia
+![[Pasted image 20250225195454.png]]
+## axios网络请求的配置
+### 
