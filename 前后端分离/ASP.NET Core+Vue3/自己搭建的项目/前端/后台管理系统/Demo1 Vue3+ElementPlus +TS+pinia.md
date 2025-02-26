@@ -554,4 +554,286 @@ export default defineConfigWithVueTs(
 ### main.ts中使用pinia
 ![[Pasted image 20250225195454.png]]
 ## axios网络请求的配置
-### 
+### 在src文件夹下新建service文件夹，在service文件夹下新建config文件夹、modules文件夹、request文件夹
+### 安装axios
+>npm install axios
+### 在config文件夹下新建index.ts文件
+![[Pasted image 20250225204332.png]]
+### 在request文件夹下新建index.ts和type.ts
+#### 其中type.ts文件内容如下：
+```
+import type { AxiosRequestConfig, AxiosResponse } from 'axios'
+
+  
+
+interface HYInterceptors<T = AxiosResponse> {
+
+    requestInterceptor?: (config: AxiosRequestConfig) => AxiosRequestConfig
+
+    requestInterceptorCatch?: (error: any) => any
+
+    responseInterceptor?: (res: T) => T
+
+    responseInterceptorCatch?: (error: any) => any
+
+    requestSuccessFn?: (config: AxiosRequestConfig) => AxiosRequestConfig
+
+    requestFailureFn?: (error: any) => any
+
+    responseSuccessFn?: (res: T) => T
+
+    responseFailureFn?: (error: any) => any
+
+}
+
+export interface HYRequestConfig<T = AxiosResponse> extends AxiosRequestConfig {
+
+    interceptors?: HYInterceptors<T>
+
+}
+```
+
+![[Pasted image 20250226124523.png]]
+#### index.ts文件如下
+```
+import axios from 'axios'
+
+import type { AxiosInstance } from 'axios'
+
+import type { HYRequestConfig } from './type'
+
+  
+
+class HYRequest {
+
+    instance: AxiosInstance
+
+    //request实例 => axios实例
+
+    constructor(config: HYRequestConfig) {
+
+        this.instance = axios.create(config)
+
+        //拦截器
+
+        this.instance.interceptors.request.use(
+
+            (config) => {
+
+                console.log('全局请求成功的拦截')
+
+                return config
+
+            },
+
+            (err) => {
+
+                console.log('全局请求失败的拦截')
+
+                return err
+
+            }
+
+        )
+
+        this.instance.interceptors.response.use(
+
+            (res) => {
+
+                console.log('全局响应成功的拦截')
+
+                return res.data
+
+            },
+
+            (err) => {
+
+                console.log('全局响应失败的拦截')
+
+                return err
+
+            }
+
+        )
+
+  
+
+        //针对特定的hyRequest实例进行拦截
+
+        this.instance.interceptors.request.use(
+
+            //config.interceptors?.requestSuccessFn,
+
+            config.interceptors?.requestFailureFn
+
+        )
+
+        this.instance.interceptors.response.use(
+
+            config.interceptors?.responseSuccessFn,
+
+            config.interceptors?.responseFailureFn
+
+        )
+
+    }
+
+  
+
+    request<T = any>(config: HYRequestConfig<T>) {
+
+        //单个请求的拦截
+
+        if (config.interceptors?.requestSuccessFn) {
+
+            config = config.interceptors.requestSuccessFn(config)
+
+        }
+
+  
+
+        //返回一个promise
+
+        return new Promise<T>((resolve, reject) => {
+
+            this.instance
+
+                .request<any, T>(config)
+
+                .then((res) => {
+
+                    if (config.interceptors?.responseSuccessFn) {
+
+                        res = config.interceptors.responseSuccessFn(res)
+
+                    }
+
+                    resolve(res)
+
+                })
+
+                .catch((err) => {
+
+                    reject(err)
+
+                })
+
+        })
+
+    }
+
+    get<T = any>(config: HYRequestConfig<T>) {
+
+        return this.request({ ...config, method: 'GET' })
+
+    }
+
+  
+
+    post<T = any>(config: HYRequestConfig<T>) {
+
+        return this.request({ ...config, method: 'POST' })
+
+    }
+
+  
+
+    delete<T = any>(config: HYRequestConfig<T>) {
+
+        return this.request({ ...config, method: 'DELETE' })
+
+    }
+
+  
+
+    patch<T = any>(config: HYRequestConfig<T>) {
+
+        return this.request({ ...config, method: 'PATCH' })
+
+    }
+
+}
+
+export default HYRequest
+```
+
+### 在service文件夹下创建 index.ts
+```
+import { BASE_URL, TIME_OUT } from './config'
+
+import HYRequest from './request'
+
+  
+
+const hyRequest = new HYRequest({
+
+    baseURL: BASE_URL,
+
+    timeout: TIME_OUT
+
+})
+
+  
+
+const hyRequest2 = new HYRequest({
+
+    baseURL: 'http://codercba.com:1888/airbnb/api',
+
+    timeout: 8000,
+
+    interceptors: {
+
+        requestSuccessFn: (config: any) => {
+
+            console.log('请求成功的拦截')
+
+            return config
+
+        },
+
+        requestFailureFn: (err: any) => {
+
+            console.log('请求失败的拦截')
+
+            return err
+
+        },
+
+        responseSuccessFn: (res: any) => {
+
+            console.log('响应成功的拦截')
+
+            return res
+
+        },
+
+        responseFailureFn: (err: any) => {
+
+            console.log('响应失败的拦截')
+
+            return err
+
+        }
+
+    }
+
+})
+
+  
+
+export { hyRequest, hyRequest2 }
+```
+## 区分开发环境和生产环境
+### 第一种方法
+在service文件夹下 config文件夹下index.ts文件中写两个地址，开发环境注释生产环境的那个地址，打包的时候注释开发环境的地址
+![[Pasted image 20250226183216.png]]
+#### 第二种方法
+根据当前的环境去选择，但是编译器不知道production
+![[Pasted image 20250226190746.png]]
+#### Vite的环境变量
+Vite在一个特殊的import.meta.env对象上暴露环境变量。这里有一些在所有情况下都可以使用的内建变量
+* import.meta.env.MODE:{string} 应用运行的模式
+* import.meta.env.PROD:{boolean} 应用是否运行在生产环境
+* import.meta.env.DEV:{boolean} 应用是否运行在开发环境
+* import.meta.env.SSR:{boolean} 应用是否运行在server上
+![[Pasted image 20250226191604.png]]
