@@ -837,3 +837,11 @@ Vite在一个特殊的import.meta.env对象上暴露环境变量。这里有一�
 * import.meta.env.DEV:{boolean} 应用是否运行在开发环境
 * import.meta.env.SSR:{boolean} 应用是否运行在server上
 ![[Pasted image 20250226191604.png]]
+Vite使用dotenv从你的环境目录中的下列文件加载额外的环境变量
+.env   # 所有情况都会加载
+.env.local # 所有情况下都会加载，但会被git忽略
+.env.[model]  # 只在特定模式下加载
+.env.[model] # 只在特定模式下加载，但会被git忽略
+
+只有以VITE_为前缀的变量才会暴露给经过vite处理的代码
+![[Pasted image 20250226193545.png]]
