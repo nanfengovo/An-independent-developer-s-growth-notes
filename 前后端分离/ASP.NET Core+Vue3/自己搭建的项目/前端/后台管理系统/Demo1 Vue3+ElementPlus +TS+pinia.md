@@ -845,3 +845,421 @@ Vite使用dotenv从你的环境目录中的下列文件加载额外的环境变�
 
 只有以VITE_为前缀的变量才会暴露给经过vite处理的代码
 ![[Pasted image 20250226193545.png]]
+## ElementPlus的集成
+### 安装ElementPlus
+>npm install element-plus
+
+### 完整引入
+#### 在main.ts中 
+import ElementPlus from 'element-plus'
+然后
+app.use(ElementPlus)
+这时npm run dev 发现按钮是没有样式的
+需要
+import 'element-plus/dist/index.css'
+![[Pasted image 20250226203455.png]]
+## App宽高铺满和ElementPlus的CSS
+![[Pasted image 20250226214009.png]]
+![[Pasted image 20250226214102.png]]
+这样我们发现默认是没有占满屏幕的
+![[Pasted image 20250226214402.png]]
+即使App.vue中设置高度为100%也是不生效的
+### 方法1：
+![[Pasted image 20250226214715.png]]
+![[Pasted image 20250226214733.png]]
+### 方法2
+![[Pasted image 20250226215801.png]]
+## 登录页-Panel底部操作界面的搭建
+### 引入背景图片
+### 将登录的div封装成组件
+####  登录页-panel中间tabs切换的搭建
+```
+<template>
+
+    <div class="login-panel">
+
+        <!--顶部标题-->
+
+        <h1 class="title">后台管理系统</h1>
+
+        <!--图标-->
+
+        <img class="logo" src="@/assets/img/logo.png" alt="logo" />
+
+        <!--选项卡-->
+
+        <div class="tabs">
+
+            <el-tabs type="border-card" stretch>
+
+                <el-tab-pane label="账号登录">
+
+  
+
+                </el-tab-pane>
+
+                <el-tab-pane label="手机登录">
+
+  
+
+                </el-tab-pane>
+
+  
+
+            </el-tabs>
+
+        </div>
+
+  
+
+        <!--底部区域-->
+
+        <div class="controls">
+
+            <el-checkbox v-model="isRemPassword" label="记住密码" size="large" />
+
+            <el-link type="primary">忘记密码</el-link>
+
+        </div>
+
+        <el-button type="primary" class="login-btn">Primary</el-button>
+
+    </div>
+
+</template>
+
+<script setup lang="ts">
+
+import { ref } from 'vue'
+
+const isRemPassword = ref(false)
+
+  
+
+</script>
+
+  
+
+<style lang="less" scoped>
+
+.login-panel {
+
+    width: 380px;
+
+    background-color: white;
+
+    margin-bottom: 150px;
+
+    height: 330px;
+
+}
+
+  
+
+.logo {
+
+    width: 80%;
+
+    height: 15%;
+
+    margin-left: 10%;
+
+}
+
+  
+
+.title {
+
+    text-align: center;
+
+    margin-bottom: 15px;
+
+}
+
+  
+
+.icon {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+  
+
+.text {
+
+    margin-left: 5px;
+
+}
+
+  
+
+.controls {
+
+    margin-top: 12px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+  
+
+.controls .el-checkbox {
+
+    margin-left: 25px;
+
+}
+
+  
+
+.controls .el-link {
+
+    margin-right: 25px;
+
+}
+
+  
+  
+
+.login-btn {
+
+    margin-top: 10px;
+
+    margin-left: 5%;
+
+    width: 90%;
+
+}
+
+</style>
+```
+效果：
+![[Pasted image 20250227212026.png]]
+## 图标的引入和使用
+### 安装图标
+>npm install @element-plus/icons-vue
+
+### 注册图标
+![[Pasted image 20250227213333.png]]
+## 登录页-插槽的使用和tabs的切换绑定
+![[Pasted image 20250227215717.png]]
+最终代码
+```
+<template>
+
+    <div class="login-panel">
+
+        <!--顶部标题-->
+
+        <h1 class="title">后台管理系统</h1>
+
+        <!--图标-->
+
+        <img class="logo" src="@/assets/img/logo.png" alt="logo" />
+
+        <!--选项卡-->
+
+        <div class="tabs">
+
+            <el-tabs type="border-card" stretch v-model="activeName">
+
+                <el-tab-pane label="账号登录" name="account">
+
+                    <template #label>
+
+                        <div class="label">
+
+                            <el-icon>
+
+                                <UserFilled />
+
+                            </el-icon>
+
+                            <span class="text">账号登录</span>
+
+                        </div>
+
+                    </template>
+
+                </el-tab-pane>
+
+                <el-tab-pane label="手机登录" name="phone">
+
+                    <template #label>
+
+                        <div class="label">
+
+                            <el-icon>
+
+                                <Cellphone />
+
+                            </el-icon>
+
+                            <span class="text">手机登录</span>
+
+                        </div>
+
+                    </template>
+
+                </el-tab-pane>
+
+  
+
+            </el-tabs>
+
+        </div>
+
+  
+
+        <!--底部区域-->
+
+        <div class="controls">
+
+            <el-checkbox v-model="isRemPassword" label="记住密码" size="large" />
+
+            <el-link type="primary">忘记密码</el-link>
+
+        </div>
+
+        <el-button type="primary" class="login-btn" @click="handleLoginBtnClick">登录</el-button>
+
+    </div>
+
+</template>
+
+<script setup lang="ts">
+
+import { ref } from 'vue'
+
+const activeName = ref('phone')
+
+const isRemPassword = ref(false)
+
+  
+
+function handleLoginBtnClick() {
+
+    if (activeName.value === 'account') {
+
+        console.log('账号登录')
+
+    } else {
+
+        console.log('手机登录')
+
+    }
+
+}
+
+  
+
+</script>
+
+  
+
+<style lang="less" scoped>
+
+.login-panel {
+
+    width: 380px;
+
+    background-color: white;
+
+    margin-bottom: 150px;
+
+    height: 330px;
+
+}
+
+  
+
+.logo {
+
+    width: 80%;
+
+    height: 15%;
+
+    margin-left: 10%;
+
+}
+
+  
+
+.title {
+
+    text-align: center;
+
+    margin-bottom: 15px;
+
+}
+
+  
+
+.label {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+  
+
+.text {
+
+    margin-left: 5px;
+
+}
+
+  
+
+.controls {
+
+    margin-top: 12px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+  
+
+.controls .el-checkbox {
+
+    margin-left: 25px;
+
+}
+
+  
+
+.controls .el-link {
+
+    margin-right: 25px;
+
+}
+
+  
+  
+
+.login-btn {
+
+    margin-top: 10px;
+
+    margin-left: 5%;
+
+    width: 90%;
+
+}
+
+</style>
+```
+## 登录页-账号登录Pane的基本搭建
