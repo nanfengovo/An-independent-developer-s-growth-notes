@@ -1262,4 +1262,87 @@ function handleLoginBtnClick() {
 
 </style>
 ```
-## 登录页-账号登录Pane的基本搭建
+## 登录页-账号登录的验证规则配置
+效果图：
+![[Pasted image 20250228001346.png]]
+```
+<template>
+
+    <div class="pane-account">
+
+        <el-form :model="account" label-width="60px" :rules="accountRules">
+
+            <el-form-item label="账号" prop="name">
+
+                <el-input v-model="account.name" placeholder="请输入账号" clearable />
+
+            </el-form-item>
+
+            <el-form-item label="密码" prop="password">
+
+                <el-input type="password" v-model="account.password" placeholder="请输入密码" show-password clearable />
+
+            </el-form-item>
+
+        </el-form>
+
+    </div>
+
+</template>
+
+<script setup lang="ts">
+
+import { reactive } from 'vue';
+
+import type { FormRules } from 'element-plus';
+
+// 账号密码
+
+const account = reactive({
+
+    name: '',
+
+    password: ''
+
+})
+
+  
+  
+
+// 表单验证规则
+
+const accountRules: FormRules = {
+
+    name: [
+
+        { message: '必须输入账号~', required: true, trigger: 'blur' },
+
+        { pattern: /^[a-z0-9]{3,10}$/, message: '必须是3到10位的数字或字母', trigger: 'blur' }
+
+    ],
+
+    password: [
+
+        { message: '必须输入密码~', required: true, trigger: 'blur' },
+
+        { pattern: /^[a-z0-9]{3,}$/, message: '必须是3位以上的数字或字母', trigger: 'blur' }
+
+    ]
+
+}
+
+</script>
+
+  
+
+<style lang="less" scoped>
+
+.pane-account {}
+
+</style>
+```
+
+#### 关键点
+![[Pasted image 20250228001452.png]]
+## 登录页-父组件点击logi调用子组件的方法
+
