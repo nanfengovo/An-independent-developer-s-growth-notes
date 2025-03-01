@@ -1346,3 +1346,29 @@ const accountRules: FormRules = {
 ![[Pasted image 20250228001452.png]]
 ## 登录页-父组件点击logi调用子组件的方法
 
+![[Pasted image 20250228125326.png]]
+## 表单的验证和EIMessage样式
+>在子组件中验证登录的逻辑，如果用户的输入不符合规则，不应该执行登录（不提交表单，不发送请求）
+![[Pasted image 20250228131301.png]]
+
+## 账号的登录逻辑和登录状态保存
+模拟登录
+>![[Pasted image 20250301130903.png]]
+
+![[Pasted image 20250301130920.png]]
+
+## 本地缓存和缓存工具的封装
+>localStorage和sessionStorage的区别
+>localStorage:关闭网页还存在
+>sessionStorage：关闭网页不存在
+
+## 登录页-登录后的路由导航守卫
+>判断用户是否登录？登录跳转到main，没登录跳转到login
+
+![[Pasted image 20250301131542.png]]
+
+## 退出登录
+>1.清除token  2.router.push('/login');(回到登录页)
+
+![[Pasted image 20250301131654.png]]
+## 登录页-记住密码
