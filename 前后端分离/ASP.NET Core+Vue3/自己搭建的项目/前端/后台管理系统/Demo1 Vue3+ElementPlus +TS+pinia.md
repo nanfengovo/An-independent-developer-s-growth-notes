@@ -2116,3 +2116,480 @@ const accountRules: FormRules = {
 
 </style>
 ```
+
+## main 页面-动态菜单一
+### 代码：
+```
+<el-menu text-color="#b7bdc3" active-text-color="#fff" background-color="#001529" default-active="1">
+
+  
+
+                <!-- 动态菜单 -->
+
+                <!--遍历整个菜单数组-->
+
+                <template v-for="item in menuList" :key="item.id">
+
+                    <el-sub-menu :index="item.id + ''">
+
+                        <template #title>
+
+                            <span>
+
+                                {{ item.name }}
+
+                            </span>
+
+                        </template>
+
+                        <template v-for="subitem in item.children" :key="subitem.id">
+
+                            <el-menu-item>
+
+                                {{ subitem.name }}
+
+                            </el-menu-item>
+
+                        </template>
+
+                    </el-sub-menu>
+
+  
+
+                </template>
+               
+```
+
+### 后端返回给前端的数据
+```
+//模拟后端返回的菜单数组
+
+const menuList = [
+
+    {
+
+        'id': 1,
+
+        'name': '系统管理',
+
+        'type': 1,
+
+        'url': '/main/system',
+
+        'icon': 'el-icon-monitor',
+
+        'sort': 1,
+
+        'children': [
+
+            {
+
+                'id': 2,
+
+                'url': 'main/analysis/screen',
+
+                'name': '大屏数据展示',
+
+                'icon': 'el-icon-Platform',
+
+                'sort': 1,
+
+                'type': 2,
+
+                'children': null,
+
+                'parentId': 1
+
+            },
+
+            {
+
+                'id': 3,
+
+                'url': 'main/analysis/dashboard',
+
+                'name': '系统监控面板',
+
+                'icon': 'el-icon-Histogram',
+
+                'sort': 2,
+
+                'type': 2,
+
+                'children': null,
+
+                'parentId': 1
+
+            },
+
+            {
+
+                'id': 4,
+
+                'url': 'main/analysis/autoTask',
+
+                'name': '自动任务管理',
+
+                'icon': 'el-icon-Open',
+
+                'sort': 2,
+
+                'type': 2,
+
+                'children': null,
+
+                'parentId': 1
+
+            }
+
+  
+
+        ]
+
+    },
+
+    {
+
+        'id': 5,
+
+        'name': '库位管理',
+
+        'type': 1,
+
+        'url': '/main/mapLocation',
+
+        'icon': 'el-icon-MapLocation',
+
+        'sort': 1,
+
+        'children': [
+
+            {
+
+                'id': 6,
+
+                'url': 'main/mapLocation/location',
+
+                'name': '平面库位展示',
+
+                'icon': 'el-icon-Location',
+
+                'sort': 1,
+
+                'type': 2,
+
+                'children': null,
+
+                'parentId': 5
+
+            },
+
+            {
+
+                'id': 7,
+
+                'url': 'main/mapLocation/addLocation',
+
+                'name': '3D库位展示',
+
+                'icon': 'el-icon-AddLocation',
+
+                'sort': 2,
+
+                'type': 2,
+
+                'children': null,
+
+                'parentId': 5
+
+            }
+
+        ]
+
+    },
+
+    {
+
+        'id': 8,
+
+        'name': '任务管理',
+
+        'type': 1,
+
+        'url': '/main/task',
+
+        'icon': 'el-icon-Odometer',
+
+        'sort': 1,
+
+        'children': [
+
+            {
+
+                'id': 9,
+
+                'url': 'main/task/lift',
+
+                'name': '提升机任务管理',
+
+                'icon': 'el-icon-Clock',
+
+                'sort': 1,
+
+                'type': 2,
+
+                'children': null,
+
+                'parentId': 8
+
+            },
+
+            {
+
+                'id': 10,
+
+                'url': 'main/task/rgv',
+
+                'name': '四向车任务管理',
+
+                'icon': 'el-icon-PieChart',
+
+                'sort': 2,
+
+                'type': 2,
+
+                'children': null,
+
+                'parentId': 8
+
+            }
+
+        ]
+
+    },
+
+    {
+
+        'id': 11,
+
+        'name': '系统运维管理',
+
+        'type': 1,
+
+        'url': '/main/om',
+
+        'icon': 'el-icon-Setting',
+
+        'sort': 1,
+
+        'children': [
+
+            {
+
+                'id': 12,
+
+                'url': 'main/om/modbus',
+
+                'name': 'Modbus数据点运维',
+
+                'icon': 'el-icon-Link',
+
+                'sort': 1,
+
+                'type': 2,
+
+                'children': null,
+
+                'parentId': 11
+
+            },
+
+            {
+
+                'id': 13,
+
+                'url': 'main/om/S7',
+
+                'name': 'S7数据点运维',
+
+                'icon': 'el-icon-Cpu',
+
+                'sort': 2,
+
+                'type': 2,
+
+                'children': null,
+
+                'parentId': 11
+
+            }
+
+        ]
+
+    },
+
+    {
+
+        'id': 14,
+
+        'name': '系统日志管理',
+
+        'type': 1,
+
+        'url': '/main/log',
+
+        'icon': 'el-icon-TrendCharts',
+
+        'sort': 1,
+
+        'children': [
+
+            {
+
+                'id': 15,
+
+                'url': 'main/log/actionLog',
+
+                'name': '操作日志',
+
+                'icon': 'el-icon-Document',
+
+                'sort': 1,
+
+                'type': 2,
+
+                'children': null,
+
+                'parentId': 14
+
+            },
+
+            {
+
+                'id': 16,
+
+                'url': 'main/log/autoTaskLog',
+
+                'name': '自动任务日志',
+
+                'icon': 'el-icon-ChromeFilled',
+
+                'sort': 2,
+
+                'type': 2,
+
+                'children': null,
+
+                'parentId': 14
+
+            },
+
+            {
+
+                'id': 17,
+
+                'url': 'main/log/dbPointLog',
+
+                'name': '数据点读写日志',
+
+                'icon': 'el-icon-Aim',
+
+                'sort': 2,
+
+                'type': 2,
+
+                'children': null,
+
+                'parentId': 14
+
+            }
+
+        ]
+
+    },
+
+    {
+
+        'id': 18,
+
+        'name': '权限管理',
+
+        'type': 1,
+
+        'url': '/main/Permissions',
+
+        'icon': 'el-icon-Setting',
+
+        'sort': 1,
+
+        'children': [
+
+            {
+
+                'id': 19,
+
+                'url': 'main/Permissions/user',
+
+                'name': '用户',
+
+                'icon': 'el-icon-UserFilled',
+
+                'sort': 1,
+
+                'type': 2,
+
+                'children': null,
+
+                'parentId': 18
+
+            },
+
+            {
+
+                'id': 20,
+
+                'url': 'main/Permissions/role',
+
+                'name': '角色',
+
+                'icon': 'el-icon-Avatar',
+
+                'sort': 2,
+
+                'type': 2,
+
+                'children': null,
+
+                'parentId': 18
+
+            }
+
+        ]
+
+    }
+
+]
+```
+### 最终效果：
+![[Pasted image 20250302151003.png]]
+### 问题 
+>1、图标没有展示
+>2、设置默认显示的菜单没成功
+
+## main页面-menu菜单图标的动态组件
+>后端返回的是字符串
+
+### 将字符串转换为组件
+```
+    <!--图标-->
+
+                            <el-icon>
+
+                                <component :is="item.icon.split('el-icon')[1]" />
+
+                            </el-icon>
+                            
+```
+![[Pasted image 20250302151720.png]]
+
+## main页面-header头部的整体布局
