@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5,
-    "collapsed": true
+    "width": 306.5
   },
   "right": {
     "id": "5cde09bdb333716c",
@@ -220,6 +219,9 @@
   },
   "active": "d5209cc3fb289b13",
   "lastOpenFiles": [
+    "图片/Pasted image 20250302113225.png",
+    "图片/6f44d00ae6f1bb6dee6318e372182f1.jpg",
+    "图片/7fdf0a94b9a925e6bf7008aa26590e0.jpg",
     "图片/Pasted image 20250302094106.png",
     "图片/Pasted image 20250302092047.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档/相关链接.md",
@@ -238,9 +240,6 @@
     "图片/Pasted image 20250301131542.png",
     "图片/Pasted image 20250301130920.png",
     "图片/Pasted image 20250301130903.png",
-    "图片/Pasted image 20250228131301.png",
-    "图片/Pasted image 20250228125326.png",
-    "图片/Pasted image 20250228001452.png",
     "后端/C Shrap/C Shrap Lib/Colorful.Console.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/前端/后台管理系统",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/后端",
