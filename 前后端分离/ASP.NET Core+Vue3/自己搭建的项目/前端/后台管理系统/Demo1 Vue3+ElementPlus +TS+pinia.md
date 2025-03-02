@@ -2592,4 +2592,88 @@ const menuList = [
 ```
 ![[Pasted image 20250302151720.png]]
 
-## main页面-header头部的整体布局
+## main页面-header头部的整体布局(静态布局的搭建)
+### 最终效果：
+![[Pasted image 20250302154221.png]]
+### 代码：
+```
+<template>
+
+    <div class="main-header">
+
+        <div class="menu-icon">
+
+            <el-icon size="28px">
+
+                <Fold />
+
+            </el-icon>
+
+        </div>
+
+        <div class="content">
+
+            <div class="breadcrumb">
+
+                面包屑
+
+            </div>
+
+            <div class="info">个人信息</div>
+
+        </div>
+
+    </div>
+
+</template>
+
+<script setup lang="ts">
+
+</script>
+
+  
+
+<style lang="less" scoped>
+
+.main-header {
+
+    display: flex;
+
+    align-items: center;
+
+    flex: 1;
+
+    height: 100%;
+
+}
+
+  
+
+.menu-icon {
+
+    display: flex;
+
+    align-items: center;
+
+    cursor: pointer;
+
+}
+
+  
+
+.content {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    flex: 1;
+
+    padding: 0 18px;
+
+}
+
+</style>
+```
