@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5
+    "width": 306.5,
+    "collapsed": true
   },
   "right": {
     "id": "5cde09bdb333716c",
@@ -204,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 319.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,6 +220,18 @@
   },
   "active": "d5209cc3fb289b13",
   "lastOpenFiles": [
+    "图片/Pasted image 20250302094106.png",
+    "图片/Pasted image 20250302092047.png",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档/相关链接.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/用户菜单权限流程.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/07、Aop切面编程.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/06、全局异常捕获机制.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/03、dotnet8JWT创建token.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/01、dotnet8使用swagger.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/02、dotnet8 使用JWT鉴权.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/权限.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/数据库/数据库设计/实现菜单管理的数据库设计.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
     "图片/Pasted image 20250301142950.png",
     "图片/Pasted image 20250301142929.png",
     "图片/Pasted image 20250301131654.png",
@@ -227,10 +241,7 @@
     "图片/Pasted image 20250228131301.png",
     "图片/Pasted image 20250228125326.png",
     "图片/Pasted image 20250228001452.png",
-    "图片/Pasted image 20250228001346.png",
-    "图片/Pasted image 20250227215717.png",
     "后端/C Shrap/C Shrap Lib/Colorful.Console.md",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/前端/后台管理系统",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/后端",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/前端",
@@ -254,16 +265,7 @@
     "后端/C Shrap/ASP.NET Core/ASP.NET Core模块学习/角色用户模块--identity/ASP.NET Core Identity（一）.md",
     "产品/资料/产品经理必会的60个开发名词.md",
     "面试经历/2025-02-20   系统开发与运维工程师（MES）.md",
-    "后端/C Shrap 学习计划.md",
     "图片/6d12c3704d08c86fe9864a36ef672e18a94b7ae7.pdf",
-    "后端/C Shrap/C Shrap Industrial Control/Modbus/Modbus TCP/使用NModbus.md",
-    "后端/C Shrap/C Shrap Industrial Control/Modbus/Modbus TCP/Modbus TCP.md",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part1--Asp.Net Core 基础知识/1-2 依赖注入/1-2-1 依赖注入.md",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part1--Asp.Net Core 基础知识/1-1  异步编程/1-1-1.md",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-2 日志系统  NLog.md",
-    "前端/前端布局/Grid.md",
-    "后端/C Shrap/C Shrap Industrial Control/S7/03.使用HSLS7虚拟服务并使用S7NET PLUS 进行读写.md",
     "未命名.canvas"
   ]
 }

@@ -1374,3 +1374,251 @@ const accountRules: FormRules = {
 ## 登录页-记住密码
 ![[Pasted image 20250301142929.png]]
 ![[Pasted image 20250301142950.png]]
+
+## 权限控制的系统设计（RBAC设计方案）
+>权限管理：根据登录用户的不同，呈现不同的后台管理系统内容（具备不同的操作权限）
+
+### RBAC : role based access control(基于角色的访问控制)
+
+
+## main 页面-main页面整体布局
+
+最终效果：
+![[Pasted image 20250302092047.png]]
+代码：
+```
+<template>
+
+    <div class="main">
+
+        <!-- <el-button type='success' @click="handleExitClick">退出登录</el-button> -->
+
+        <el-container class="main-container">
+
+            <el-aside class="el-aside" width="200px">Aside</el-aside>
+
+            <el-container>
+
+                <el-header class="el-header">Header</el-header>
+
+                <el-main class="el-main">Main</el-main>
+
+            </el-container>
+
+        </el-container>
+
+    </div>
+
+</template>
+
+<script setup lang="ts">
+
+// import router from '@/router';
+
+  
+  
+
+//退出登录
+
+// function handleExitClick() {
+
+//     //1.清除token
+
+//     localStorage.removeItem('token');
+
+//     //2.跳转到登录页
+
+//     router.push('/login');
+
+// }
+
+  
+
+</script>
+
+  
+
+<style lang="less" scoped>
+
+.home {
+
+    color: blue;
+
+}
+
+  
+
+.main-container {
+
+    height: 100vh;
+
+    width: 100vw;
+
+  
+
+    .el-aside {
+
+        background-color: antiquewhite;
+
+    }
+
+  
+
+    .el-header {
+
+        background-color: aqua;
+
+        height: 50px;
+
+    }
+
+  
+
+    .el-main {
+
+        background-color: bisque;
+
+    }
+
+}
+
+</style>
+```
+
+## main页面 -左侧导航的整体布局
+>权限控制：通过菜单来控制
+
+### 在components文件夹下新建 main-menu文件夹和main-header文件夹分别在两个文件夹下新建与文件夹同名的.vue组件
+最终效果：
+![[Pasted image 20250302094106.png]]
+代码：
+```
+<template>
+
+    <div class="main-menu">
+
+        <div class="logo">
+
+            <img src="@/assets/img/logo.png" alt="logo加载失败" class="logo-img" />
+
+        </div>
+
+        <div class="menu">
+
+            <el-menu default-active="2" class="el-menu-vertical-demo">
+
+                <el-sub-menu index="1">
+
+                    <template #title>
+
+                        <el-icon>
+
+                            <location />
+
+                        </el-icon>
+
+                        <span>Navigator One</span>
+
+                    </template>
+
+                    <el-menu-item-group title="Group One">
+
+                        <el-menu-item index="1-1">item one</el-menu-item>
+
+                        <el-menu-item index="1-2">item two</el-menu-item>
+
+                    </el-menu-item-group>
+
+                    <el-menu-item-group title="Group Two">
+
+                        <el-menu-item index="1-3">item three</el-menu-item>
+
+                    </el-menu-item-group>
+
+                    <el-sub-menu index="1-4">
+
+                        <template #title>item four</template>
+
+                        <el-menu-item index="1-4-1">item one</el-menu-item>
+
+                    </el-sub-menu>
+
+                </el-sub-menu>
+
+                <el-menu-item index="2">
+
+                    <el-icon><icon-menu /></el-icon>
+
+                    <span>Navigator Two</span>
+
+                </el-menu-item>
+
+                <el-menu-item index="3" disabled>
+
+                    <el-icon>
+
+                        <document />
+
+                    </el-icon>
+
+                    <span>Navigator Three</span>
+
+                </el-menu-item>
+
+                <el-menu-item index="4">
+
+                    <el-icon>
+
+                        <setting />
+
+                    </el-icon>
+
+                    <span>Navigator Four</span>
+
+                </el-menu-item>
+
+            </el-menu>
+
+        </div>
+
+    </div>
+
+</template>
+
+<script setup lang="ts">
+
+</script>
+
+  
+
+<style lang="less" scoped>
+
+.main-menu {}
+
+  
+
+.logo {
+
+    height: 60px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+  
+
+    .logo-img {
+
+        height: 40px;
+
+    }
+
+}
+
+</style>
+```
+
+
+
