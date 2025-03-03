@@ -204,8 +204,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5,
-    "collapsed": true
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,14 +218,17 @@
   },
   "active": "d5209cc3fb289b13",
   "lastOpenFiles": [
+    "图片/Pasted image 20250302233640.png",
+    "图片/Pasted image 20250302233623.png",
+    "图片/Pasted image 20250302233518.png",
+    "图片/Pasted image 20250302233357.png",
+    "图片/Pasted image 20250302233123.png",
+    "图片/Pasted image 20250302232523.png",
+    "图片/Pasted image 20250302232513.png",
     "图片/Pasted image 20250302154221.png",
     "图片/Pasted image 20250302151720.png",
     "图片/Pasted image 20250302151003.png",
     "图片/Pasted image 20250302113225.png",
-    "图片/6f44d00ae6f1bb6dee6318e372182f1.jpg",
-    "图片/7fdf0a94b9a925e6bf7008aa26590e0.jpg",
-    "图片/Pasted image 20250302094106.png",
-    "图片/Pasted image 20250302092047.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档/相关链接.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/用户菜单权限流程.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/07、Aop切面编程.md",
@@ -237,9 +239,6 @@
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/权限.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/数据库/数据库设计/实现菜单管理的数据库设计.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
-    "图片/Pasted image 20250301142950.png",
-    "图片/Pasted image 20250301142929.png",
-    "图片/Pasted image 20250301131654.png",
     "后端/C Shrap/C Shrap Lib/Colorful.Console.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/前端/后台管理系统",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/后端",
