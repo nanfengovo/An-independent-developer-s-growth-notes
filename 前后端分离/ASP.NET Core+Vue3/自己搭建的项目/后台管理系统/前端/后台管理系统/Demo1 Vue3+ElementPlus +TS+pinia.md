@@ -1,4 +1,8 @@
 # CMS: Common Manager System
+
+# 代码存放文件夹：
+>E:\Code\前后端分离\Vue\后台管理系统
+>GitHub上也有一份：https://github.com/nanfengovo/WCS-PLCcommunication-v2.0
 ##  新建项目
 ### 第一步：
 >npm init vue@latest
