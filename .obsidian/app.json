@@ -1,5 +1,6 @@
 {
   "showLineNumber": true,
   "readableLineLength": false,
-  "attachmentFolderPath": "图片"
+  "attachmentFolderPath": "./attachments",
+  "newLinkFormat": "relative"
 }
