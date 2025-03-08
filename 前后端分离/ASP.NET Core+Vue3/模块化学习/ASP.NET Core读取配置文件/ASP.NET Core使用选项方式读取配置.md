@@ -93,7 +93,17 @@ public class DbSettings
      }
  }
 ```
+# 代码解析
 
+上面的代码中用到了依赖注入和JSON配置文件的读取，因此我们仍然需要安装Microsoft.Extensions.Configuration.Json、Microsoft.Extensions.DependencyInjection等NuGet包。
+
+在第2行代码中，把方法的reloadOnChange参数设定为true，以启用“修改后重新加载配置”的功能；在第5行代码中，通过AddOptions方法注册与选项相关的服务，然后使用第6行代码把DB节点的内容绑定到DbSettings类型的模型对象上。
+
+由于IOptionsSnapshot<T>的生命周期为“范围”，因此Demo这个用于读取配置的类的生命周期不能是单例，我们在第8行代码中把Demo注册为瞬态服务。
+
+在第11行代码中建立了一个无限循环，这样就方便我们一直反复测试、修改配置文件。在第20行代码中，程序在每次循环结束后都用Console.ReadKey等待我们改完配置文件后回到程序按任意键来执行下次读取配置的代码。
+
+由于IOptionsSnapshot<T>会在新的范围中加载新配置，因此在第13行代码中，在每次循环中都创建一个范围。
 运行exe
 ![[assets/ASP.NET Core使用选项方式读取配置/file-20250308123308971.png]]
 
