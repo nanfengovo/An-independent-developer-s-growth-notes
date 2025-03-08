@@ -94,5 +94,8 @@ public class DbSettings
  }
 ```
 
+运行exe
+![[assets/ASP.NET Core使用选项方式读取配置/file-20250308123308971.png]]
 
-
+修改配置文件保存
+![[assets/ASP.NET Core使用选项方式读取配置/file-20250308123433037.png]]
