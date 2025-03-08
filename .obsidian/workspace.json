@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/ASP.NET Core使用选项方式读取配置.md",
-                "mode": "preview",
+                "file": "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/ASP.NET Core 与配置系统的集成.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ASP.NET Core使用选项方式读取配置"
+              "title": "ASP.NET Core 与配置系统的集成"
             }
           }
         ],
@@ -253,8 +253,9 @@
   },
   "active": "25426f1f4ddd5331",
   "lastOpenFiles": [
-    "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/ASP.NET Core读取配置文件.md",
     "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/ASP.NET Core使用选项方式读取配置.md",
+    "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/ASP.NET Core 与配置系统的集成.md",
+    "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/ASP.NET Core读取配置文件.md",
     "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/assets/ASP.NET Core使用选项方式读取配置/file-20250308123433037.png",
     "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/assets/ASP.NET Core使用选项方式读取配置/file-20250308123308971.png",
     "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/assets/ASP.NET Core使用选项方式读取配置",
