@@ -20,6 +20,20 @@
             }
           },
           {
+            "id": "368b1bb38c71dbe2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Part 2-3 EF Core搭建"
+            }
+          },
+          {
             "id": "25426f1f4ddd5331",
             "type": "leaf",
             "state": {
@@ -34,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -253,9 +267,9 @@
   },
   "active": "25426f1f4ddd5331",
   "lastOpenFiles": [
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/assets/后端架构的搭建/file-20250309150820869.png",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/后端架构的搭建.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/assets/后端架构的搭建/file-20250309150820869.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/assets/后端架构的搭建/file-20250309144058270.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/assets/后端架构的搭建",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/assets",
@@ -274,7 +288,6 @@
     "图片/Pasted image 20250306221416 - 副本.png",
     "图片/Pasted image 20250306220129 - 副本.png",
     "图片/Pasted image 20250306222647 - 副本.png",
-    "图片/Pasted image 20250306221416.png",
     "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/commander/Readme.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端",
