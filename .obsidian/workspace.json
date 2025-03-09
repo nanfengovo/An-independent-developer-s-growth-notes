@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/后台管理系统/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
+                "file": "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Demo1 Vue3+ElementPlus +TS+pinia"
+              "title": "Vue3+ElementPlus +TS+pinia"
             }
           }
         ],
@@ -253,6 +253,9 @@
   },
   "active": "25426f1f4ddd5331",
   "lastOpenFiles": [
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/后端架构的搭建.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/后台管理系统/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
     "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/ASP.NET Core 与配置系统的集成（ModbusTCP读写）.md",
     "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/ASP.NET Core读取配置文件.md",
     "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/ASP.NET Core使用选项方式读取配置.md",
@@ -268,7 +271,6 @@
     "图片/Pasted image 20250306222647 - 副本.png",
     "图片/Pasted image 20250306221416.png",
     "图片/Pasted image 20250304213201.png",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/后台管理系统/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
     "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/commander/Readme.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端",
@@ -297,8 +299,6 @@
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/2、仓储+服务架构模式.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6- DDD领域驱动设计/DDD领域驱动设计.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/未命名.md",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part5 - ASP.NET Core Identity/5-2 JWT.md",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part5 - ASP.NET Core Identity/5-1 Identity 标识框架.md",
     "未命名.canvas"
   ]
 }
