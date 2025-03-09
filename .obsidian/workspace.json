@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
+                "file": "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/后端架构的搭建.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vue3+ElementPlus +TS+pinia"
+              "title": "后端架构的搭建"
             }
           }
         ],
@@ -253,8 +253,8 @@
   },
   "active": "25426f1f4ddd5331",
   "lastOpenFiles": [
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/后端架构的搭建.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/后端架构的搭建.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/后台管理系统/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
     "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/ASP.NET Core 与配置系统的集成（ModbusTCP读写）.md",
     "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/ASP.NET Core读取配置文件.md",

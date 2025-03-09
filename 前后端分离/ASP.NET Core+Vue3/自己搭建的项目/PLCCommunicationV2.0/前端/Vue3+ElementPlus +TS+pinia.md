@@ -1,4 +1,18 @@
-
+# 架构图
+[前端架构图]
+┌───────────────────────────────┐
+│           Vue3 应用           │
+├─────────────┬─────────────────┤
+│ 视图层      │ 状态管理        │
+│ (Components)│ (Pinia)         │
+├─────────────┼─────────────────┤
+│ 路由层      │ 服务层          │
+│ (Router)    │ (API Service)   │
+├─────────────┼─────────────────┤
+│ 可视化模块  │ 实时通信        │
+│ (ECharts/   │ (SignalR Client)│
+│ Three.js)   │                 │
+└─────────────┴─────────────────┘
 # 代码存放文件夹：
 >E:\Code\前后端分离\WCS(PLCcommunication) v2.0\UI
 >GitHub上也有一份：https://github.com/nanfengovo/WCS-PLCcommunication-v2.0
