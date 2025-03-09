@@ -253,11 +253,13 @@
   },
   "active": "25426f1f4ddd5331",
   "lastOpenFiles": [
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/assets/后端架构的搭建/file-20250309150820869.png",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/后端架构的搭建.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/assets/后端架构的搭建/file-20250309144058270.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/assets/后端架构的搭建",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/assets",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/后端架构的搭建.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/后台管理系统/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
     "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/ASP.NET Core 与配置系统的集成（ModbusTCP读写）.md",
     "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/ASP.NET Core读取配置文件.md",
@@ -273,7 +275,6 @@
     "图片/Pasted image 20250306220129 - 副本.png",
     "图片/Pasted image 20250306222647 - 副本.png",
     "图片/Pasted image 20250306221416.png",
-    "图片/Pasted image 20250304213201.png",
     "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/commander/Readme.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端",
@@ -298,7 +299,6 @@
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/5、原生依赖注入串联整体框架.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/3、泛型基类的妙用.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/2、仓储+服务架构模式.md",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6- DDD领域驱动设计/DDD领域驱动设计.md",
     "未命名.canvas"
   ]
 }
