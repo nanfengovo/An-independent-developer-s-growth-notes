@@ -189,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/读取配置文件.md",
+                "file": "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/后端架构的搭建.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "读取配置文件 的大纲"
+              "title": "后端架构的搭建 的大纲"
             }
           },
           {
@@ -243,8 +243,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5,
-    "collapsed": true
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
