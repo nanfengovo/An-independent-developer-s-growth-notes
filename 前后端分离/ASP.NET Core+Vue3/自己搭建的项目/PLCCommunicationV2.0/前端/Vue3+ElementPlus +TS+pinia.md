@@ -4564,4 +4564,10 @@ watchEffect(() => {
 });
 
 </script>
+
 ```
+## 前端Vue3项目指定运行的端口号和npm run dev后自动打开网页
+### 指定运行的端口号
+![[attachments/Pasted image 20250315210846.png]]
+### 自动打开网页
+![[attachments/Pasted image 20250315210943.png]]
