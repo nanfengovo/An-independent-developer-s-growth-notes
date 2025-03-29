@@ -8,47 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "687430b689bcbec1",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/Pasted image 20250306224847.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250306224847"
-            }
-          },
-          {
-            "id": "368b1bb38c71dbe2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Vue3+ElementPlus +TS+pinia"
-            }
-          },
-          {
             "id": "25426f1f4ddd5331",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-2 日志系统  NLog.md",
+                "file": "后端/C Shrap/C Shrap 面试题/个人面试题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part 2-2 日志系统  NLog"
+              "title": "个人面试题"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
+                "file": "后端/C Shrap/C Shrap 面试题/个人面试题.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Vue3+ElementPlus +TS+pinia 的大纲"
+              "title": "个人面试题 的大纲"
             }
           },
           {
@@ -252,24 +225,44 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-language-learner:打开查词面板": false,
+      "obsidian-language-learner:打开新词面板": false,
+      "obsidian-language-learner:打开统计": false,
+      "obsidian-language-learner:单词列表": false,
+      "media-extended:Open media": false,
+      "i18n:I18N": false,
+      "obsidian-git:Open Git source control": false,
+      "copilot:Copilot Chat": false
     }
   },
-  "active": "368b1bb38c71dbe2",
+  "active": "25426f1f4ddd5331",
   "lastOpenFiles": [
+    "后端/C Shrap/C Shrap 面试题/attachments/张海东.pdf",
+    "后端/C Shrap/C Shrap 面试题/attachments",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/后端架构的搭建.md",
+    "后端/C Shrap/C Shrap 面试题/个人面试题.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/attachments/Pasted image 20250324133534.png",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/attachments",
+    "后端/C Shrap/工控协议篇/S7/使用S7.NET Plus 读取PLC变量.md",
+    "后端/C Shrap/C Shrap 面试题/15k面试题.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/后台管理系统/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
+    "前端/框架/Vue/Vue3中ElementPlus的使用/笔记/全新Vue3全家桶+Element Plus入门到进阶课程.pdf",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-2 日志系统  NLog.md",
+    "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/Pasted image 20250306224847.png",
+    "Web（BS）开发积累/前端分页.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/11、Vue3框架中路由守卫及请求拦截（实现前后端交互）后端跨域配置.md",
+    "后端/C Shrap/ASP.NET Core/跨域配置（CORS）.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/attachments/Pasted image 20250315210943.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/attachments/Pasted image 20250315210846.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/attachments",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/后端架构的搭建.md",
-    "后端/C Shrap/工控协议篇/S7/使用S7.NET Plus 读取PLC变量.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/问题记录/01、router嵌套不能实现想要的跳转效果.md",
     "后端/C Shrap/工控协议篇/S7",
-    "后端/C Shrap/工控协议篇/ModbusTCP",
+    "后端/C Shrap/工控协议篇/Modbus",
     "后端/C Shrap/工控协议篇",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-2 日志系统  NLog.md",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/后台管理系统/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/assets/后端架构的搭建/file-20250309150820869.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/assets/后端架构的搭建/file-20250309144058270.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/assets/后端架构的搭建",
@@ -280,15 +273,9 @@
     "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/assets/ASP.NET Core使用选项方式读取配置/file-20250308123433037.png",
     "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/assets/ASP.NET Core使用选项方式读取配置/file-20250308123308971.png",
     "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/assets/ASP.NET Core使用选项方式读取配置",
-    "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/assets",
-    "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/Pasted image 20250306224847.png",
     "图片/Pasted image 20250306220129.png",
     "图片/Pasted image 20250306224235.png",
-    "图片/Pasted image 20250306221416 - 副本.png",
-    "图片/Pasted image 20250306220129 - 副本.png",
-    "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/前端代码/overall-auth.-open.-vue-open/node_modules/commander/Readme.md",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档/相关链接.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/用户菜单权限流程.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/07、Aop切面编程.md",
@@ -298,11 +285,6 @@
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/02、dotnet8 使用JWT鉴权.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/权限.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/数据库/数据库设计/实现菜单管理的数据库设计.md",
-    "后端/C Shrap/C Shrap Lib/Colorful.Console.md",
-    "后端/C Shrap/C Shrap Lib/任务调度/RuoVea.QuartzNetUI.md",
-    "后端/C Shrap/C Shrap 面试题/NET Core Web API 面试笔记 1.md",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/7、使用Autofac实现依赖注入.md",
-    "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/6、自定义项目框架模板.md",
     "未命名.canvas"
   ]
 }
