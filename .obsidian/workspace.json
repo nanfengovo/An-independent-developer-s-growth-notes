@@ -33,7 +33,8 @@
               "title": "WPF基础笔记"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/WPF/WPF入门到进阶/WPF基础.pdf",
+                "file": "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/WPF基础笔记.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "WPF基础 的大纲"
+              "title": "WPF基础笔记 的大纲"
             }
           },
           {
@@ -252,10 +253,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "25426f1f4ddd5331",
+  "active": "5184b3bf1110813a",
   "lastOpenFiles": [
-    "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/WPF基础笔记.md",
+    "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/assets/WPF基础笔记/file-20250402002824002.png",
     "后端/C Shrap/WPF/WPF入门到进阶/WPF基础.pdf",
+    "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/WPF基础笔记.md",
     "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/assets/WPF基础笔记/file-20250401234246308.png",
     "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/assets/WPF基础笔记/file-20250401221209474.png",
     "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/assets/WPF基础笔记/file-20250401220245224.png",

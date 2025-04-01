@@ -30,6 +30,14 @@
 
 ## 控件
 ### 布局控件
-
+#### Grid 行列（默认是一行一列）
+##### 定义行：
+```
+ <Grid.RowDefinitions>
+     <RowDefinition/>
+     <RowDefinition/>
+ </Grid.RowDefinitions>
+```
+![[assets/WPF基础笔记/file-20250402002824002.png]]
 ### 内容控件
 
