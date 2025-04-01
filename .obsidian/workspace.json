@@ -11,6 +11,18 @@
             "id": "25426f1f4ddd5331",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "后端/C Shrap/WPF/WPF入门到进阶/WPF基础.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "WPF基础"
+            }
+          },
+          {
+            "id": "5184b3bf1110813a",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/WPF基础笔记.md",
@@ -150,7 +162,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "标签"
@@ -162,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/WPF基础笔记.md",
+                "file": "后端/C Shrap/WPF/WPF入门到进阶/WPF基础.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "WPF基础笔记 的大纲"
+              "title": "WPF基础 的大纲"
             }
           },
           {
@@ -212,11 +226,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,6 +254,9 @@
   },
   "active": "25426f1f4ddd5331",
   "lastOpenFiles": [
+    "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/WPF基础笔记.md",
+    "后端/C Shrap/WPF/WPF入门到进阶/WPF基础.pdf",
+    "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/assets/WPF基础笔记/file-20250401234246308.png",
     "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/assets/WPF基础笔记/file-20250401221209474.png",
     "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/assets/WPF基础笔记/file-20250401220245224.png",
     "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/assets/WPF基础笔记/file-20250401220028734.png",
@@ -251,8 +269,6 @@
     "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/assets/WPF基础笔记",
     "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/assets",
     "后端/C Shrap/WPF/WPF入门到进阶/精简版/WPF项目精简版.md",
-    "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/WPF基础笔记.md",
-    "后端/C Shrap/WPF/WPF入门到进阶/WPF基础.pdf",
     "后端/C Shrap/WPF/WPF入门到进阶/基础完整版",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/12、掌握Vue3中的事件处理+表单输入绑定.md",
@@ -267,13 +283,11 @@
     "后端/C Shrap/C Shrap 面试题/break ; continue ;return.md",
     "后端/C Shrap/C Shrap 面试题/attachments",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/后端架构的搭建.md",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/attachments/Pasted image 20250324133534.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/attachments",
     "后端/C Shrap/工控协议篇/S7/使用S7.NET Plus 读取PLC变量.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/后台管理系统/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/笔记/全新Vue3全家桶+Element Plus入门到进阶课程.pdf",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-2 日志系统  NLog.md",
-    "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/Pasted image 20250306224847.png",
     "Web（BS）开发积累/前端分页.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/11、Vue3框架中路由守卫及请求拦截（实现前后端交互）后端跨域配置.md",
     "后端/C Shrap/ASP.NET Core/跨域配置（CORS）.md",
