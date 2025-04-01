@@ -39,5 +39,44 @@
  </Grid.RowDefinitions>
 ```
 ![[assets/WPF基础笔记/file-20250402002824002.png]]
+##### 定义列：
+```
+        <!--列定义-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+```
+##### 设置行列的宽高（行可以设置高不能设置宽，列可以设置宽不能设置高）有三种方式
+```
+<Window x:Class="Chapter03.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chapter03"
+        mc:Ignorable="d"
+        Title="Grid学习" Height="450" Width="800">
+    <Grid>
+        <!--行定义-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="50px"/>
+        </Grid.RowDefinitions>
+        
+        <!--列定义-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="50px"/>
+        </Grid.ColumnDefinitions>
+    </Grid>
+</Window>
+```
+##### 跨行 Grid.RowSpan="n"  这里n代码你要跨几行
+![[assets/WPF基础笔记/file-20250402004646795.png]]
+##### 跨列   Grid.ColumnSpan="n" n表示几列
+![[assets/WPF基础笔记/file-20250402004740457.png]]
 ### 内容控件
 
