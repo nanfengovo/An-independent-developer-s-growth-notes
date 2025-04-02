@@ -61,3 +61,9 @@ public partial class App : PrismApplication
 }
 ```
 
+# 区域（Region）
+>在 WPF Prism 中，**区域（Region）** 是框架的核心概念之一，用于实现模块化应用的动态布局和视图组合。它的核心作用是**解耦视图的布局容器与具体视图内容**，使开发者可以灵活地动态加载、卸载或切换视图，而无需直接操作底层 UI 容器。
+
+
+
+
