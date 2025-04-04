@@ -1,3 +1,4 @@
+# 基础知识准备：
 # Prism框架介绍：
 >区域 、模块化、导航、对话服务、发布订阅
 
@@ -85,3 +86,37 @@ Prism 通过 `RegionAdapter` 将不同类型的 UI 容器适配为 Region：
 - `SelectorRegionAdapter`：处理 `Selector` 派生类（如 `TabControl`，支持动态选项卡）。
 
 
+# WebAPI概述和创建
+## 1、什么是REST
+>REST(Representational State Transfer) 表述性传递状态，是一种基于资源的架构风格，在REST中，资源（Resource）是最基本的概念，任何能够命名的对象都是资源，如：user,team,order,docment 他表示web服务要操作的一个实体，一个资源具有一个统一资源标识符。（Uniform Resource Identity URL）,如 users/123.通过资源能够表示并访问资源
+
+## 2、什么是API
+>API的全称Aplication Programming Itererface 即应用程序编程接口，我们在开发应用程序时经常用到。API作为接口，用来连接两个不同的系统，并使其中一方为另一方提供服务
+
+# 3、Http协议
+>超文本传输协议
+>http方法：
+>POST : 创建资源
+>PUT：修改资源
+>DELETE:删除资源
+>状态码：
+>1xx : 信息
+>2xx : 成功
+>3xx : 重定向
+>4xx : 客户端错误
+>5xx : 服务端错误  
+
+--- 
+# 搭建项目：
+## 项目的技术栈：
+>ASP.NET Core WebAPI (.net 6.0)+WPF+Prism
+
+## 后端WebAPI的搭建
+### 给swagger文档添加注释
+#### 第一步 ：勾选生成API文档文件
+![[assets/TODO App WPF (Prism) +webapi/file-20250404161821627.png]]
+![[assets/TODO App WPF (Prism) +webapi/file-20250404162508326.png]]
+#### 第二步 ：修改Program.cs
+![[assets/TODO App WPF (Prism) +webapi/file-20250404162705212.png]]
+#### 效果
+![[assets/TODO App WPF (Prism) +webapi/file-20250404162739340.png]]
