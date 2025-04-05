@@ -109,7 +109,7 @@ Prism 通过 `RegionAdapter` 将不同类型的 UI 容器适配为 Region：
 --- 
 # 搭建项目：
 ## 项目的技术栈：
->ASP.NET Core WebAPI (.net 6.0)+WPF+Prism
+>ASP.NET Core WebAPI (.net 6.0)+WPF+Prism+MaterialDesignTheme(UI库)
 
 ## 后端WebAPI的搭建
 ### 给swagger文档添加注释
@@ -120,3 +120,149 @@ Prism 通过 `RegionAdapter` 将不同类型的 UI 容器适配为 Region：
 ![[assets/TODO App WPF (Prism) +webapi/file-20250404162705212.png]]
 #### 效果
 ![[assets/TODO App WPF (Prism) +webapi/file-20250404162739340.png]]
+## 前端WPF的搭建
+### 新建WPF应用程序,添加Prism.DryIoc(8.1.97)
+### 在App.xaml中
+```
+using DailyAPP.WPF.ViewModels;
+using DailyAPP.WPF.Views;
+using Prism.DryIoc;
+using Prism.Ioc;
+using Prism.Services.Dialogs;
+using System.Configuration;
+using System.Data;
+using System.Windows;
+
+namespace DailyAPP.WPF
+{
+    /// <summary>
+    /// Interaction logic for App.xaml
+    /// </summary>
+    public partial class App : PrismApplication
+    {
+        /// <summary>
+        /// 设置启动页
+        /// </summary>
+        /// <returns></returns>
+        /// <exception cref="NotImplementedException"></exception>
+        protected override Window CreateShell()
+        {
+            return Container.Resolve<MainWin>();
+        }
+
+        /// <summary>
+        /// 依赖注入
+        /// </summary>
+        /// <param name="containerRegistry"></param>
+        protected override void RegisterTypes(IContainerRegistry containerRegistry)
+        {
+            //登录
+            containerRegistry.RegisterDialog<LoginUC, LoginUCViewModel>();
+        }
+
+        /// <summary>
+        /// 初始化
+        /// </summary>
+        protected override void OnInitialized()
+        {
+            var dialog = Container.Resolve<IDialogService>();
+            dialog.ShowDialog("LoginUC",callback =>
+            { 
+                if(callback.Result != ButtonResult.OK) 
+                {
+                    Environment.Exit(0);
+                    return;
+                }
+                base.OnInitialized();
+            });
+        }
+    }
+
+}
+```
+### 新建Views和ViewModels文件夹
+删除MainView.xaml同时在App.xaml中删除startupurl,在Views下新建MainWin.xmal和LoginUC.xaml同时在VM中创建对应的模型
+
+
+### 添加MaterialDesignThemeUI库
+>参考文档：http://materialdesigninxaml.net/home#home
+
+#### 修改App.xaml
+```
+<prism:PrismApplication x:Class="DailyAPP.WPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DailyAPP.WPF"
+             xmlns:masterialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:prism="http://prismlibrary.com/"
+             >
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.DeepPurple.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</prism:PrismApplication>
+```
+### 登录页、注册页设计
+```
+<UserControl x:Class="DailyAPP.WPF.Views.LoginUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DailyAPP.WPF.Views"
+             xmlns:md ="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+             mc:Ignorable="d" 
+             Height="450" Width="800">
+    <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.5*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image Source="/Images/login.png" Stretch="Fill"/>
+        
+        <md:Transitioner Grid.Column="1" SelectedIndex="0"> 
+            <!--第一步 登录-->
+            <md:TransitionerSlide x:Name="Login" >
+                <DockPanel Margin="15" VerticalAlignment="Center">
+                    <TextBlock Text="欢迎使用" FontWeight="Bold" FontSize="22" Margin="0,10" DockPanel.Dock="Top"></TextBlock>
+                    <TextBox md:HintAssist.Hint="请输入账号" DockPanel.Dock="Top"  Margin="0,10" ></TextBox>
+                    <PasswordBox md:HintAssist.Hint="请输入密码" DockPanel.Dock="Top"  Margin="0,10" ></PasswordBox>
+                    <Button Content="登录" Margin="0,10" DockPanel.Dock="Top" Command="{Binding LoginCmm}"></Button>
+                    
+                    <DockPanel Margin="0 5" LastChildFill="False">
+                        <TextBlock Text="注册账号">
+                            <i:Interaction.Triggers >
+                                <i:EventTrigger EventName="MouseLeftButtonDown">
+                                    <i:InvokeCommandAction Command=""></i:InvokeCommandAction>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </TextBlock>
+                        <TextBlock Text="忘记密码" DockPanel.Dock="Right"></TextBlock>
+                    </DockPanel>
+                </DockPanel>
+                
+            </md:TransitionerSlide>
+            <!--第二步 注册-->
+            <md:TransitionerSlide>
+                <DockPanel Margin="15" VerticalAlignment="Center">
+                    <TextBlock Text="注册账号" FontWeight="Bold" FontSize="22" Margin="0,10" DockPanel.Dock="Top"></TextBlock>
+                    <TextBox md:HintAssist.Hint="请输入姓名" DockPanel.Dock="Top"  Margin="0,10" ></TextBox>
+                    <TextBox md:HintAssist.Hint="请输入姓名" DockPanel.Dock="Top"  Margin="0,10" ></TextBox>
+                    <PasswordBox md:HintAssist.Hint="请输入密码" DockPanel.Dock="Top"  Margin="0,10" ></PasswordBox>
+                    <PasswordBox md:HintAssist.Hint="请再次输入密码" DockPanel.Dock="Top"  Margin="0,10" ></PasswordBox>
+                    <Button Content="注册账号" DockPanel.Dock="Top"></Button>
+                    <Button Content="返回登录" DockPanel.Dock="Top" Margin="0 10" Style="{StaticResource MaterialDesignOutlinedButton}"></Button>
+                </DockPanel>
+            </md:TransitionerSlide>
+        </md:Transitioner>
+    </Grid>
+</UserControl>
+```
+
