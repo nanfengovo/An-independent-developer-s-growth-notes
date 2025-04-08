@@ -109,7 +109,7 @@ Prism 通过 `RegionAdapter` 将不同类型的 UI 容器适配为 Region：
 --- 
 # 搭建项目：
 ## 项目的技术栈：
->ASP.NET Core WebAPI (.net 6.0)+WPF+Prism+MaterialDesignTheme(UI库)
+>ASP.NET Core WebAPI (.net 6.0)+EFCore+AutoMapper+WPF+Prism+MaterialDesignTheme(UI库)+RestSharp
 
 ## 后端WebAPI的搭建
 ### 给swagger文档添加注释
@@ -120,6 +120,33 @@ Prism 通过 `RegionAdapter` 将不同类型的 UI 容器适配为 Region：
 ![[assets/TODO App WPF (Prism) +webapi/file-20250404162705212.png]]
 #### 效果
 ![[assets/TODO App WPF (Prism) +webapi/file-20250404162739340.png]]
+### 使用EFCore搭建数据访问层
+### 使用AutoMapper
+#### 添加neget AutoMapper
+#### 创建配置类AutoMapperSettings
+```
+using AutoMapper;
+using DailyApp.API.DataModel;
+using DailyApp.API.DTOs;
+
+namespace DailyApp.API.AutoMappers
+{
+    /// <summary>
+    /// model之间转换的配置
+    /// </summary>
+    public class AutoMapperSettings:Profile
+    {
+        public AutoMapperSettings()
+        {
+            CreateMap<AccountInfoDTO,AccountInfo>().ReverseMap();
+        }
+    }
+}
+```
+#### 注入Program
+>//AutoMapper
+builder.Services.AddAutoMapper(typeof(AutoMapperSettings));
+
 ## 前端WPF的搭建
 ### 新建WPF应用程序,添加Prism.DryIoc(8.1.97)
 ### 在App.xaml中
