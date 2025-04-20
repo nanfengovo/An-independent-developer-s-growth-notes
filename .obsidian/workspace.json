@@ -13,38 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "操作系统/Linux/Ubuntu/Ubuntu基础.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ubuntu基础"
+            }
+          },
+          {
+            "id": "5631991cf696d4d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "后端/C Shrap/开发工具/Visual Studio Code + Docker/配置VSCode中的开发环境.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "配置VSCode中的开发环境"
-            }
-          },
-          {
-            "id": "5184b3bf1110813a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试经历/2025-02-20   系统开发与运维工程师（MES）.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-02-20   系统开发与运维工程师（MES）"
-            }
-          },
-          {
-            "id": "a9b036029a4e0188",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "图片/6d12c3704d08c86fe9864a36ef672e18a94b7ae7.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "6d12c3704d08c86fe9864a36ef672e18a94b7ae7"
             }
           }
         ]
@@ -190,13 +178,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/开发工具/Visual Studio Code + Docker/配置VSCode中的开发环境.md",
+                "file": "操作系统/Linux/Ubuntu/Ubuntu基础.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "配置VSCode中的开发环境 的大纲"
+              "title": "Ubuntu基础 的大纲"
             }
           },
           {
@@ -258,6 +246,13 @@
   },
   "active": "25426f1f4ddd5331",
   "lastOpenFiles": [
+    "后端/C Shrap/开发工具/Visual Studio Code + Docker/配置VSCode中的开发环境.md",
+    "操作系统/Linux/Ubuntu/Ubuntu基础.md",
+    "图片/6d12c3704d08c86fe9864a36ef672e18a94b7ae7.pdf",
+    "面试经历/2025-02-20   系统开发与运维工程师（MES）.md",
+    "操作系统/Linux/Ubuntu",
+    "操作系统/Linux",
+    "操作系统",
     "后端/C Shrap/开发工具/Visual Studio Code + Docker/attachments/Pasted image 20250420221538.png",
     "后端/C Shrap/开发工具/Visual Studio Code + Docker/attachments/Pasted image 20250420221409.png",
     "后端/C Shrap/开发工具/Visual Studio Code + Docker/attachments/Pasted image 20250420221047.png",
@@ -266,7 +261,6 @@
     "后端/C Shrap/开发工具/Visual Studio Code + Docker/attachments/Pasted image 20250420220301.png",
     "后端/C Shrap/开发工具/Visual Studio Code + Docker/attachments",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/后台管理系统/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
-    "后端/C Shrap/开发工具/Visual Studio Code + Docker/配置VSCode中的开发环境.md",
     "后端/C Shrap/开发工具/Visual Studio Code + Docker",
     "前端/框架/Vue/项目使用/VUE 3.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/笔记/全新Vue3全家桶+Element Plus入门到进阶课程.pdf",
@@ -275,24 +269,18 @@
     "容器化/Docker",
     "容器化",
     "AI/MCP",
-    "AI",
     "后端/C Shrap/WPF/WPF入门到进阶/WPF项目实战/TODO App WPF (Prism) +webapi.md",
-    "后端/C Shrap/WPF/WPF入门到进阶/WPF基础.pdf",
-    "图片/6d12c3704d08c86fe9864a36ef672e18a94b7ae7.pdf",
     "图片/0f1de311d4c419ccd10fc8f832aeb3b.png",
-    "面试经历/2025-02-20   系统开发与运维工程师（MES）.md",
     "后端/C Shrap/C Shrap 面试题/NET Core Web API 面试笔记 1.md",
     "后端/C Shrap/C Shrap 面试题/15k面试题.md",
     "后端/C Shrap/C Shrap 面试题/面试题.md",
     "后端/C Shrap/C Shrap 面试题/个人面试题.md",
     "想法/DailyAPP.md",
-    "后端/算法",
     "后端/C Shrap/开发工具/Visual Studio/插件.md",
     "后端/C Shrap/开发工具/未命名.md",
     "后端/C Shrap/WPF/WPF入门到进阶/WPF项目实战/assets/TODO App WPF (Prism) +webapi/file-20250404162739340.png",
     "后端/C Shrap/WPF/WPF入门到进阶/WPF项目实战/assets/TODO App WPF (Prism) +webapi/file-20250404162705212.png",
     "后端/C Shrap/WPF/WPF入门到进阶/WPF项目实战/assets/TODO App WPF (Prism) +webapi/file-20250404162508326.png",
-    "后端/C Shrap/WPF/WPF入门到进阶/WPF项目实战/assets/TODO App WPF (Prism) +webapi/file-20250404161821627.png",
     "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/WPF基础笔记.md",
     "后端/C Shrap/WPF/WPF入门到进阶/精简版/WPF项目精简版.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
@@ -303,7 +291,6 @@
     "后端/C Shrap/工控协议篇/S7/使用S7.NET Plus 读取PLC变量.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-2 日志系统  NLog.md",
     "Web（BS）开发积累/前端分页.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/11、Vue3框架中路由守卫及请求拦截（实现前后端交互）后端跨域配置.md",
     "未命名.canvas"
   ]
 }
