@@ -1,4 +1,4 @@
-# C# :
+# 后端 C# :
 ## 1、下载.NET 8 SDK(安装在本地)
 >https://dotnet.microsoft.com/zh-cn/download
 
@@ -22,10 +22,50 @@
 ![[attachments/Pasted image 20250420221409.png]]
 #### GitLens ：协同开发
 ![[attachments/Pasted image 20250420221538.png]]
-# 新建、开发并运行调试第一个Project
+##  新建、开发并运行调试第一个Project
 >dotnet new console -o  +项目名             
 
 ==使用 `-o` 是为了保持项目文件的组织性，确保每个项目独立存放在自己的文件夹中，避免文件混杂。这是 .NET CLI 中管理项目结构的推荐做法。==
 这个命令创建的项目默认使用了顶级语句
-## 创建非顶级语句格式的项目
+###  创建非顶级语句格式的项目
 >dotnet new console -o 项目名 --use-program-main
+
+# 前端-vue3
+## 安装nodejs
+>在docker中运行nodejs镜像
+
+### **拉取 Node.js 镜像**
+>docker pull node:18
+
+### **创建 Vue 项目目录**
+>mkdir vue-docker-app && cd vue-docker-app
+
+### 运行镜像
+>docker run -itd --name vue-dev \
+  -p 8080:8080 \
+  -v $(pwd):/app \
+  -w /app \
+  node:18-alpine
+
+### 进入容器内部
+># 进入已运行的容器
+docker exec -it vue-dev sh
+
+### 创建Vue3项目
+>npm create vite@latest my-vite-project --template vanilla
+cd my-vite-project
+npm install
+
+### 运行vue 项目
+#### 1、在package.json中设置端口号和容器端口号一致
+![[attachments/Pasted image 20250422204434.png]]
+![[attachments/Pasted image 20250422204402.png]]
+#### 发现还是不行，在vite.config.ts中配置监听0.0.0.0
+![[attachments/Pasted image 20250422204540.png]]
+>为什么要这样做？
+>![[attachments/Pasted image 20250422204632.png]]
+
+## 安装vue相关的插件
+### 必需的插件
+#### Vue - Official
+>Language Support for Vue
