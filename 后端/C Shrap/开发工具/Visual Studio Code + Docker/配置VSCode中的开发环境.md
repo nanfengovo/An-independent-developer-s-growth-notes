@@ -14,7 +14,10 @@
 ![[attachments/Pasted image 20250420220427.png]]
 ####  Intellicode for C# Dev Kit :增强上面那个的AI能力
 ![[attachments/Pasted image 20250420220704.png]]
-#### 
+#### nuget 相关的插件
+##### NuGet Package Manager GUI 
+##### NuGet Gallery(需要科学上网)
+![[attachments/Pasted image 20250426130611.png]]
 ### 非必需的插件
 #### indent-rainbow ：编码缩进加彩虹
 ![[attachments/Pasted image 20250420221047.png]]
