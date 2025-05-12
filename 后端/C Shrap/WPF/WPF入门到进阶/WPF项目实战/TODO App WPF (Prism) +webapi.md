@@ -117,6 +117,13 @@ Prism 通过 `RegionAdapter` 将不同类型的 UI 容器适配为 Region：
 ![[assets/TODO App WPF (Prism) +webapi/file-20250404161821627.png]]
 ![[assets/TODO App WPF (Prism) +webapi/file-20250404162508326.png]]
 #### 第二步 ：修改Program.cs
+```
+ builder.Services.AddSwaggerGen(x =>
+ {
+     string path = Path.Combine(System.AppContext.BaseDirectory, "DailyApp.API.xml");
+     x.IncludeXmlComments(path,true);
+ });
+```
 ![[assets/TODO App WPF (Prism) +webapi/file-20250404162705212.png]]
 #### 效果
 ![[assets/TODO App WPF (Prism) +webapi/file-20250404162739340.png]]
