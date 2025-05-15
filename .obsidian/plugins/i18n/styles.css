@@ -12,6 +12,7 @@
     --i18n-tag-font-size: 10px;
     --i18n-tag-border-radius: 3px;
     --i18n-tag-border-radius-rounded: 9999px;
+
 }
 
 body {
@@ -108,33 +109,22 @@ body.theme-dark {
     display: none;
 }
 
-.i18n--none {}
+.i18n--hidden-1 {
+    visibility: hidden;
+}
 
 .i18n_bold {
     font-weight: bold;
 }
 
-.i18n-empty {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 1;
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-
 /* 动画 模块
 ---------------------------------------------------------------- */
 @keyframes moveAndFade {
-
-    0%,
-    100% {
+    0%, 100% {
         background-color: transparent;
         transition: background-color 1s ease-in-out;
     }
-
+    
     50% {
         background-color: var(--i18n-color-primary-2);
     }
@@ -169,6 +159,8 @@ body.theme-dark {
 /* [通用] Button (按钮)
 ---------------------------------------------------------------- */
 .i18n-button {
+    /* display: inline-flex; */
+    /* justify-content: center; */
     align-items: center;
     line-height: 1;
     height: 30px;
@@ -183,6 +175,7 @@ body.theme-dark {
     -webkit-user-select: none;
     user-select: none;
     vertical-align: middle;
+    /* -webkit-appearance: none; */
     border-radius: var(--i18n-border-radius);
 }
 
@@ -314,6 +307,9 @@ button:not(.clickable-icon).i18n-button:hover {
     margin-right: 10px;
 }
 
+/* .i18n-button-t.is-text {
+    color: var(--i18n-button-text-color);
+} */
 /* [通用] Basic Button (基础按钮)
 ---------------------------------------------------------------- */
 .i18n-basic-button {
@@ -333,7 +329,7 @@ button:not(.clickable-icon).i18n-button:hover {
     -webkit-user-select: none;
     user-select: none;
     vertical-align: middle;
-    /* -webkit-appearance: none; */
+    -webkit-appearance: none;
     border-radius: var(--i18n-border-radius);
 }
 
@@ -502,18 +498,17 @@ button:not(.clickable-icon).i18n-basic-button {
 input[type='text'].i18n-input,
 input[type='search'].i18n-input {
     box-shadow: none;
-    /* padding-inline-start: 8px; */
 }
+
+/* input[type='text'].i18n-input:hover,
+input[type='search'].i18n-input:hover {
+    border-color: var(--i18n-color-primary);
+} */
 
 input[type='text'].i18n-input:focus,
 input[type='search'].i18n-input:focus {
     border-color: var(--i18n-color-primary);
 }
-
-/* input[type='search'].i18n-input:before {
-    content: '';
-    display: none;
-} */
 
 /* [通用] select (选择框)
 ---------------------------------------------------------------- */
@@ -565,6 +560,7 @@ select,
     flex-direction: column;
     z-index: 100;
     width: auto;
+    width: 800px;
     border-radius: var(--i18n-border-radius);
     background-color: var(--background-primary);
 }
@@ -725,6 +721,7 @@ select,
     line-height: 35px;
     font-size: 14px;
     font-weight: bold;
+    /* background-color: #409EFF; */
 }
 
 .i18n-edit__author-input,
@@ -1063,7 +1060,7 @@ button.i18n-agreement__check-button:hover {
     display: flex;
     flex-direction: row;
     height: 40px;
-    border-bottom: 1px solid var(--i18n-color-primary);
+    border-bottom: 1px solid var(--interactive-accent);
 }
 
 .i18n-setting__content {
@@ -1074,7 +1071,6 @@ button.i18n-agreement__check-button:hover {
     overflow-y: auto;
     overflow-x: hidden;
 }
-
 .i18n-setting__content::-webkit-scrollbar {
     display: none;
 }
@@ -1087,13 +1083,13 @@ button.i18n-agreement__check-button:hover {
     height: 40px;
     font-weight: bold;
     font-size: 14px;
-    border-top: 1px solid var(--i18n-color-primary);
-    border-right: 1px solid var(--i18n-color-primary);
+    border-top: 1px solid var(--interactive-accent);
+    border-right: 1px solid var(--interactive-accent);
 }
 
 .i18n-setting__tabs-item:first-child {
     border-top-left-radius: 4px;
-    border-left: 1px solid var(--i18n-color-primary);
+    border-left: 1px solid var(--interactive-accent);
 }
 
 .i18n-setting__tabs-item:last-child {
@@ -1101,7 +1097,7 @@ button.i18n-agreement__check-button:hover {
 }
 
 .i18n-setting__tabs-item_is-active {
-    color: var(--i18n-color-primary);
+    color: var(--interactive-accent);
 }
 
 /* (提示) 模块

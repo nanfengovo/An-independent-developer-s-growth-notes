@@ -24,7 +24,10 @@
     "results_limit": "20"
   },
   "smart_notices": {
-    "muted": {}
+    "muted": {
+      "done_import": true,
+      "embedding_complete": true
+    }
   },
   "excluded_headings": ""
 }
