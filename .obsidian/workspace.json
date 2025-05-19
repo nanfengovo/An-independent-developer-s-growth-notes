@@ -46,18 +46,6 @@
               "icon": "lucide-file-text",
               "title": "dotnet6"
             }
-          },
-          {
-            "id": "c1b2a7642df15cd8",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "图片/Pasted image 20250224223934.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250224223934"
-            }
           }
         ]
       }
@@ -271,18 +259,24 @@
   },
   "active": "25426f1f4ddd5331",
   "lastOpenFiles": [
+    "后端/C Shrap/ASP.NET Core/ABP/精通ABP框架.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）/WPF/生产监控平台（ProductMonitor）.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）/WPF/attachments/Pasted image 20250518202039.png",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）/WPF/attachments/Pasted image 20250518201907.png",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）/WPF/attachments/Pasted image 20250518201733.png",
+    "后端/C Shrap/ASP.NET Core/ABP",
+    "后端/C Shrap/ASP.NET Core/WebAPI/全栈ACE/webapi系列学习.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）/WPF/attachments/Pasted image 20250517130202.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）/WPF/attachments/Pasted image 20250516005929.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）/WPF/attachments/Pasted image 20250516005523.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）/WPF/attachments",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/后台管理系统/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）/WPF/生产监控平台（ProductMonitor）.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）/WPF",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）",
     "图片/Pasted image 20250224223934.png",
     "操作系统/Win/01、Windows系统常见命令.md",
     "后端/C Shrap/ASP.NET Core/资料/dotnet6.pdf",
     "后端/C Shrap/WPF/WPF入门到进阶/WPF项目实战/TODO App WPF (Prism) +webapi.md",
-    "后端/C Shrap/ASP.NET Core/WebAPI/全栈ACE/webapi系列学习.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md",
     "操作系统/Linux/Ubuntu/02、下载git和拉取代码.md",
     "操作系统/Linux/Ubuntu/attachments/Pasted image 20250511213507.png",
@@ -302,21 +296,15 @@
     "后端/C Shrap/C Shrap  algorithm/交换两个变量的值.md",
     "机器人学习/非人形/ABB/六轴/六轴机器人学习和RobotStudio使用.md",
     "机器人学习/非人形/ABB/六轴/attachments/684a19fef8ca4d7a70f09bb257efe39.jpg",
-    "机器人学习/非人形/ABB/六轴/attachments",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
     "后端/C Shrap/C Shrap Study/C Shrap OOP.md",
     "后端/C Shrap/ASP.NET Core/WebAPI/全栈ACE/attachments/Pasted image 20250427195247.png",
-    "后端/C Shrap/ASP.NET Core/WebAPI/全栈ACE/attachments/Pasted image 20250427195157.png",
-    "后端/C Shrap/ASP.NET Core/WebAPI/全栈ACE/attachments/Pasted image 20250427194956.png",
-    "后端/C Shrap/ASP.NET Core/WebAPI/全栈ACE/attachments/Pasted image 20250427193650.png",
-    "后端/C Shrap/ASP.NET Core/WebAPI/全栈ACE/attachments/Pasted image 20250427193103.png",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/7、使用Autofac实现依赖注入.md",
     "后端/C Shrap/ASP.NET Core/DOTNET 8.0入门和实战/1、项目初始化.md",
     "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
     "后端/C Shrap/开发工具/Visual Studio/插件.md",
     "后端/C Shrap/工控协议篇/S7/使用S7.NET Plus 读取PLC变量.md",
     "后端/C Shrap/工控协议篇/Modbus/龙马008视频学习.md",
-    "后端/C Shrap/开发工具/Visual Studio Code + Docker/attachments/Pasted image 20250426130611.png",
     "未命名.canvas"
   ]
 }
