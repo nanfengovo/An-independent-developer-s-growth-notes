@@ -309,7 +309,16 @@ https://www.bilibili.com/video/BV1pK41137He?vd_source=b7200d0eaee914e9c128dcabce
 >Data Annotation（数据注释）指的是可以使用.NET提供的Attribute[[1]](file:///index_split_030.html#filepos418196)对实体类、属性等进行标注的方式来实现实体类配置。比如通过[Table("T_Books")]，我们可以把实体类对应的表名配置为T_Books；通过[Required]，我们可以把属性对应的数据库表列配置为“不可为空”；通过[MaxLength(20)]，我们可以把属性对应的数据库表列配置为“最大长度为20”
 
 ### Fluent API
+### 主键非小事
+#### 自增主键
+1、自动增长、Guid、Hi/Lo算法
+2、自动增长：优点 简单；缺点：数据库迁移以及分布式系统；
+#### Guid
+1、Guid算法或UUID算法生成一个全局唯一的id；优点：简单，缺点：磁盘空间占用大
+2、Guid值不连续。使用Guid做主键时不能把主键设置为聚集索引，因为聚集索引是按顺序保存主键的，因此用Guid做主键性能较差
+### 反向工程
 
+### EF-Core如何操作数据库
 
 # 
 
