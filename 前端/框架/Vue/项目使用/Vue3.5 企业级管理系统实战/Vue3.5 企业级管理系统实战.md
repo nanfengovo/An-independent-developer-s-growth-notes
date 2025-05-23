@@ -19,3 +19,15 @@ pnpm run dev
 ###  **2.1 eslint 集成**
 #### **2.1.1 eslint 安装依赖**
 >npx eslint --init
+
+###  **2.2 prettier 集成**
+>`prettier` 是一个代码格式化工具，用于统一代码风格。
+`eslint-plugin-prettier` 是一个 ESLint 插件，它允许 ESLint 使用 Prettier 的规则来检查代码风格。
+`eslint-config-prettier` 是一个 ESLint 配置，用于关闭 ESLint 中与 Prettier 冲突的规则，确保两者能和谐工作，避免规则冲突。
+
+通过 pnpm 安装 prettier 相关插件：
+
+```
+pnpm install prettier eslint-plugin-prettier eslint-config-prettier -D
+```
+安装后，在项目文件夹下新建 prettier 配置文件 prettier.config.js 。
