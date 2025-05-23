@@ -33,6 +33,8 @@ pnpm install prettier eslint-plugin-prettier eslint-config-prettier -D
 安装后，在项目文件夹下新建 prettier 配置文件 prettier.config.js 。
 
 
-## # Vue3.5 企业级管理系统实战（二）：Router、Pinia 及 Element-Plus 集成
+# Vue3.5 企业级管理系统实战（二）：Router、Pinia 及 Element-Plus 集成
 >https://mp.weixin.qq.com/s?__biz=MzAxMTQ1MzkxOQ==&mid=2247485151&idx=1&sn=0c2dccaace66edce16dc852fb6053cff&chksm=9b41926fac361b797904c71f2965664a4fdf092b619bedb5f0c3c8e28a7d1ca15d9c7c84445d&cur_album_id=3804243018585227278&scene=189#wechat_redirect
 
+# Vue3.5 企业级管理系统实战（三）：页面布局及样式处理 （Scss & UnoCSS ）
+>https://mp.weixin.qq.com/s?__biz=MzAxMTQ1MzkxOQ==&mid=2247485235&idx=1&sn=3812cebba1adbac582a6d7698b681ee6&chksm=9b419383ac361a957dd466e507052dd36d22eb585c73070dc3e06349be6e156a60f99fd2d5f7&cur_album_id=3804243018585227278&scene=189#wechat_redirect
