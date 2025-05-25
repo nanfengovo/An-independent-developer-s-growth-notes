@@ -26,7 +26,8 @@
   "smart_notices": {
     "muted": {
       "done_import": true,
-      "embedding_complete": true
+      "embedding_complete": true,
+      "unable_to_init_source": true
     }
   },
   "excluded_headings": "",
