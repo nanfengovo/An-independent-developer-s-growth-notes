@@ -11,12 +11,14 @@
             "id": "25426f1f4ddd5331",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现.pdf"
+                "file": "后端/C Shrap/深入浅出.NET框架设计与实现/第3章 ASP.NET Core应用程序的多种运行模式.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "157085_深入浅出：.NET框架设计与实现"
+              "icon": "lucide-file",
+              "title": "第3章 ASP.NET Core应用程序的多种运行模式"
             }
           },
           {
@@ -278,23 +280,23 @@
   },
   "active": "8ad211c73afcffe2",
   "lastOpenFiles": [
+    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 9.epub",
+    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现.pdf",
+    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 8.epub",
+    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 7.epub",
+    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 6.epub",
+    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 5.epub",
+    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 4.epub",
     "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 3.epub",
     "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 2.epub",
     "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现.mobi",
     "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现.azw3",
-    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 1.epub",
-    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现.epub",
     "后端/C Shrap/深入浅出.NET框架设计与实现/第3章 ASP.NET Core应用程序的多种运行模式.md",
-    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现.pdf",
-    "后端/C Shrap/ASP.NET Core/ABP/Implementing_Domain_Driven_Design.pdf",
-    "后端/C Shrap/深入浅出.NET框架设计与实现/深入浅出：.NET框架设计与实现_.pdf",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
     "后端/C Shrap/ASP.NET Core/中间件.md",
-    "后端/C Shrap/深入浅出.NET框架设计与实现",
     "后端/C Shrap/ASP.NET Core/ABP/精通ABP框架.md",
     "前端/框架/Vue/项目使用/Vue3.5 企业级管理系统实战/Vue3.5 企业级管理系统实战.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/11、掌握Vue3 中的事件处理+表单输入绑定.md",
-    "前端/框架/Vue/项目使用/Vue3.5 企业级管理系统实战",
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/02、大纲.md",
     "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/01.介绍.md",
     "后端/C Shrap/TDD测试驱动开发/TDD.md",
