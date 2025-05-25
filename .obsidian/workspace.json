@@ -230,17 +230,27 @@
             }
           },
           {
-            "id": "336ed7424d24b520",
+            "id": "b5d9c8c0b2aa4540",
             "type": "leaf",
             "state": {
-              "type": "copilot-chat-view",
+              "type": "smart-chat-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "message-square",
+              "title": "Smart Chat"
+            }
+          },
+          {
+            "id": "2321d75d81b7f4e1",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Smart Connections"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -269,8 +279,10 @@
   },
   "active": "25426f1f4ddd5331",
   "lastOpenFiles": [
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
+    "后端/C Shrap/深入浅出.NET框架设计与实现/深入浅出：.NET框架设计与实现_.pdf",
     "后端/C Shrap/深入浅出.NET框架设计与实现/第3章 ASP.NET Core应用程序的多种运行模式.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
+    "后端/C Shrap/ASP.NET Core/中间件.md",
     "后端/C Shrap/深入浅出.NET框架设计与实现",
     "后端/C Shrap/ASP.NET Core/ABP/精通ABP框架.md",
     "前端/框架/Vue/项目使用/Vue3.5 企业级管理系统实战/Vue3.5 企业级管理系统实战.md",
@@ -302,7 +314,6 @@
     "操作系统/Linux/Ubuntu/02、下载git和拉取代码.md",
     "操作系统/Linux/Ubuntu/attachments/Pasted image 20250511213507.png",
     "操作系统/Linux/Ubuntu/attachments",
-    "操作系统/Win",
     "操作系统/Linux/Ubuntu/01、Ubuntu基础.md",
     "后端/算法/CSharp/1. 两数之和.md",
     "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/WPF基础笔记.md",
@@ -311,8 +322,6 @@
     "后端/C Shrap/开发工具/Visual Studio Code + Docker/配置VSCode中的开发环境.md",
     "后端/C Shrap/C Shrap 面试题/15k面试题.md",
     "后端/C Shrap/C Shrap 从入门到精通/20、网络编程技术/20.1 计算机网络基础.md",
-    "后端/C Shrap/C Shrap  algorithm/交换两个变量的值.md",
-    "机器人学习/非人形/ABB/六轴/六轴机器人学习和RobotStudio使用.md",
     "机器人学习/非人形/ABB/六轴/attachments/684a19fef8ca4d7a70f09bb257efe39.jpg",
     "后端/C Shrap/ASP.NET Core/WebAPI/全栈ACE/attachments/Pasted image 20250427195247.png",
     "未命名.canvas"

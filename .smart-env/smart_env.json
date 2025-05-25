@@ -29,5 +29,16 @@
       "embedding_complete": true
     }
   },
-  "excluded_headings": ""
+  "excluded_headings": "",
+  "smart_threads": {
+    "chat_model": {
+      "adapter": "openai",
+      "openai": {
+        "model_key": "gpt-4o"
+      }
+    },
+    "embed_model": {
+      "model_key": "None"
+    }
+  }
 }
