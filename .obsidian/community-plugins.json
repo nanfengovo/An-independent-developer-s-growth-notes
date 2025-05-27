@@ -5,7 +5,6 @@
   "media-extended",
   "i18n",
   "obsidian-mind-map",
-  "obsidian-markmind",
   "pdf-annotator",
   "obsidian-git",
   "copilot",
@@ -14,5 +13,8 @@
   "obsidian-custom-attachment-location",
   "sync-cnblog",
   "smart-connections",
-  "obsidian-annotator"
+  "obsidian-annotator",
+  "obsidian-epub-plugin",
+  "beautitab",
+  "obsidian-style-settings"
 ]

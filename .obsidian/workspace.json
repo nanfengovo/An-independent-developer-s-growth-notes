@@ -1,50 +1,22 @@
 {
   "main": {
-    "id": "b08493d2e712bcbe",
+    "id": "d857e5e362aada34",
     "type": "split",
     "children": [
       {
-        "id": "40a24da031dd2b36",
+        "id": "10da2ee91138f32d",
         "type": "tabs",
         "children": [
           {
-            "id": "25426f1f4ddd5331",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "后端/C Shrap/深入浅出.NET框架设计与实现/第3章 ASP.NET Core应用程序的多种运行模式.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "第3章 ASP.NET Core应用程序的多种运行模式"
-            }
-          },
-          {
-            "id": "d06879fa547c155e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "操作系统/Win/01、Windows系统常见命令.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01、Windows系统常见命令"
-            }
-          },
-          {
-            "id": "5631991cf696d4d9",
+            "id": "9a7a3a037739f62b",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/资料/dotnet6.pdf"
+                "file": "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "dotnet6"
+              "title": "ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library)"
             }
           }
         ]
@@ -53,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6fe2a366f4f2cac1",
+    "id": "ff5435d5d030a03a",
     "type": "split",
     "children": [
       {
-        "id": "2ed011a5a37f3f7d",
+        "id": "8341f1a03efa55d7",
         "type": "tabs",
         "children": [
           {
-            "id": "8ad211c73afcffe2",
+            "id": "2a608066a4bce088",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -74,7 +46,7 @@
             }
           },
           {
-            "id": "f35568decb6928d5",
+            "id": "80b5809a0f5e116c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -91,19 +63,7 @@
             }
           },
           {
-            "id": "3c17a040614afb0c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "前后端分离/ASP.NET Core+Vue3/模块化学习/ASP.NET Core读取配置文件/Pasted image 20250306224847.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250306224847"
-            }
-          },
-          {
-            "id": "96def51100fff0f2",
+            "id": "cfdd40b5aa0aa9a7",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -111,38 +71,28 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
-          },
-          {
-            "id": "77f3ff4927e9a86c",
-            "type": "leaf",
-            "state": {
-              "type": "langr-search-panel",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 300
   },
   "right": {
-    "id": "5cde09bdb333716c",
+    "id": "0e185504711c7990",
     "type": "split",
     "children": [
       {
-        "id": "78dd73515f975dcf",
+        "id": "3d024e32e10d1ac6",
         "type": "tabs",
         "children": [
           {
-            "id": "91fb2a78e426df23",
+            "id": "6bec8e330a008a95",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端/框架/Vue/Vue3 Study/Vue3 Demo/1.1.md",
+                "file": "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,31 +102,31 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "1.1 的反向链接列表"
+              "title": "ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library) 的反向链接列表"
             }
           },
           {
-            "id": "61228e56fa6966fc",
+            "id": "4fdfee7d089f682b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "后端/C Shrap Lib/Colorful.Console.md",
+                "file": "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Colorful.Console 的出链列表"
+              "title": "ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library) 的出链列表"
             }
           },
           {
-            "id": "098cf9d6577a5aac",
+            "id": "11ee2587d174e3a6",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false,
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -185,76 +135,35 @@
             }
           },
           {
-            "id": "16f50a8d19b078db",
+            "id": "24756f5bc27b1de5",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现.pdf",
+                "file": "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library).pdf",
                 "followCursor": false,
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "157085_深入浅出：.NET框架设计与实现 的大纲"
+              "title": "ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library) 的大纲"
             }
           },
           {
-            "id": "96360bb03f37f992",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "619ac1a7160ef8cc",
+            "id": "e61382bc86848abc",
             "type": "leaf",
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "1438c00f2a346bdd",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "b5d9c8c0b2aa4540",
-            "type": "leaf",
-            "state": {
-              "type": "smart-chat-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "2321d75d81b7f4e1",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 307.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -269,63 +178,9 @@
       "obsidian-language-learner:打开查词面板": false,
       "obsidian-language-learner:打开新词面板": false,
       "obsidian-language-learner:打开统计": false,
-      "obsidian-language-learner:单词列表": false,
-      "media-extended:Open media": false,
-      "i18n:I18N": false,
-      "obsidian-git:Open Git source control": false,
-      "copilot:Copilot Chat": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false
+      "obsidian-language-learner:单词列表": false
     }
   },
-  "active": "8ad211c73afcffe2",
-  "lastOpenFiles": [
-    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 9.epub",
-    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现.pdf",
-    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 8.epub",
-    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 7.epub",
-    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 6.epub",
-    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 5.epub",
-    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 4.epub",
-    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 3.epub",
-    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 2.epub",
-    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现.mobi",
-    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现.azw3",
-    "后端/C Shrap/深入浅出.NET框架设计与实现/第3章 ASP.NET Core应用程序的多种运行模式.md",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
-    "后端/C Shrap/ASP.NET Core/中间件.md",
-    "后端/C Shrap/ASP.NET Core/ABP/精通ABP框架.md",
-    "前端/框架/Vue/项目使用/Vue3.5 企业级管理系统实战/Vue3.5 企业级管理系统实战.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/11、掌握Vue3 中的事件处理+表单输入绑定.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/02、大纲.md",
-    "前端/框架/Vue/Vue3中ElementPlus的使用/Vue3+ElementPlus study/01.介绍.md",
-    "后端/C Shrap/TDD测试驱动开发/TDD.md",
-    "后端/C Shrap/ASP.NET Core/ORM/主流 ORM.md",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）/WPF/生产监控平台（ProductMonitor）.md",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）/WPF/attachments/Pasted image 20250518202039.png",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）/WPF/attachments/Pasted image 20250518201907.png",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）/WPF/attachments/Pasted image 20250518201733.png",
-    "后端/C Shrap/ASP.NET Core/WebAPI/全栈ACE/webapi系列学习.md",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）/WPF/attachments/Pasted image 20250517130202.png",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）/WPF/attachments/Pasted image 20250516005929.png",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）/WPF/attachments/Pasted image 20250516005523.png",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/后台管理系统/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
-    "图片/Pasted image 20250224223934.png",
-    "操作系统/Win/01、Windows系统常见命令.md",
-    "后端/C Shrap/WPF/WPF入门到进阶/WPF项目实战/TODO App WPF (Prism) +webapi.md",
-    "操作系统/Linux/Ubuntu/02、下载git和拉取代码.md",
-    "操作系统/Linux/Ubuntu/attachments/Pasted image 20250511213507.png",
-    "操作系统/Linux/Ubuntu/01、Ubuntu基础.md",
-    "后端/算法/CSharp/1. 两数之和.md",
-    "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/WPF基础笔记.md",
-    "后端/C Shrap/WPF/WPFUI/WPF Login Page/Demo 1.md",
-    "后端/C Shrap/工控协议篇/MQTT/MQTTnet.md",
-    "后端/C Shrap/开发工具/Visual Studio Code + Docker/配置VSCode中的开发环境.md",
-    "后端/C Shrap/C Shrap 面试题/15k面试题.md",
-    "后端/C Shrap/C Shrap 从入门到精通/20、网络编程技术/20.1 计算机网络基础.md",
-    "机器人学习/非人形/ABB/六轴/attachments/684a19fef8ca4d7a70f09bb257efe39.jpg",
-    "后端/C Shrap/ASP.NET Core/WebAPI/全栈ACE/attachments/Pasted image 20250427195247.png",
-    "未命名.canvas"
-  ]
+  "active": "9a7a3a037739f62b",
+  "lastOpenFiles": []
 }
