@@ -13,10 +13,22 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library).pdf"
+                "file": "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library)"
+              "title": "157085_深入浅出：.NET框架设计与实现"
+            }
+          },
+          {
+            "id": "da980630770fee90",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "后端/C Shrap/ASP.NET Core/资料/dotnet6.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "dotnet6"
             }
           }
         ]
@@ -92,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library).pdf",
+                "file": "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library) 的反向链接列表"
+              "title": "157085_深入浅出：.NET框架设计与实现 的反向链接列表"
             }
           },
           {
@@ -111,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library).pdf",
+                "file": "后端/C Shrap/ASP.NET Core/资料/dotnet6.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library) 的出链列表"
+              "title": "dotnet6 的出链列表"
             }
           },
           {
@@ -140,23 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library).pdf",
+                "file": "后端/C Shrap/ASP.NET Core/资料/dotnet6.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library) 的大纲"
-            }
-          },
-          {
-            "id": "e61382bc86848abc",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "title": "dotnet6 的大纲"
             }
           }
         ]
@@ -173,14 +175,26 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-language-learner:打开查词面板": false,
-      "obsidian-language-learner:打开新词面板": false,
-      "obsidian-language-learner:打开统计": false,
-      "obsidian-language-learner:单词列表": false
+      "command-palette:打开命令面板": false
     }
   },
   "active": "9a7a3a037739f62b",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "面试经历/看好的岗位/西门子.md",
+    "面试经历/看好的岗位/attachments/Pasted image 20250527231028.png",
+    "面试经历/看好的岗位/attachments/Pasted image 20250527230944.png",
+    "面试经历/看好的岗位/attachments/Pasted image 20250527230932.png",
+    "面试经历/看好的岗位/attachments/Pasted image 20250527225254.png",
+    "面试经历/看好的岗位/attachments",
+    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现.pdf",
+    "面试经历/看好的岗位",
+    "后端/C Shrap/深入浅出.NET框架设计与实现/第3章 ASP.NET Core应用程序的多种运行模式.md",
+    "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library).pdf",
+    "后端/C Shrap/ASP.NET Core/资料/dotnet6.pdf",
+    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现.epub",
+    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 3.epub",
+    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 1.epub",
+    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 4.epub",
+    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 5.epub"
+  ]
 }

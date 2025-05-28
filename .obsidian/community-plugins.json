@@ -1,20 +1,5 @@
 [
-  "obsidian42-brat",
-  "calendar",
-  "obsidian-language-learner",
-  "media-extended",
-  "i18n",
-  "obsidian-mind-map",
-  "pdf-annotator",
-  "obsidian-git",
-  "copilot",
-  "cmenu-plugin",
-  "obsidian-diagrams-net",
-  "obsidian-custom-attachment-location",
-  "sync-cnblog",
-  "smart-connections",
-  "obsidian-annotator",
-  "obsidian-epub-plugin",
-  "beautitab",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "obsidian-markmind",
+  "pdf-annotator"
 ]
