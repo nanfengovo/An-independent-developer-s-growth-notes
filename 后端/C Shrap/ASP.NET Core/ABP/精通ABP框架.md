@@ -5,5 +5,9 @@
 > abp new ApiDemo -u none
 
 # TODOAPP Demo
+## 不分层的MVC
 > https://abp.io/docs/latest/tutorials/todo/single-layer?UI=MVC&DB=EF
+
+## 分层的MVC
+>https://abp.io/docs/latest/tutorials/todo/layered?UI=MVC&DB=EF
 

@@ -35,14 +35,12 @@
             "id": "846074d36703a5f4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/ABP/精通ABP框架.md",
-                "mode": "source",
-                "source": false
+                "file": "后端/C Shrap/WPF/书籍/WPF编程宝典：使用C# 2012和.NET 4.5 第4版.pdf"
               },
-              "icon": "lucide-file",
-              "title": "精通ABP框架"
+              "icon": "lucide-file-text",
+              "title": "WPF编程宝典：使用C# 2012和.NET 4.5 第4版"
             }
           }
         ],
@@ -195,8 +193,14 @@
   },
   "active": "846074d36703a5f4",
   "lastOpenFiles": [
-    "后端/C Shrap/WPF/WPF入门到进阶/WPF中实现依赖注入.md",
+    "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/WPF基础笔记.md",
+    "后端/C Shrap/WPF/书籍/WPF编程宝典：使用C# 2012和.NET 4.5 第4版.pdf",
+    "后端/C Shrap/WPF/WPF入门到进阶/WPF基础.pdf",
+    "后端/C Shrap/WPF/书籍/WPF深入浅出.pdf",
+    "后端/C Shrap/WPF/书籍",
+    "后端/C Shrap/WPF/WPF入门到进阶/WPF项目实战/TODO App WPF (Prism) +webapi.md",
     "后端/C Shrap/ASP.NET Core/ABP/精通ABP框架.md",
+    "后端/C Shrap/WPF/WPF入门到进阶/WPF中实现依赖注入.md",
     "后端/C Shrap/ASP.NET Core/ABP/Implementing_Domain_Driven_Design.pdf",
     "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现.pdf",
     "后端/C Shrap/ASP.NET Core/资料/dotnet6.pdf",
@@ -208,10 +212,6 @@
     "面试经历/看好的岗位/attachments",
     "面试经历/看好的岗位",
     "后端/C Shrap/深入浅出.NET框架设计与实现/第3章 ASP.NET Core应用程序的多种运行模式.md",
-    "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library).pdf",
-    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现.epub",
-    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 3.epub",
-    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 1.epub",
-    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现 4.epub"
+    "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library).pdf"
   ]
 }
