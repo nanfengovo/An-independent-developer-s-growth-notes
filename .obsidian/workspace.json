@@ -35,12 +35,14 @@
             "id": "846074d36703a5f4",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/WPF/书籍/WPF编程宝典：使用C# 2012和.NET 4.5 第4版.pdf"
+                "file": "后端/C Shrap/ASP.NET Core/ABP/精通ABP框架.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "WPF编程宝典：使用C# 2012和.NET 4.5 第4版"
+              "icon": "lucide-file",
+              "title": "精通ABP框架"
             }
           }
         ],
@@ -194,11 +196,14 @@
   "active": "846074d36703a5f4",
   "lastOpenFiles": [
     "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/WPF基础笔记.md",
+    "后端/C Shrap/TDD测试驱动开发/TDD.md",
+    "后端/C Shrap/is和as的区别.md",
+    "后端/C Shrap/WPF/WPF入门到进阶/WPF项目实战/TODO App WPF (Prism) +webapi.md",
+    "后端/C Shrap/WPF/WPF入门到进阶/WPF项目实战/assets/TODO App WPF (Prism) +webapi/file-20250402123444283.png",
     "后端/C Shrap/WPF/书籍/WPF编程宝典：使用C# 2012和.NET 4.5 第4版.pdf",
     "后端/C Shrap/WPF/WPF入门到进阶/WPF基础.pdf",
     "后端/C Shrap/WPF/书籍/WPF深入浅出.pdf",
     "后端/C Shrap/WPF/书籍",
-    "后端/C Shrap/WPF/WPF入门到进阶/WPF项目实战/TODO App WPF (Prism) +webapi.md",
     "后端/C Shrap/ASP.NET Core/ABP/精通ABP框架.md",
     "后端/C Shrap/WPF/WPF入门到进阶/WPF中实现依赖注入.md",
     "后端/C Shrap/ASP.NET Core/ABP/Implementing_Domain_Driven_Design.pdf",

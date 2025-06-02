@@ -9,6 +9,8 @@
 4、被测试的类的对应变量名一般叫sut(system under test)
 5、没有参数的TestCase标注[Fact]；有参数的TestCase标注[Theory]，然后使用[InineData]等来提供测试数据
 
+
+
 # 集成测试（Integration Test）
 
 # E2E测试 （End2End）
