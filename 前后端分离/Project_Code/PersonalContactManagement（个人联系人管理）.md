@@ -26,13 +26,13 @@
 * URL:/api/Contact/GetContactPersonList
 #### 3. 查找联系人
 * Get 请求
-* URL：/api/Contact/GetContactPerson
+* URL：/api/Contact/GetContactPersonById
 ####  4. 编辑联系人
 * Put 请求
-* URL：/api/Contact/EditContactPerson
+* URL：/api/Contact/EditContactPersonById
 #### 5. 删除联系人
 *  Delete 请求
-*  URL: /api/Contact/DeleteContactPerson
+*  URL: /api/Contact/DeletedContactPersonById
 #### 6.导入
 * Post 请求
 * URL : /api/Contact/Import
@@ -47,4 +47,6 @@
 
 ### 系统后端架构图
 ![[attachments/Pasted image 20250605224820.png]]
-
+### 数据库设计
+![[attachments/Pasted image 20250606212715.png]]
+### 原型设计
