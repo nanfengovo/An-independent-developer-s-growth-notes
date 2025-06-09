@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "30aa113a7b4ce375",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "e933706052de97a6",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -156,8 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,10 +169,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e933706052de97a6",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "后端/C Shrap/ASP.NET Core/ASP.NET Core模块学习/角色用户模块--identity/ASP.NET Core Identity（一）.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part2-4 LINQ.md",
+    "后端/C Shrap/ASP.NET Core/ASP.NET Core模块学习/角色用户模块--identity/ASP.NET Core Identity（一）.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6- DDD领域驱动设计/DDD领域驱动设计.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/后台管理系统/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）/WPF/生产监控平台（ProductMonitor）.md",
