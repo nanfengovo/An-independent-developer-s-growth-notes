@@ -476,7 +476,7 @@ list.Where(x => x.Age > 30).ToList().ForEach(x => Console.WriteLine(x));
 > 有且只有一条满足要求的数据
 > 	只能筛选一条数据，如果筛选的数据多余一条就会报错（System.InvalidOperationException:“Sequence contains more than one element”），如果没有符合条件的也会报错
 
-###### 筛选的数据多余1条
+###### 筛选的数据多于1条
 ```
 #region Single
 Console.WriteLine(list.Single());
@@ -497,7 +497,7 @@ Console.WriteLine(list.Where(x => x.Name == "11").Single());
 Console.WriteLine(list.Single(x => x.Name == "11"));
 #endregion
 ```
-###### 筛选的数据小于一条
+###### 筛选的数据少于一条
 ```
  #region Single
  Console.WriteLine(list.Where(x => x.Name == "张三").Single());
@@ -506,17 +506,260 @@ Console.WriteLine(list.Single(x => x.Name == "11"));
 输出异常：System.InvalidOperationException:“Sequence contains no elements”
 
 
-
+> 结合skip
 
 
 
 ##### SingleOrDefault
 > 最多只有一条满足要求的数据
+###### 筛选的数据多于1条
+```
+            #region SingleOrDefault
+            int[] nums33 = new int[] { 1, 2, 4 };
+            int i = nums33.SingleOrDefault(i => i > 0);
+            Console.WriteLine(i);
+            #endregion 
+```
+输出异常：System.InvalidOperationException:“Sequence contains more than one matching element”
+###### 筛选的数据等于一条
+```
+#region SingleOrDefault
+int[] nums33 = new int[] { 1, 2, 4 };
+int i = nums33.SingleOrDefault(i => i > 3);
+Console.WriteLine(i);
+#endregion
+```
+输出4
+###### 筛选的数据小于一条
+==输出0不会报错==
 
 ##### First
 > 至少有一条，返回第一条
+
+如果一个都没有就报错
 
 ##### FirstOrDefault
 > 返回第一条或者默认值
 
 > 防御性编程：选择合适的方法
+
+#### 排序
+##### OrderBy
+> 对数据正序排序
+
+##### OrderByDescending
+> 倒序排序
+
+#####  随机排序
+```
+
+            #region 随机排序
+            var random = list.OrderBy(x => Guid.NewGuid());
+            random.ToList().ForEach(x => Console.WriteLine(x));
+            #endregion
+```
+##### 混合条件排序（ThenBy）
+按年龄排序，如果年龄一样再按工资排序
+
+```
+            #region 按年龄排序，如果年龄一样再按工资排序
+            var em = list.OrderBy(e => e.Age).ThenBy(x => x.Salary);
+            em.ToList().ForEach(x => Console.WriteLine(x));
+            #endregion
+```
+
+#### 限制结果集
+##### Skip（n）
+> 跳过n条数据
+
+##### Take(n)
+> 获取n条数据
+
+###### Demo 
+###### 跳过前两条数据取三条
+```
+            #region Skip and Take 跳过前两条数据取三条
+            var list2 = list.Skip(2).Take(3);
+            list2.ToList().ForEach(x => Console.WriteLine(x));
+            #endregion
+```
+###### 取出年龄大于30的第2条和第3条
+```
+            #region 取出年龄大于30的第2条和第3条
+            var list3 = list.Where(x => x.Age > 30).OrderBy(x => x.Age).Skip(1).Take(2);
+            list3.ToList().ForEach(x => Console.WriteLine(x));
+            #endregion
+```
+
+#### 聚合函数
+>  LINQ 中所有的扩展方法几乎都是针对IEnumerable接口的，而几乎所有能返回集合的都返回IEnumerable，所以几乎所有的方法都支持链式调用
+
+##### Max()
+> 最大值
+##### Min()
+> 最小值
+##### Average()
+> 平均值
+##### Sum()
+>和
+
+```
+            #region 聚合函数  Max Min Average Sum
+            var max = list.Max(x => x.Age);
+            Console.WriteLine(max);
+            var min = list.Min(x => x.Age);
+            Console.WriteLine(min);
+            var avg = list.Average(x => x.Age);
+            Console.WriteLine(avg);
+            var sum = list.Sum(x => x.Age);
+            Console.WriteLine(sum);
+            #endregion
+```
+
+#### 分组
+GroupBy()方法的参数是分组条件表达式，返回值为IGrouping<TKey,TSource>类型的泛型IEnumerable,也就是每一组以一个IGrouping对象的形式返回，IGrouping是一个继承自IEnumerable的接口，IGrouping中的Key属性表示这一组的分组数据的值
+##### Demo 根据年龄分组，获取最大，最小，平均
+```
+            #region GroupBy  根据年龄分组，获取最大工资，最小工资，平均工资
+            var groupS = list.GroupBy(x => x.Age);
+            foreach (var item in groupS)
+            {
+                Console.WriteLine(item.Key);
+                Console.WriteLine($"最大工资为：{item.Max(x => x.Salary)}");
+                Console.WriteLine($"最小工资为：{item.Min(x => x.Salary)}");
+                Console.WriteLine($"平均工资为：{item.Average(x => x.Salary)}");
+                foreach (var item2 in item)
+                {
+                    Console.WriteLine(item2);
+                }
+                Console.WriteLine("*******************");
+            }
+
+            #endregion
+```
+#### 投影
+> 把集合中的每一项转换为另外一种类型
+
+##### Select()
+```
+            #region 投影 Select
+            var select = list.Select(x => x.Name);
+            foreach (var item in select)
+            {
+                Console.WriteLine(item);
+            }
+            #endregion
+```
+
+#### 匿名类型
+```
+            #region 匿名类型
+            var obj = new { Name = "张三", Age = 18 };
+            Console.WriteLine(obj.Name);
+            
+
+            #endregion
+```
+####  投影和匿名类型
+```
+            #region 投影和匿名类型
+            var object1 = list.Select(x => new { 姓名 = x.Name, 年龄 = x.Age });
+            foreach (var item in object1)
+            {
+                Console.WriteLine(item.姓名 + " " + item.年龄);
+            }
+            #endregion
+```
+
+## 集合转换
+```
+            #region 集合转换
+            var ee = list.Where(x => x.Salary > 10000);
+            var list4 = ee.ToList();
+            foreach (var item in list4)
+            {
+                Console.WriteLine(item);
+            }
+            #endregion
+```
+
+### 链式调用
+#### Demo 获取id>1的数据然后按Age分组，并且按照Age排序然后取出前3条再投影获得年龄人数，平均工资
+```
+ #region  获取id>1的数据然后按Age分组，并且按照Age排序然后取出前3条再投影获得年龄人数，平均工资
+ var result = list.Where(x => x.Id > 1).GroupBy(x => x.Age).Take(3).Select(x => new { 年龄 = x.Key, 人数 = x.Count(), 平均工资 = x.Average(x => x.Salary) });
+ foreach (var item in result)
+ {
+     Console.WriteLine(item.年龄 + " " + item.人数 + " " + item.平均工资);
+ }
+ Console.WriteLine("_______________________________________________________________________________________________________________________________");
+ #endregion
+```
+## 查询语法
+### Demo 获取工资大于3000的按年龄排序
+```
+            #region 查询语法 获取工资大于3000的按年龄排序
+            var li = from s in list
+                     where s.Salary > 3000
+                     select new { s.Name, s.Age, xb = s.Gender ? "男" : "女" };
+            foreach (var item in li)
+            {
+                Console.WriteLine(item);
+            }
+
+            #endregion
+```
+
+> 查询语法和上面的linq运行时没有区别，反编译后是一样的
+
+## Linq 解决面试问题
+> 算法题尽量避免使用正则表达式，Linq这些高级的类库，尽量使用基础的语法 为了更好的性能
+
+
+###  题1  求 2，6，3 的最大值
+```
+            #region 求 2，6，3 的最大值
+            int a = 2;
+            int b = 6;
+            int c = 3;
+            //法1；
+            int[] nums = new [] { 2, 6, 3 };
+            Console.WriteLine(nums.Max());
+
+            //法2
+            Console.WriteLine(Math.Max(a, Math.Max(b, c)));
+
+            //法3
+            Console.WriteLine(a > b ? (a > c ? a : c) : (b > c ? b : c));
+            #endregion
+```
+
+### 题2 有个用逗号分隔的表示成绩的字符串，如：“61，90，100，99，18，22，38，66，80，93，55，50，89”计算这些成绩的平均值
+```
+            #region 题2 有个用逗号分隔的表示成绩的字符串，如：“61，90，100，99，18，22，38，66，80，93，55，50，89”计算这些成绩的平均值
+            //法1
+            int[] num1s = new[] { 61, 90,100,99,18,22,38,66,80,93,55,50,89 };
+            Console.WriteLine(num1s.Average());
+
+            //法2：
+            string str = "61,90,100,99,18,22,38,66,80,93,55,50,89";
+            string[] strs = str.Split(',');
+            var nums2 = strs.Select(x => int.Parse(x)).ToArray();
+            var avg2 = nums2.Average();
+            Console.WriteLine(avg2);
+            #endregion
+```
+
+### 题3：统计一个字符串中每个字母出现的频率（忽略大小写）然后按照从高到低的顺序输出出现频率高于2次的单词和其出现的频率
+```
+ #region 题3： 统计一个字符串中每个字母出现的频率（忽略大小写）然后按照从高到低的顺序输出出现频率高于2次的单词和其出现的频率
+ string str1 = "Hello World hahaha heiheihei";
+ var str2 =  str1.Where(c => char.IsLetter(c)).Select(c => char.ToLower(c)).GroupBy(c=>c).Select(c => new {c,count = c.Count() }).OrderByDescending(c => c.count).Where(c =>c.count>2);
+
+ foreach (var item in str2)
+ {
+     Console.WriteLine(item);
+ }
+
+ #endregion
+```
