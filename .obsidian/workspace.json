@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part2-4 LINQ.md",
+                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2-3 EF Core搭建.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part2-4 LINQ"
+              "title": "Part 2-3 EF Core搭建"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part2-4 LINQ.md",
+                "file": "后端/C Shrap/ASP.NET Core/资料/2025年最新.NET架构学习百科全书(活字典)-最新版(1).pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Part2-4 LINQ 的大纲"
+              "title": "2025年最新.NET架构学习百科全书(活字典)-最新版(1) 的大纲"
             }
           }
         ],
@@ -156,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,6 +172,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part1--Asp.Net Core 基础知识/1-1  异步编程/1-1-1.md",
+    "后端/C Shrap/ASP.NET Core/资料/2025年最新.NET架构学习百科全书(活字典)-最新版(1).pdf",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part2-4 LINQ.md",
     "后端/C Shrap/ASP.NET Core/ASP.NET Core模块学习/角色用户模块--identity/ASP.NET Core Identity（一）.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6- DDD领域驱动设计/DDD领域驱动设计.md",
@@ -199,7 +202,6 @@
     "后端/C Shrap/WPF/WPF入门到进阶/WPF中实现依赖注入.md",
     "后端/C Shrap/ASP.NET Core/ABP/Implementing_Domain_Driven_Design.pdf",
     "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现.pdf",
-    "后端/C Shrap/ASP.NET Core/资料/dotnet6.pdf",
     "面试经历/看好的岗位/西门子.md",
     "面试经历/看好的岗位/attachments/Pasted image 20250527231028.png",
     "面试经历/看好的岗位/attachments/Pasted image 20250527230944.png",
