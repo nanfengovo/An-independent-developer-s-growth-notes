@@ -222,7 +222,7 @@ Add-Migration FixBookConfig→ Update-database
 
 > 因为Dbset实现了IEnumerable接口
 
-### 查询价格在80以上的书
+###  查询价格在80以上的书
 
 ```c#
 var books = ctx.Books.Where(b => b.Price > 80);
