@@ -5,5 +5,7 @@
   "things-style@@fancy-code": true,
   "things-style@@fancy-highlight": true,
   "things-style@@no-kanban-styles": true,
-  "things-style@@text-highlight-bg-l": "#FFFFFF"
+  "things-style@@text-highlight-bg-l": "#FFFFFF",
+  "Blue-Topaz-Codebox-Highlight@@code-line-number": true,
+  "Blue-Topaz-Codebox-Highlight@@blur-codebox-frosted-glass": 3
 }

@@ -653,3 +653,4 @@ using (MyDbContext dbContext = new MyDbContext())
 
 ## EFCore关系配置在任何一方都可以
 
+## 自引用的组织结构树

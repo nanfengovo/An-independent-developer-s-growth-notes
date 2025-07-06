@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/ASP.NET Core模块学习/EFCore.md",
+                "file": "后端/C Shrap/WPF/WPF入门到进阶/WPF项目实战/TODO App WPF (Prism) +webapi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EFCore"
+              "title": "TODO App WPF (Prism) +webapi"
             }
           }
         ],
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/ASP.NET Core模块学习/EFCore.md",
+                "file": "后端/C Shrap/WPF/WPF入门到进阶/WPF项目实战/TODO App WPF (Prism) +webapi.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "EFCore 的大纲"
+              "title": "TODO App WPF (Prism) +webapi 的大纲"
             }
           }
         ],
@@ -177,6 +177,13 @@
   },
   "active": "40b96b681f25d05b",
   "lastOpenFiles": [
+    "后端/C Shrap/WPF/WPF入门到进阶/WPF项目实战/Prism框架的使用.md",
+    "后端/C Shrap/WPF/WPF入门到进阶/WPF项目实战/TODO App WPF (Prism) +webapi.md",
+    "后端/C Shrap/WPF/WPF入门到进阶/精简版/WPF项目精简版.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/后端架构的搭建.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/权限管理系统/V1.0用户角色菜单/后端.md",
+    "后端/C Shrap/ASP.NET Core/ASP.NET Core模块学习/EFCore.md",
     "产品/Figma/快速上手.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/10、Vue3中菜单和路由的结合使用，实现菜单的动态切换.md",
     "产品/Figma",
@@ -189,7 +196,6 @@
     "前后端分离/Project_Code/PersonalContactManagement（个人联系人管理）.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/后台管理系统/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part 2 -5 JWT.md",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/权限管理系统/V1.0用户角色菜单/后端.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/权限管理系统/V1.0用户角色菜单/attachments/Pasted image 20250622101701.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/学英语项目/学英语项目.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/学英语项目/attachments/769c8600a22e1b6076ef6b2fe93a1bd.jpg",
@@ -197,10 +203,8 @@
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/学英语项目/attachments/Pasted image 20250622090709.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/学英语项目/attachments/945b5025304f1bc7608987693131f16.jpg",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/学英语项目/attachments",
-    "后端/C Shrap/WPF/WPF入门到进阶/WPF项目实战/TODO App WPF (Prism) +webapi.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/学英语项目",
     "想法/DailyAPP.md",
-    "后端/C Shrap/ASP.NET Core/ASP.NET Core模块学习/EFCore.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/权限管理系统/V1.0用户角色菜单/attachments/Pasted image 20250620201222.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/权限管理系统/V1.0用户角色菜单/attachments/Pasted image 20250620201146.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/权限管理系统/V1.0用户角色菜单/attachments/Pasted image 20250619221704.png",
@@ -217,11 +221,7 @@
     "后端/C Shrap/ASP.NET Core/资料/2025年最新.NET架构学习百科全书(活字典)-最新版(1).pdf",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part2--系统基础框架（配置、日志、ORM）/Part2-4 LINQ.md",
     "后端/C Shrap/ASP.NET Core/ASP.NET Core模块学习/角色用户模块--identity/ASP.NET Core Identity（一）.md",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6- DDD领域驱动设计/DDD领域驱动设计.md",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/数字孪生（大屏）/WPF/生产监控平台（ProductMonitor）.md",
     "后端/C Shrap/WPF/书籍/WPF编程宝典：使用C# 2012和.NET 4.5 第4版.pdf",
-    "后端/C Shrap/WPF/WPF入门到进阶/基础完整版/WPF基础笔记.md",
-    "2025-06-08.md",
     "前后端分离/Project_Code/attachments"
   ]
 }
