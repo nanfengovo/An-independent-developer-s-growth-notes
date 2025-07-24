@@ -21,3 +21,23 @@
 考虑到我们的系统可能被海外的用户访问，而海外用户的手机号好需要包含“国家/地区码”，因此我们设计了用来表示手机号的值对象PhoneNumber
 > public record PhoneNumber(int RegionCode,string Number)
 
+# DDD实战——领域服务的实现
+## 仓储
+1、仓储接口的定义放在领域层
+2、```
+
+```
+public interface IUserDomainRepository
+{
+ Task<User?> FindOneAsync(PhoneNumber phoneNumber);
+ Task<User?> FindOneAsync(Guid userId);
+ Task AddNewLoginHistoryAsync(PhoneNumber phoneNumber, string msg);
+ Task SavePhoneNumberCodeAsync(PhoneNumber phoneNumber, string code);
+ Task<string> FindPhoneNumberCodeAsync(PhoneNumber phoneNumber);	
+}
+
+
+```
+
+3、不建议使用通用的CRUDRepository,避免陷入伪DDD
+## 防腐层接口
