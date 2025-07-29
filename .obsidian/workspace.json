@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/DDD实战案例.md",
+                "file": "Clippings/致命陷阱！滥用 try-catch 正在摧毁你的 .NET 应用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DDD实战案例"
+              "title": "致命陷阱！滥用 try-catch 正在摧毁你的 .NET 应用"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "后端/C Shrap/WPF/书籍/WPF编程宝典：使用C# 2012和.NET 4.5 第4版.pdf",
+                "file": "Clippings/致命陷阱！滥用 try-catch 正在摧毁你的 .NET 应用.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "WPF编程宝典：使用C# 2012和.NET 4.5 第4版 的大纲"
+              "title": "致命陷阱！滥用 try-catch 正在摧毁你的 .NET 应用 的大纲"
             }
           }
         ],
@@ -156,8 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,26 +171,36 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "后端/C Shrap/ASP.NET Core/DDD领域驱动设计/DDD 中常见的模式分类.md",
+    "厚积薄发/文章/未命名.md",
+    "Clippings/致命陷阱！滥用 try-catch 正在摧毁你的 .NET 应用.md",
+    "Clippings",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6- DDD领域驱动设计/充血模型和贫血模型.md",
+    "厚积薄发/文章",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6- DDD领域驱动设计/DDD领域驱动设计.md",
     "后端/C Shrap/ASP.NET Core/DDD领域驱动设计/DDD（Domain-Driven Design）基础.md",
-    "产品/博客/ASP.NET Core WebAPI + Vue/Blog/技术选型和架构设计.md",
+    "后端/C Shrap/ASP.NET Core/DDD领域驱动设计/DDD 中常见的模式分类.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/DDD实战案例.md",
+    "项目/版本管理/Git.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/后端代码/overall-auth.-open.-web-api-open/README.md",
+    "项目/版本管理",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/后端代码/overall-auth.-open.-web-api-open/3设置角色按钮权限.png",
+    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/01、dotnet8使用swagger.md",
+    "项目/学习开源项目/权限管理系统/OverallAuth1.0/视频/未命名.md",
+    "后端/C Shrap/ASP.NET Core/资料/2025年最新.NET架构学习百科全书(活字典)-最新版(1).pdf",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part1--Asp.Net Core 基础知识/1-1  异步编程/1-1-1.md",
+    "操作系统/Linux/Ubuntu/01、Ubuntu基础.md",
+    "项目/项目管理/源代码管理",
+    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part1--Asp.Net Core 基础知识/1-2 依赖注入/1-2-1 依赖注入.md",
+    "产品/博客/ASP.NET Core WebAPI + Vue/Blog/技术选型和架构设计.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/attachments/Pasted image 20250721202354.png",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/attachments",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6- DDD领域驱动设计/DDD领域驱动设计.md",
     "产品/权限管理/BS篇/ASP.NET Core WebAPI+Vue/OverallAuth/学习现有的权限管理思路/资料/笔记.md",
     "产品/博客/ASP.NET Core WebAPI + Vue",
     "产品/博客",
-    "项目/学习开源项目/权限管理系统/OverallAuth1.0/视频/未命名.md",
     "Web（BS）开发积累/Token 无感刷新.md",
     "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library).pdf",
     "产品/博客/ASP.NET Core WebAPI + Vue/Blog",
-    "产品/权限管理/BS篇/ASP.NET Core WebAPI+Vue/OverallAuth",
     "产品/权限管理/BS篇/ASP.NET Core WebAPI+Vue/OverallAuth/学习现有的权限管理思路/资料/attachments/Pasted image 20250716002317.png",
-    "产品/权限管理/BS篇/ASP.NET Core WebAPI+Vue/OverallAuth/学习现有的权限管理思路/资料/attachments",
-    "产品/权限管理/BS篇/ASP.NET Core WebAPI+Vue/OverallAuth/学习现有的权限管理思路/资料",
-    "产品/权限管理/BS篇/ASP.NET Core WebAPI+Vue/OverallAuth/学习现有的权限管理思路",
-    "产品/权限管理/BS篇/ASP.NET Core WebAPI+Vue",
     "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
     "AI/LLM/LLM.md",
     "后端/C Shrap/WPF/WPF入门到进阶/WPF项目实战/TODO App WPF (Prism) +webapi.md",
@@ -201,21 +210,12 @@
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/权限管理系统/V1.0用户角色菜单/后端.md",
     "后端/C Shrap/ASP.NET Core/ASP.NET Core模块学习/EFCore.md",
-    "产品/Figma/快速上手.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/10、Vue3中菜单和路由的结合使用，实现菜单的动态切换.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/09、使用Vue3+Element Plus创建前端框架（vue cli）.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/文档/相关链接.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/用户菜单权限流程.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/权限.md",
-    "项目/学习开源项目/权限管理系统/OverallAuth2.0/视频/菜单权限设计思路.md",
-    "前后端分离/Project_Code/PersonalContactManagement（个人联系人管理）.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/权限管理系统/V1.0用户角色菜单/attachments/Pasted image 20250622101701.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/学英语项目/attachments/769c8600a22e1b6076ef6b2fe93a1bd.jpg",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/学英语项目/attachments/Pasted image 20250622090717.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/学英语项目/attachments/Pasted image 20250622090709.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/学英语项目/attachments/945b5025304f1bc7608987693131f16.jpg",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/权限管理系统/V1.0用户角色菜单/attachments/Pasted image 20250620201222.png",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/权限管理系统/V1.0用户角色菜单/attachments/Pasted image 20250620201146.png",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/权限管理系统/V1.0用户角色菜单/attachments/Pasted image 20250619221704.png"
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/权限管理系统/V1.0用户角色菜单/attachments/Pasted image 20250620201146.png"
   ]
 }
