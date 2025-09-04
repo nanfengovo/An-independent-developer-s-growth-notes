@@ -11,14 +11,13 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Clippings/致命陷阱！滥用 try-catch 正在摧毁你的 .NET 应用.md",
-                "mode": "source",
-                "source": false
+                "file": "未命名 3.base",
+                "viewName": "表格"
               },
-              "icon": "lucide-file",
-              "title": "致命陷阱！滥用 try-catch 正在摧毁你的 .NET 应用"
+              "icon": "lucide-table",
+              "title": "未命名 3"
             }
           }
         ]
@@ -53,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#InfoQ",
+                "query": "彩虹",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,11 +73,13 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0e185504711c7990",
@@ -142,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/致命陷阱！滥用 try-catch 正在摧毁你的 .NET 应用.md",
+                "file": "未命名 3.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "致命陷阱！滥用 try-catch 正在摧毁你的 .NET 应用 的大纲"
+              "title": "未命名 3 的大纲"
             }
           }
         ],
@@ -160,6 +161,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -171,8 +173,32 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "厚积薄发/文章/未命名.md",
+    "后端/C Shrap/开发工具/Visual Studio/插件.md",
+    "未命名 3.base",
+    "后端/C Shrap/开发工具/Visual Studio Code + Docker/配置VSCode中的开发环境.md",
+    "未命名 2.base",
+    "未命名 1.base",
+    "未命名.canvas",
+    "2025-08-31.md",
     "Clippings/致命陷阱！滥用 try-catch 正在摧毁你的 .NET 应用.md",
+    "Excalidraw/Drawing 2025-06-19 20.41.33.excalidraw.md",
+    "未命名.base",
+    "后端/C Shrap/C Shrap Knowledge/001 初识C Shrap 及其环境.md",
+    "后端/C Shrap/ASP.NET Core/ABP/精通ABP框架.md",
+    "后端/C Shrap/ASP.NET Core/ABP/Implementing_Domain_Driven_Design.pdf",
+    "后端/C Shrap/ASP.NET Core/ABP/ABPFramework.pdf",
+    "后端/C Shrap/ASP.NET Core/ABP/attachments/Pasted image 20250825231102.png",
+    "后端/C Shrap/ASP.NET Core/ABP/attachments/Pasted image 20250825230615.png",
+    "后端/C Shrap/ASP.NET Core/ABP/attachments/Pasted image 20250825230207.png",
+    "后端/C Shrap/ASP.NET Core/ABP/attachments/Pasted image 20250825225745.png",
+    "后端/C Shrap/ASP.NET Core/ABP/attachments",
+    "后端/C Shrap/深入浅出.NET框架设计与实现/157085_深入浅出：.NET框架设计与实现.pdf",
+    "前后端分离/SoybeenAdmin/快速上手.md",
+    "前后端分离/Project_Code/PersonalContactManagement（个人联系人管理）.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/权限管理系统/V1.0用户角色菜单/后端.md",
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/后台管理系统/前端/后台管理系统/Demo1 Vue3+ElementPlus +TS+pinia.md",
+    "厚积薄发/文章/未命名.md",
     "Clippings",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6- DDD领域驱动设计/充血模型和贫血模型.md",
     "厚积薄发/文章",
@@ -182,40 +208,17 @@
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/DDD实战案例.md",
     "项目/版本管理/Git.md",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/后端代码/overall-auth.-open.-web-api-open/README.md",
-    "项目/版本管理",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/代码/后端代码/overall-auth.-open.-web-api-open/3设置角色按钮权限.png",
     "项目/学习开源项目/权限管理系统/OverallAuth2.0/笔记/01、dotnet8使用swagger.md",
     "项目/学习开源项目/权限管理系统/OverallAuth1.0/视频/未命名.md",
-    "后端/C Shrap/ASP.NET Core/资料/2025年最新.NET架构学习百科全书(活字典)-最新版(1).pdf",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part1--Asp.Net Core 基础知识/1-1  异步编程/1-1-1.md",
     "操作系统/Linux/Ubuntu/01、Ubuntu基础.md",
-    "项目/项目管理/源代码管理",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part1--Asp.Net Core 基础知识/1-2 依赖注入/1-2-1 依赖注入.md",
     "产品/博客/ASP.NET Core WebAPI + Vue/Blog/技术选型和架构设计.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/attachments/Pasted image 20250721202354.png",
-    "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/attachments",
-    "产品/权限管理/BS篇/ASP.NET Core WebAPI+Vue/OverallAuth/学习现有的权限管理思路/资料/笔记.md",
-    "产品/博客/ASP.NET Core WebAPI + Vue",
-    "产品/博客",
-    "Web（BS）开发积累/Token 无感刷新.md",
-    "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core技术内幕与项目实战 基于DDD与前后端分离 (杨中科) (Z-Library).pdf",
-    "产品/博客/ASP.NET Core WebAPI + Vue/Blog",
     "产品/权限管理/BS篇/ASP.NET Core WebAPI+Vue/OverallAuth/学习现有的权限管理思路/资料/attachments/Pasted image 20250716002317.png",
-    "后端/C Shrap/ASP.NET Core/资料/ASP.NET Core 6框架揭秘.md",
-    "AI/LLM/LLM.md",
-    "后端/C Shrap/WPF/WPF入门到进阶/WPF项目实战/TODO App WPF (Prism) +webapi.md",
-    "后端/C Shrap/WPF/WPF入门到进阶/WPF项目实战/Prism框架的使用.md",
-    "后端/C Shrap/WPF/WPF入门到进阶/精简版/WPF项目精简版.md",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/后端/后端架构的搭建.md",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/PLCCommunicationV2.0/前端/Vue3+ElementPlus +TS+pinia.md",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/权限管理系统/V1.0用户角色菜单/后端.md",
-    "后端/C Shrap/ASP.NET Core/ASP.NET Core模块学习/EFCore.md",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/权限管理系统/V1.0用户角色菜单/attachments/Pasted image 20250622101701.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/学英语项目/attachments/769c8600a22e1b6076ef6b2fe93a1bd.jpg",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/学英语项目/attachments/Pasted image 20250622090717.png",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/学英语项目/attachments/Pasted image 20250622090709.png",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/学英语项目/attachments/945b5025304f1bc7608987693131f16.jpg",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/权限管理系统/V1.0用户角色菜单/attachments/Pasted image 20250620201222.png",
-    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/权限管理系统/V1.0用户角色菜单/attachments/Pasted image 20250620201146.png"
+    "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/学英语项目/attachments/Pasted image 20250622090717.png"
   ]
 }
