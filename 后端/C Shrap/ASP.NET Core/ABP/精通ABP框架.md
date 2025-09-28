@@ -11,7 +11,7 @@ Server=.;Database=数据库名;User Id=sa;Password=aaaa2624434145;Encrypt=True;T
 > abp new ApiDemo -u none
 
 ## 使用.net 8
->abp new apidemo -u none -version 8.0.0
+>abp new apidemo -u none -version 8.3.0
 
 ==上面的两个命令最外层的文件夹都是aspnet-core== 如果在同一个文件夹下会导致覆盖
 所以要使用下面的命令

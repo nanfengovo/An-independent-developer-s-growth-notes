@@ -11,13 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "pdf",
               "state": {
-                "file": "未命名 3.base",
-                "viewName": "表格"
+                "file": "后端/C Shrap/ASP.NET Core/ABP/ABPFramework.pdf"
               },
-              "icon": "lucide-table",
-              "title": "未命名 3"
+              "icon": "lucide-file-text",
+              "title": "ABPFramework"
             }
           }
         ]
@@ -52,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "彩虹",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,13 +72,11 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0e185504711c7990",
@@ -143,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名 3.base",
+                "file": "后端/C Shrap/ASP.NET Core/ABP/ABPFramework.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 3 的大纲"
+              "title": "ABPFramework 的大纲"
             }
           }
         ],
@@ -173,8 +170,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "后端/C Shrap/开发工具/Visual Studio/插件.md",
+    "后端/C Shrap/ASP.NET Core/ABP/精通ABP框架.md",
+    "后端/C Shrap/ASP.NET Core/ABP/Implementing_Domain_Driven_Design.pdf",
+    "后端/C Shrap/ASP.NET Core/ABP/ABPFramework.pdf",
+    "未命名 4.base",
     "未命名 3.base",
+    "后端/C Shrap/开发工具/Visual Studio/插件.md",
     "后端/C Shrap/开发工具/Visual Studio Code + Docker/配置VSCode中的开发环境.md",
     "未命名 2.base",
     "未命名 1.base",
@@ -184,9 +185,6 @@
     "Excalidraw/Drawing 2025-06-19 20.41.33.excalidraw.md",
     "未命名.base",
     "后端/C Shrap/C Shrap Knowledge/001 初识C Shrap 及其环境.md",
-    "后端/C Shrap/ASP.NET Core/ABP/精通ABP框架.md",
-    "后端/C Shrap/ASP.NET Core/ABP/Implementing_Domain_Driven_Design.pdf",
-    "后端/C Shrap/ASP.NET Core/ABP/ABPFramework.pdf",
     "后端/C Shrap/ASP.NET Core/ABP/attachments/Pasted image 20250825231102.png",
     "后端/C Shrap/ASP.NET Core/ABP/attachments/Pasted image 20250825230615.png",
     "后端/C Shrap/ASP.NET Core/ABP/attachments/Pasted image 20250825230207.png",
@@ -201,7 +199,6 @@
     "厚积薄发/文章/未命名.md",
     "Clippings",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6- DDD领域驱动设计/充血模型和贫血模型.md",
-    "厚积薄发/文章",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part6- DDD领域驱动设计/DDD领域驱动设计.md",
     "后端/C Shrap/ASP.NET Core/DDD领域驱动设计/DDD（Domain-Driven Design）基础.md",
     "后端/C Shrap/ASP.NET Core/DDD领域驱动设计/DDD 中常见的模式分类.md",
@@ -214,7 +211,6 @@
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part1--Asp.Net Core 基础知识/1-1  异步编程/1-1-1.md",
     "操作系统/Linux/Ubuntu/01、Ubuntu基础.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/Part1--Asp.Net Core 基础知识/1-2 依赖注入/1-2-1 依赖注入.md",
-    "产品/博客/ASP.NET Core WebAPI + Vue/Blog/技术选型和架构设计.md",
     "后端/C Shrap/ASP.NET Core/B站杨中科视频学习笔记/attachments/Pasted image 20250721202354.png",
     "产品/权限管理/BS篇/ASP.NET Core WebAPI+Vue/OverallAuth/学习现有的权限管理思路/资料/attachments/Pasted image 20250716002317.png",
     "前后端分离/ASP.NET Core+Vue3/自己搭建的项目/权限管理系统/V1.0用户角色菜单/attachments/Pasted image 20250622101701.png",
