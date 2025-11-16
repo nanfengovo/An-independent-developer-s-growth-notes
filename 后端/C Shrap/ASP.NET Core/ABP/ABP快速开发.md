@@ -1,4 +1,6 @@
 # 创建
+# 创建不带权限管理的后端API模板
+>abp new RCS  -u none --version 8.3.4
 ## 创建带权限管理的后端API模板
 > abp new ABPJWT -a jwt -u none --version 8.3.4
 
