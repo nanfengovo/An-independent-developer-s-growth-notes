@@ -17,5 +17,65 @@
 ## 扩展
 后端不用ABP，试试微服务(最好在前端soy框架的基础上直接替换原来的后端)，前端试试不用框架，用vue手搓，数据库使用pgsql
 # 后端 ：使用ABP框架
-## 创建项目
+## 创建后端项目
 > abp new RCS -u none --version 8.3.4
+
+### 实现Swagger注释功能
+#### 1、基础配置
+在Host层和Application层的csproj文件中添加
+```
+<PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+    <DocumentationFile>$(OutputPath)$(AssemblyName).xml</DocumentationFile>
+</PropertyGroup>
+
+```
+#### 2、Swagger 服务配置
+在 RCSHttpApiHostModule.cs 中的 ConfigureSwaggerServices 方法：
+```
+private static void ConfigureSwaggerServices(ServiceConfigurationContext context, IConfiguration configuration)
+{
+    context.Services.AddAbpSwaggerGenWithOAuth(
+        configuration["AuthServer:Authority"]!,
+        new Dictionary<string, string>
+        {
+            {"RCS", "RCS API"}
+        },
+        options =>
+        {
+            options.SwaggerDoc("v1", new OpenApiInfo 
+            { 
+                Title = "RCS API", 
+                Version = "v1",
+                Description = "RCS系统API文档 - 机器人控制系统接口"
+            });
+            
+            // 包含XML注释文件
+            var xmlFiles = new[]
+            {
+                "RCS.Application.Contracts.xml",
+                "RCS.HttpApi.xml", 
+                "RCS.HttpApi.Host.xml",
+                "RCS.Application.xml"
+            };
+            
+            foreach (var xmlFile in xmlFiles)
+            {
+                if (File.Exists(xmlFile))
+                {
+                    options.IncludeXmlComments(xmlFile, true);
+                }
+            }
+        });
+}
+
+```
+项目中使用了以下XML注释标签：
+
+<summary>: 方法、类、属性的简要描述
+<param>: 参数说明
+<returns>: 返回值说明
+<remarks>: 详细说明和备注
+<response>: HTTP响应状态码说明
+<example>: 示例值（特别用于DTO属性）
